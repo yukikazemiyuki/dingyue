@@ -804,7 +804,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: fallback
     url: https://www.youtube.com/
-    interval: 300
+    interval: 30
     proxies:
       - _JP_日本_4_4@36
       - _CN_中国
