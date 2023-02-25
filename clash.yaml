@@ -582,9 +582,10 @@ proxy-groups:
       - _CN_中国_1_21@6
       - YouTube：ATOM科技_1046
   - name: ♻️ 自动选择
-    type: fallback
-    url: https://www.youtube.com/
-    interval: 10
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 30
+    strategy: round-robin
     proxies:
       - Relay 🇭🇰 Hong Kong 13 TG:@nodpai
       - YouTube：ATOM科技_29
