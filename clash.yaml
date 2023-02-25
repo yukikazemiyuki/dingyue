@@ -10920,7 +10920,7 @@ proxy-groups:
     type: select
   - name: ⚖️ 负载均衡-散列
     type: load-balance
-    url: https://chrome.google.com
+    url: http://www.google.com/generate_204
     interval: 10
     strategy: consistent-hashing
     proxies:
@@ -11554,7 +11554,7 @@ proxy-groups:
       - 🇺🇸_US_美国_3_23@45
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
-    url: https://chrome.google.com
+    url: http://www.google.com/generate_204
     interval: 10
     strategy: round-robin
     proxies:
