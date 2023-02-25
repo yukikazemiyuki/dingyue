@@ -7101,8 +7101,7 @@ proxy-groups:
       - 🇯🇵_JP_日本_11_23@44
       - 🇺🇸_US_美国_3_23@45
     type: select
-  - interval: 300
-    name: ♻️ 自动选择
+  - name: ♻️ 自动选择
     proxies:
       - 🇺🇸_US_美国_1_0@0
       - 🇺🇸_US_美国_2_0@1
@@ -7732,9 +7731,9 @@ proxy-groups:
       - 🇻🇳_VN_越南_23@43
       - 🇯🇵_JP_日本_11_23@44
       - 🇺🇸_US_美国_3_23@45
-    tolerance: 50
-    type: url-test
-    url: http://www.gstatic.com/generate_204
+    type: fallback
+    url: http://www.youtube.com
+    interval: "10"
   - name: 🌍 国外媒体
     proxies:
       - ♻️ 自动选择
