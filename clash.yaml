@@ -2236,9 +2236,6 @@ proxy-groups:
       - YouTube：ATOM科技_659
       - 订阅已稳定12天，YouTube搜（ATOM科技）获取新的长效订阅_140
   - name: ♻️ 自动选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
     proxies:
       - Relay 🇸🇬 Singapore 10 TG:@nodpai
       - _CN_中国->🇹🇼_TW_台湾_20@8
@@ -2395,6 +2392,9 @@ proxy-groups:
       - 订阅已稳定12天，YouTube搜（ATOM科技）获取新的长效订阅_324
       - YouTube：ATOM科技_659
       - 订阅已稳定12天，YouTube搜（ATOM科技）获取新的长效订阅_140
+    type: fallback
+    url: https://www.youtube.com/
+    interval: "10"
   - name: 🎥 NETFLIX
     type: select
     proxies:
