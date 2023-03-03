@@ -2316,9 +2316,6 @@ proxy-groups:
       - _AU_澳大利亚_1@36
       - "@DeamNet_🇺🇸Austin-1123-123"
   - name: ♻️ 自动选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
     proxies:
       - 优选IP US1 hax
       - 优选IP En1
@@ -2480,6 +2477,9 @@ proxy-groups:
       - _CN_中国 2
       - _AU_澳大利亚_1@36
       - "@DeamNet_🇺🇸Austin-1123-123"
+    type: fallback
+    url: https://www.youtube.com/
+    interval: "10"
   - name: 🎥 NETFLIX
     type: select
     proxies:
