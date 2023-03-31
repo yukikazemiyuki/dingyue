@@ -20,6 +20,7 @@ proxies:
       headers:
         Host: ssrsub.v10.asuka.buzz
     udp: true
+    _index: 0
   - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_334
     server: 4bb4ced4.8200860.xyz
     port: 2096
@@ -1761,6 +1762,7 @@ proxy-groups:
     proxies:
       - ⚖️ 负载均衡-轮询
       - ⚖️ 负载均衡-散列
+      - ♻️ YOUTUBE
       - ♻️ 自动选择
       - 🎯 全球直连
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_116
@@ -1909,7 +1911,159 @@ proxy-groups:
       - China+01+→+openitsub.com+16
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_67
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_516
+    _index: 0
   - name: ♻️ 自动选择
+    proxies:
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_116
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_334
+      - YouTube：ATOM科技_682
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_209
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_572
+      - _US_电报频道： @pjrjzy 29
+      - China 04 → openitsub.com 6
+      - China 08 → openitsub.com 4
+      - China 14 → openitsub.com 3
+      - China 07 → openitsub.com 2
+      - China 02 → openitsub.com
+      - Singapore 03 → openitsub.com
+      - China 07 → openitsub.com 4
+      - Singapore 02 → openitsub.com
+      - China 10 → openitsub.com
+      - China 08 → openitsub.com 3
+      - China 17 → openitsub.com
+      - China 04 → openitsub.com 8
+      - China 12 → openitsub.com
+      - China 06 → openitsub.com 4
+      - China 13 → openitsub.com 2
+      - China 06 → openitsub.com 3
+      - China 15 → openitsub.com
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_417
+      - China 10 → openitsub.com 2
+      - Japan 02 → openitsub.com
+      - China 01 → openitsub.com 24
+      - YouTube：ATOM科技_397
+      - China 09 → openitsub.com
+      - China 07 → openitsub.com 3
+      - China 03 → openitsub.com 3
+      - Singapore 01 → openitsub.com
+      - China 03 → openitsub.com 6
+      - China 01 → openitsub.com 21
+      - China 12 → openitsub.com 2
+      - YouTube：ATOM科技_63
+      - China 02 → openitsub.com 7
+      - China 09 → openitsub.com 2
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_2
+      - China+03+→+openitsub.com+7
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_101
+      - YouTube：ATOM科技_597
+      - China 05 → openitsub.com
+      - China+11+→+openitsub.com
+      - China 06 → openitsub.com
+      - YouTube：ATOM科技_638
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_127
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_190
+      - China 01 → openitsub.com 15
+      - YouTube：ATOM科技_50
+      - YouTube：ATOM科技_28
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_203
+      - China 01 → openitsub.com 23
+      - China 01 → openitsub.com 19
+      - _US_电报频道： @pjrjzy 21
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_133
+      - _US_电报频道： @pjrjzy 38
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_220
+      - China 01 → openitsub.com 4
+      - China 01 → openitsub.com 20
+      - _US_电报频道： @pjrjzy 43
+      - China 13 → openitsub.com
+      - China 01 → openitsub.com 11
+      - China 02 → openitsub.com 5
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_305
+      - YouTube：ATOM科技_302
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_204
+      - China 06 → openitsub.com 2
+      - China+02+→+openitsub.com+2
+      - United States 01 → openitsub.com
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_23
+      - _US_电报频道： @pjrjzy 35
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_376
+      - South Africa 01 → openitsub.com
+      - China 01 → openitsub.com 10
+      - China 08 → openitsub.com
+      - China 02 → openitsub.com 4
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_288
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_263
+      - _US_电报频道： @pjrjzy 48
+      - China 03 → openitsub.com 8
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
+      - China+01+→+openitsub.com+9
+      - _US_电报频道： @pjrjzy 83
+      - China 03 → openitsub.com 5
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_235
+      - China 01 → openitsub.com 17
+      - China 01 → openitsub.com 7
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_73
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_553
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
+      - China+16+→+openitsub.com
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_508
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_587
+      - Japan 02 → openitsub.com 2
+      - China+03+→+openitsub.com+9
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_159
+      - _US_美国_1_5@1
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_246
+      - China+02+→+openitsub.com+3
+      - _US_美国_8_3@23
+      - China+04+→+openitsub.com+2
+      - YouTube：ATOM科技_173
+      - _US_电报频道： @pjrjzy 68
+      - China+05+→+openitsub.com+4
+      - YouTube：ATOM科技_340
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_314
+      - China+05+→+openitsub.com+6
+      - China+05+→+openitsub.com+5
+      - South Africa 04 → openitsub.com
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_355
+      - YouTube梦歌|广港IEPL|Netflix_136
+      - YouTube：ATOM科技_431
+      - China 02 → openitsub.com 10
+      - YouTube：ATOM科技_210
+      - China+12+→+openitsub.com+3
+      - _US_美国->🇩🇪_DE_德国 3
+      - YouTube：ATOM科技_450
+      - YouTube：ATOM科技_600
+      - China+01+→+openitsub.com+8
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_460
+      - China+03+→+openitsub.com+4
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_301
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_99
+      - China+01+→+openitsub.com+12
+      - _US_美国->🇳🇱_NL_荷兰_3@19
+      - _US_美国_11_5@24
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_188
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_671
+      - China+03+→+openitsub.com+10
+      - China+01+→+openitsub.com+13
+      - YouTube：ATOM科技_383
+      - YouTube：ATOM科技_167
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_63
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_470
+      - China+07+→+openitsub.com
+      - China+01+→+openitsub.com+25
+      - _JP_日本+4
+      - China+04+→+openitsub.com
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_111
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_592
+      - China+01+→+openitsub.com+14
+      - China+01+→+openitsub.com+16
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_67
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_516
+    type: fallback
+    url: https://chrome.google.com/
+    interval: "10"
+  - name: ♻️ YOUTUBE
     proxies:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_116
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_334
@@ -2060,7 +2214,7 @@ proxy-groups:
     type: fallback
     url: https://www.youtube.com/
     interval: "10"
-    _index: 1
+    _index: 2
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: https://www.youtube.com/
@@ -2373,6 +2527,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔰 节点选择
+    _index: 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2535,6 +2690,7 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_67
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_516
 rules:
+  - DOMAIN-KEYWORD,youtube.com,♻️ YOUTUBE
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
