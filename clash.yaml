@@ -3212,6 +3212,7 @@ proxy-groups:
     proxies:
       - ⚖️ 负载均衡-轮询
       - ⚖️ 负载均衡-散列
+      - ♻️ 自动选择
       - 🎯 全球直连
       - Netherlands(ChatGPT) 01 TG:@nodpai
       - _JP_日本_15_8@16
@@ -3483,6 +3484,7 @@ proxy-groups:
       - Hong Kong(ChatGPT) 04 TG:@nodpai
       - Relay 🇭🇰 Hong Kong(ChatGPT) 29 TG:@nodpai
       - YouTube梦歌|广港IEPL|Netflix_2
+    _index: 0
   - name: ♻️ 自动选择
     proxies:
       - Netherlands(ChatGPT) 01 TG:@nodpai
@@ -3758,6 +3760,7 @@ proxy-groups:
     type: fallback
     url: https://www.youtube.com/
     interval: "10"
+    _index: 1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -14774,4 +14777,4 @@ rules:
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
 proxy-providers: {}
-rule-providers: {} 
+rule-providers: {}
