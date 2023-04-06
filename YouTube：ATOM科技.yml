@@ -9515,8 +9515,7 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_717
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_718
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_719
-  - name: 🎥 NETFLIX
-    type: select
+  - name: 🎥 youtube
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
@@ -10169,6 +10168,9 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_717
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_718
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_719
+    type: fallback
+    url: https://www.youtube.com/
+    interval: "10"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -23763,37 +23765,37 @@ rules:
   - DOMAIN-SUFFIX,yuanchengxiezuo.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zbrushcn.com,🛑 全球拦截
   - DOMAIN-SUFFIX,zhzzx.com,🛑 全球拦截
-  - DOMAIN-SUFFIX,netflix.com,🎥 NETFLIX
-  - DOMAIN-SUFFIX,netflix.net,🎥 NETFLIX
-  - DOMAIN-SUFFIX,nflxext.com,🎥 NETFLIX
-  - DOMAIN-SUFFIX,nflximg.com,🎥 NETFLIX
-  - DOMAIN-SUFFIX,nflximg.net,🎥 NETFLIX
-  - DOMAIN-SUFFIX,nflxso.net,🎥 NETFLIX
-  - DOMAIN-SUFFIX,nflxvideo.net,🎥 NETFLIX
-  - DOMAIN-SUFFIX,netflixdnstest0.com,🎥 NETFLIX
-  - DOMAIN-SUFFIX,netflixdnstest1.com,🎥 NETFLIX
-  - DOMAIN-SUFFIX,netflixdnstest2.com,🎥 NETFLIX
-  - DOMAIN-SUFFIX,netflixdnstest3.com,🎥 NETFLIX
-  - DOMAIN-SUFFIX,netflixdnstest4.com,🎥 NETFLIX
-  - DOMAIN-SUFFIX,netflixdnstest5.com,🎥 NETFLIX
-  - DOMAIN-SUFFIX,netflixdnstest6.com,🎥 NETFLIX
-  - DOMAIN-SUFFIX,netflixdnstest7.com,🎥 NETFLIX
-  - DOMAIN-SUFFIX,netflixdnstest8.com,🎥 NETFLIX
-  - DOMAIN-SUFFIX,netflixdnstest9.com,🎥 NETFLIX
-  - DOMAIN-KEYWORD,dualstack.apiproxy-,🎥 NETFLIX
-  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎥 NETFLIX
-  - IP-CIDR,23.246.0.0/18,🎥 NETFLIX,no-resolve
-  - IP-CIDR,37.77.184.0/21,🎥 NETFLIX,no-resolve
-  - IP-CIDR,45.57.0.0/17,🎥 NETFLIX,no-resolve
-  - IP-CIDR,64.120.128.0/17,🎥 NETFLIX,no-resolve
-  - IP-CIDR,66.197.128.0/17,🎥 NETFLIX,no-resolve
-  - IP-CIDR,108.175.32.0/20,🎥 NETFLIX,no-resolve
-  - IP-CIDR,192.173.64.0/18,🎥 NETFLIX,no-resolve
-  - IP-CIDR,198.38.96.0/19,🎥 NETFLIX,no-resolve
-  - IP-CIDR,198.45.48.0/20,🎥 NETFLIX,no-resolve
-  - IP-CIDR,34.210.42.111/32,🎥 NETFLIX,no-resolve
-  - IP-CIDR,52.89.124.203/32,🎥 NETFLIX,no-resolve
-  - IP-CIDR,54.148.37.5/32,🎥 NETFLIX,no-resolve
+  - DOMAIN-SUFFIX,netflix.com,🎥 youtube
+  - DOMAIN-SUFFIX,netflix.net,🎥 youtube
+  - DOMAIN-SUFFIX,nflxext.com,🎥 youtube
+  - DOMAIN-SUFFIX,nflximg.com,🎥 youtube
+  - DOMAIN-SUFFIX,nflximg.net,🎥 youtube
+  - DOMAIN-SUFFIX,nflxso.net,🎥 youtube
+  - DOMAIN-SUFFIX,nflxvideo.net,🎥 youtube
+  - DOMAIN-SUFFIX,netflixdnstest0.com,🎥 youtube
+  - DOMAIN-SUFFIX,netflixdnstest1.com,🎥 youtube
+  - DOMAIN-SUFFIX,netflixdnstest2.com,🎥 youtube
+  - DOMAIN-SUFFIX,netflixdnstest3.com,🎥 youtube
+  - DOMAIN-SUFFIX,netflixdnstest4.com,🎥 youtube
+  - DOMAIN-SUFFIX,netflixdnstest5.com,🎥 youtube
+  - DOMAIN-SUFFIX,netflixdnstest6.com,🎥 youtube
+  - DOMAIN-SUFFIX,netflixdnstest7.com,🎥 youtube
+  - DOMAIN-SUFFIX,netflixdnstest8.com,🎥 youtube
+  - DOMAIN-SUFFIX,netflixdnstest9.com,🎥 youtube
+  - DOMAIN-KEYWORD,dualstack.apiproxy-,🎥 youtube
+  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎥 youtube
+  - IP-CIDR,23.246.0.0/18,🎥 youtube,
+  - IP-CIDR,37.77.184.0/21,🎥 youtube,
+  - IP-CIDR,45.57.0.0/17,🎥 youtube,
+  - IP-CIDR,64.120.128.0/17,🎥 youtube,
+  - IP-CIDR,66.197.128.0/17,🎥 youtube,
+  - IP-CIDR,108.175.32.0/20,🎥 youtube,
+  - IP-CIDR,192.173.64.0/18,🎥 youtube,
+  - IP-CIDR,198.38.96.0/19,🎥 youtube,
+  - IP-CIDR,198.45.48.0/20,🎥 youtube,
+  - IP-CIDR,34.210.42.111/32,🎥 youtube,
+  - IP-CIDR,52.89.124.203/32,🎥 youtube,
+  - IP-CIDR,54.148.37.5/32,🎥 youtube,
   - DOMAIN-SUFFIX,jtvnw.net,🌍 国外媒体
   - DOMAIN-SUFFIX,ttvnw.net,🌍 国外媒体
   - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
