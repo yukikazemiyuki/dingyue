@@ -14774,6 +14774,8 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_718
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_719
 rules:
+  - DOMAIN-KEYWORD,google,🎥 youtube
+  - DOMAIN-KEYWORD,youtubr,🎥 youtube
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
@@ -24027,9 +24029,7 @@ rules:
   - DOMAIN-SUFFIX,wetvinfo.com,🌍 国外媒体
   - IP-CIDR,150.109.28.51/32,🌍 国外媒体,no-resolve
   - DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
-  - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
   - DOMAIN,yt3.ggpht.com,🌍 国外媒体
   - DOMAIN-SUFFIX,acg.tv,🌏 国内媒体
   - DOMAIN-SUFFIX,acgvideo.com,🌏 国内媒体
