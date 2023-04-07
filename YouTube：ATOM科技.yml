@@ -9515,7 +9515,7 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_718
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_719
     type: fallback
-    url: https://chrome.google.com/
+    url: https://google.com/
     interval: "60"
   - name: ♻️ youtube
     proxies:
