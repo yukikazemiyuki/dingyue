@@ -758,9 +758,6 @@ proxy-groups:
       - 伊朗+002
       - 越南 003
   - name: ♻️ 自动选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
     proxies:
       - _TW_台湾_2
       - _US_电报频道 @pjrjzy 27
@@ -815,7 +812,9 @@ proxy-groups:
       - 梦歌|广港中继|解锁流媒体_54
       - 伊朗+002
       - 越南 003
-    _index: 1
+    type: fallback
+    url: chrome.google.com
+    interval: "60"
   - name: ♻️ youtube
     proxies:
       - _TW_台湾_2
@@ -873,7 +872,7 @@ proxy-groups:
       - 越南 003
     type: fallback
     url: https://www.youtube.com
-    interval: "10"
+    interval: "60"
   - name: ♻️ MISSAV
     proxies:
       - _TW_台湾_2
@@ -931,7 +930,7 @@ proxy-groups:
       - 越南 003
     type: fallback
     url: http://www.missav.com
-    interval: "10"
+    interval: "60"
   - name: 🎯 全球直连
     type: select
     proxies:
