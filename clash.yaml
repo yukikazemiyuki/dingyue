@@ -5,95 +5,98 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: Relay 🇮🇩 Indonesia(ChatGPT) 13 TG:@nodpai
-    server: fsyy.fosi.hk
-    port: 31431
-    type: trojan
-    password: b065b64a-905a-494a-a25f-5e313e93cca8
-    sni: id08tk.ifengsoutu233.tk
-    skip-cert-verify: true
-    udp: true
-  - name: Relay 🇮🇩 Indonesia(ChatGPT) 17 TG:@nodpai
-    server: fsyy.fosi.hk
-    port: 54862
-    type: trojan
-    password: b065b64a-905a-494a-a25f-5e313e93cca8
-    sni: id04tk.ifengsoutu233.tk
-    skip-cert-verify: true
-    udp: true
-  - name: Japan(ChatGPT) 03 TG:@nodpai
-    server: jpgithub.edgehelper.com
-    port: 53900
+  - name: _TW_台湾_2
+    server: hinet1261.gfwisbest.xyz
+    port: 224
     type: vmess
-    uuid: 2b917127-3c16-431d-8196-5406d4386b46
-    alterId: 2
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    udp: true
-  - name: Relay 🇮🇩 Indonesia(ChatGPT) 15 TG:@nodpai
-    server: fsyy.fosi.hk
-    port: 29650
-    type: trojan
-    password: b065b64a-905a-494a-a25f-5e313e93cca8
-    sni: id11tk.ifengsoutu233.tk
-    skip-cert-verify: true
-    udp: true
-  - name: 美国 025
-    server: newyork.edgehelper.com
-    port: 23610
-    type: vmess
-    uuid: 2b917127-3c16-431d-8196-5406d4386b46
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-    udp: true
-  - name: Relay 🇮🇩 Indonesia(ChatGPT) 12 TG:@nodpai
-    server: fsyy.fosi.hk
-    port: 54007
-    type: vmess
-    uuid: b065b64a-905a-494a-a25f-5e313e93cca8
+    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: id17tk.ifengsoutu233.tk
     udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_108
-    server: cf.noaries.de
+  - name: _US_电报频道 @pjrjzy 27
+    server: cf-lt.sharecentre.online
     port: 80
     type: vmess
-    uuid: 314c1387-618c-4689-97fc-4bc9a1ae5e05
+    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /
+      path: /shirker
       headers:
-        Host: sg4.562148.xyz
+        Host: dp3.scproxy.top
     udp: true
-  - name: Relay 🇮🇩 Indonesia(ChatGPT) 03 TG:@nodpai
-    server: fsyy.fosi.hk
-    port: 26417
-    type: trojan
-    password: b065b64a-905a-494a-a25f-5e313e93cca8
-    sni: id07tk.ifengsoutu233.tk
+  - name: _US_电报频道 @pjrjzy 36
+    server: cf-lt.sharecentre.online
+    port: 80
+    type: vmess
+    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: lv2.sharecentrepro.org
+    udp: true
+  - name: _US_电报频道 @pjrjzy 56
+    server: cf-lt.sharecentre.online
+    port: 80
+    type: vmess
+    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: sg1.sharecentrepro.com
+    udp: true
+  - name: _US_电报频道 @pjrjzy 61
+    server: cf-lt.sharecentre.online
+    port: 80
+    type: vmess
+    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: hk-hytron.ilovescp.com
+    udp: true
+  - name: _US_美国 13
+    server: 142.4.97.73
+    port: 44942
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
     skip-cert-verify: true
     udp: true
-  - name: 荷兰 006
-    server: 188.114.99.10
+  - name: _US_美国 2
+    server: 142.4.108.23
+    port: 55102
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: _US_美国 5
+    server: 66.235.200.1
     port: 80
     type: vmess
     uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
@@ -107,770 +110,30 @@ proxies:
       headers:
         Host: lg.v2ray8.xyz
     udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
-    server: pm.motori.pw
-    port: 8880
-    type: vmess
-    uuid: d1c59699-1874-49f1-b9ba-bbbfd7968075
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: pm.motori.pw
-    udp: true
-  - name: 美国【付费推荐：https://v1.mk/vip】112
-    server: england1.yj2022.ga
-    port: 443
-    type: vmess
-    uuid: 4b5e4565-322f-4223-a891-78a84f189726
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /Eynyyo4kJfl2fkJfl2f
-      headers:
-        Host: england1.yj2022.ga
-    udp: true
-  - name: 加拿大 039
-    server: 104.18.3.2
+  - name: GB-18.169.183.80-023
+    server: free-eu2.wvvvv.eu.org
     port: 80
     type: vmess
-    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+    uuid: 0154ba78-0367-4108-91d5-4258bc027c38
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /
+      path: /masvod/public/2023/03/21/20230321_18701ba433e_r1_1200k.mp4
       headers:
-        Host: idnusanet.vpnexecutive.my.id
+        Host: free-eu2.wvvvv.eu.org
     udp: true
-  - name: US-142.4.108.57-188
-    server: 142.4.108.57
-    port: 59109
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: Finland(ChatGPT) 02 TG:@nodpai
-    server: cdn.imnibaba.wiki
-    port: 2052
-    type: vmess
-    uuid: 9ef0ae21-359a-4724-c77c-372f833898cb
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /tg@sudoxin
-      headers:
-        Host: woiden-de1-sudoxin.imnibaba.wiki
-    udp: true
-  - name: _AM_亚美尼亚->🇺🇸_US_美国
-    server: 185.162.228.1
-    port: 443
-    type: vmess
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /ECTCJ0DF
-      headers:
-        Host: 154.v2ray3.xyz
-    udp: true
-  - name: 日本 008
-    server: 52.69.182.30
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    udp: true
-  - name: 美国【付费推荐：https://tt.vg/vip】231
-    server: 172.67.73.39
-    port: 80
-    type: vmess
-    uuid: b8458948-a630-4e6d-809a-230b2223ff3d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /xrayvws
-      headers:
-        Host: f.tun4.live
-    udp: true
-  - name: _US_美国->🇰🇷_KR_韩国
-    server: hg02.wruox.cf
-    port: 2096
-    type: vmess
-    uuid: 69e92166-f2e7-4093-a98b-5113711fb0e7
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /asdfas
-      headers:
-        Host: hg02.wruox.cf
-    udp: true
-  - name: Relay 🇨🇳 China 01 TG:@nodpai
-    server: 198.2.218.217
-    port: 51202
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 加拿大 046
-    server: 162.159.136.75
-    port: 8443
-    type: vmess
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /8cda48b3
-      headers:
-        Host: kr-207-239.shoptunnel.live
-    udp: true
-  - name: Finland(ChatGPT) 01 TG:@nodpai
-    server: cdn.imnibaba.wiki
-    port: 2052
-    type: vmess
-    uuid: 5d5a8751-89dc-4b58-85ea-0da8fe5a32ac
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /tg@sudoxin
-      headers:
-        Host: woiden-pl1-sudoxin.imnibaba.wiki
-    udp: true
-  - name: Germany(ChatGPT) 01 TG:@nodpai
-    server: cdn.imnibaba.wiki
-    port: 2052
-    type: vmess
-    uuid: 61a976cb-88d7-43d1-f039-9657750da663
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /tg@sudoxin
-      headers:
-        Host: vc-de1-sudoxin.imnibaba.wiki
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_216
-    server: sg4.af49c4e4c2ef.sanfen001.pics
-    port: 443
-    type: vmess
-    uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    udp: true
-  - name: 美国【付费推荐：https://tt.vg/vip】324
-    server: 23.224.14.142
-    port: 55332
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: US-198.16.45.166-184
-    server: 198.16.45.166
-    port: 53392
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: Relay 🇮🇩 Indonesia(ChatGPT) 01 TG:@nodpai
-    server: fsyy.fosi.hk
-    port: 36994
-    type: trojan
-    password: b065b64a-905a-494a-a25f-5e313e93cca8
-    sni: id09tk.ifengsoutu233.tk
-    skip-cert-verify: true
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_174
-    server: 198.2.203.146
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: Relay 🇮🇩 Indonesia(ChatGPT) 09 TG:@nodpai
-    server: fsyy.fosi.hk
-    port: 52839
-    type: vmess
-    uuid: b065b64a-905a-494a-a25f-5e313e93cca8
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: id13tk.ifengsoutu233.tk
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_122
-    server: cf.noaries.de
-    port: 8080
-    type: vmess
-    uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /aries?ed=2048
-      headers:
-        Host: nls.cloudflare.quest
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_579
-    server: vi.mot20.ga
-    port: 8080
-    type: vmess
-    uuid: 342e932e-d990-4ad4-b38a-837a8ed3463c
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: vi.mot20.ga
-    udp: true
-  - name: 美国【付费推荐：https://tt.vg/vip】187
-    server: 162.159.255.205
-    port: 80
-    type: vmess
-    uuid: 52466dc2-3550-4310-910c-74b7bf8a020e
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us-1.acyun.eu.org
-    udp: true
-  - name: Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-    server: shankh.772xx.cn
-    port: 17113
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: a761a0c8-9466-410f-b041-9e1e308c5f71
-    udp: true
-  - name: Relay 🇮🇩 Indonesia(ChatGPT) 04 TG:@nodpai
-    server: 120.233.84.203
-    port: 42645
-    type: trojan
-    password: b065b64a-905a-494a-a25f-5e313e93cca8
-    sni: id02tk.ifengsoutu233.tk
-    skip-cert-verify: true
-    udp: true
-  - name: RELAY-162.159.44.164-002
-    server: 162.159.44.164
-    port: 2052
-    type: vmess
-    uuid: 238abf3f-b88d-4999-ea66-f51a8cd48e7a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /tg:@hkaa0
-      headers:
-        Host: us.wyhkaa0.ml
-    udp: true
-  - name: 伯利兹【付费推荐：https://tt.vg/vip】294
-    server: 203.30.190.1
-    port: 443
-    type: vmess
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /ECTCJ0DF
-      headers:
-        Host: 154.v2ray3.xyz
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_292
-    server: 190.93.245.1
-    port: 443
-    type: vmess
-    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /5QNROSRV
-      headers:
-        Host: clash1.ssr-free2.xyz
-    udp: true
-  - name: 巴西 001
-    server: 188.114.96.46
-    port: 443
-    type: vmess
-    uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /huhublog
-      headers:
-        Host: zhuyong.hucloud-dns.xyz
-    udp: true
-  - name: 订阅已稳定12天，YouTube搜（ATOM科技）获取新的长效订阅_406
-    server: 25.v2-ray.cyou
-    port: 23625
-    type: vmess
-    uuid: 0dd19d20-ec86-3680-b256-87237bafa89e
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 25.v2-ray.cyou
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_91
-    server: cfcdn.sanfencdn.net
-    port: 443
-    type: vmess
-    uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /zh-cn
-      headers:
-        Host: us2.sanfencdn.net
-    udp: true
-  - name: 美国【付费推荐：https://tt.vg/vip】188
-    server: 162.159.255.210
-    port: 80
-    type: vmess
-    uuid: 52466dc2-3550-4310-910c-74b7bf8a020e
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us-1.acyun.eu.org
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_168
-    server: 156.225.67.252
-    port: 59926
-    type: vmess
-    uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国_7_6@33
-    server: els200.jslist.tk
-    port: 8443
-    type: vmess
-    uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /wo.php
-      headers:
-        Host: els200.jslist.tk
-    udp: true
-  - name: _US_美国_5_6@8
-    server: 167.88.61.213
-    port: 7307
-    type: ss
-    cipher: aes-256-gcm
-    password: FoOiGlkAA9yPEGP
-    udp: true
-  - name: 新加坡 023
-    server: sgp-2.fuckjdieng.uk
-    port: 50162
-    type: trojan
-    password: 99993945-3df7-4a80-91dc-e3fbff84c39b
-    skip-cert-verify: true
-    udp: true
-  - name: _KR
-    server: kr.iggfastweb.com
-    port: 24100
-    type: vmess
-    uuid: 2b917127-3c16-431d-8196-5406d4386b46
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: console.huaweicloud.com
-    udp: true
-  - name: 美国【付费推荐：https://tt.vg/vip】186
-    server: 162.159.255.200
-    port: 80
-    type: vmess
-    uuid: 52466dc2-3550-4310-910c-74b7bf8a020e
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: us-1.acyun.eu.org
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_111
-    server: 45.86.11.147
-    port: 39182
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 印度【付费推荐：https://v1.mk/vip】23
-    server: vin1.0bad.com
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: vin1.0bad.com
-    udp: true
-  - name: 新加坡-0-0-ss-18.141.175.224:443
-    server: 18.141.175.224
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    udp: true
-  - name: _US_电报频道 @pjrjzy 38
-    server: cf-lt.sharecentre.online
-    port: 443
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: ca.ilovescp.com
-    udp: true
-  - name: Singapore 02 TG:@nodpai
-    server: n1674862935.eaurlmj.cn
-    port: 443
-    type: vmess
-    uuid: a314da3c-e126-45bb-8a28-b28ab452d942
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: n1674862935.eaurlmj.cn
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_53
-    server: hk1.b.bd6b6c503c93.sanfen001.pics
-    port: 443
-    type: vmess
-    uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /zh-cn
-      headers:
-        Host: www.microsoft.com
-    udp: true
-  - name: 美国-俄勒冈-0-ss-54.185.193.85:443
-    server: 54.185.193.85
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    udp: true
-  - name: 未知【付费推荐：https://v1.mk/vip】97
-    server: cf.fovi.tk
-    port: 2053
-    type: vmess
-    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /eisasqa
-      headers:
-        Host: foxpol2.fovi.tk
-    udp: true
-  - name: Relay 🇮🇩 Indonesia(ChatGPT) 08 TG:@nodpai
-    server: fsyy.fosi.hk
-    port: 13908
-    type: vmess
-    uuid: b065b64a-905a-494a-a25f-5e313e93cca8
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: id16tk.ifengsoutu233.tk
-    udp: true
-  - name: Relay 🇮🇩 Indonesia(ChatGPT) 11 TG:@nodpai
-    server: fsyy.fosi.hk
-    port: 31317
-    type: vmess
-    uuid: b065b64a-905a-494a-a25f-5e313e93cca8
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: id15tk.ifengsoutu233.tk
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_616
-    server: vuk1.0bad.com
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: vuk1.0bad.com
-    udp: true
-  - name: 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_293
-    server: els200.jslist.tk
-    port: 8443
-    type: vmess
-    uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /wo.php
-      headers:
-        Host: els200.jslist.tk
-    udp: true
-  - name: US-198.16.45.166-148
-    server: 198.16.45.166
-    port: 53392
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: NONE
-    server: stonebreak.online
+  - name: github.com/mehdimoghaddam-cell_10
+    server: 45.64.22.56
     port: 443
     type: trojan
-    password: xl87654321
+    password: "123456"
+    sni: trojan-ctb-sg02.globalssh.xyz
     skip-cert-verify: true
     udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_241
-    server: hk6.af49c4e4c2ef.sanfen001.pics
-    port: 443
-    type: vmess
-    uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /zh-cn
-      headers:
-        Host: www.microsoft.com
-    udp: true
-  - name: "@v2rayng_org"
-    server: www.codepen.io
-    port: 443
-    type: vmess
-    uuid: c002de50-e64e-4328-b98a-fae82bdcafa4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: de-v.sshmax.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: de-v.sshmax.xyz
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_260
-    server: hk6.af49c4e4c2ef.sanfen001.pics
-    port: 443
-    type: vmess
-    uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /zh-cn
-      headers:
-        Host: hk6.af49c4e4c2ef.sanfen001.pics
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
-    server: france1.yj2022.ga
-    port: 443
-    type: vmess
-    uuid: 4b5e4565-322f-4223-a891-78a84f189726
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /E86414F638E11
-      headers:
-        Host: france1.yj2022.ga
-    udp: true
-  - name: _US_美国_9_6@12
-    server: 167.88.63.123
-    port: 2376
-    type: ss
-    cipher: aes-256-gcm
-    password: faBAoD54k87UJG7
-    udp: true
-  - name: India 01 TG:@nodpai
-    server: 152.70.74.66
-    port: 443
-    type: trojan
-    password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e
-    skip-cert-verify: true
-    udp: true
-  - name: _US
-    server: cf-lt.sharecentre.online
-    port: 443
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: dp1.scproxy.top
-    udp: true
-  - name: Relay 🇮🇩 Indonesia(ChatGPT) 14 TG:@nodpai
-    server: fsyy.fosi.hk
-    port: 21192
-    type: trojan
-    password: b065b64a-905a-494a-a25f-5e313e93cca8
-    sni: id01tk.ifengsoutu233.tk
-    skip-cert-verify: true
-    udp: true
-  - name: 伯利兹【付费推荐：https://tt.vg/vip】291
-    server: 203.30.189.1
-    port: 443
-    type: vmess
-    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /ECTCJ0DF
-      headers:
-        Host: 154.v2ray3.xyz
-    udp: true
-  - name: 加拿大 040
+  - name: RELAY-104.21.84.81-131
     server: target.292228.xyz
     port: 80
     type: vmess
@@ -885,124 +148,26 @@ proxies:
       headers:
         Host: us-east-1.292228.xyz
     udp: true
-  - name: _TW
-    server: asia.edgehelper.com
-    port: 21750
-    type: trojan
-    password: 2b917127-3c16-431d-8196-5406d4386b46
-    sni: asia.edgehelper.com
-    skip-cert-verify: true
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_111 2
-    server: 45.86.11.147
-    port: 39182
+  - name: RELAY-172.67.27.128-138
+    server: cf.noaries.de
+    port: 8080
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: KR-43.201.50.238-018
-    server: 43.201.50.238
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    udp: true
-  - name: Relay 🇭🇰 Hong Kong 05 TG:@nodpai
-    server: hncu.donghui.tech
-    port: 61126
-    type: vmess
-    uuid: 1591890d-ec33-4158-843e-8c67708ca92d
+    uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /ty
+      path: /aries?ed=2048
       headers:
-        Host: hncu.donghui.tech
+        Host: ft.cloudflare.quest
     udp: true
-  - name: 美国【付费推荐：https://v1.mk/vip】113
-    server: finland1.yj2022.ga
-    port: 443
+  - name: RELAY-190.93.246.2-130
+    server: 190.93.246.2
+    port: 80
     type: vmess
-    uuid: 4b5e4565-322f-4223-a891-78a84f189726
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /WKtzeN11GLqwVNBTp9mX
-      headers:
-        Host: finland1.yj2022.ga
-    udp: true
-  - name: Relay 🇮🇩 Indonesia(ChatGPT) 10 TG:@nodpai
-    server: fsyy.fosi.hk
-    port: 61530
-    type: trojan
-    password: b065b64a-905a-494a-a25f-5e313e93cca8
-    sni: id05tk.ifengsoutu233.tk
-    skip-cert-verify: true
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_168 2
-    server: 156.225.67.252
-    port: 59926
-    type: vmess
-    uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_82
-    server: 141.193.213.20
-    port: 443
-    type: vmess
-    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /5QNROSRV
-      headers:
-        Host: oplg1.zhujicn2.com
-    udp: true
-  - name: _CN_中国->🇺🇸_US_美国_0@25
-    server: oss-cn-shanghai.westdatacloud.top
-    port: 20048
-    type: trojan
-    password: 626351FA-3CA6-8118-FADF-CCDBCD620871
-    sni: oss-cn-shanghai.westdatacloud.top
-    skip-cert-verify: true
-    udp: true
-  - name: _CN_中国
-    server: 112.132.215.189
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 新加坡-0-0-ss-18.143.178.158:443
-    server: 18.143.178.158
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    udp: true
-  - name: Relay 🇮🇩 Indonesia(ChatGPT) 05 TG:@nodpai
-    server: gddx.fosi.hk
-    port: 55188
-    type: vmess
-    uuid: b065b64a-905a-494a-a25f-5e313e93cca8
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
     alterId: 0
     cipher: auto
     tls: false
@@ -1011,69 +176,13 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: id12tk.ifengsoutu233.tk
+        Host: fr.v2ray1.xyz
     udp: true
-  - name: 美国【付费推荐：https://tt.vg/vip】488
-    server: de1.sharecentrepro.org
-    port: 443
+  - name: RELAY-203.24.108.2-129
+    server: 203.24.108.2
+    port: 80
     type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: de1.sharecentrepro.org
-    udp: true
-  - name: Relay 🇮🇩 Indonesia(ChatGPT) 07 TG:@nodpai
-    server: fsyy.fosi.hk
-    port: 63827
-    type: trojan
-    password: b065b64a-905a-494a-a25f-5e313e93cca8
-    sni: id10tk.ifengsoutu233.tk
-    skip-cert-verify: true
-    udp: true
-  - name: _CN_欢迎订阅yui科技
-    server: 47.104.237.32
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国【付费推荐：https://tt.vg/vip】480
-    server: cf-lt-dns.sharecentre.online
-    port: 443
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: sg1.sharecentrepro.com
-    udp: true
-  - name: Relay 🇮🇩 Indonesia(ChatGPT) 06 TG:@nodpai
-    server: fsyy.fosi.hk
-    port: 32540
-    type: trojan
-    password: b065b64a-905a-494a-a25f-5e313e93cca8
-    sni: id06tk.ifengsoutu233.tk
-    skip-cert-verify: true
-    udp: true
-  - name: Relay 🇮🇩 Indonesia 02 TG:@nodpai
-    server: fsyy.fosi.hk
-    port: 23193
-    type: vmess
-    uuid: b065b64a-905a-494a-a25f-5e313e93cca8
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
     alterId: 0
     cipher: auto
     tls: false
@@ -1082,27 +191,157 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: id14tk.ifengsoutu233.tk
+        Host: fr.v2ray1.xyz
     udp: true
-  - name: 日本 009
-    server: jpgithub.edgehelper.com
-    port: 53900
+  - name: RELAY-203.30.190.1-123
+    server: 203.30.190.1
+    port: 80
     type: vmess
-    uuid: 2b917127-3c16-431d-8196-5406d4386b46
-    alterId: 2
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    alterId: 0
     cipher: auto
-    tls: true
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: lg.v2ray8.xyz
+    udp: true
+  - name: RELAY-203.30.190.2-127
+    server: 203.30.190.2
+    port: 80
+    type: vmess
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: fr.v2ray1.xyz
+    udp: true
+  - name: Taiwan 03 TG:@nodpai
+    server: polotw1.applebench.tech
+    port: 56568
+    type: vmess
+    uuid: cc73b2fd-6a45-4690-b0ad-ddb8df4fb333
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
     udp: true
-  - name: US-23.224.14.142-191
-    server: 23.224.14.142
-    port: 55332
+  - name: TW-1.171.203.31-122
+    server: hinet1261.gfwisbest.xyz
+    port: 224
+    type: vmess
+    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: US-140.99.149.42-169
+    server: 140.99.149.42
+    port: 58882
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
     tls: false
     skip-cert-verify: true
+    udp: true
+  - name: US-142.0.139.55-006
+    server: 142.0.139.55
+    port: 57072
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: US-142.4.126.54-171
+    server: 142.4.126.54
+    port: 33302
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: US-142.4.97.73-003
+    server: 142.4.97.73
+    port: 44942
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: US-142.4.97.73-164
+    server: 142.4.97.73
+    port: 44942
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: _TW_台湾
+    server: hinet1261.gfwisbest.xyz
+    port: 224
+    type: vmess
+    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_195
+    server: ingress-i2.iivvppnn.info
+    port: 38102
+    type: vmess
+    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+    alterId: 1
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /hls/cctv5phd.m3u8
+      headers:
+        Host: ingress-i2.iivvppnn.info
+    udp: true
+  - name: 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_856
+    server: hinet1261.gfwisbest.xyz
+    port: 224
+    type: vmess
+    uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
+    server: lsb-gy.heinu.cf
+    port: 2095
+    type: vmess
+    uuid: 1eda6b95-f248-4f3b-ae10-d7503415a788
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /@heinuhome
+      headers:
+        Host: lsb-gy.heinu.cf
     udp: true
   - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
     server: www.codepen.io
@@ -1119,380 +358,8 @@ proxies:
       headers:
         Host: us-v.sshmax.xyz
     udp: true
-  - name: 梦歌|广港中继|解锁流媒体_174 2
-    server: 198.2.203.146
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国_5_3@7
-    server: dp1.scproxy.top
-    port: 443
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: dp1.scproxy.top
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_67
-    server: 192.203.230.65
-    port: 443
-    type: vmess
-    uuid: b44cf32e-2213-4b98-bb21-8efb38fd9381
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /kbjc/jp1
-      headers:
-        Host: jp1.hnokkdf.top
-    udp: true
-  - name: Relay 🇮🇩 Indonesia(ChatGPT) 16 TG:@nodpai
-    server: 120.233.84.203
-    port: 32675
-    type: trojan
-    password: b065b64a-905a-494a-a25f-5e313e93cca8
-    sni: id03tk.ifengsoutu233.tk
-    skip-cert-verify: true
-    udp: true
-  - name: Relay 🇭🇰 Hong Kong 06 TG:@nodpai
-    server: lt.plggogo.xyz
-    port: 31615
-    type: trojan
-    password: 56f6646d-dd2e-3d4a-aa8f-919bd55d877e
-    sni: xg.plggogo.xyz
-    skip-cert-verify: true
-    udp: true
-  - name: _JP_日本_23_8@24
-    server: 85.208.108.60
-    port: 8882
-    type: ss
-    cipher: aes-256-gcm
-    password: kDWvXYZoTBcGkC4
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_40
-    server: cf.noaries.de
-    port: 8080
-    type: vmess
-    uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /aries?ed=2048
-      headers:
-        Host: buyvm.cloudflare.quest
-    udp: true
-  - name: _US_美国_13_6@37
-    server: 167.88.61.213
-    port: 8090
-    type: ss
-    cipher: aes-256-gcm
-    password: PCnnH6SQSnfoS27
-    udp: true
-  - name: 美国【付费推荐：https://tt.vg/vip】616
-    server: sg1.sharecentrepro.com
-    port: 443
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: sg1.sharecentrepro.com
-    udp: true
-  - name: 美国【付费推荐：https://v1.mk/vip】136
-    server: lv1.sharecentrepro.org
-    port: 443
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: lv1.sharecentrepro.org
-    udp: true
-  - name: _GB
-    server: uk3.iggfastweb.com
-    port: 23881
-    type: vmess
-    uuid: 2b917127-3c16-431d-8196-5406d4386b46
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: console.huaweicloud.com
-    udp: true
-  - name: 澳大利亚-0-0-ss-43.201.148.126:443
-    server: 43.201.148.126
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    udp: true
-  - name: Japan 01 TG:@nodpai
-    server: 85.208.108.60
-    port: 7001
-    type: ss
-    cipher: aes-256-gcm
-    password: RexnBgU7EV5ADxG
-    udp: true
-  - name: 美国【付费推荐：https://tt.vg/vip】479
-    server: cf-lt-dns.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: sg1.sharecentrepro.com
-    udp: true
-  - name: _US_美国_4_2@6
-    server: 167.88.61.213
-    port: 8888
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    udp: true
-  - name: Relay 🇦🇹 Austria(ChatGPT) 01 TG:@nodpai
-    server: 117.164.185.221
-    port: 16308
-    type: vmess
-    uuid: c00f28c4-5312-3041-8dbc-cb8d9b98f862
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国_5_2@12
-    server: 167.88.61.213
-    port: 5004
-    type: ss
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-    udp: true
-  - name: 印尼 002
-    server: id14tk.ifengsoutu233.tk
-    port: 18888
-    type: vmess
-    uuid: b065b64a-905a-494a-a25f-5e313e93cca8
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: id14tk.ifengsoutu233.tk
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_59
-    server: 117.164.185.221
-    port: 16105
-    type: vmess
-    uuid: c00f28c4-5312-3041-8dbc-cb8d9b98f862
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国【付费推荐：https://tt.vg/vip】222
-    server: 172.67.190.50
-    port: 443
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: sg1.sharecentrepro.com
-    udp: true
-  - name: United States(ChatGPT) 05 TG:@nodpai
-    server: cdn.imnibaba.wiki
-    port: 2052
-    type: vmess
-    uuid: 82276930-fa80-47d7-c228-7f4bd68d5046
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /tg@sudoxin
-      headers:
-        Host: rn-us1-sudoxin.imnibaba.wiki
-    udp: true
-  - name: _VN_越南_2@45
-    server: vietnam8.azzphuc.pro
-    port: 80
-    type: vmess
-    uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /hahuutung
-      headers:
-        Host: vietnam8.azzphuc.pro
-    udp: true
-  - name: RELAY-172.67.73.165-193
-    server: 172.67.73.165
-    port: 80
-    type: vmess
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: lg.v2ray8.xyz
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_96
-    server: cf-yd-dns.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: lv2.sharecentrepro.org
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_142
-    server: cf-lt.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: lv2.sharecentrepro.org
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_145
-    server: cf.noaries.de
-    port: 2052
-    type: vmess
-    uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /aries?ed=2048
-      headers:
-        Host: buyvm.cloudflare.quest
-    udp: true
-  - name: _JP_日本_20_8@21
-    server: 85.208.108.60
-    port: 8888
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_138
-    server: cf-lt-dns.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: lv2.sharecentrepro.org
-    udp: true
-  - name: US-198.2.218.217-202
-    server: 198.2.218.217
-    port: 51202
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _JP_日本_18_8@19
-    server: 85.208.108.60
-    port: 6697
-    type: ss
-    cipher: aes-256-gcm
-    password: TEzjfAYq2IjtuoS
-    udp: true
-  - name: Relay 🇺🇸 United States 02 TG:@nodpai
-    server: 198.16.45.166
-    port: 53392
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_8
-    server: 112.132.215.189
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_186
-    server: 203.30.188.1
+  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_79
+    server: 203.30.190.1
     port: 443
     type: vmess
     uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
@@ -1506,437 +373,15 @@ proxies:
       headers:
         Host: 154.v2ray3.xyz
     udp: true
-  - name: 荷兰【付费推荐：https://tt.vg/vip】248
-    server: 188.114.97.3
-    port: 443
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: dp1.scproxy.top
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_542
-    server: japan.com
-    port: 443
-    type: vmess
-    uuid: 5775d530-ab7a-455f-d841-82bdca57b9b2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: eu6.739256.xyz
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_38
-    server: cf-lt-dns.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: dp3.scproxy.top
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_63
-    server: cf-lt.sharecentre.online
-    port: 443
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: lv1.sharecentrepro.org
-    udp: true
-  - name: Singapore 01 TG:@nodpai
-    server: 13.214.212.27
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    udp: true
-  - name: RELAY-23.227.38.39-192
-    server: 23.227.38.39
-    port: 80
-    type: vmess
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: lg.v2ray8.xyz
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_262
-    server: cf-lt.sharecentre.online
-    port: 443
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: de1.sharecentrepro.org
-    udp: true
-  - name: JP-85.208.108.60-156
-    server: 85.208.108.60
-    port: 443
-    type: ss
-    cipher: aes-256-gcm
-    password: pKEW8JPByTVTLtM
-    udp: true
-  - name: _JP_日本_11_8@10
-    server: 85.208.108.60
-    port: 8000
-    type: ss
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-    udp: true
-  - name: 日本 005
-    server: 143.42.87.69
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /chat
-    udp: true
-  - name: 美国【付费推荐：https://tt.vg/vip】571
-    server: irancelll.appsandhack2.tech
-    port: 443
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /dp2.scproxy.top/shirker
-      headers:
-        Host: irancelll.appsandhack2.tech
-    udp: true
-  - name: United States 01 TG:@nodpai
-    server: 23.224.14.142
-    port: 55332
+  - name: 荷兰【付费推荐：https://tt.vg/vip】178
+    server: 46.182.107.15
+    port: 51192
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
     cipher: auto
     tls: false
     skip-cert-verify: true
-    udp: true
-  - name: _JP_日本_7_8@6
-    server: 85.208.108.60
-    port: 9102
-    type: ss
-    cipher: aes-256-gcm
-    password: e4FCWrgpkji3QY
-    udp: true
-  - name: South Korea 01 TG:@nodpai
-    server: 43.200.6.0
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    udp: true
-  - name: 罗马尼亚【付费推荐：https://tt.vg/vip】597
-    server: mtn.ircf.space
-    port: 443
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /dp2.scproxy.top/shirker
-      headers:
-        Host: irancelll.appsandhack2.tech
-    udp: true
-  - name: github.com/mehdimoghaddam-cell_10
-    server: 45.64.22.56
-    port: 443
-    type: trojan
-    password: "123456"
-    sni: trojan-ctb-sg02.globalssh.xyz
-    skip-cert-verify: true
-    udp: true
-  - name: 加拿大 011
-    server: dj02.yumili.cf
-    port: 2096
-    type: vmess
-    uuid: c5cd4673-78de-43cd-b461-dd245c51f7b1
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /aaaa
-      headers:
-        Host: dj02.yumili.cf
-    udp: true
-  - name: _US 2
-    server: cf-lt.sharecentre.online
-    port: 443
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: lv2.sharecentrepro.org
-    udp: true
-  - name: 美国【付费推荐：https://tt.vg/vip】470
-    server: cf.noaries.de
-    port: 2086
-    type: vmess
-    uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /aries?ed=2048
-      headers:
-        Host: ovh.cloudflare.quest
-    udp: true
-  - name: JP-85.208.108.60-185
-    server: 85.208.108.60
-    port: 8881
-    type: ss
-    cipher: aes-256-gcm
-    password: kDWvXYZoTBcGkC4
-    udp: true
-  - name: undefined
-    server: hkg4.edgehelper.com
-    port: 24800
-    type: vmess
-    uuid: 2b917127-3c16-431d-8196-5406d4386b46
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-    udp: true
-  - name: _JP_日本_4_8@3
-    server: 85.208.108.60
-    port: 6679
-    type: ss
-    cipher: aes-256-gcm
-    password: TEzjfAYq2IjtuoS
-    udp: true
-  - name: 美国 072
-    server: 23.224.14.142
-    port: 55332
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 日本 011
-    server: 85.208.108.60
-    port: 5000
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    udp: true
-  - name: _JP_日本_21_8@22
-    server: 85.208.108.60
-    port: 7002
-    type: ss
-    cipher: aes-256-gcm
-    password: RexnBgU7EV5ADxG
-    udp: true
-  - name: _PA_巴拿马_7@9
-    server: 185.143.220.25
-    port: 443
-    type: vmess
-    uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /6e9EtZ2dL
-      headers:
-        Host: 185.143.220.25
-    udp: true
-  - name: _JP_日本_8_8@7
-    server: 85.208.108.60
-    port: 2375
-    type: ss
-    cipher: aes-256-gcm
-    password: faBAoD54k87UJG7
-    udp: true
-  - name: 新加坡 014
-    server: n1676188445.ydnhhgg.cn
-    port: 443
-    type: vmess
-    uuid: 46fdbe0b-2a56-4da0-9aaa-9b427864ed3b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: n1676188445.ydnhhgg.cn
-    udp: true
-  - name: 日本 001
-    server: jpgithub.edgehelper.com
-    port: 53900
-    type: vmess
-    uuid: 2b917127-3c16-431d-8196-5406d4386b46
-    alterId: 2
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    udp: true
-  - name: RELAY-203.30.191.11-197
-    server: 203.30.191.11
-    port: 80
-    type: vmess
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: lg.v2ray8.xyz
-    udp: true
-  - name: _JP
-    server: jpgithub.edgehelper.com
-    port: 53900
-    type: vmess
-    uuid: 2b917127-3c16-431d-8196-5406d4386b46
-    alterId: 2
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_53
-    server: cf.noaries.de
-    port: 2052
-    type: vmess
-    uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /aries?ed=2048
-      headers:
-        Host: nls.cloudflare.quest
-    udp: true
-  - name: United States 04 TG:@nodpai
-    server: 45.86.11.147
-    port: 39182
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: United States 07 TG:@nodpai
-    server: 167.88.61.213
-    port: 8882
-    type: ss
-    cipher: aes-256-gcm
-    password: kDWvXYZoTBcGkC4
-    udp: true
-  - name: JP-85.208.108.60-183
-    server: 85.208.108.60
-    port: 6379
-    type: ss
-    cipher: aes-256-gcm
-    password: zDNVedRFPQexG9v
-    udp: true
-  - name: _JP_日本_3_7@15
-    server: 85.208.108.60
-    port: 8091
-    type: ss
-    cipher: aes-256-gcm
-    password: PCnnH6SQSnfoS27
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_116
-    server: cf-lt.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: dp3.scproxy.top
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_288
-    server: lv2.sharecentrepro.org
-    port: 443
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: lv2.sharecentrepro.org
     udp: true
   - name: 加拿大 044
     server: cf.yj2022.ga
@@ -1953,38 +398,48 @@ proxies:
       headers:
         Host: finland1.yj2022.ga
     udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_303
-    server: cf.bakapie.cf
-    port: 2096
+  - name: 美国【付费推荐：https://tt.vg/vip】129
+    server: quiz.vidio.com
+    port: 443
     type: vmess
-    uuid: cae6201f-50fe-4895-8930-841f1d8c4eb7
+    uuid: e6442903-4753-4783-8916-ac47c8080e4f
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /index
+      path: /worryfree
       headers:
-        Host: 4bb4ced4.8200860.xyz
+        Host: dynamic-sg3b.obfs.xyz
     udp: true
-  - name: 加拿大 045
+  - name: 美国【付费推荐：https://tt.vg/vip】16
     server: cf.noaries.de
-    port: 2082
+    port: 2052
     type: vmess
-    uuid: 314c1387-618c-4689-97fc-4bc9a1ae5e05
+    uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /
+      path: /aries?ed=2048
       headers:
-        Host: ir2.nmsl.ninja
+        Host: awsus2.cloudflare.quest
     udp: true
-  - name: 中国【付费推荐：https://tt.vg/vip】24
-    server: 112.132.215.189
+  - name: 美国【付费推荐：https://tt.vg/vip】190
+    server: 142.4.97.73
+    port: 44942
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 美国【付费推荐：https://tt.vg/vip】198
+    server: 198.2.203.146
     port: 50002
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -1993,29 +448,9 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_153
-    server: 18.143.123.35
-    port: 80
-    type: vmess
-    uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-    udp: true
-  - name: US 398 → tg@nicevpn123
-    server: 170-187-134-190.ipv4.rush.ml
-    port: 8443
-    type: trojan
-    password: cf4295378e209e70d12c5bdd017144dfd1c772d3
-    skip-cert-verify: true
-    udp: true
-  - name: Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
-    server: 183.237.20.147
-    port: 40095
+  - name: 美国【付费推荐：https://tt.vg/vip】210
+    server: 142.4.126.72
+    port: 31002
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
@@ -2023,86 +458,151 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: _JP_日本_3_8@2
-    server: 85.208.108.60
-    port: 5600
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_516
-    server: cf.bakapie.cf
-    port: 2096
-    type: vmess
-    uuid: bc08be42-471a-4149-b622-06df0862734d
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /index
-      headers:
-        Host: 4bb4ced4.8200860.xyz
-    udp: true
-  - name: _JP_日本_2_8@1
-    server: 85.208.108.60
-    port: 5601
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    udp: true
-  - name: 免费梯子https://t.me/mftizi
-    server: 185.143.220.25
+  - name: 美国【付费推荐：https://tt.vg/vip】221
+    server: cf.yj2022.ga
     port: 443
     type: vmess
-    uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5
+    uuid: 4b5e4565-322f-4223-a891-78a84f189726
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: dengxin.one
     network: ws
     ws-opts:
-      path: /6e9EtZ2dL
+      path: /E86414F638E11
       headers:
-        Host: dengxin.one
+        Host: france1.yj2022.ga
     udp: true
-  - name: JP-85.208.108.60-196
-    server: 85.208.108.60
-    port: 2376
-    type: ss
-    cipher: aes-256-gcm
-    password: faBAoD54k87UJG7
-    udp: true
-  - name: 韩国 012
-    server: 43.201.146.228
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-    udp: true
-  - name: _JP_日本_6_8@5
-    server: 85.208.108.60
-    port: 3306
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    udp: true
-  - name: _US_美国_3_11@45
-    server: namer-us-sea-01-edgecast.qdns.live
-    port: 2053
+  - name: 美国【付费推荐：https://tt.vg/vip】238
+    server: v143.toddns.tk
+    port: 80
     type: vmess
-    uuid: 94898122-6f57-3272-8ccf-87ab366b29ed
+    uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /jp143-d2xddxxj
+      headers:
+        Host: v143.toddns.tk
+    udp: true
+  - name: 美国【付费推荐：https://tt.vg/vip】275
+    server: 140.99.149.42
+    port: 58882
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 美国【付费推荐：https://tt.vg/vip】284
+    server: 162.159.136.75
+    port: 8443
+    type: vmess
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /
+      path: /8cda48b3
       headers:
-        Host: namer-us-sea-01-edgecast.qdns.live
+        Host: kr-207-239.shoptunnel.live
+    udp: true
+  - name: 美国【付费推荐：https://tt.vg/vip】3
+    server: cf.noaries.de
+    port: 8080
+    type: vmess
+    uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /aries?ed=2048
+      headers:
+        Host: vn.cloudflare.quest
+    udp: true
+  - name: 美国【付费推荐：https://tt.vg/vip】5
+    server: 162.159.135.42
+    port: 80
+    type: vmess
+    uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /shares
+      headers:
+        Host: la.awsbest.com
+    udp: true
+  - name: 美国【付费推荐：https://v1.mk/vip】118
+    server: france1.yj2022.ga
+    port: 443
+    type: vmess
+    uuid: 4b5e4565-322f-4223-a891-78a84f189726
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /E86414F638E11
+      headers:
+        Host: france1.yj2022.ga
+    udp: true
+  - name: 美国-64D TG频道@v2ssfly
+    server: lv2.sharecentrepro.org
+    port: 443
+    type: vmess
+    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: lv2.sharecentrepro.org
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: lv2.sharecentrepro.org
+    udp: true
+  - name: 梦歌|广港中继|解锁流媒体_122
+    server: cf.noaries.de
+    port: 8080
+    type: vmess
+    uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /aries?ed=2048
+      headers:
+        Host: nls.cloudflare.quest
+    udp: true
+  - name: 梦歌|广港中继|解锁流媒体_153
+    server: cf-lt-dns.sharecentre.online
+    port: 80
+    type: vmess
+    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: hk-hytron.ilovescp.com
     udp: true
   - name: 梦歌|广港中继|解锁流媒体_164
     server: cf-yd-dns.sharecentre.online
@@ -2119,86 +619,8 @@ proxies:
       headers:
         Host: dp3.scproxy.top
     udp: true
-  - name: US 392 → tg@nicevpn123
-    server: 170.187.134.190
-    port: 8443
-    type: trojan
-    password: cf4295378e209e70d12c5bdd017144dfd1c772d3
-    skip-cert-verify: true
-    udp: true
-  - name: JP-85.208.108.60-194
-    server: 85.208.108.60
-    port: 5003
-    type: ss
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-    udp: true
-  - name: 美国【付费推荐：https://tt.vg/vip】659
-    server: www.gov.tw
-    port: 443
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: dp3.scproxy.top
-    udp: true
-  - name: 美国【付费推荐：https://tt.vg/vip】497
-    server: dp3.scproxy.top
-    port: 443
-    type: vmess
-    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: dp3.scproxy.top
-    udp: true
-  - name: _PA_巴拿马
-    server: 185.143.220.25
-    port: 443
-    type: vmess
-    uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /6e9EtZ2dL
-    udp: true
-  - name: _JP_日本_9_8@8
-    server: 85.208.108.60
-    port: 8008
-    type: ss
-    cipher: aes-256-gcm
-    password: XKFKl2rULjIp74
-    udp: true
-  - name: JP-85.208.108.60-189
-    server: 85.208.108.60
-    port: 5001
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    udp: true
-  - name: JP-85.208.108.60-201
-    server: 85.208.108.60
-    port: 5004
-    type: ss
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-    udp: true
-  - name: _US_电报频道 @pjrjzy 68
-    server: cf-lt.sharecentre.online
+  - name: 梦歌|广港中继|解锁流媒体_171
+    server: cf-yd-dns.sharecentre.online
     port: 80
     type: vmess
     uuid: 823c31da-701f-483d-b36e-896e5cf0987a
@@ -2210,37 +632,67 @@ proxies:
     ws-opts:
       path: /shirker
       headers:
-        Host: lv1.sharecentrepro.org
+        Host: hk-hytron.ilovescp.com
     udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_430
-    server: 4bb4ced4.ikunxiao.top
-    port: 2096
+  - name: 梦歌|广港中继|解锁流媒体_174 2
+    server: 198.2.203.146
+    port: 50002
     type: vmess
-    uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1
-    alterId: 0
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /index
-      headers:
-        Host: 4bb4ced4.ikunxiao.top
     udp: true
-  - name: 美国【付费推荐：https://tt.vg/vip】471
+  - name: 梦歌|广港中继|解锁流媒体_40
     server: cf.noaries.de
-    port: 2082
+    port: 8080
     type: vmess
-    uuid: 314c1387-618c-4689-97fc-4bc9a1ae5e05
+    uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /
+      path: /aries?ed=2048
       headers:
-        Host: ir3.nmsl.ninja
+        Host: buyvm.cloudflare.quest
+    udp: true
+  - name: 梦歌|广港中继|解锁流媒体_54
+    server: cf-dx-dns.sharecentre.online
+    port: 80
+    type: vmess
+    uuid: 823c31da-701f-483d-b36e-896e5cf0987a
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: hk-hytron.ilovescp.com
+    udp: true
+  - name: 伊朗+002
+    server: iran.mbahmaee.xyz
+    port: 443
+    type: trojan
+    password: az6m3aUYLJ
+    skip-cert-verify: true
+    udp: true
+  - name: 越南 003
+    server: 103.182.16.149
+    port: 80
+    type: vmess
+    uuid: a740cddf-bda7-4b58-8eda-35bece740b6e
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /anti13.zingfast.vn
     udp: true
 proxy-groups:
   - name: 🔰 节点选择
@@ -2249,390 +701,237 @@ proxy-groups:
       - ⚖️ 负载均衡-轮询
       - ⚖️ 负载均衡-散列
       - ♻️ 自动选择
+      - ♻️ youtube
+      - ♻️ MISSAV
       - 🎯 全球直连
-      - Relay 🇮🇩 Indonesia(ChatGPT) 13 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 17 TG:@nodpai
-      - Japan(ChatGPT) 03 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 15 TG:@nodpai
-      - 美国 025
-      - Relay 🇮🇩 Indonesia(ChatGPT) 12 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_108
-      - Relay 🇮🇩 Indonesia(ChatGPT) 03 TG:@nodpai
-      - 荷兰 006
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
-      - 美国【付费推荐：https://v1.mk/vip】112
-      - 加拿大 039
-      - US-142.4.108.57-188
-      - Finland(ChatGPT) 02 TG:@nodpai
-      - _AM_亚美尼亚->🇺🇸_US_美国
-      - 日本 008
-      - 美国【付费推荐：https://tt.vg/vip】231
-      - _US_美国->🇰🇷_KR_韩国
-      - Relay 🇨🇳 China 01 TG:@nodpai
-      - 加拿大 046
-      - Finland(ChatGPT) 01 TG:@nodpai
-      - Germany(ChatGPT) 01 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_216
-      - 美国【付费推荐：https://tt.vg/vip】324
-      - US-198.16.45.166-184
-      - Relay 🇮🇩 Indonesia(ChatGPT) 01 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_174
-      - Relay 🇮🇩 Indonesia(ChatGPT) 09 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_122
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_579
-      - 美国【付费推荐：https://tt.vg/vip】187
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 04 TG:@nodpai
-      - RELAY-162.159.44.164-002
-      - 伯利兹【付费推荐：https://tt.vg/vip】294
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_292
-      - 巴西 001
-      - 订阅已稳定12天，YouTube搜（ATOM科技）获取新的长效订阅_406
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_91
-      - 美国【付费推荐：https://tt.vg/vip】188
-      - 梦歌|广港中继|解锁流媒体_168
-      - _US_美国_7_6@33
-      - _US_美国_5_6@8
-      - 新加坡 023
-      - _KR
-      - 美国【付费推荐：https://tt.vg/vip】186
-      - 梦歌|广港中继|解锁流媒体_111
-      - 印度【付费推荐：https://v1.mk/vip】23
-      - 新加坡-0-0-ss-18.141.175.224:443
-      - _US_电报频道 @pjrjzy 38
-      - Singapore 02 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_53
-      - 美国-俄勒冈-0-ss-54.185.193.85:443
-      - 未知【付费推荐：https://v1.mk/vip】97
-      - Relay 🇮🇩 Indonesia(ChatGPT) 08 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 11 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_616
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_293
-      - US-198.16.45.166-148
-      - NONE
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_241
-      - "@v2rayng_org"
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_260
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
-      - _US_美国_9_6@12
-      - India 01 TG:@nodpai
-      - _US
-      - Relay 🇮🇩 Indonesia(ChatGPT) 14 TG:@nodpai
-      - 伯利兹【付费推荐：https://tt.vg/vip】291
-      - 加拿大 040
-      - _TW
-      - 梦歌|广港中继|解锁流媒体_111 2
-      - KR-43.201.50.238-018
-      - Relay 🇭🇰 Hong Kong 05 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】113
-      - Relay 🇮🇩 Indonesia(ChatGPT) 10 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_168 2
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_82
-      - _CN_中国->🇺🇸_US_美国_0@25
-      - _CN_中国
-      - 新加坡-0-0-ss-18.143.178.158:443
-      - Relay 🇮🇩 Indonesia(ChatGPT) 05 TG:@nodpai
-      - 美国【付费推荐：https://tt.vg/vip】488
-      - Relay 🇮🇩 Indonesia(ChatGPT) 07 TG:@nodpai
-      - _CN_欢迎订阅yui科技
-      - 美国【付费推荐：https://tt.vg/vip】480
-      - Relay 🇮🇩 Indonesia(ChatGPT) 06 TG:@nodpai
-      - Relay 🇮🇩 Indonesia 02 TG:@nodpai
-      - 日本 009
-      - US-23.224.14.142-191
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
-      - 梦歌|广港中继|解锁流媒体_174 2
-      - _US_美国_5_3@7
-      - 梦歌|广港中继|解锁流媒体_67
-      - Relay 🇮🇩 Indonesia(ChatGPT) 16 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
-      - _JP_日本_23_8@24
-      - 梦歌|广港中继|解锁流媒体_40
-      - _US_美国_13_6@37
-      - 美国【付费推荐：https://tt.vg/vip】616
-      - 美国【付费推荐：https://v1.mk/vip】136
-      - _GB
-      - 澳大利亚-0-0-ss-43.201.148.126:443
-      - Japan 01 TG:@nodpai
-      - 美国【付费推荐：https://tt.vg/vip】479
-      - _US_美国_4_2@6
-      - Relay 🇦🇹 Austria(ChatGPT) 01 TG:@nodpai
-      - _US_美国_5_2@12
-      - 印尼 002
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_59
-      - 美国【付费推荐：https://tt.vg/vip】222
-      - United States(ChatGPT) 05 TG:@nodpai
-      - _VN_越南_2@45
-      - RELAY-172.67.73.165-193
-      - 梦歌|广港中继|解锁流媒体_96
-      - 梦歌|广港中继|解锁流媒体_142
-      - 梦歌|广港中继|解锁流媒体_145
-      - _JP_日本_20_8@21
-      - 梦歌|广港中继|解锁流媒体_138
-      - US-198.2.218.217-202
-      - _JP_日本_18_8@19
-      - Relay 🇺🇸 United States 02 TG:@nodpai
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_8
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_186
-      - 荷兰【付费推荐：https://tt.vg/vip】248
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_542
-      - 梦歌|广港中继|解锁流媒体_38
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_63
-      - Singapore 01 TG:@nodpai
-      - RELAY-23.227.38.39-192
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_262
-      - JP-85.208.108.60-156
-      - _JP_日本_11_8@10
-      - 日本 005
-      - 美国【付费推荐：https://tt.vg/vip】571
-      - United States 01 TG:@nodpai
-      - _JP_日本_7_8@6
-      - South Korea 01 TG:@nodpai
-      - 罗马尼亚【付费推荐：https://tt.vg/vip】597
+      - _TW_台湾_2
+      - _US_电报频道 @pjrjzy 27
+      - _US_电报频道 @pjrjzy 36
+      - _US_电报频道 @pjrjzy 56
+      - _US_电报频道 @pjrjzy 61
+      - _US_美国 13
+      - _US_美国 2
+      - _US_美国 5
+      - GB-18.169.183.80-023
       - github.com/mehdimoghaddam-cell_10
-      - 加拿大 011
-      - _US 2
-      - 美国【付费推荐：https://tt.vg/vip】470
-      - JP-85.208.108.60-185
-      - undefined
-      - _JP_日本_4_8@3
-      - 美国 072
-      - 日本 011
-      - _JP_日本_21_8@22
-      - _PA_巴拿马_7@9
-      - _JP_日本_8_8@7
-      - 新加坡 014
-      - 日本 001
-      - RELAY-203.30.191.11-197
-      - _JP
-      - 梦歌|广港中继|解锁流媒体_53
-      - United States 04 TG:@nodpai
-      - United States 07 TG:@nodpai
-      - JP-85.208.108.60-183
-      - _JP_日本_3_7@15
-      - 梦歌|广港中继|解锁流媒体_116
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_288
+      - RELAY-104.21.84.81-131
+      - RELAY-172.67.27.128-138
+      - RELAY-190.93.246.2-130
+      - RELAY-203.24.108.2-129
+      - RELAY-203.30.190.1-123
+      - RELAY-203.30.190.2-127
+      - Taiwan 03 TG:@nodpai
+      - TW-1.171.203.31-122
+      - US-140.99.149.42-169
+      - US-142.0.139.55-006
+      - US-142.4.126.54-171
+      - US-142.4.97.73-003
+      - US-142.4.97.73-164
+      - _TW_台湾
+      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_195
+      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_856
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_79
+      - 荷兰【付费推荐：https://tt.vg/vip】178
       - 加拿大 044
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_303
-      - 加拿大 045
-      - 中国【付费推荐：https://tt.vg/vip】24
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_153
-      - US 398 → tg@nicevpn123
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
-      - _JP_日本_3_8@2
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_516
-      - _JP_日本_2_8@1
-      - 免费梯子https://t.me/mftizi
-      - JP-85.208.108.60-196
-      - 韩国 012
-      - _JP_日本_6_8@5
-      - _US_美国_3_11@45
+      - 美国【付费推荐：https://tt.vg/vip】129
+      - 美国【付费推荐：https://tt.vg/vip】16
+      - 美国【付费推荐：https://tt.vg/vip】190
+      - 美国【付费推荐：https://tt.vg/vip】198
+      - 美国【付费推荐：https://tt.vg/vip】210
+      - 美国【付费推荐：https://tt.vg/vip】221
+      - 美国【付费推荐：https://tt.vg/vip】238
+      - 美国【付费推荐：https://tt.vg/vip】275
+      - 美国【付费推荐：https://tt.vg/vip】284
+      - 美国【付费推荐：https://tt.vg/vip】3
+      - 美国【付费推荐：https://tt.vg/vip】5
+      - 美国【付费推荐：https://v1.mk/vip】118
+      - 美国-64D TG频道@v2ssfly
+      - 梦歌|广港中继|解锁流媒体_122
+      - 梦歌|广港中继|解锁流媒体_153
       - 梦歌|广港中继|解锁流媒体_164
-      - US 392 → tg@nicevpn123
-      - JP-85.208.108.60-194
-      - 美国【付费推荐：https://tt.vg/vip】659
-      - 美国【付费推荐：https://tt.vg/vip】497
-      - _PA_巴拿马
-      - _JP_日本_9_8@8
-      - JP-85.208.108.60-189
-      - JP-85.208.108.60-201
-      - _US_电报频道 @pjrjzy 68
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_430
-      - 美国【付费推荐：https://tt.vg/vip】471
+      - 梦歌|广港中继|解锁流媒体_171
+      - 梦歌|广港中继|解锁流媒体_174 2
+      - 梦歌|广港中继|解锁流媒体_40
+      - 梦歌|广港中继|解锁流媒体_54
+      - 伊朗+002
+      - 越南 003
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay 🇮🇩 Indonesia(ChatGPT) 13 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 17 TG:@nodpai
-      - Japan(ChatGPT) 03 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 15 TG:@nodpai
-      - 美国 025
-      - Relay 🇮🇩 Indonesia(ChatGPT) 12 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_108
-      - Relay 🇮🇩 Indonesia(ChatGPT) 03 TG:@nodpai
-      - 荷兰 006
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
-      - 美国【付费推荐：https://v1.mk/vip】112
-      - 加拿大 039
-      - US-142.4.108.57-188
-      - Finland(ChatGPT) 02 TG:@nodpai
-      - _AM_亚美尼亚->🇺🇸_US_美国
-      - 日本 008
-      - 美国【付费推荐：https://tt.vg/vip】231
-      - _US_美国->🇰🇷_KR_韩国
-      - Relay 🇨🇳 China 01 TG:@nodpai
-      - 加拿大 046
-      - Finland(ChatGPT) 01 TG:@nodpai
-      - Germany(ChatGPT) 01 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_216
-      - 美国【付费推荐：https://tt.vg/vip】324
-      - US-198.16.45.166-184
-      - Relay 🇮🇩 Indonesia(ChatGPT) 01 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_174
-      - Relay 🇮🇩 Indonesia(ChatGPT) 09 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_122
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_579
-      - 美国【付费推荐：https://tt.vg/vip】187
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 04 TG:@nodpai
-      - RELAY-162.159.44.164-002
-      - 伯利兹【付费推荐：https://tt.vg/vip】294
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_292
-      - 巴西 001
-      - 订阅已稳定12天，YouTube搜（ATOM科技）获取新的长效订阅_406
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_91
-      - 美国【付费推荐：https://tt.vg/vip】188
-      - 梦歌|广港中继|解锁流媒体_168
-      - _US_美国_7_6@33
-      - _US_美国_5_6@8
-      - 新加坡 023
-      - _KR
-      - 美国【付费推荐：https://tt.vg/vip】186
-      - 梦歌|广港中继|解锁流媒体_111
-      - 印度【付费推荐：https://v1.mk/vip】23
-      - 新加坡-0-0-ss-18.141.175.224:443
-      - _US_电报频道 @pjrjzy 38
-      - Singapore 02 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_53
-      - 美国-俄勒冈-0-ss-54.185.193.85:443
-      - 未知【付费推荐：https://v1.mk/vip】97
-      - Relay 🇮🇩 Indonesia(ChatGPT) 08 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 11 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_616
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_293
-      - US-198.16.45.166-148
-      - NONE
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_241
-      - "@v2rayng_org"
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_260
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
-      - _US_美国_9_6@12
-      - India 01 TG:@nodpai
-      - _US
-      - Relay 🇮🇩 Indonesia(ChatGPT) 14 TG:@nodpai
-      - 伯利兹【付费推荐：https://tt.vg/vip】291
-      - 加拿大 040
-      - _TW
-      - 梦歌|广港中继|解锁流媒体_111 2
-      - KR-43.201.50.238-018
-      - Relay 🇭🇰 Hong Kong 05 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】113
-      - Relay 🇮🇩 Indonesia(ChatGPT) 10 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_168 2
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_82
-      - _CN_中国->🇺🇸_US_美国_0@25
-      - _CN_中国
-      - 新加坡-0-0-ss-18.143.178.158:443
-      - Relay 🇮🇩 Indonesia(ChatGPT) 05 TG:@nodpai
-      - 美国【付费推荐：https://tt.vg/vip】488
-      - Relay 🇮🇩 Indonesia(ChatGPT) 07 TG:@nodpai
-      - _CN_欢迎订阅yui科技
-      - 美国【付费推荐：https://tt.vg/vip】480
-      - Relay 🇮🇩 Indonesia(ChatGPT) 06 TG:@nodpai
-      - Relay 🇮🇩 Indonesia 02 TG:@nodpai
-      - 日本 009
-      - US-23.224.14.142-191
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
-      - 梦歌|广港中继|解锁流媒体_174 2
-      - _US_美国_5_3@7
-      - 梦歌|广港中继|解锁流媒体_67
-      - Relay 🇮🇩 Indonesia(ChatGPT) 16 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
-      - _JP_日本_23_8@24
-      - 梦歌|广港中继|解锁流媒体_40
-      - _US_美国_13_6@37
-      - 美国【付费推荐：https://tt.vg/vip】616
-      - 美国【付费推荐：https://v1.mk/vip】136
-      - _GB
-      - 澳大利亚-0-0-ss-43.201.148.126:443
-      - Japan 01 TG:@nodpai
-      - 美国【付费推荐：https://tt.vg/vip】479
-      - _US_美国_4_2@6
-      - Relay 🇦🇹 Austria(ChatGPT) 01 TG:@nodpai
-      - _US_美国_5_2@12
-      - 印尼 002
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_59
-      - 美国【付费推荐：https://tt.vg/vip】222
-      - United States(ChatGPT) 05 TG:@nodpai
-      - _VN_越南_2@45
-      - RELAY-172.67.73.165-193
-      - 梦歌|广港中继|解锁流媒体_96
-      - 梦歌|广港中继|解锁流媒体_142
-      - 梦歌|广港中继|解锁流媒体_145
-      - _JP_日本_20_8@21
-      - 梦歌|广港中继|解锁流媒体_138
-      - US-198.2.218.217-202
-      - _JP_日本_18_8@19
-      - Relay 🇺🇸 United States 02 TG:@nodpai
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_8
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_186
-      - 荷兰【付费推荐：https://tt.vg/vip】248
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_542
-      - 梦歌|广港中继|解锁流媒体_38
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_63
-      - Singapore 01 TG:@nodpai
-      - RELAY-23.227.38.39-192
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_262
-      - JP-85.208.108.60-156
-      - _JP_日本_11_8@10
-      - 日本 005
-      - 美国【付费推荐：https://tt.vg/vip】571
-      - United States 01 TG:@nodpai
-      - _JP_日本_7_8@6
-      - South Korea 01 TG:@nodpai
-      - 罗马尼亚【付费推荐：https://tt.vg/vip】597
+      - _TW_台湾_2
+      - _US_电报频道 @pjrjzy 27
+      - _US_电报频道 @pjrjzy 36
+      - _US_电报频道 @pjrjzy 56
+      - _US_电报频道 @pjrjzy 61
+      - _US_美国 13
+      - _US_美国 2
+      - _US_美国 5
+      - GB-18.169.183.80-023
       - github.com/mehdimoghaddam-cell_10
-      - 加拿大 011
-      - _US 2
-      - 美国【付费推荐：https://tt.vg/vip】470
-      - JP-85.208.108.60-185
-      - undefined
-      - _JP_日本_4_8@3
-      - 美国 072
-      - 日本 011
-      - _JP_日本_21_8@22
-      - _PA_巴拿马_7@9
-      - _JP_日本_8_8@7
-      - 新加坡 014
-      - 日本 001
-      - RELAY-203.30.191.11-197
-      - _JP
-      - 梦歌|广港中继|解锁流媒体_53
-      - United States 04 TG:@nodpai
-      - United States 07 TG:@nodpai
-      - JP-85.208.108.60-183
-      - _JP_日本_3_7@15
-      - 梦歌|广港中继|解锁流媒体_116
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_288
+      - RELAY-104.21.84.81-131
+      - RELAY-172.67.27.128-138
+      - RELAY-190.93.246.2-130
+      - RELAY-203.24.108.2-129
+      - RELAY-203.30.190.1-123
+      - RELAY-203.30.190.2-127
+      - Taiwan 03 TG:@nodpai
+      - TW-1.171.203.31-122
+      - US-140.99.149.42-169
+      - US-142.0.139.55-006
+      - US-142.4.126.54-171
+      - US-142.4.97.73-003
+      - US-142.4.97.73-164
+      - _TW_台湾
+      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_195
+      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_856
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_79
+      - 荷兰【付费推荐：https://tt.vg/vip】178
       - 加拿大 044
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_303
-      - 加拿大 045
-      - 中国【付费推荐：https://tt.vg/vip】24
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_153
-      - US 398 → tg@nicevpn123
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
-      - _JP_日本_3_8@2
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_516
-      - _JP_日本_2_8@1
-      - 免费梯子https://t.me/mftizi
-      - JP-85.208.108.60-196
-      - 韩国 012
-      - _JP_日本_6_8@5
-      - _US_美国_3_11@45
+      - 美国【付费推荐：https://tt.vg/vip】129
+      - 美国【付费推荐：https://tt.vg/vip】16
+      - 美国【付费推荐：https://tt.vg/vip】190
+      - 美国【付费推荐：https://tt.vg/vip】198
+      - 美国【付费推荐：https://tt.vg/vip】210
+      - 美国【付费推荐：https://tt.vg/vip】221
+      - 美国【付费推荐：https://tt.vg/vip】238
+      - 美国【付费推荐：https://tt.vg/vip】275
+      - 美国【付费推荐：https://tt.vg/vip】284
+      - 美国【付费推荐：https://tt.vg/vip】3
+      - 美国【付费推荐：https://tt.vg/vip】5
+      - 美国【付费推荐：https://v1.mk/vip】118
+      - 美国-64D TG频道@v2ssfly
+      - 梦歌|广港中继|解锁流媒体_122
+      - 梦歌|广港中继|解锁流媒体_153
       - 梦歌|广港中继|解锁流媒体_164
-      - US 392 → tg@nicevpn123
-      - JP-85.208.108.60-194
-      - 美国【付费推荐：https://tt.vg/vip】659
-      - 美国【付费推荐：https://tt.vg/vip】497
-      - _PA_巴拿马
-      - _JP_日本_9_8@8
-      - JP-85.208.108.60-189
-      - JP-85.208.108.60-201
-      - _US_电报频道 @pjrjzy 68
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_430
-      - 美国【付费推荐：https://tt.vg/vip】471
+      - 梦歌|广港中继|解锁流媒体_171
+      - 梦歌|广港中继|解锁流媒体_174 2
+      - 梦歌|广港中继|解锁流媒体_40
+      - 梦歌|广港中继|解锁流媒体_54
+      - 伊朗+002
+      - 越南 003
+    _index: 1
+  - name: ♻️ youtube
+    proxies:
+      - _TW_台湾_2
+      - _US_电报频道 @pjrjzy 27
+      - _US_电报频道 @pjrjzy 36
+      - _US_电报频道 @pjrjzy 56
+      - _US_电报频道 @pjrjzy 61
+      - _US_美国 13
+      - _US_美国 2
+      - _US_美国 5
+      - GB-18.169.183.80-023
+      - github.com/mehdimoghaddam-cell_10
+      - RELAY-104.21.84.81-131
+      - RELAY-172.67.27.128-138
+      - RELAY-190.93.246.2-130
+      - RELAY-203.24.108.2-129
+      - RELAY-203.30.190.1-123
+      - RELAY-203.30.190.2-127
+      - Taiwan 03 TG:@nodpai
+      - TW-1.171.203.31-122
+      - US-140.99.149.42-169
+      - US-142.0.139.55-006
+      - US-142.4.126.54-171
+      - US-142.4.97.73-003
+      - US-142.4.97.73-164
+      - _TW_台湾
+      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_195
+      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_856
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_79
+      - 荷兰【付费推荐：https://tt.vg/vip】178
+      - 加拿大 044
+      - 美国【付费推荐：https://tt.vg/vip】129
+      - 美国【付费推荐：https://tt.vg/vip】16
+      - 美国【付费推荐：https://tt.vg/vip】190
+      - 美国【付费推荐：https://tt.vg/vip】198
+      - 美国【付费推荐：https://tt.vg/vip】210
+      - 美国【付费推荐：https://tt.vg/vip】221
+      - 美国【付费推荐：https://tt.vg/vip】238
+      - 美国【付费推荐：https://tt.vg/vip】275
+      - 美国【付费推荐：https://tt.vg/vip】284
+      - 美国【付费推荐：https://tt.vg/vip】3
+      - 美国【付费推荐：https://tt.vg/vip】5
+      - 美国【付费推荐：https://v1.mk/vip】118
+      - 美国-64D TG频道@v2ssfly
+      - 梦歌|广港中继|解锁流媒体_122
+      - 梦歌|广港中继|解锁流媒体_153
+      - 梦歌|广港中继|解锁流媒体_164
+      - 梦歌|广港中继|解锁流媒体_171
+      - 梦歌|广港中继|解锁流媒体_174 2
+      - 梦歌|广港中继|解锁流媒体_40
+      - 梦歌|广港中继|解锁流媒体_54
+      - 伊朗+002
+      - 越南 003
+    type: fallback
+    url: https://www.youtube.com
+    interval: "10"
+  - name: ♻️ MISSAV
+    proxies:
+      - _TW_台湾_2
+      - _US_电报频道 @pjrjzy 27
+      - _US_电报频道 @pjrjzy 36
+      - _US_电报频道 @pjrjzy 56
+      - _US_电报频道 @pjrjzy 61
+      - _US_美国 13
+      - _US_美国 2
+      - _US_美国 5
+      - GB-18.169.183.80-023
+      - github.com/mehdimoghaddam-cell_10
+      - RELAY-104.21.84.81-131
+      - RELAY-172.67.27.128-138
+      - RELAY-190.93.246.2-130
+      - RELAY-203.24.108.2-129
+      - RELAY-203.30.190.1-123
+      - RELAY-203.30.190.2-127
+      - Taiwan 03 TG:@nodpai
+      - TW-1.171.203.31-122
+      - US-140.99.149.42-169
+      - US-142.0.139.55-006
+      - US-142.4.126.54-171
+      - US-142.4.97.73-003
+      - US-142.4.97.73-164
+      - _TW_台湾
+      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_195
+      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_856
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_79
+      - 荷兰【付费推荐：https://tt.vg/vip】178
+      - 加拿大 044
+      - 美国【付费推荐：https://tt.vg/vip】129
+      - 美国【付费推荐：https://tt.vg/vip】16
+      - 美国【付费推荐：https://tt.vg/vip】190
+      - 美国【付费推荐：https://tt.vg/vip】198
+      - 美国【付费推荐：https://tt.vg/vip】210
+      - 美国【付费推荐：https://tt.vg/vip】221
+      - 美国【付费推荐：https://tt.vg/vip】238
+      - 美国【付费推荐：https://tt.vg/vip】275
+      - 美国【付费推荐：https://tt.vg/vip】284
+      - 美国【付费推荐：https://tt.vg/vip】3
+      - 美国【付费推荐：https://tt.vg/vip】5
+      - 美国【付费推荐：https://v1.mk/vip】118
+      - 美国-64D TG频道@v2ssfly
+      - 梦歌|广港中继|解锁流媒体_122
+      - 梦歌|广港中继|解锁流媒体_153
+      - 梦歌|广港中继|解锁流媒体_164
+      - 梦歌|广港中继|解锁流媒体_171
+      - 梦歌|广港中继|解锁流媒体_174 2
+      - 梦歌|广港中继|解锁流媒体_40
+      - 梦歌|广港中继|解锁流媒体_54
+      - 伊朗+002
+      - 越南 003
+    type: fallback
+    url: http://www.missav.com
+    interval: "10"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2648,587 +947,183 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay 🇮🇩 Indonesia(ChatGPT) 13 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 17 TG:@nodpai
-      - Japan(ChatGPT) 03 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 15 TG:@nodpai
-      - 美国 025
-      - Relay 🇮🇩 Indonesia(ChatGPT) 12 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_108
-      - Relay 🇮🇩 Indonesia(ChatGPT) 03 TG:@nodpai
-      - 荷兰 006
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
-      - 美国【付费推荐：https://v1.mk/vip】112
-      - 加拿大 039
-      - US-142.4.108.57-188
-      - Finland(ChatGPT) 02 TG:@nodpai
-      - _AM_亚美尼亚->🇺🇸_US_美国
-      - 日本 008
-      - 美国【付费推荐：https://tt.vg/vip】231
-      - _US_美国->🇰🇷_KR_韩国
-      - Relay 🇨🇳 China 01 TG:@nodpai
-      - 加拿大 046
-      - Finland(ChatGPT) 01 TG:@nodpai
-      - Germany(ChatGPT) 01 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_216
-      - 美国【付费推荐：https://tt.vg/vip】324
-      - US-198.16.45.166-184
-      - Relay 🇮🇩 Indonesia(ChatGPT) 01 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_174
-      - Relay 🇮🇩 Indonesia(ChatGPT) 09 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_122
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_579
-      - 美国【付费推荐：https://tt.vg/vip】187
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 04 TG:@nodpai
-      - RELAY-162.159.44.164-002
-      - 伯利兹【付费推荐：https://tt.vg/vip】294
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_292
-      - 巴西 001
-      - 订阅已稳定12天，YouTube搜（ATOM科技）获取新的长效订阅_406
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_91
-      - 美国【付费推荐：https://tt.vg/vip】188
-      - 梦歌|广港中继|解锁流媒体_168
-      - _US_美国_7_6@33
-      - _US_美国_5_6@8
-      - 新加坡 023
-      - _KR
-      - 美国【付费推荐：https://tt.vg/vip】186
-      - 梦歌|广港中继|解锁流媒体_111
-      - 印度【付费推荐：https://v1.mk/vip】23
-      - 新加坡-0-0-ss-18.141.175.224:443
-      - _US_电报频道 @pjrjzy 38
-      - Singapore 02 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_53
-      - 美国-俄勒冈-0-ss-54.185.193.85:443
-      - 未知【付费推荐：https://v1.mk/vip】97
-      - Relay 🇮🇩 Indonesia(ChatGPT) 08 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 11 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_616
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_293
-      - US-198.16.45.166-148
-      - NONE
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_241
-      - "@v2rayng_org"
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_260
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
-      - _US_美国_9_6@12
-      - India 01 TG:@nodpai
-      - _US
-      - Relay 🇮🇩 Indonesia(ChatGPT) 14 TG:@nodpai
-      - 伯利兹【付费推荐：https://tt.vg/vip】291
-      - 加拿大 040
-      - _TW
-      - 梦歌|广港中继|解锁流媒体_111 2
-      - KR-43.201.50.238-018
-      - Relay 🇭🇰 Hong Kong 05 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】113
-      - Relay 🇮🇩 Indonesia(ChatGPT) 10 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_168 2
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_82
-      - _CN_中国->🇺🇸_US_美国_0@25
-      - _CN_中国
-      - 新加坡-0-0-ss-18.143.178.158:443
-      - Relay 🇮🇩 Indonesia(ChatGPT) 05 TG:@nodpai
-      - 美国【付费推荐：https://tt.vg/vip】488
-      - Relay 🇮🇩 Indonesia(ChatGPT) 07 TG:@nodpai
-      - _CN_欢迎订阅yui科技
-      - 美国【付费推荐：https://tt.vg/vip】480
-      - Relay 🇮🇩 Indonesia(ChatGPT) 06 TG:@nodpai
-      - Relay 🇮🇩 Indonesia 02 TG:@nodpai
-      - 日本 009
-      - US-23.224.14.142-191
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
-      - 梦歌|广港中继|解锁流媒体_174 2
-      - _US_美国_5_3@7
-      - 梦歌|广港中继|解锁流媒体_67
-      - Relay 🇮🇩 Indonesia(ChatGPT) 16 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
-      - _JP_日本_23_8@24
-      - 梦歌|广港中继|解锁流媒体_40
-      - _US_美国_13_6@37
-      - 美国【付费推荐：https://tt.vg/vip】616
-      - 美国【付费推荐：https://v1.mk/vip】136
-      - _GB
-      - 澳大利亚-0-0-ss-43.201.148.126:443
-      - Japan 01 TG:@nodpai
-      - 美国【付费推荐：https://tt.vg/vip】479
-      - _US_美国_4_2@6
-      - Relay 🇦🇹 Austria(ChatGPT) 01 TG:@nodpai
-      - _US_美国_5_2@12
-      - 印尼 002
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_59
-      - 美国【付费推荐：https://tt.vg/vip】222
-      - United States(ChatGPT) 05 TG:@nodpai
-      - _VN_越南_2@45
-      - RELAY-172.67.73.165-193
-      - 梦歌|广港中继|解锁流媒体_96
-      - 梦歌|广港中继|解锁流媒体_142
-      - 梦歌|广港中继|解锁流媒体_145
-      - _JP_日本_20_8@21
-      - 梦歌|广港中继|解锁流媒体_138
-      - US-198.2.218.217-202
-      - _JP_日本_18_8@19
-      - Relay 🇺🇸 United States 02 TG:@nodpai
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_8
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_186
-      - 荷兰【付费推荐：https://tt.vg/vip】248
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_542
-      - 梦歌|广港中继|解锁流媒体_38
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_63
-      - Singapore 01 TG:@nodpai
-      - RELAY-23.227.38.39-192
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_262
-      - JP-85.208.108.60-156
-      - _JP_日本_11_8@10
-      - 日本 005
-      - 美国【付费推荐：https://tt.vg/vip】571
-      - United States 01 TG:@nodpai
-      - _JP_日本_7_8@6
-      - South Korea 01 TG:@nodpai
-      - 罗马尼亚【付费推荐：https://tt.vg/vip】597
+      - _TW_台湾_2
+      - _US_电报频道 @pjrjzy 27
+      - _US_电报频道 @pjrjzy 36
+      - _US_电报频道 @pjrjzy 56
+      - _US_电报频道 @pjrjzy 61
+      - _US_美国 13
+      - _US_美国 2
+      - _US_美国 5
+      - GB-18.169.183.80-023
       - github.com/mehdimoghaddam-cell_10
-      - 加拿大 011
-      - _US 2
-      - 美国【付费推荐：https://tt.vg/vip】470
-      - JP-85.208.108.60-185
-      - undefined
-      - _JP_日本_4_8@3
-      - 美国 072
-      - 日本 011
-      - _JP_日本_21_8@22
-      - _PA_巴拿马_7@9
-      - _JP_日本_8_8@7
-      - 新加坡 014
-      - 日本 001
-      - RELAY-203.30.191.11-197
-      - _JP
-      - 梦歌|广港中继|解锁流媒体_53
-      - United States 04 TG:@nodpai
-      - United States 07 TG:@nodpai
-      - JP-85.208.108.60-183
-      - _JP_日本_3_7@15
-      - 梦歌|广港中继|解锁流媒体_116
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_288
+      - RELAY-104.21.84.81-131
+      - RELAY-172.67.27.128-138
+      - RELAY-190.93.246.2-130
+      - RELAY-203.24.108.2-129
+      - RELAY-203.30.190.1-123
+      - RELAY-203.30.190.2-127
+      - Taiwan 03 TG:@nodpai
+      - TW-1.171.203.31-122
+      - US-140.99.149.42-169
+      - US-142.0.139.55-006
+      - US-142.4.126.54-171
+      - US-142.4.97.73-003
+      - US-142.4.97.73-164
+      - _TW_台湾
+      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_195
+      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_856
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_79
+      - 荷兰【付费推荐：https://tt.vg/vip】178
       - 加拿大 044
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_303
-      - 加拿大 045
-      - 中国【付费推荐：https://tt.vg/vip】24
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_153
-      - US 398 → tg@nicevpn123
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
-      - _JP_日本_3_8@2
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_516
-      - _JP_日本_2_8@1
-      - 免费梯子https://t.me/mftizi
-      - JP-85.208.108.60-196
-      - 韩国 012
-      - _JP_日本_6_8@5
-      - _US_美国_3_11@45
+      - 美国【付费推荐：https://tt.vg/vip】129
+      - 美国【付费推荐：https://tt.vg/vip】16
+      - 美国【付费推荐：https://tt.vg/vip】190
+      - 美国【付费推荐：https://tt.vg/vip】198
+      - 美国【付费推荐：https://tt.vg/vip】210
+      - 美国【付费推荐：https://tt.vg/vip】221
+      - 美国【付费推荐：https://tt.vg/vip】238
+      - 美国【付费推荐：https://tt.vg/vip】275
+      - 美国【付费推荐：https://tt.vg/vip】284
+      - 美国【付费推荐：https://tt.vg/vip】3
+      - 美国【付费推荐：https://tt.vg/vip】5
+      - 美国【付费推荐：https://v1.mk/vip】118
+      - 美国-64D TG频道@v2ssfly
+      - 梦歌|广港中继|解锁流媒体_122
+      - 梦歌|广港中继|解锁流媒体_153
       - 梦歌|广港中继|解锁流媒体_164
-      - US 392 → tg@nicevpn123
-      - JP-85.208.108.60-194
-      - 美国【付费推荐：https://tt.vg/vip】659
-      - 美国【付费推荐：https://tt.vg/vip】497
-      - _PA_巴拿马
-      - _JP_日本_9_8@8
-      - JP-85.208.108.60-189
-      - JP-85.208.108.60-201
-      - _US_电报频道 @pjrjzy 68
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_430
-      - 美国【付费推荐：https://tt.vg/vip】471
+      - 梦歌|广港中继|解锁流媒体_171
+      - 梦歌|广港中继|解锁流媒体_174 2
+      - 梦歌|广港中继|解锁流媒体_40
+      - 梦歌|广港中继|解锁流媒体_54
+      - 伊朗+002
+      - 越南 003
   - name: ⚖️ 负载均衡-散列
     type: load-balance
     url: https://www.youtube.com/
     interval: 5
     strategy: consistent-hashing
     proxies:
-      - Relay 🇮🇩 Indonesia(ChatGPT) 13 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 17 TG:@nodpai
-      - Japan(ChatGPT) 03 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 15 TG:@nodpai
-      - 美国 025
-      - Relay 🇮🇩 Indonesia(ChatGPT) 12 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_108
-      - Relay 🇮🇩 Indonesia(ChatGPT) 03 TG:@nodpai
-      - 荷兰 006
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
-      - 美国【付费推荐：https://v1.mk/vip】112
-      - 加拿大 039
-      - US-142.4.108.57-188
-      - Finland(ChatGPT) 02 TG:@nodpai
-      - _AM_亚美尼亚->🇺🇸_US_美国
-      - 日本 008
-      - 美国【付费推荐：https://tt.vg/vip】231
-      - _US_美国->🇰🇷_KR_韩国
-      - Relay 🇨🇳 China 01 TG:@nodpai
-      - 加拿大 046
-      - Finland(ChatGPT) 01 TG:@nodpai
-      - Germany(ChatGPT) 01 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_216
-      - 美国【付费推荐：https://tt.vg/vip】324
-      - US-198.16.45.166-184
-      - Relay 🇮🇩 Indonesia(ChatGPT) 01 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_174
-      - Relay 🇮🇩 Indonesia(ChatGPT) 09 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_122
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_579
-      - 美国【付费推荐：https://tt.vg/vip】187
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 04 TG:@nodpai
-      - RELAY-162.159.44.164-002
-      - 伯利兹【付费推荐：https://tt.vg/vip】294
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_292
-      - 巴西 001
-      - 订阅已稳定12天，YouTube搜（ATOM科技）获取新的长效订阅_406
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_91
-      - 美国【付费推荐：https://tt.vg/vip】188
-      - 梦歌|广港中继|解锁流媒体_168
-      - _US_美国_7_6@33
-      - _US_美国_5_6@8
-      - 新加坡 023
-      - _KR
-      - 美国【付费推荐：https://tt.vg/vip】186
-      - 梦歌|广港中继|解锁流媒体_111
-      - 印度【付费推荐：https://v1.mk/vip】23
-      - 新加坡-0-0-ss-18.141.175.224:443
-      - _US_电报频道 @pjrjzy 38
-      - Singapore 02 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_53
-      - 美国-俄勒冈-0-ss-54.185.193.85:443
-      - 未知【付费推荐：https://v1.mk/vip】97
-      - Relay 🇮🇩 Indonesia(ChatGPT) 08 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 11 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_616
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_293
-      - US-198.16.45.166-148
-      - NONE
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_241
-      - "@v2rayng_org"
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_260
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
-      - _US_美国_9_6@12
-      - India 01 TG:@nodpai
-      - _US
-      - Relay 🇮🇩 Indonesia(ChatGPT) 14 TG:@nodpai
-      - 伯利兹【付费推荐：https://tt.vg/vip】291
-      - 加拿大 040
-      - _TW
-      - 梦歌|广港中继|解锁流媒体_111 2
-      - KR-43.201.50.238-018
-      - Relay 🇭🇰 Hong Kong 05 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】113
-      - Relay 🇮🇩 Indonesia(ChatGPT) 10 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_168 2
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_82
-      - _CN_中国->🇺🇸_US_美国_0@25
-      - _CN_中国
-      - 新加坡-0-0-ss-18.143.178.158:443
-      - Relay 🇮🇩 Indonesia(ChatGPT) 05 TG:@nodpai
-      - 美国【付费推荐：https://tt.vg/vip】488
-      - Relay 🇮🇩 Indonesia(ChatGPT) 07 TG:@nodpai
-      - _CN_欢迎订阅yui科技
-      - 美国【付费推荐：https://tt.vg/vip】480
-      - Relay 🇮🇩 Indonesia(ChatGPT) 06 TG:@nodpai
-      - Relay 🇮🇩 Indonesia 02 TG:@nodpai
-      - 日本 009
-      - US-23.224.14.142-191
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
-      - 梦歌|广港中继|解锁流媒体_174 2
-      - _US_美国_5_3@7
-      - 梦歌|广港中继|解锁流媒体_67
-      - Relay 🇮🇩 Indonesia(ChatGPT) 16 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
-      - _JP_日本_23_8@24
-      - 梦歌|广港中继|解锁流媒体_40
-      - _US_美国_13_6@37
-      - 美国【付费推荐：https://tt.vg/vip】616
-      - 美国【付费推荐：https://v1.mk/vip】136
-      - _GB
-      - 澳大利亚-0-0-ss-43.201.148.126:443
-      - Japan 01 TG:@nodpai
-      - 美国【付费推荐：https://tt.vg/vip】479
-      - _US_美国_4_2@6
-      - Relay 🇦🇹 Austria(ChatGPT) 01 TG:@nodpai
-      - _US_美国_5_2@12
-      - 印尼 002
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_59
-      - 美国【付费推荐：https://tt.vg/vip】222
-      - United States(ChatGPT) 05 TG:@nodpai
-      - _VN_越南_2@45
-      - RELAY-172.67.73.165-193
-      - 梦歌|广港中继|解锁流媒体_96
-      - 梦歌|广港中继|解锁流媒体_142
-      - 梦歌|广港中继|解锁流媒体_145
-      - _JP_日本_20_8@21
-      - 梦歌|广港中继|解锁流媒体_138
-      - US-198.2.218.217-202
-      - _JP_日本_18_8@19
-      - Relay 🇺🇸 United States 02 TG:@nodpai
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_8
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_186
-      - 荷兰【付费推荐：https://tt.vg/vip】248
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_542
-      - 梦歌|广港中继|解锁流媒体_38
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_63
-      - Singapore 01 TG:@nodpai
-      - RELAY-23.227.38.39-192
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_262
-      - JP-85.208.108.60-156
-      - _JP_日本_11_8@10
-      - 日本 005
-      - 美国【付费推荐：https://tt.vg/vip】571
-      - United States 01 TG:@nodpai
-      - _JP_日本_7_8@6
-      - South Korea 01 TG:@nodpai
-      - 罗马尼亚【付费推荐：https://tt.vg/vip】597
+      - _TW_台湾_2
+      - _US_电报频道 @pjrjzy 27
+      - _US_电报频道 @pjrjzy 36
+      - _US_电报频道 @pjrjzy 56
+      - _US_电报频道 @pjrjzy 61
+      - _US_美国 13
+      - _US_美国 2
+      - _US_美国 5
+      - GB-18.169.183.80-023
       - github.com/mehdimoghaddam-cell_10
-      - 加拿大 011
-      - _US 2
-      - 美国【付费推荐：https://tt.vg/vip】470
-      - JP-85.208.108.60-185
-      - undefined
-      - _JP_日本_4_8@3
-      - 美国 072
-      - 日本 011
-      - _JP_日本_21_8@22
-      - _PA_巴拿马_7@9
-      - _JP_日本_8_8@7
-      - 新加坡 014
-      - 日本 001
-      - RELAY-203.30.191.11-197
-      - _JP
-      - 梦歌|广港中继|解锁流媒体_53
-      - United States 04 TG:@nodpai
-      - United States 07 TG:@nodpai
-      - JP-85.208.108.60-183
-      - _JP_日本_3_7@15
-      - 梦歌|广港中继|解锁流媒体_116
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_288
+      - RELAY-104.21.84.81-131
+      - RELAY-172.67.27.128-138
+      - RELAY-190.93.246.2-130
+      - RELAY-203.24.108.2-129
+      - RELAY-203.30.190.1-123
+      - RELAY-203.30.190.2-127
+      - Taiwan 03 TG:@nodpai
+      - TW-1.171.203.31-122
+      - US-140.99.149.42-169
+      - US-142.0.139.55-006
+      - US-142.4.126.54-171
+      - US-142.4.97.73-003
+      - US-142.4.97.73-164
+      - _TW_台湾
+      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_195
+      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_856
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_79
+      - 荷兰【付费推荐：https://tt.vg/vip】178
       - 加拿大 044
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_303
-      - 加拿大 045
-      - 中国【付费推荐：https://tt.vg/vip】24
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_153
-      - US 398 → tg@nicevpn123
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
-      - _JP_日本_3_8@2
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_516
-      - _JP_日本_2_8@1
-      - 免费梯子https://t.me/mftizi
-      - JP-85.208.108.60-196
-      - 韩国 012
-      - _JP_日本_6_8@5
-      - _US_美国_3_11@45
+      - 美国【付费推荐：https://tt.vg/vip】129
+      - 美国【付费推荐：https://tt.vg/vip】16
+      - 美国【付费推荐：https://tt.vg/vip】190
+      - 美国【付费推荐：https://tt.vg/vip】198
+      - 美国【付费推荐：https://tt.vg/vip】210
+      - 美国【付费推荐：https://tt.vg/vip】221
+      - 美国【付费推荐：https://tt.vg/vip】238
+      - 美国【付费推荐：https://tt.vg/vip】275
+      - 美国【付费推荐：https://tt.vg/vip】284
+      - 美国【付费推荐：https://tt.vg/vip】3
+      - 美国【付费推荐：https://tt.vg/vip】5
+      - 美国【付费推荐：https://v1.mk/vip】118
+      - 美国-64D TG频道@v2ssfly
+      - 梦歌|广港中继|解锁流媒体_122
+      - 梦歌|广港中继|解锁流媒体_153
       - 梦歌|广港中继|解锁流媒体_164
-      - US 392 → tg@nicevpn123
-      - JP-85.208.108.60-194
-      - 美国【付费推荐：https://tt.vg/vip】659
-      - 美国【付费推荐：https://tt.vg/vip】497
-      - _PA_巴拿马
-      - _JP_日本_9_8@8
-      - JP-85.208.108.60-189
-      - JP-85.208.108.60-201
-      - _US_电报频道 @pjrjzy 68
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_430
-      - 美国【付费推荐：https://tt.vg/vip】471
+      - 梦歌|广港中继|解锁流媒体_171
+      - 梦歌|广港中继|解锁流媒体_174 2
+      - 梦歌|广港中继|解锁流媒体_40
+      - 梦歌|广港中继|解锁流媒体_54
+      - 伊朗+002
+      - 越南 003
   - name: ⚖️ 负载均衡-轮询
     type: load-balance
     url: hhttps://www.youtube.com/
     interval: 5
     strategy: round-robin
     proxies:
-      - Relay 🇮🇩 Indonesia(ChatGPT) 13 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 17 TG:@nodpai
-      - Japan(ChatGPT) 03 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 15 TG:@nodpai
-      - 美国 025
-      - Relay 🇮🇩 Indonesia(ChatGPT) 12 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_108
-      - Relay 🇮🇩 Indonesia(ChatGPT) 03 TG:@nodpai
-      - 荷兰 006
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
-      - 美国【付费推荐：https://v1.mk/vip】112
-      - 加拿大 039
-      - US-142.4.108.57-188
-      - Finland(ChatGPT) 02 TG:@nodpai
-      - _AM_亚美尼亚->🇺🇸_US_美国
-      - 日本 008
-      - 美国【付费推荐：https://tt.vg/vip】231
-      - _US_美国->🇰🇷_KR_韩国
-      - Relay 🇨🇳 China 01 TG:@nodpai
-      - 加拿大 046
-      - Finland(ChatGPT) 01 TG:@nodpai
-      - Germany(ChatGPT) 01 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_216
-      - 美国【付费推荐：https://tt.vg/vip】324
-      - US-198.16.45.166-184
-      - Relay 🇮🇩 Indonesia(ChatGPT) 01 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_174
-      - Relay 🇮🇩 Indonesia(ChatGPT) 09 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_122
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_579
-      - 美国【付费推荐：https://tt.vg/vip】187
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 03 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 04 TG:@nodpai
-      - RELAY-162.159.44.164-002
-      - 伯利兹【付费推荐：https://tt.vg/vip】294
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_292
-      - 巴西 001
-      - 订阅已稳定12天，YouTube搜（ATOM科技）获取新的长效订阅_406
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_91
-      - 美国【付费推荐：https://tt.vg/vip】188
-      - 梦歌|广港中继|解锁流媒体_168
-      - _US_美国_7_6@33
-      - _US_美国_5_6@8
-      - 新加坡 023
-      - _KR
-      - 美国【付费推荐：https://tt.vg/vip】186
-      - 梦歌|广港中继|解锁流媒体_111
-      - 印度【付费推荐：https://v1.mk/vip】23
-      - 新加坡-0-0-ss-18.141.175.224:443
-      - _US_电报频道 @pjrjzy 38
-      - Singapore 02 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_53
-      - 美国-俄勒冈-0-ss-54.185.193.85:443
-      - 未知【付费推荐：https://v1.mk/vip】97
-      - Relay 🇮🇩 Indonesia(ChatGPT) 08 TG:@nodpai
-      - Relay 🇮🇩 Indonesia(ChatGPT) 11 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_616
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_293
-      - US-198.16.45.166-148
-      - NONE
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_241
-      - "@v2rayng_org"
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_260
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
-      - _US_美国_9_6@12
-      - India 01 TG:@nodpai
-      - _US
-      - Relay 🇮🇩 Indonesia(ChatGPT) 14 TG:@nodpai
-      - 伯利兹【付费推荐：https://tt.vg/vip】291
-      - 加拿大 040
-      - _TW
-      - 梦歌|广港中继|解锁流媒体_111 2
-      - KR-43.201.50.238-018
-      - Relay 🇭🇰 Hong Kong 05 TG:@nodpai
-      - 美国【付费推荐：https://v1.mk/vip】113
-      - Relay 🇮🇩 Indonesia(ChatGPT) 10 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_168 2
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_82
-      - _CN_中国->🇺🇸_US_美国_0@25
-      - _CN_中国
-      - 新加坡-0-0-ss-18.143.178.158:443
-      - Relay 🇮🇩 Indonesia(ChatGPT) 05 TG:@nodpai
-      - 美国【付费推荐：https://tt.vg/vip】488
-      - Relay 🇮🇩 Indonesia(ChatGPT) 07 TG:@nodpai
-      - _CN_欢迎订阅yui科技
-      - 美国【付费推荐：https://tt.vg/vip】480
-      - Relay 🇮🇩 Indonesia(ChatGPT) 06 TG:@nodpai
-      - Relay 🇮🇩 Indonesia 02 TG:@nodpai
-      - 日本 009
-      - US-23.224.14.142-191
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
-      - 梦歌|广港中继|解锁流媒体_174 2
-      - _US_美国_5_3@7
-      - 梦歌|广港中继|解锁流媒体_67
-      - Relay 🇮🇩 Indonesia(ChatGPT) 16 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
-      - _JP_日本_23_8@24
-      - 梦歌|广港中继|解锁流媒体_40
-      - _US_美国_13_6@37
-      - 美国【付费推荐：https://tt.vg/vip】616
-      - 美国【付费推荐：https://v1.mk/vip】136
-      - _GB
-      - 澳大利亚-0-0-ss-43.201.148.126:443
-      - Japan 01 TG:@nodpai
-      - 美国【付费推荐：https://tt.vg/vip】479
-      - _US_美国_4_2@6
-      - Relay 🇦🇹 Austria(ChatGPT) 01 TG:@nodpai
-      - _US_美国_5_2@12
-      - 印尼 002
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_59
-      - 美国【付费推荐：https://tt.vg/vip】222
-      - United States(ChatGPT) 05 TG:@nodpai
-      - _VN_越南_2@45
-      - RELAY-172.67.73.165-193
-      - 梦歌|广港中继|解锁流媒体_96
-      - 梦歌|广港中继|解锁流媒体_142
-      - 梦歌|广港中继|解锁流媒体_145
-      - _JP_日本_20_8@21
-      - 梦歌|广港中继|解锁流媒体_138
-      - US-198.2.218.217-202
-      - _JP_日本_18_8@19
-      - Relay 🇺🇸 United States 02 TG:@nodpai
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_8
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_186
-      - 荷兰【付费推荐：https://tt.vg/vip】248
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_542
-      - 梦歌|广港中继|解锁流媒体_38
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_63
-      - Singapore 01 TG:@nodpai
-      - RELAY-23.227.38.39-192
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_262
-      - JP-85.208.108.60-156
-      - _JP_日本_11_8@10
-      - 日本 005
-      - 美国【付费推荐：https://tt.vg/vip】571
-      - United States 01 TG:@nodpai
-      - _JP_日本_7_8@6
-      - South Korea 01 TG:@nodpai
-      - 罗马尼亚【付费推荐：https://tt.vg/vip】597
+      - _TW_台湾_2
+      - _US_电报频道 @pjrjzy 27
+      - _US_电报频道 @pjrjzy 36
+      - _US_电报频道 @pjrjzy 56
+      - _US_电报频道 @pjrjzy 61
+      - _US_美国 13
+      - _US_美国 2
+      - _US_美国 5
+      - GB-18.169.183.80-023
       - github.com/mehdimoghaddam-cell_10
-      - 加拿大 011
-      - _US 2
-      - 美国【付费推荐：https://tt.vg/vip】470
-      - JP-85.208.108.60-185
-      - undefined
-      - _JP_日本_4_8@3
-      - 美国 072
-      - 日本 011
-      - _JP_日本_21_8@22
-      - _PA_巴拿马_7@9
-      - _JP_日本_8_8@7
-      - 新加坡 014
-      - 日本 001
-      - RELAY-203.30.191.11-197
-      - _JP
-      - 梦歌|广港中继|解锁流媒体_53
-      - United States 04 TG:@nodpai
-      - United States 07 TG:@nodpai
-      - JP-85.208.108.60-183
-      - _JP_日本_3_7@15
-      - 梦歌|广港中继|解锁流媒体_116
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_288
+      - RELAY-104.21.84.81-131
+      - RELAY-172.67.27.128-138
+      - RELAY-190.93.246.2-130
+      - RELAY-203.24.108.2-129
+      - RELAY-203.30.190.1-123
+      - RELAY-203.30.190.2-127
+      - Taiwan 03 TG:@nodpai
+      - TW-1.171.203.31-122
+      - US-140.99.149.42-169
+      - US-142.0.139.55-006
+      - US-142.4.126.54-171
+      - US-142.4.97.73-003
+      - US-142.4.97.73-164
+      - _TW_台湾
+      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_195
+      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_856
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_79
+      - 荷兰【付费推荐：https://tt.vg/vip】178
       - 加拿大 044
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_303
-      - 加拿大 045
-      - 中国【付费推荐：https://tt.vg/vip】24
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_153
-      - US 398 → tg@nicevpn123
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
-      - _JP_日本_3_8@2
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_516
-      - _JP_日本_2_8@1
-      - 免费梯子https://t.me/mftizi
-      - JP-85.208.108.60-196
-      - 韩国 012
-      - _JP_日本_6_8@5
-      - _US_美国_3_11@45
+      - 美国【付费推荐：https://tt.vg/vip】129
+      - 美国【付费推荐：https://tt.vg/vip】16
+      - 美国【付费推荐：https://tt.vg/vip】190
+      - 美国【付费推荐：https://tt.vg/vip】198
+      - 美国【付费推荐：https://tt.vg/vip】210
+      - 美国【付费推荐：https://tt.vg/vip】221
+      - 美国【付费推荐：https://tt.vg/vip】238
+      - 美国【付费推荐：https://tt.vg/vip】275
+      - 美国【付费推荐：https://tt.vg/vip】284
+      - 美国【付费推荐：https://tt.vg/vip】3
+      - 美国【付费推荐：https://tt.vg/vip】5
+      - 美国【付费推荐：https://v1.mk/vip】118
+      - 美国-64D TG频道@v2ssfly
+      - 梦歌|广港中继|解锁流媒体_122
+      - 梦歌|广港中继|解锁流媒体_153
       - 梦歌|广港中继|解锁流媒体_164
-      - US 392 → tg@nicevpn123
-      - JP-85.208.108.60-194
-      - 美国【付费推荐：https://tt.vg/vip】659
-      - 美国【付费推荐：https://tt.vg/vip】497
-      - _PA_巴拿马
-      - _JP_日本_9_8@8
-      - JP-85.208.108.60-189
-      - JP-85.208.108.60-201
-      - _US_电报频道 @pjrjzy 68
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_430
-      - 美国【付费推荐：https://tt.vg/vip】471
+      - 梦歌|广港中继|解锁流媒体_171
+      - 梦歌|广港中继|解锁流媒体_174 2
+      - 梦歌|广港中继|解锁流媒体_40
+      - 梦歌|广港中继|解锁流媒体_54
+      - 伊朗+002
+      - 越南 003
 rules:
-  - DOMAIN-KEYWORD,missav,♻️ 自动选择
+  - DOMAIN-KEYWORD,youtube,♻️ youtube
+  - DOMAIN-KEYWORD,missav,♻️ MISSAV
+  - DOMAIN-KEYWORD,paste,♻️ 自动选择
+  - DOMAIN-KEYWORD,gradio,♻️ 自动选择
+  - DOMAIN-KEYWORD,civitai,♻️ 自动选择
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
@@ -12465,7 +10360,6 @@ rules:
   - DOMAIN-SUFFIX,wetvinfo.com,♻️ 自动选择
   - IP-CIDR,150.109.28.51/32,♻️ 自动选择,
   - DOMAIN-SUFFIX,googlevideo.com,♻️ 自动选择
-  - DOMAIN-SUFFIX,youtube.com,♻️ 自动选择
   - DOMAIN-SUFFIX,ytimg.com,♻️ 自动选择
   - DOMAIN,youtubei.googleapis.com,♻️ 自动选择
   - DOMAIN,yt3.ggpht.com,♻️ 自动选择
