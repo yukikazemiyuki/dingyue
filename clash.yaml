@@ -813,7 +813,7 @@ proxy-groups:
       - 伊朗+002
       - 越南 003
     type: fallback
-    url: chrome.google.com
+    url: https://www.google.com/
     interval: "60"
   - name: ♻️ youtube
     proxies:
