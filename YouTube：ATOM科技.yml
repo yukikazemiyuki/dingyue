@@ -8865,9 +8865,6 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_718
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_719
   - name: ♻️ 自动选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
     proxies:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_1
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_2
@@ -9517,7 +9514,9 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_717
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_718
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_719
-    _index: 1
+    type: fallback
+    url: https://chrome.google.com/
+    interval: "60"
   - name: ♻️ youtube
     proxies:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_1
@@ -10170,7 +10169,8 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_719
     type: fallback
     url: https://www.youtube.com
-    interval: "10"
+    interval: "60"
+    _index: 2
   - name: ♻️ MISSAV
     proxies:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_1
@@ -10823,7 +10823,8 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_719
     type: fallback
     url: http://www.missav.com
-    interval: "10"
+    interval: "60"
+    _index: 3
   - name: 🎯 全球直连
     type: select
     proxies:
