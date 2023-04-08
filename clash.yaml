@@ -2166,6 +2166,7 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_280
       - United States 09 TG:@nodpai
       - _US_美国 2
+    _index: 1
   - name: ♻️ Youtube
     type: fallback
     url: https://www.youtube.com
@@ -2324,10 +2325,6 @@ proxy-groups:
       - United States 09 TG:@nodpai
       - _US_美国 2
   - name: ⚖️ 负载YOUTUBE
-    type: load-balance
-    url: https://www.youtube.com/
-    interval: 5
-    strategy: consistent-hashing
     proxies:
       - United States 03 TG:@nodpai
       - United States 22 TG:@nodpai
@@ -2481,6 +2478,9 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_280
       - United States 09 TG:@nodpai
       - _US_美国 2
+    type: load-balance
+    url: https://www.youtube.com/
+    interval: "60"
   - name: ♻️ Missav
     type: fallback
     url: https://www.Missav.com
@@ -2638,11 +2638,8 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_280
       - United States 09 TG:@nodpai
       - _US_美国 2
+    _index: 4
   - name: ⚖️ 负载MISSAV
-    type: load-balance
-    url: hhttps://www.missav.com/
-    interval: 5
-    strategy: round-robin
     proxies:
       - United States 03 TG:@nodpai
       - United States 22 TG:@nodpai
@@ -2796,6 +2793,9 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_280
       - United States 09 TG:@nodpai
       - _US_美国 2
+    type: load-balance
+    url: hhttps://www.missav.com/
+    interval: "60"
   - name: 🎯 全球直连
     type: select
     proxies:
