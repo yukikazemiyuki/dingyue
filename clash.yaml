@@ -6477,7 +6477,7 @@ proxy-groups:
     type: load-balance
     url: https://www.youtube.com/
     interval: 60
-    strategy: consistent-hashing
+    strategy: round-robin
     proxies:
       - 美国 03 | 1x US
       - 香港01
