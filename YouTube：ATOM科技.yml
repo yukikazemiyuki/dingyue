@@ -9209,7 +9209,7 @@ proxy-groups:
     type: load-balance
     url: https://www.youtube.com/
     interval: 60
-    strategy: consistent-hashing
+    strategy: round-robin
     proxies:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_1
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_2
@@ -19531,4 +19531,3 @@ rules:
   - MATCH,🐟 漏网之鱼
 proxy-providers: {}
 rule-providers: {}
- 
