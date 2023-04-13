@@ -2338,7 +2338,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: fallback
     url: https://www.google.com/
-    interval: 60
+    interval: 6
     proxies:
       - Relay 🇹🇼 Taiwan(ChatGPT) 03 TG:@nodpai
       - _US_美国_15_4@35
@@ -2499,7 +2499,7 @@ proxy-groups:
   - name: ♻️ Youtube
     type: fallback
     url: https://www.youtube.com
-    interval: 60
+    interval: 6
     proxies:
       - Relay 🇹🇼 Taiwan(ChatGPT) 03 TG:@nodpai
       - _US_美国_15_4@35
@@ -2660,7 +2660,7 @@ proxy-groups:
   - name: ⚖️ 负载YOUTUBE
     type: load-balance
     url: https://www.youtube.com/
-    interval: 60
+    interval: 6
     strategy: round-robin
     proxies:
       - Relay 🇹🇼 Taiwan(ChatGPT) 03 TG:@nodpai
@@ -2822,7 +2822,7 @@ proxy-groups:
   - name: ♻️ Missav
     type: fallback
     url: https://www.Missav.com
-    interval: 60
+    interval: 6
     proxies:
       - Relay 🇹🇼 Taiwan(ChatGPT) 03 TG:@nodpai
       - _US_美国_15_4@35
@@ -2983,7 +2983,7 @@ proxy-groups:
   - name: ⚖️ 负载MISSAV
     type: load-balance
     url: hhttps://www.missav.com/
-    interval: 60
+    interval: 6
     strategy: round-robin
     proxies:
       - Relay 🇹🇼 Taiwan(ChatGPT) 03 TG:@nodpai
