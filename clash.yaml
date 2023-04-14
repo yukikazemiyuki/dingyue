@@ -4378,6 +4378,7 @@ proxy-groups:
       - CLOUDFLARE_104.21.0.175_04132023f74b-1007vmess
       - 美国【付费推荐：tt.vg/vip】28
 rules:
+  - DOMAIN-KEYWORD,googlevideo,🔰 节点选择
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
