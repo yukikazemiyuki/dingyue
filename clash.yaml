@@ -4408,7 +4408,7 @@ proxy-groups:
       - 未知 34
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_579
     type: fallback
-    url: https://www.google.com/
+    url: https://raw.githubusercontent.com/
     interval: "6"
   - name: ♻️ Youtube
     proxies:
@@ -5913,6 +5913,7 @@ proxy-groups:
       - 未知 34
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_579
 rules:
+  - DOMAIN-KEYWORD,youtube,🔰 节点选择
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
