@@ -1199,9 +1199,6 @@ proxy-groups:
       - github.com/freefq+-+美国++4
       - github.com/freefq+-+俄罗斯++9
   - name: ♻️ 自动选择
-    type: fallback
-    url: https://www.google.com/
-    interval: 60
     proxies:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_214
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_218
@@ -1351,7 +1348,9 @@ proxy-groups:
       - Viet+Nam+02+TG:@nodpai
       - github.com/freefq+-+美国++4
       - github.com/freefq+-+俄罗斯++9
-    _index: 1
+    type: fallback
+    url: https://raw.githubusercontent.com/
+    interval: "6"
   - name: ♻️ Youtube
     proxies:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_214
@@ -1505,6 +1504,7 @@ proxy-groups:
     type: fallback
     url: https://www.youtube.com
     interval: "6"
+    _index: 2
   - name: ⚖️ 负载YOUTUBE
     proxies:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_214
@@ -1658,6 +1658,7 @@ proxy-groups:
     type: load-balance
     url: https://www.youtube.com/
     interval: "6"
+    _index: 3
   - name: ♻️ Missav
     proxies:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_214
