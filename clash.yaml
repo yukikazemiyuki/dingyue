@@ -5394,10 +5394,810 @@ proxy-groups:
       - Hong Kong 08 TG:@nodpai
       - Hong Kong 48 TG:@nodpai
       - _US_电报频道： @pjrjzy 48
+  - name: ⚖️ 负载YOUTUBE
+    type: load-balance
+    url: https://www.youtube.com/
+    interval: 6
+    strategy: round-robin
+    proxies:
+      - Relay 🇰🇷 South Korea 07 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 44 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 45 TG:@nodpai
+      - Singapore 15 TG:@nodpai
+      - Singapore(ChatGPT) 07 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
+      - Relay 🇭🇰 Hong Kong 56 TG:@nodpai
+      - Relay 🇯🇵 Japan 31 TG:@nodpai
+      - Relay 🇯🇵 Japan 37 TG:@nodpai
+      - Relay 🇸🇬 Singapore 34 TG:@nodpai
+      - Relay 🇯🇵 Japan 46 TG:@nodpai
+      - Relay 🇰🇷 South Korea 09 TG:@nodpai
+      - Russia 01 TG:@nodpai
+      - Hong Kong(ChatGPT) 12 TG:@nodpai
+      - US_youtube@资源分享师_47
+      - Relay 🇯🇵 Japan(ChatGPT) 30 TG:@nodpai
+      - 未知 100
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 14
+      - _HK_香港_3_7@39
+      - Japan 02 TG:@nodpai
+      - _US_jichangvpn.cloud 20
+      - _US_电报频道： @pjrjzy 53
+      - United States 22 TG:@nodpai
+      - United States 06 TG:@nodpai
+      - _KR_韩国_6_5@30
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
+      - Japan(ChatGPT) 01 TG:@nodpai
+      - 香港 002
+      - 美国【付费推荐：v1.mk/vip】89
+      - 荷兰 004
+      - _US_电报频道： @pjrjzy 51
+      - 美国【付费推荐：v1.mk/vip】115
+      - 日本3|tg频道:@ripaojiedian
+      - 美国【付费推荐：v1.mk/vip】82
+      - Hong Kong 17 TG:@nodpai
+      - _US_美国 8
+      - Singapore(ChatGPT) 09 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 35 TG:@nodpai
+      - 4Jadi-161
+      - RELAY-172.67.128.59-152
+      - 日本 008 2
+      - 4Jadi-703
+      - United States 04 TG:@nodpai
+      - US美国(youtube阿伟科技) 2
+      - _US_美国 13
+      - _JP_日本 3
+      - 梦歌|广港中继|解锁流媒体_57
+      - 梦歌|广港中继|解锁流媒体_79
+      - Taiwan(ChatGPT) 07 TG:@nodpai
+      - CLOUDFLARE_104.21.0.175_04132023f74b-1007vmess
+      - _US_jichangvpn.cloud 5
+      - _US_jichangvpn.cloud 45
+      - 日本|tg频道:@ripaojiedian 2
+      - _JP_日本_6_0@30
+      - Japan 12 TG:@nodpai
+      - Relay 🇺🇸 United States 06 TG:@nodpai
+      - 梦歌|广港中继|解锁流媒体_95
+      - Relay 🇺🇸 United States 20 TG:@nodpai
+      - 美国B|tg频道:@ripaojiedian
+      - Singapore 18 TG:@nodpai
+      - Relay 🇺🇸 United States 13 TG:@nodpai
+      - Relay 🇺🇸 United States 19 TG:@nodpai
+      - _US_美国 2
+      - United States 01 TG:@nodpai
+      - NONE
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Singapore(ChatGPT) 20 TG:@nodpai
+      - Japan 15 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】109
+      - _US_美国 3
+      - 梦歌|广港中继|解锁流媒体_113
+      - 美国【付费推荐：v1.mk/vip】3
+      - 梦歌|广港中继|解锁流媒体_69
+      - China 01 TG:@nodpai
+      - _US_美国_8_11@29
+      - 美国 092
+      - Japan(ChatGPT) 11 TG:@nodpai
+      - Hong Kong(ChatGPT) 13 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】51
+      - Switzerland(ChatGPT) 01 TG:@nodpai
+      - _US_美国 12
+      - 英国【付费推荐：v1.mk/vip】96
+      - 梦歌|广港中继|解锁流媒体_125
+      - _US_美国_8_7@13
+      - 美国【付费推荐：v1.mk/vip】185
+      - _JP_日本_4_7@28
+      - 梦歌|广港中继|解锁流媒体_82
+      - Singapore 19 TG:@nodpai
+      - Japan 25 TG:@nodpai
+      - Relay 🇺🇸 United States 03 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_616
+      - Singapore(ChatGPT) 16 TG:@nodpai
+      - 日本 008
+      - Italy(ChatGPT) 01 TG:@nodpai
+      - 梦歌|广港中继|解锁流媒体_61
+      - 美国【付费推荐：tt.vg/vip】120
+      - _US_电报频道： @pjrjzy 40
+      - China 02 TG:@nodpai
+      - Relay 🇨🇳 China 01 TG:@nodpai
+      - _US_美国_11_3@43
+      - 美国【付费推荐：v1.mk/vip】4
+      - _US_美国_2_1@9
+      - _US_美国_2_0@3
+      - Japan(ChatGPT) 05 TG:@nodpai
+      - Japan 19 TG:@nodpai
+      - DE 4 → tg@nicevpn123
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_207
+      - _US_美国_14
+      - United States 21 TG:@nodpai
+      - 美国 014
+      - 香港 022
+      - South Korea 04 TG:@nodpai
+      - 伯利兹【付费推荐：v1.mk/vip】32
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
+      - github.com/freefq - 美国CloudFlare公司CDN节点 16
+      - Relay 🇺🇸 United States 02 TG:@nodpai
+      - _US_美国 6
+      - India 03 TG:@nodpai
+      - Singapore 12 TG:@nodpai
+      - Netherlands(ChatGPT) 02 TG:@nodpai
+      - _DE_jichangvpn.cloud 3
+      - Netherlands(ChatGPT) 03 TG:@nodpai
+      - United States 15 TG:@nodpai
+      - India 02 TG:@nodpai
+      - _DE_jichangvpn.cloud 4
+      - _JP_日本_2_13@32
+      - Taiwan(ChatGPT) 04 TG:@nodpai
+      - Singapore 14 TG:@nodpai
+      - JP-45.76.104.25-141
+      - Hong Kong 24 TG:@nodpai
+      - Singapore 22 TG:@nodpai
+      - United States(ChatGPT) 32 TG:@nodpai
+      - Singapore 21 TG:@nodpai
+      - _US_美国_4_3@20
+      - Relay 🇰🇷 South Korea 10 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 03 TG:@nodpai
+      - Singapore 11 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 01 TG:@nodpai
+      - Hong Kong 28 TG:@nodpai
+      - _US_美国 8 2
+      - HK-156.245.8.105-168
+      - US-156.225.67.125-179
+      - _KR_jichangvpn.cloud
+      - Hong Kong(ChatGPT) 19 TG:@nodpai
+      - 美国 CloudFlare节点
+      - Singapore(ChatGPT) 01 TG:@nodpai
+      - Hong Kong(ChatGPT) 23 TG:@nodpai
+      - Relay 🇦🇺 Australia 01 TG:@nodpai
+      - United States 16 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 32 TG:@nodpai
+      - Italy(ChatGPT) 02 TG:@nodpai
+      - Singapore 17 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
+      - Taiwan(ChatGPT) 03 TG:@nodpai
+      - Singapore(ChatGPT) 04 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 32 TG:@nodpai
+      - _US_美国 10
+      - _US_jichangvpn.cloud 56
+      - Hong Kong(ChatGPT) 26 TG:@nodpai
+      - Relay 🇷🇺 Russia 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 37 TG:@nodpai
+      - Hong Kong 51 TG:@nodpai
+      - Japan 08 TG:@nodpai
+      - Taiwan(ChatGPT) 15 TG:@nodpai
+      - Japan(ChatGPT) 20 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 60 TG:@nodpai
+      - GB-194.146.49.64-036
+      - Hong Kong(ChatGPT) 20 TG:@nodpai
+      - Hong Kong 22 TG:@nodpai
+      - Taiwan(ChatGPT) 14 TG:@nodpai
+      - Singapore(ChatGPT) 10 TG:@nodpai
+      - South Korea 01 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】88
+      - 美国【付费推荐：v1.mk/vip】70
+      - Taiwan(ChatGPT) 20 TG:@nodpai
+      - Singapore 40 TG:@nodpai
+      - Singapore(ChatGPT) 02 TG:@nodpai
+      - _US_美国_9_10@30
+      - _US_美国_7_0@31
+      - Relay 🇭🇰 Hong Kong 61 TG:@nodpai
+      - United Arab Emirates(ChatGPT) 01 TG:@nodpai
+      - GB-194.146.49.64-101
+      - Taiwan(ChatGPT) 37 TG:@nodpai
+      - United States(ChatGPT) 06 TG:@nodpai
+      - South Korea 03 TG:@nodpai
+      - Japan 18 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 28 TG:@nodpai
+      - Hong Kong 41 TG:@nodpai
+      - 印尼 001
+      - Relay 🇬🇧 United Kingdom(ChatGPT) 02 TG:@nodpai
+      - Netherlands(ChatGPT) 01 TG:@nodpai
+      - US-156.225.67.125-130
+      - 美国【付费推荐：tt.vg/vip】130
+      - _DE_德国_7@19
+      - 英国 003
+      - Hong Kong(ChatGPT) 53 TG:@nodpai
+      - Hong Kong 25 TG:@nodpai
+      - Japan(ChatGPT) 24 TG:@nodpai
+      - _US_美国->🇳🇱_NL_荷兰
+      - Taiwan(ChatGPT) 19 TG:@nodpai
+      - _US_美国 2 2
+      - Japan(ChatGPT) 23 TG:@nodpai
+      - India 01 TG:@nodpai
+      - _US_电报频道： @pjrjzy 42
+      - Taiwan(ChatGPT) 26 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
+      - Taiwan(ChatGPT) 23 TG:@nodpai
+      - 荷兰 005
+      - _FR_法国
+      - Relay 🇭🇰 Hong Kong 33 TG:@nodpai
+      - Singapore(ChatGPT) 06 TG:@nodpai
+      - Hong Kong(ChatGPT) 14 TG:@nodpai
+      - 4Jadi-181
+      - _HK_香港->🇳🇱_NL_荷兰
+      - Singapore 05 TG:@nodpai
+      - _US_jichangvpn.cloud 49
+      - Relay 🇲🇾 Malaysia 01 TG:@nodpai
+      - Japan 14 TG:@nodpai
+      - US-156.225.67.250-127
+      - Japan 17 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
+      - Taiwan(ChatGPT) 17 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 34 TG:@nodpai
+      - Singapore 03 TG:@nodpai
+      - _NL_荷兰
+      - Taiwan(ChatGPT) 12 TG:@nodpai
+      - HK-156.245.8.105-129
+      - Hong Kong(ChatGPT) 15 TG:@nodpai
+      - United States 12 TG:@nodpai
+      - US-156.225.67.250-180
+      - Japan(ChatGPT) 02 TG:@nodpai
+      - Taiwan(ChatGPT) 24 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】45
+      - _US_美国->🇫🇷_FR_法国
+      - Taiwan(ChatGPT) 06 TG:@nodpai
+      - Singapore 13 TG:@nodpai
+      - US-156.225.67.85-128
+      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 01 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】8
+      - Relay 🇰🇷 South Korea 06 TG:@nodpai
+      - Hong Kong 30 TG:@nodpai
+      - Taiwan(ChatGPT) 25 TG:@nodpai
+      - Hong Kong(ChatGPT) 16 TG:@nodpai
+      - Relay 🇺🇸 United States(ChatGPT) 05 TG:@nodpai
+      - 荷兰 006
+      - Hong Kong 21 TG:@nodpai
+      - Taiwan(ChatGPT) 05 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】14
+      - Relay 🇺🇸 United States 08 TG:@nodpai
+      - South Korea 05 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】102
+      - Japan(ChatGPT) 09 TG:@nodpai
+      - Taiwan(ChatGPT) 16 TG:@nodpai
+      - 新加坡 002
+      - Taiwan(ChatGPT) 09 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 03 TG:@nodpai
+      - Taiwan(ChatGPT) 11 TG:@nodpai
+      - Taiwan(ChatGPT) 13 TG:@nodpai
+      - South Korea 02 TG:@nodpai
+      - Hong Kong 31 TG:@nodpai
+      - GB-83.142.225.32-172
+      - HK-156.245.8.105-194
+      - Japan 06 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 36 TG:@nodpai
+      - _US_美国_18_5@35
+      - 日本 048
+      - Hong Kong 04 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】166
+      - Japan 22 TG:@nodpai
+      - Japan 21 TG:@nodpai
+      - Russia 03 TG:@nodpai
+      - Japan 15 TG:@nodpai 2
+      - 美国 007
+      - Taiwan(ChatGPT) 18 TG:@nodpai
+      - Japan(ChatGPT) 16 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
+      - 法国 003
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
+      - _GB_jichangvpn.cloud
+      - Japan 07 TG:@nodpai
+      - Relay 🇯🇵 Japan 35 TG:@nodpai
+      - Hong Kong 62 TG:@nodpai
+      - Japan(ChatGPT) 04 TG:@nodpai
+      - 美国 026
+      - 荷兰 007
+      - Relay 🇯🇵 Japan(ChatGPT) 33 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】115 2
+      - 越南 003
+      - Hong Kong(ChatGPT) 29 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 02 TG:@nodpai
+      - Taiwan(ChatGPT) 22 TG:@nodpai
+      - Japan 10 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_246
+      - Taiwan(ChatGPT) 21 TG:@nodpai
+      - _CN_jichangvpn.cloud 10
+      - _US_jichangvpn.cloud 60
+      - _US_美国 19
+      - 香港2|tg频道:@ripaojiedian 2
+      - 韩国 001
+      - Relay 🇭🇰 Hong Kong 32 TG:@nodpai
+      - 俄罗斯 003
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_516
+      - 美国【付费推荐：v1.mk/vip】87
+      - 美国【付费推荐：tt.vg/vip】34
+      - _US_美国
+      - 美国【付费推荐：v1.mk/vip】29
+      - _US_电报频道： @pjrjzy 50
+      - Singapore 39 TG:@nodpai
+      - Relay 🇸🇬 Singapore(ChatGPT) 31 TG:@nodpai
+      - 韩国|tg频道:@ripaojiedian 2
+      - US-69.84.182.248-153
+      - Relay 🇸🇬 Singapore(ChatGPT) 36 TG:@nodpai
+      - _CN_中国->🇺🇸_US_美国
+      - Relay 🇹🇼 Taiwan(ChatGPT) 31 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 34 TG:@nodpai
+      - Relay 🇯🇵 Japan 38 TG:@nodpai
+      - Relay 🇯🇵 Japan 47 TG:@nodpai
+      - _SG_新加坡_1_18@10
+      - Relay 🇸🇬 Singapore 23 TG:@nodpai
+      - 日本|tg频道:@ripaojiedian
+      - Relay 🇭🇰 Hong Kong 55 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 54 TG:@nodpai
+      - Relay 🇯🇵 Japan 39 TG:@nodpai
+      - Relay 🇯🇵 Japan 40 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 39 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 59 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 30 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 43 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 07 TG:@nodpai
+      - 中国【付费推荐：v1.mk/vip】158
+      - 香港2|tg频道:@ripaojiedian 2 2
+      - 美国【付费推荐：v1.mk/vip】83
+      - 英国 001
+      - 美国【付费推荐：v1.mk/vip】62
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 18 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 46 TG:@nodpai
+      - 日本 049
+      - Relay 🇫🇷 France 02 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】104
+      - Relay 🇨🇦 Canada 01 TG:@nodpai
+      - 印度 005
+      - _CN_中国->🇺🇸_US_美国 2
+      - KR-52.79.186.163-176
+      - 美国【付费推荐：v1.mk/vip】74
+      - Japan 09 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】75
+      - 美国【付费推荐：v1.mk/vip】56
+      - 美国【付费推荐：v1.mk/vip】21
+      - Russia 05 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 28 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】18
+      - RELAY-172.67.190.72-108
+      - 4Jadi-887
+      - github.com/mehdimoghaddam-cell_10
+      - Taiwan(ChatGPT) 29 TG:@nodpai
+      - Hong Kong 35 TG:@nodpai
+      - CN-120.240.163.56-038
+      - Relay 🇹🇷 Turkey(ChatGPT) 02 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】9
+      - _US_美国->🇩🇪_DE_德国_5@8
+      - Relay 🇧🇷 Brazil 01 TG:@nodpai
+      - Relay 🇺🇸 United States 07 TG:@nodpai
+      - US-69.84.182.243-155
+      - United States 13 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】127
+      - 美国【付费推荐：v1.mk/vip】12
+      - 日本 050
+      - Japan 13 TG:@nodpai
+      - France 01 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】28
+      - _US_电报频道： @pjrjzy
+      - Hong Kong 09 TG:@nodpai
+      - Japan 26 TG:@nodpai
+      - 梦歌|广港中继|解锁流媒体_128
+      - Hong Kong 50 TG:@nodpai
+      - Relay 🇸🇬 Singapore 35 TG:@nodpai
+      - Hong Kong 27 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_303
+      - _US_美国->🇬🇧_GB_英国 4
+      - United States(ChatGPT) 04 TG:@nodpai
+      - Russia 06 TG:@nodpai
+      - Relay 🇹🇷 Turkey(ChatGPT) 01 TG:@nodpai
+      - Russia 02 TG:@nodpai
+      - _US_电报频道： @pjrjzy 4 2
+      - 梦歌|广港中继|解锁流媒体_83
+      - 美国【付费推荐：v1.mk/vip】54
+      - 美国【付费推荐：v1.mk/vip】79
+      - _CN_中国_1_12@4
+      - Relay 🇸🇬 Singapore 25 TG:@nodpai
+      - Germany 01 TG:@nodpai
+      - Hong Kong 08 TG:@nodpai
+      - Hong Kong 48 TG:@nodpai
+      - _US_电报频道： @pjrjzy 48
   - name: ♻️ Missav
     type: fallback
     url: https://www.Missav.com
     interval: 6
+    proxies:
+      - Relay 🇰🇷 South Korea 07 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 44 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 45 TG:@nodpai
+      - Singapore 15 TG:@nodpai
+      - Singapore(ChatGPT) 07 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
+      - Relay 🇭🇰 Hong Kong 56 TG:@nodpai
+      - Relay 🇯🇵 Japan 31 TG:@nodpai
+      - Relay 🇯🇵 Japan 37 TG:@nodpai
+      - Relay 🇸🇬 Singapore 34 TG:@nodpai
+      - Relay 🇯🇵 Japan 46 TG:@nodpai
+      - Relay 🇰🇷 South Korea 09 TG:@nodpai
+      - Russia 01 TG:@nodpai
+      - Hong Kong(ChatGPT) 12 TG:@nodpai
+      - US_youtube@资源分享师_47
+      - Relay 🇯🇵 Japan(ChatGPT) 30 TG:@nodpai
+      - 未知 100
+      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 14
+      - _HK_香港_3_7@39
+      - Japan 02 TG:@nodpai
+      - _US_jichangvpn.cloud 20
+      - _US_电报频道： @pjrjzy 53
+      - United States 22 TG:@nodpai
+      - United States 06 TG:@nodpai
+      - _KR_韩国_6_5@30
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
+      - Japan(ChatGPT) 01 TG:@nodpai
+      - 香港 002
+      - 美国【付费推荐：v1.mk/vip】89
+      - 荷兰 004
+      - _US_电报频道： @pjrjzy 51
+      - 美国【付费推荐：v1.mk/vip】115
+      - 日本3|tg频道:@ripaojiedian
+      - 美国【付费推荐：v1.mk/vip】82
+      - Hong Kong 17 TG:@nodpai
+      - _US_美国 8
+      - Singapore(ChatGPT) 09 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 35 TG:@nodpai
+      - 4Jadi-161
+      - RELAY-172.67.128.59-152
+      - 日本 008 2
+      - 4Jadi-703
+      - United States 04 TG:@nodpai
+      - US美国(youtube阿伟科技) 2
+      - _US_美国 13
+      - _JP_日本 3
+      - 梦歌|广港中继|解锁流媒体_57
+      - 梦歌|广港中继|解锁流媒体_79
+      - Taiwan(ChatGPT) 07 TG:@nodpai
+      - CLOUDFLARE_104.21.0.175_04132023f74b-1007vmess
+      - _US_jichangvpn.cloud 5
+      - _US_jichangvpn.cloud 45
+      - 日本|tg频道:@ripaojiedian 2
+      - _JP_日本_6_0@30
+      - Japan 12 TG:@nodpai
+      - Relay 🇺🇸 United States 06 TG:@nodpai
+      - 梦歌|广港中继|解锁流媒体_95
+      - Relay 🇺🇸 United States 20 TG:@nodpai
+      - 美国B|tg频道:@ripaojiedian
+      - Singapore 18 TG:@nodpai
+      - Relay 🇺🇸 United States 13 TG:@nodpai
+      - Relay 🇺🇸 United States 19 TG:@nodpai
+      - _US_美国 2
+      - United States 01 TG:@nodpai
+      - NONE
+      - Japan(ChatGPT) 03 TG:@nodpai
+      - Singapore(ChatGPT) 20 TG:@nodpai
+      - Japan 15 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】109
+      - _US_美国 3
+      - 梦歌|广港中继|解锁流媒体_113
+      - 美国【付费推荐：v1.mk/vip】3
+      - 梦歌|广港中继|解锁流媒体_69
+      - China 01 TG:@nodpai
+      - _US_美国_8_11@29
+      - 美国 092
+      - Japan(ChatGPT) 11 TG:@nodpai
+      - Hong Kong(ChatGPT) 13 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】51
+      - Switzerland(ChatGPT) 01 TG:@nodpai
+      - _US_美国 12
+      - 英国【付费推荐：v1.mk/vip】96
+      - 梦歌|广港中继|解锁流媒体_125
+      - _US_美国_8_7@13
+      - 美国【付费推荐：v1.mk/vip】185
+      - _JP_日本_4_7@28
+      - 梦歌|广港中继|解锁流媒体_82
+      - Singapore 19 TG:@nodpai
+      - Japan 25 TG:@nodpai
+      - Relay 🇺🇸 United States 03 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_616
+      - Singapore(ChatGPT) 16 TG:@nodpai
+      - 日本 008
+      - Italy(ChatGPT) 01 TG:@nodpai
+      - 梦歌|广港中继|解锁流媒体_61
+      - 美国【付费推荐：tt.vg/vip】120
+      - _US_电报频道： @pjrjzy 40
+      - China 02 TG:@nodpai
+      - Relay 🇨🇳 China 01 TG:@nodpai
+      - _US_美国_11_3@43
+      - 美国【付费推荐：v1.mk/vip】4
+      - _US_美国_2_1@9
+      - _US_美国_2_0@3
+      - Japan(ChatGPT) 05 TG:@nodpai
+      - Japan 19 TG:@nodpai
+      - DE 4 → tg@nicevpn123
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_207
+      - _US_美国_14
+      - United States 21 TG:@nodpai
+      - 美国 014
+      - 香港 022
+      - South Korea 04 TG:@nodpai
+      - 伯利兹【付费推荐：v1.mk/vip】32
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
+      - github.com/freefq - 美国CloudFlare公司CDN节点 16
+      - Relay 🇺🇸 United States 02 TG:@nodpai
+      - _US_美国 6
+      - India 03 TG:@nodpai
+      - Singapore 12 TG:@nodpai
+      - Netherlands(ChatGPT) 02 TG:@nodpai
+      - _DE_jichangvpn.cloud 3
+      - Netherlands(ChatGPT) 03 TG:@nodpai
+      - United States 15 TG:@nodpai
+      - India 02 TG:@nodpai
+      - _DE_jichangvpn.cloud 4
+      - _JP_日本_2_13@32
+      - Taiwan(ChatGPT) 04 TG:@nodpai
+      - Singapore 14 TG:@nodpai
+      - JP-45.76.104.25-141
+      - Hong Kong 24 TG:@nodpai
+      - Singapore 22 TG:@nodpai
+      - United States(ChatGPT) 32 TG:@nodpai
+      - Singapore 21 TG:@nodpai
+      - _US_美国_4_3@20
+      - Relay 🇰🇷 South Korea 10 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 03 TG:@nodpai
+      - Singapore 11 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 01 TG:@nodpai
+      - Hong Kong 28 TG:@nodpai
+      - _US_美国 8 2
+      - HK-156.245.8.105-168
+      - US-156.225.67.125-179
+      - _KR_jichangvpn.cloud
+      - Hong Kong(ChatGPT) 19 TG:@nodpai
+      - 美国 CloudFlare节点
+      - Singapore(ChatGPT) 01 TG:@nodpai
+      - Hong Kong(ChatGPT) 23 TG:@nodpai
+      - Relay 🇦🇺 Australia 01 TG:@nodpai
+      - United States 16 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 32 TG:@nodpai
+      - Italy(ChatGPT) 02 TG:@nodpai
+      - Singapore 17 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
+      - Taiwan(ChatGPT) 03 TG:@nodpai
+      - Singapore(ChatGPT) 04 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 32 TG:@nodpai
+      - _US_美国 10
+      - _US_jichangvpn.cloud 56
+      - Hong Kong(ChatGPT) 26 TG:@nodpai
+      - Relay 🇷🇺 Russia 04 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 37 TG:@nodpai
+      - Hong Kong 51 TG:@nodpai
+      - Japan 08 TG:@nodpai
+      - Taiwan(ChatGPT) 15 TG:@nodpai
+      - Japan(ChatGPT) 20 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 60 TG:@nodpai
+      - GB-194.146.49.64-036
+      - Hong Kong(ChatGPT) 20 TG:@nodpai
+      - Hong Kong 22 TG:@nodpai
+      - Taiwan(ChatGPT) 14 TG:@nodpai
+      - Singapore(ChatGPT) 10 TG:@nodpai
+      - South Korea 01 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】88
+      - 美国【付费推荐：v1.mk/vip】70
+      - Taiwan(ChatGPT) 20 TG:@nodpai
+      - Singapore 40 TG:@nodpai
+      - Singapore(ChatGPT) 02 TG:@nodpai
+      - _US_美国_9_10@30
+      - _US_美国_7_0@31
+      - Relay 🇭🇰 Hong Kong 61 TG:@nodpai
+      - United Arab Emirates(ChatGPT) 01 TG:@nodpai
+      - GB-194.146.49.64-101
+      - Taiwan(ChatGPT) 37 TG:@nodpai
+      - United States(ChatGPT) 06 TG:@nodpai
+      - South Korea 03 TG:@nodpai
+      - Japan 18 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 28 TG:@nodpai
+      - Hong Kong 41 TG:@nodpai
+      - 印尼 001
+      - Relay 🇬🇧 United Kingdom(ChatGPT) 02 TG:@nodpai
+      - Netherlands(ChatGPT) 01 TG:@nodpai
+      - US-156.225.67.125-130
+      - 美国【付费推荐：tt.vg/vip】130
+      - _DE_德国_7@19
+      - 英国 003
+      - Hong Kong(ChatGPT) 53 TG:@nodpai
+      - Hong Kong 25 TG:@nodpai
+      - Japan(ChatGPT) 24 TG:@nodpai
+      - _US_美国->🇳🇱_NL_荷兰
+      - Taiwan(ChatGPT) 19 TG:@nodpai
+      - _US_美国 2 2
+      - Japan(ChatGPT) 23 TG:@nodpai
+      - India 01 TG:@nodpai
+      - _US_电报频道： @pjrjzy 42
+      - Taiwan(ChatGPT) 26 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
+      - Taiwan(ChatGPT) 23 TG:@nodpai
+      - 荷兰 005
+      - _FR_法国
+      - Relay 🇭🇰 Hong Kong 33 TG:@nodpai
+      - Singapore(ChatGPT) 06 TG:@nodpai
+      - Hong Kong(ChatGPT) 14 TG:@nodpai
+      - 4Jadi-181
+      - _HK_香港->🇳🇱_NL_荷兰
+      - Singapore 05 TG:@nodpai
+      - _US_jichangvpn.cloud 49
+      - Relay 🇲🇾 Malaysia 01 TG:@nodpai
+      - Japan 14 TG:@nodpai
+      - US-156.225.67.250-127
+      - Japan 17 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
+      - Taiwan(ChatGPT) 17 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 34 TG:@nodpai
+      - Singapore 03 TG:@nodpai
+      - _NL_荷兰
+      - Taiwan(ChatGPT) 12 TG:@nodpai
+      - HK-156.245.8.105-129
+      - Hong Kong(ChatGPT) 15 TG:@nodpai
+      - United States 12 TG:@nodpai
+      - US-156.225.67.250-180
+      - Japan(ChatGPT) 02 TG:@nodpai
+      - Taiwan(ChatGPT) 24 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】45
+      - _US_美国->🇫🇷_FR_法国
+      - Taiwan(ChatGPT) 06 TG:@nodpai
+      - Singapore 13 TG:@nodpai
+      - US-156.225.67.85-128
+      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 01 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】8
+      - Relay 🇰🇷 South Korea 06 TG:@nodpai
+      - Hong Kong 30 TG:@nodpai
+      - Taiwan(ChatGPT) 25 TG:@nodpai
+      - Hong Kong(ChatGPT) 16 TG:@nodpai
+      - Relay 🇺🇸 United States(ChatGPT) 05 TG:@nodpai
+      - 荷兰 006
+      - Hong Kong 21 TG:@nodpai
+      - Taiwan(ChatGPT) 05 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】14
+      - Relay 🇺🇸 United States 08 TG:@nodpai
+      - South Korea 05 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】102
+      - Japan(ChatGPT) 09 TG:@nodpai
+      - Taiwan(ChatGPT) 16 TG:@nodpai
+      - 新加坡 002
+      - Taiwan(ChatGPT) 09 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 03 TG:@nodpai
+      - Taiwan(ChatGPT) 11 TG:@nodpai
+      - Taiwan(ChatGPT) 13 TG:@nodpai
+      - South Korea 02 TG:@nodpai
+      - Hong Kong 31 TG:@nodpai
+      - GB-83.142.225.32-172
+      - HK-156.245.8.105-194
+      - Japan 06 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 36 TG:@nodpai
+      - _US_美国_18_5@35
+      - 日本 048
+      - Hong Kong 04 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】166
+      - Japan 22 TG:@nodpai
+      - Japan 21 TG:@nodpai
+      - Russia 03 TG:@nodpai
+      - Japan 15 TG:@nodpai 2
+      - 美国 007
+      - Taiwan(ChatGPT) 18 TG:@nodpai
+      - Japan(ChatGPT) 16 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
+      - 法国 003
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
+      - _GB_jichangvpn.cloud
+      - Japan 07 TG:@nodpai
+      - Relay 🇯🇵 Japan 35 TG:@nodpai
+      - Hong Kong 62 TG:@nodpai
+      - Japan(ChatGPT) 04 TG:@nodpai
+      - 美国 026
+      - 荷兰 007
+      - Relay 🇯🇵 Japan(ChatGPT) 33 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】115 2
+      - 越南 003
+      - Hong Kong(ChatGPT) 29 TG:@nodpai
+      - Relay 🇬🇧 United Kingdom 02 TG:@nodpai
+      - Taiwan(ChatGPT) 22 TG:@nodpai
+      - Japan 10 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_246
+      - Taiwan(ChatGPT) 21 TG:@nodpai
+      - _CN_jichangvpn.cloud 10
+      - _US_jichangvpn.cloud 60
+      - _US_美国 19
+      - 香港2|tg频道:@ripaojiedian 2
+      - 韩国 001
+      - Relay 🇭🇰 Hong Kong 32 TG:@nodpai
+      - 俄罗斯 003
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_516
+      - 美国【付费推荐：v1.mk/vip】87
+      - 美国【付费推荐：tt.vg/vip】34
+      - _US_美国
+      - 美国【付费推荐：v1.mk/vip】29
+      - _US_电报频道： @pjrjzy 50
+      - Singapore 39 TG:@nodpai
+      - Relay 🇸🇬 Singapore(ChatGPT) 31 TG:@nodpai
+      - 韩国|tg频道:@ripaojiedian 2
+      - US-69.84.182.248-153
+      - Relay 🇸🇬 Singapore(ChatGPT) 36 TG:@nodpai
+      - _CN_中国->🇺🇸_US_美国
+      - Relay 🇹🇼 Taiwan(ChatGPT) 31 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 34 TG:@nodpai
+      - Relay 🇯🇵 Japan 38 TG:@nodpai
+      - Relay 🇯🇵 Japan 47 TG:@nodpai
+      - _SG_新加坡_1_18@10
+      - Relay 🇸🇬 Singapore 23 TG:@nodpai
+      - 日本|tg频道:@ripaojiedian
+      - Relay 🇭🇰 Hong Kong 55 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 54 TG:@nodpai
+      - Relay 🇯🇵 Japan 39 TG:@nodpai
+      - Relay 🇯🇵 Japan 40 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 39 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 59 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 30 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 43 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 07 TG:@nodpai
+      - 中国【付费推荐：v1.mk/vip】158
+      - 香港2|tg频道:@ripaojiedian 2 2
+      - 美国【付费推荐：v1.mk/vip】83
+      - 英国 001
+      - 美国【付费推荐：v1.mk/vip】62
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 18 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 46 TG:@nodpai
+      - 日本 049
+      - Relay 🇫🇷 France 02 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】104
+      - Relay 🇨🇦 Canada 01 TG:@nodpai
+      - 印度 005
+      - _CN_中国->🇺🇸_US_美国 2
+      - KR-52.79.186.163-176
+      - 美国【付费推荐：v1.mk/vip】74
+      - Japan 09 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】75
+      - 美国【付费推荐：v1.mk/vip】56
+      - 美国【付费推荐：v1.mk/vip】21
+      - Russia 05 TG:@nodpai
+      - Relay 🇹🇼 Taiwan(ChatGPT) 28 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】18
+      - RELAY-172.67.190.72-108
+      - 4Jadi-887
+      - github.com/mehdimoghaddam-cell_10
+      - Taiwan(ChatGPT) 29 TG:@nodpai
+      - Hong Kong 35 TG:@nodpai
+      - CN-120.240.163.56-038
+      - Relay 🇹🇷 Turkey(ChatGPT) 02 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】9
+      - _US_美国->🇩🇪_DE_德国_5@8
+      - Relay 🇧🇷 Brazil 01 TG:@nodpai
+      - Relay 🇺🇸 United States 07 TG:@nodpai
+      - US-69.84.182.243-155
+      - United States 13 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】127
+      - 美国【付费推荐：v1.mk/vip】12
+      - 日本 050
+      - Japan 13 TG:@nodpai
+      - France 01 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】28
+      - _US_电报频道： @pjrjzy
+      - Hong Kong 09 TG:@nodpai
+      - Japan 26 TG:@nodpai
+      - 梦歌|广港中继|解锁流媒体_128
+      - Hong Kong 50 TG:@nodpai
+      - Relay 🇸🇬 Singapore 35 TG:@nodpai
+      - Hong Kong 27 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_303
+      - _US_美国->🇬🇧_GB_英国 4
+      - United States(ChatGPT) 04 TG:@nodpai
+      - Russia 06 TG:@nodpai
+      - Relay 🇹🇷 Turkey(ChatGPT) 01 TG:@nodpai
+      - Russia 02 TG:@nodpai
+      - _US_电报频道： @pjrjzy 4 2
+      - 梦歌|广港中继|解锁流媒体_83
+      - 美国【付费推荐：v1.mk/vip】54
+      - 美国【付费推荐：v1.mk/vip】79
+      - _CN_中国_1_12@4
+      - Relay 🇸🇬 Singapore 25 TG:@nodpai
+      - Germany 01 TG:@nodpai
+      - Hong Kong 08 TG:@nodpai
+      - Hong Kong 48 TG:@nodpai
+      - _US_电报频道： @pjrjzy 48
+  - name: ⚖️ 负载MISSAV
+    type: load-balance
+    url: hhttps://www.missav.com/
+    interval: 6
+    strategy: round-robin
     proxies:
       - Relay 🇰🇷 South Korea 07 TG:@nodpai
       - Relay 🇯🇵 Japan(ChatGPT) 44 TG:@nodpai
@@ -6202,807 +7002,9 @@ proxy-groups:
       - Hong Kong 08 TG:@nodpai
       - Hong Kong 48 TG:@nodpai
       - _US_电报频道： @pjrjzy 48
-  - name: ⚖️ 负载YOUTUBE
-    type: load-balance
-    url: https://www.youtube.com/
-    interval: 6
-    strategy: round-robin
-    proxies:
-      - Relay 🇰🇷 South Korea 07 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 44 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 45 TG:@nodpai
-      - Singapore 15 TG:@nodpai
-      - Singapore(ChatGPT) 07 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
-      - Relay 🇭🇰 Hong Kong 56 TG:@nodpai
-      - Relay 🇯🇵 Japan 31 TG:@nodpai
-      - Relay 🇯🇵 Japan 37 TG:@nodpai
-      - Relay 🇸🇬 Singapore 34 TG:@nodpai
-      - Relay 🇯🇵 Japan 46 TG:@nodpai
-      - Relay 🇰🇷 South Korea 09 TG:@nodpai
-      - Russia 01 TG:@nodpai
-      - Hong Kong(ChatGPT) 12 TG:@nodpai
-      - US_youtube@资源分享师_47
-      - Relay 🇯🇵 Japan(ChatGPT) 30 TG:@nodpai
-      - 未知 100
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 14
-      - _HK_香港_3_7@39
-      - Japan 02 TG:@nodpai
-      - _US_jichangvpn.cloud 20
-      - _US_电报频道： @pjrjzy 53
-      - United States 22 TG:@nodpai
-      - United States 06 TG:@nodpai
-      - _KR_韩国_6_5@30
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
-      - Japan(ChatGPT) 01 TG:@nodpai
-      - 香港 002
-      - 美国【付费推荐：v1.mk/vip】89
-      - 荷兰 004
-      - _US_电报频道： @pjrjzy 51
-      - 美国【付费推荐：v1.mk/vip】115
-      - 日本3|tg频道:@ripaojiedian
-      - 美国【付费推荐：v1.mk/vip】82
-      - Hong Kong 17 TG:@nodpai
-      - _US_美国 8
-      - Singapore(ChatGPT) 09 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 35 TG:@nodpai
-      - 4Jadi-161
-      - RELAY-172.67.128.59-152
-      - 日本 008 2
-      - 4Jadi-703
-      - United States 04 TG:@nodpai
-      - US美国(youtube阿伟科技) 2
-      - _US_美国 13
-      - _JP_日本 3
-      - 梦歌|广港中继|解锁流媒体_57
-      - 梦歌|广港中继|解锁流媒体_79
-      - Taiwan(ChatGPT) 07 TG:@nodpai
-      - CLOUDFLARE_104.21.0.175_04132023f74b-1007vmess
-      - _US_jichangvpn.cloud 5
-      - _US_jichangvpn.cloud 45
-      - 日本|tg频道:@ripaojiedian 2
-      - _JP_日本_6_0@30
-      - Japan 12 TG:@nodpai
-      - Relay 🇺🇸 United States 06 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_95
-      - Relay 🇺🇸 United States 20 TG:@nodpai
-      - 美国B|tg频道:@ripaojiedian
-      - Singapore 18 TG:@nodpai
-      - Relay 🇺🇸 United States 13 TG:@nodpai
-      - Relay 🇺🇸 United States 19 TG:@nodpai
-      - _US_美国 2
-      - United States 01 TG:@nodpai
-      - NONE
-      - Japan(ChatGPT) 03 TG:@nodpai
-      - Singapore(ChatGPT) 20 TG:@nodpai
-      - Japan 15 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】109
-      - _US_美国 3
-      - 梦歌|广港中继|解锁流媒体_113
-      - 美国【付费推荐：v1.mk/vip】3
-      - 梦歌|广港中继|解锁流媒体_69
-      - China 01 TG:@nodpai
-      - _US_美国_8_11@29
-      - 美国 092
-      - Japan(ChatGPT) 11 TG:@nodpai
-      - Hong Kong(ChatGPT) 13 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】51
-      - Switzerland(ChatGPT) 01 TG:@nodpai
-      - _US_美国 12
-      - 英国【付费推荐：v1.mk/vip】96
-      - 梦歌|广港中继|解锁流媒体_125
-      - _US_美国_8_7@13
-      - 美国【付费推荐：v1.mk/vip】185
-      - _JP_日本_4_7@28
-      - 梦歌|广港中继|解锁流媒体_82
-      - Singapore 19 TG:@nodpai
-      - Japan 25 TG:@nodpai
-      - Relay 🇺🇸 United States 03 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_616
-      - Singapore(ChatGPT) 16 TG:@nodpai
-      - 日本 008
-      - Italy(ChatGPT) 01 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_61
-      - 美国【付费推荐：tt.vg/vip】120
-      - _US_电报频道： @pjrjzy 40
-      - China 02 TG:@nodpai
-      - Relay 🇨🇳 China 01 TG:@nodpai
-      - _US_美国_11_3@43
-      - 美国【付费推荐：v1.mk/vip】4
-      - _US_美国_2_1@9
-      - _US_美国_2_0@3
-      - Japan(ChatGPT) 05 TG:@nodpai
-      - Japan 19 TG:@nodpai
-      - DE 4 → tg@nicevpn123
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_207
-      - _US_美国_14
-      - United States 21 TG:@nodpai
-      - 美国 014
-      - 香港 022
-      - South Korea 04 TG:@nodpai
-      - 伯利兹【付费推荐：v1.mk/vip】32
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
-      - github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - Relay 🇺🇸 United States 02 TG:@nodpai
-      - _US_美国 6
-      - India 03 TG:@nodpai
-      - Singapore 12 TG:@nodpai
-      - Netherlands(ChatGPT) 02 TG:@nodpai
-      - _DE_jichangvpn.cloud 3
-      - Netherlands(ChatGPT) 03 TG:@nodpai
-      - United States 15 TG:@nodpai
-      - India 02 TG:@nodpai
-      - _DE_jichangvpn.cloud 4
-      - _JP_日本_2_13@32
-      - Taiwan(ChatGPT) 04 TG:@nodpai
-      - Singapore 14 TG:@nodpai
-      - JP-45.76.104.25-141
-      - Hong Kong 24 TG:@nodpai
-      - Singapore 22 TG:@nodpai
-      - United States(ChatGPT) 32 TG:@nodpai
-      - Singapore 21 TG:@nodpai
-      - _US_美国_4_3@20
-      - Relay 🇰🇷 South Korea 10 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 03 TG:@nodpai
-      - Singapore 11 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 01 TG:@nodpai
-      - Hong Kong 28 TG:@nodpai
-      - _US_美国 8 2
-      - HK-156.245.8.105-168
-      - US-156.225.67.125-179
-      - _KR_jichangvpn.cloud
-      - Hong Kong(ChatGPT) 19 TG:@nodpai
-      - 美国 CloudFlare节点
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - Hong Kong(ChatGPT) 23 TG:@nodpai
-      - Relay 🇦🇺 Australia 01 TG:@nodpai
-      - United States 16 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 32 TG:@nodpai
-      - Italy(ChatGPT) 02 TG:@nodpai
-      - Singapore 17 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
-      - Taiwan(ChatGPT) 03 TG:@nodpai
-      - Singapore(ChatGPT) 04 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 32 TG:@nodpai
-      - _US_美国 10
-      - _US_jichangvpn.cloud 56
-      - Hong Kong(ChatGPT) 26 TG:@nodpai
-      - Relay 🇷🇺 Russia 04 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 37 TG:@nodpai
-      - Hong Kong 51 TG:@nodpai
-      - Japan 08 TG:@nodpai
-      - Taiwan(ChatGPT) 15 TG:@nodpai
-      - Japan(ChatGPT) 20 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 60 TG:@nodpai
-      - GB-194.146.49.64-036
-      - Hong Kong(ChatGPT) 20 TG:@nodpai
-      - Hong Kong 22 TG:@nodpai
-      - Taiwan(ChatGPT) 14 TG:@nodpai
-      - Singapore(ChatGPT) 10 TG:@nodpai
-      - South Korea 01 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】88
-      - 美国【付费推荐：v1.mk/vip】70
-      - Taiwan(ChatGPT) 20 TG:@nodpai
-      - Singapore 40 TG:@nodpai
-      - Singapore(ChatGPT) 02 TG:@nodpai
-      - _US_美国_9_10@30
-      - _US_美国_7_0@31
-      - Relay 🇭🇰 Hong Kong 61 TG:@nodpai
-      - United Arab Emirates(ChatGPT) 01 TG:@nodpai
-      - GB-194.146.49.64-101
-      - Taiwan(ChatGPT) 37 TG:@nodpai
-      - United States(ChatGPT) 06 TG:@nodpai
-      - South Korea 03 TG:@nodpai
-      - Japan 18 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 28 TG:@nodpai
-      - Hong Kong 41 TG:@nodpai
-      - 印尼 001
-      - Relay 🇬🇧 United Kingdom(ChatGPT) 02 TG:@nodpai
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - US-156.225.67.125-130
-      - 美国【付费推荐：tt.vg/vip】130
-      - _DE_德国_7@19
-      - 英国 003
-      - Hong Kong(ChatGPT) 53 TG:@nodpai
-      - Hong Kong 25 TG:@nodpai
-      - Japan(ChatGPT) 24 TG:@nodpai
-      - _US_美国->🇳🇱_NL_荷兰
-      - Taiwan(ChatGPT) 19 TG:@nodpai
-      - _US_美国 2 2
-      - Japan(ChatGPT) 23 TG:@nodpai
-      - India 01 TG:@nodpai
-      - _US_电报频道： @pjrjzy 42
-      - Taiwan(ChatGPT) 26 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
-      - Taiwan(ChatGPT) 23 TG:@nodpai
-      - 荷兰 005
-      - _FR_法国
-      - Relay 🇭🇰 Hong Kong 33 TG:@nodpai
-      - Singapore(ChatGPT) 06 TG:@nodpai
-      - Hong Kong(ChatGPT) 14 TG:@nodpai
-      - 4Jadi-181
-      - _HK_香港->🇳🇱_NL_荷兰
-      - Singapore 05 TG:@nodpai
-      - _US_jichangvpn.cloud 49
-      - Relay 🇲🇾 Malaysia 01 TG:@nodpai
-      - Japan 14 TG:@nodpai
-      - US-156.225.67.250-127
-      - Japan 17 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
-      - Taiwan(ChatGPT) 17 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 34 TG:@nodpai
-      - Singapore 03 TG:@nodpai
-      - _NL_荷兰
-      - Taiwan(ChatGPT) 12 TG:@nodpai
-      - HK-156.245.8.105-129
-      - Hong Kong(ChatGPT) 15 TG:@nodpai
-      - United States 12 TG:@nodpai
-      - US-156.225.67.250-180
-      - Japan(ChatGPT) 02 TG:@nodpai
-      - Taiwan(ChatGPT) 24 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】45
-      - _US_美国->🇫🇷_FR_法国
-      - Taiwan(ChatGPT) 06 TG:@nodpai
-      - Singapore 13 TG:@nodpai
-      - US-156.225.67.85-128
-      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 01 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】8
-      - Relay 🇰🇷 South Korea 06 TG:@nodpai
-      - Hong Kong 30 TG:@nodpai
-      - Taiwan(ChatGPT) 25 TG:@nodpai
-      - Hong Kong(ChatGPT) 16 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 05 TG:@nodpai
-      - 荷兰 006
-      - Hong Kong 21 TG:@nodpai
-      - Taiwan(ChatGPT) 05 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】14
-      - Relay 🇺🇸 United States 08 TG:@nodpai
-      - South Korea 05 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】102
-      - Japan(ChatGPT) 09 TG:@nodpai
-      - Taiwan(ChatGPT) 16 TG:@nodpai
-      - 新加坡 002
-      - Taiwan(ChatGPT) 09 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 03 TG:@nodpai
-      - Taiwan(ChatGPT) 11 TG:@nodpai
-      - Taiwan(ChatGPT) 13 TG:@nodpai
-      - South Korea 02 TG:@nodpai
-      - Hong Kong 31 TG:@nodpai
-      - GB-83.142.225.32-172
-      - HK-156.245.8.105-194
-      - Japan 06 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 36 TG:@nodpai
-      - _US_美国_18_5@35
-      - 日本 048
-      - Hong Kong 04 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】166
-      - Japan 22 TG:@nodpai
-      - Japan 21 TG:@nodpai
-      - Russia 03 TG:@nodpai
-      - Japan 15 TG:@nodpai 2
-      - 美国 007
-      - Taiwan(ChatGPT) 18 TG:@nodpai
-      - Japan(ChatGPT) 16 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
-      - 法国 003
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
-      - _GB_jichangvpn.cloud
-      - Japan 07 TG:@nodpai
-      - Relay 🇯🇵 Japan 35 TG:@nodpai
-      - Hong Kong 62 TG:@nodpai
-      - Japan(ChatGPT) 04 TG:@nodpai
-      - 美国 026
-      - 荷兰 007
-      - Relay 🇯🇵 Japan(ChatGPT) 33 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】115 2
-      - 越南 003
-      - Hong Kong(ChatGPT) 29 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 02 TG:@nodpai
-      - Taiwan(ChatGPT) 22 TG:@nodpai
-      - Japan 10 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_246
-      - Taiwan(ChatGPT) 21 TG:@nodpai
-      - _CN_jichangvpn.cloud 10
-      - _US_jichangvpn.cloud 60
-      - _US_美国 19
-      - 香港2|tg频道:@ripaojiedian 2
-      - 韩国 001
-      - Relay 🇭🇰 Hong Kong 32 TG:@nodpai
-      - 俄罗斯 003
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_516
-      - 美国【付费推荐：v1.mk/vip】87
-      - 美国【付费推荐：tt.vg/vip】34
-      - _US_美国
-      - 美国【付费推荐：v1.mk/vip】29
-      - _US_电报频道： @pjrjzy 50
-      - Singapore 39 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 31 TG:@nodpai
-      - 韩国|tg频道:@ripaojiedian 2
-      - US-69.84.182.248-153
-      - Relay 🇸🇬 Singapore(ChatGPT) 36 TG:@nodpai
-      - _CN_中国->🇺🇸_US_美国
-      - Relay 🇹🇼 Taiwan(ChatGPT) 31 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 34 TG:@nodpai
-      - Relay 🇯🇵 Japan 38 TG:@nodpai
-      - Relay 🇯🇵 Japan 47 TG:@nodpai
-      - _SG_新加坡_1_18@10
-      - Relay 🇸🇬 Singapore 23 TG:@nodpai
-      - 日本|tg频道:@ripaojiedian
-      - Relay 🇭🇰 Hong Kong 55 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 54 TG:@nodpai
-      - Relay 🇯🇵 Japan 39 TG:@nodpai
-      - Relay 🇯🇵 Japan 40 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 39 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 59 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 30 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 43 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 07 TG:@nodpai
-      - 中国【付费推荐：v1.mk/vip】158
-      - 香港2|tg频道:@ripaojiedian 2 2
-      - 美国【付费推荐：v1.mk/vip】83
-      - 英国 001
-      - 美国【付费推荐：v1.mk/vip】62
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 18 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 46 TG:@nodpai
-      - 日本 049
-      - Relay 🇫🇷 France 02 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】104
-      - Relay 🇨🇦 Canada 01 TG:@nodpai
-      - 印度 005
-      - _CN_中国->🇺🇸_US_美国 2
-      - KR-52.79.186.163-176
-      - 美国【付费推荐：v1.mk/vip】74
-      - Japan 09 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】75
-      - 美国【付费推荐：v1.mk/vip】56
-      - 美国【付费推荐：v1.mk/vip】21
-      - Russia 05 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 28 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】18
-      - RELAY-172.67.190.72-108
-      - 4Jadi-887
-      - github.com/mehdimoghaddam-cell_10
-      - Taiwan(ChatGPT) 29 TG:@nodpai
-      - Hong Kong 35 TG:@nodpai
-      - CN-120.240.163.56-038
-      - Relay 🇹🇷 Turkey(ChatGPT) 02 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】9
-      - _US_美国->🇩🇪_DE_德国_5@8
-      - Relay 🇧🇷 Brazil 01 TG:@nodpai
-      - Relay 🇺🇸 United States 07 TG:@nodpai
-      - US-69.84.182.243-155
-      - United States 13 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】127
-      - 美国【付费推荐：v1.mk/vip】12
-      - 日本 050
-      - Japan 13 TG:@nodpai
-      - France 01 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】28
-      - _US_电报频道： @pjrjzy
-      - Hong Kong 09 TG:@nodpai
-      - Japan 26 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_128
-      - Hong Kong 50 TG:@nodpai
-      - Relay 🇸🇬 Singapore 35 TG:@nodpai
-      - Hong Kong 27 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_303
-      - _US_美国->🇬🇧_GB_英国 4
-      - United States(ChatGPT) 04 TG:@nodpai
-      - Russia 06 TG:@nodpai
-      - Relay 🇹🇷 Turkey(ChatGPT) 01 TG:@nodpai
-      - Russia 02 TG:@nodpai
-      - _US_电报频道： @pjrjzy 4 2
-      - 梦歌|广港中继|解锁流媒体_83
-      - 美国【付费推荐：v1.mk/vip】54
-      - 美国【付费推荐：v1.mk/vip】79
-      - _CN_中国_1_12@4
-      - Relay 🇸🇬 Singapore 25 TG:@nodpai
-      - Germany 01 TG:@nodpai
-      - Hong Kong 08 TG:@nodpai
-      - Hong Kong 48 TG:@nodpai
-      - _US_电报频道： @pjrjzy 48
-  - name: ⚖️ 负载MISSAV
-    type: load-balance
-    url: hhttps://www.missav.com/
-    interval: 6
-    strategy: round-robin
-    proxies:
-      - Relay 🇰🇷 South Korea 07 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 44 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 45 TG:@nodpai
-      - Singapore 15 TG:@nodpai
-      - Singapore(ChatGPT) 07 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
-      - Relay 🇭🇰 Hong Kong 56 TG:@nodpai
-      - Relay 🇯🇵 Japan 31 TG:@nodpai
-      - Relay 🇯🇵 Japan 37 TG:@nodpai
-      - Relay 🇸🇬 Singapore 34 TG:@nodpai
-      - Relay 🇯🇵 Japan 46 TG:@nodpai
-      - Relay 🇰🇷 South Korea 09 TG:@nodpai
-      - Russia 01 TG:@nodpai
-      - Hong Kong(ChatGPT) 12 TG:@nodpai
-      - US_youtube@资源分享师_47
-      - Relay 🇯🇵 Japan(ChatGPT) 30 TG:@nodpai
-      - 未知 100
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 14
-      - _HK_香港_3_7@39
-      - Japan 02 TG:@nodpai
-      - _US_jichangvpn.cloud 20
-      - _US_电报频道： @pjrjzy 53
-      - United States 22 TG:@nodpai
-      - United States 06 TG:@nodpai
-      - _KR_韩国_6_5@30
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
-      - Japan(ChatGPT) 01 TG:@nodpai
-      - 香港 002
-      - 美国【付费推荐：v1.mk/vip】89
-      - 荷兰 004
-      - _US_电报频道： @pjrjzy 51
-      - 美国【付费推荐：v1.mk/vip】115
-      - 日本3|tg频道:@ripaojiedian
-      - 美国【付费推荐：v1.mk/vip】82
-      - Hong Kong 17 TG:@nodpai
-      - _US_美国 8
-      - Singapore(ChatGPT) 09 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 35 TG:@nodpai
-      - 4Jadi-161
-      - RELAY-172.67.128.59-152
-      - 日本 008 2
-      - 4Jadi-703
-      - United States 04 TG:@nodpai
-      - US美国(youtube阿伟科技) 2
-      - _US_美国 13
-      - _JP_日本 3
-      - 梦歌|广港中继|解锁流媒体_57
-      - 梦歌|广港中继|解锁流媒体_79
-      - Taiwan(ChatGPT) 07 TG:@nodpai
-      - CLOUDFLARE_104.21.0.175_04132023f74b-1007vmess
-      - _US_jichangvpn.cloud 5
-      - _US_jichangvpn.cloud 45
-      - 日本|tg频道:@ripaojiedian 2
-      - _JP_日本_6_0@30
-      - Japan 12 TG:@nodpai
-      - Relay 🇺🇸 United States 06 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_95
-      - Relay 🇺🇸 United States 20 TG:@nodpai
-      - 美国B|tg频道:@ripaojiedian
-      - Singapore 18 TG:@nodpai
-      - Relay 🇺🇸 United States 13 TG:@nodpai
-      - Relay 🇺🇸 United States 19 TG:@nodpai
-      - _US_美国 2
-      - United States 01 TG:@nodpai
-      - NONE
-      - Japan(ChatGPT) 03 TG:@nodpai
-      - Singapore(ChatGPT) 20 TG:@nodpai
-      - Japan 15 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】109
-      - _US_美国 3
-      - 梦歌|广港中继|解锁流媒体_113
-      - 美国【付费推荐：v1.mk/vip】3
-      - 梦歌|广港中继|解锁流媒体_69
-      - China 01 TG:@nodpai
-      - _US_美国_8_11@29
-      - 美国 092
-      - Japan(ChatGPT) 11 TG:@nodpai
-      - Hong Kong(ChatGPT) 13 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】51
-      - Switzerland(ChatGPT) 01 TG:@nodpai
-      - _US_美国 12
-      - 英国【付费推荐：v1.mk/vip】96
-      - 梦歌|广港中继|解锁流媒体_125
-      - _US_美国_8_7@13
-      - 美国【付费推荐：v1.mk/vip】185
-      - _JP_日本_4_7@28
-      - 梦歌|广港中继|解锁流媒体_82
-      - Singapore 19 TG:@nodpai
-      - Japan 25 TG:@nodpai
-      - Relay 🇺🇸 United States 03 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_616
-      - Singapore(ChatGPT) 16 TG:@nodpai
-      - 日本 008
-      - Italy(ChatGPT) 01 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_61
-      - 美国【付费推荐：tt.vg/vip】120
-      - _US_电报频道： @pjrjzy 40
-      - China 02 TG:@nodpai
-      - Relay 🇨🇳 China 01 TG:@nodpai
-      - _US_美国_11_3@43
-      - 美国【付费推荐：v1.mk/vip】4
-      - _US_美国_2_1@9
-      - _US_美国_2_0@3
-      - Japan(ChatGPT) 05 TG:@nodpai
-      - Japan 19 TG:@nodpai
-      - DE 4 → tg@nicevpn123
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_207
-      - _US_美国_14
-      - United States 21 TG:@nodpai
-      - 美国 014
-      - 香港 022
-      - South Korea 04 TG:@nodpai
-      - 伯利兹【付费推荐：v1.mk/vip】32
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
-      - github.com/freefq - 美国CloudFlare公司CDN节点 16
-      - Relay 🇺🇸 United States 02 TG:@nodpai
-      - _US_美国 6
-      - India 03 TG:@nodpai
-      - Singapore 12 TG:@nodpai
-      - Netherlands(ChatGPT) 02 TG:@nodpai
-      - _DE_jichangvpn.cloud 3
-      - Netherlands(ChatGPT) 03 TG:@nodpai
-      - United States 15 TG:@nodpai
-      - India 02 TG:@nodpai
-      - _DE_jichangvpn.cloud 4
-      - _JP_日本_2_13@32
-      - Taiwan(ChatGPT) 04 TG:@nodpai
-      - Singapore 14 TG:@nodpai
-      - JP-45.76.104.25-141
-      - Hong Kong 24 TG:@nodpai
-      - Singapore 22 TG:@nodpai
-      - United States(ChatGPT) 32 TG:@nodpai
-      - Singapore 21 TG:@nodpai
-      - _US_美国_4_3@20
-      - Relay 🇰🇷 South Korea 10 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 03 TG:@nodpai
-      - Singapore 11 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 01 TG:@nodpai
-      - Hong Kong 28 TG:@nodpai
-      - _US_美国 8 2
-      - HK-156.245.8.105-168
-      - US-156.225.67.125-179
-      - _KR_jichangvpn.cloud
-      - Hong Kong(ChatGPT) 19 TG:@nodpai
-      - 美国 CloudFlare节点
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - Hong Kong(ChatGPT) 23 TG:@nodpai
-      - Relay 🇦🇺 Australia 01 TG:@nodpai
-      - United States 16 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 32 TG:@nodpai
-      - Italy(ChatGPT) 02 TG:@nodpai
-      - Singapore 17 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
-      - Taiwan(ChatGPT) 03 TG:@nodpai
-      - Singapore(ChatGPT) 04 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 32 TG:@nodpai
-      - _US_美国 10
-      - _US_jichangvpn.cloud 56
-      - Hong Kong(ChatGPT) 26 TG:@nodpai
-      - Relay 🇷🇺 Russia 04 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 37 TG:@nodpai
-      - Hong Kong 51 TG:@nodpai
-      - Japan 08 TG:@nodpai
-      - Taiwan(ChatGPT) 15 TG:@nodpai
-      - Japan(ChatGPT) 20 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 60 TG:@nodpai
-      - GB-194.146.49.64-036
-      - Hong Kong(ChatGPT) 20 TG:@nodpai
-      - Hong Kong 22 TG:@nodpai
-      - Taiwan(ChatGPT) 14 TG:@nodpai
-      - Singapore(ChatGPT) 10 TG:@nodpai
-      - South Korea 01 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】88
-      - 美国【付费推荐：v1.mk/vip】70
-      - Taiwan(ChatGPT) 20 TG:@nodpai
-      - Singapore 40 TG:@nodpai
-      - Singapore(ChatGPT) 02 TG:@nodpai
-      - _US_美国_9_10@30
-      - _US_美国_7_0@31
-      - Relay 🇭🇰 Hong Kong 61 TG:@nodpai
-      - United Arab Emirates(ChatGPT) 01 TG:@nodpai
-      - GB-194.146.49.64-101
-      - Taiwan(ChatGPT) 37 TG:@nodpai
-      - United States(ChatGPT) 06 TG:@nodpai
-      - South Korea 03 TG:@nodpai
-      - Japan 18 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 28 TG:@nodpai
-      - Hong Kong 41 TG:@nodpai
-      - 印尼 001
-      - Relay 🇬🇧 United Kingdom(ChatGPT) 02 TG:@nodpai
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - US-156.225.67.125-130
-      - 美国【付费推荐：tt.vg/vip】130
-      - _DE_德国_7@19
-      - 英国 003
-      - Hong Kong(ChatGPT) 53 TG:@nodpai
-      - Hong Kong 25 TG:@nodpai
-      - Japan(ChatGPT) 24 TG:@nodpai
-      - _US_美国->🇳🇱_NL_荷兰
-      - Taiwan(ChatGPT) 19 TG:@nodpai
-      - _US_美国 2 2
-      - Japan(ChatGPT) 23 TG:@nodpai
-      - India 01 TG:@nodpai
-      - _US_电报频道： @pjrjzy 42
-      - Taiwan(ChatGPT) 26 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
-      - Taiwan(ChatGPT) 23 TG:@nodpai
-      - 荷兰 005
-      - _FR_法国
-      - Relay 🇭🇰 Hong Kong 33 TG:@nodpai
-      - Singapore(ChatGPT) 06 TG:@nodpai
-      - Hong Kong(ChatGPT) 14 TG:@nodpai
-      - 4Jadi-181
-      - _HK_香港->🇳🇱_NL_荷兰
-      - Singapore 05 TG:@nodpai
-      - _US_jichangvpn.cloud 49
-      - Relay 🇲🇾 Malaysia 01 TG:@nodpai
-      - Japan 14 TG:@nodpai
-      - US-156.225.67.250-127
-      - Japan 17 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
-      - Taiwan(ChatGPT) 17 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 34 TG:@nodpai
-      - Singapore 03 TG:@nodpai
-      - _NL_荷兰
-      - Taiwan(ChatGPT) 12 TG:@nodpai
-      - HK-156.245.8.105-129
-      - Hong Kong(ChatGPT) 15 TG:@nodpai
-      - United States 12 TG:@nodpai
-      - US-156.225.67.250-180
-      - Japan(ChatGPT) 02 TG:@nodpai
-      - Taiwan(ChatGPT) 24 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】45
-      - _US_美国->🇫🇷_FR_法国
-      - Taiwan(ChatGPT) 06 TG:@nodpai
-      - Singapore 13 TG:@nodpai
-      - US-156.225.67.85-128
-      - Relay 🇭🇰 Hong Kong 06 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 01 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】8
-      - Relay 🇰🇷 South Korea 06 TG:@nodpai
-      - Hong Kong 30 TG:@nodpai
-      - Taiwan(ChatGPT) 25 TG:@nodpai
-      - Hong Kong(ChatGPT) 16 TG:@nodpai
-      - Relay 🇺🇸 United States(ChatGPT) 05 TG:@nodpai
-      - 荷兰 006
-      - Hong Kong 21 TG:@nodpai
-      - Taiwan(ChatGPT) 05 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】14
-      - Relay 🇺🇸 United States 08 TG:@nodpai
-      - South Korea 05 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】102
-      - Japan(ChatGPT) 09 TG:@nodpai
-      - Taiwan(ChatGPT) 16 TG:@nodpai
-      - 新加坡 002
-      - Taiwan(ChatGPT) 09 TG:@nodpai
-      - Relay 🇯🇵 Japan(ChatGPT) 03 TG:@nodpai
-      - Taiwan(ChatGPT) 11 TG:@nodpai
-      - Taiwan(ChatGPT) 13 TG:@nodpai
-      - South Korea 02 TG:@nodpai
-      - Hong Kong 31 TG:@nodpai
-      - GB-83.142.225.32-172
-      - HK-156.245.8.105-194
-      - Japan 06 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 36 TG:@nodpai
-      - _US_美国_18_5@35
-      - 日本 048
-      - Hong Kong 04 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】166
-      - Japan 22 TG:@nodpai
-      - Japan 21 TG:@nodpai
-      - Russia 03 TG:@nodpai
-      - Japan 15 TG:@nodpai 2
-      - 美国 007
-      - Taiwan(ChatGPT) 18 TG:@nodpai
-      - Japan(ChatGPT) 16 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
-      - 法国 003
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
-      - _GB_jichangvpn.cloud
-      - Japan 07 TG:@nodpai
-      - Relay 🇯🇵 Japan 35 TG:@nodpai
-      - Hong Kong 62 TG:@nodpai
-      - Japan(ChatGPT) 04 TG:@nodpai
-      - 美国 026
-      - 荷兰 007
-      - Relay 🇯🇵 Japan(ChatGPT) 33 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】115 2
-      - 越南 003
-      - Hong Kong(ChatGPT) 29 TG:@nodpai
-      - Relay 🇬🇧 United Kingdom 02 TG:@nodpai
-      - Taiwan(ChatGPT) 22 TG:@nodpai
-      - Japan 10 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_246
-      - Taiwan(ChatGPT) 21 TG:@nodpai
-      - _CN_jichangvpn.cloud 10
-      - _US_jichangvpn.cloud 60
-      - _US_美国 19
-      - 香港2|tg频道:@ripaojiedian 2
-      - 韩国 001
-      - Relay 🇭🇰 Hong Kong 32 TG:@nodpai
-      - 俄罗斯 003
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_516
-      - 美国【付费推荐：v1.mk/vip】87
-      - 美国【付费推荐：tt.vg/vip】34
-      - _US_美国
-      - 美国【付费推荐：v1.mk/vip】29
-      - _US_电报频道： @pjrjzy 50
-      - Singapore 39 TG:@nodpai
-      - Relay 🇸🇬 Singapore(ChatGPT) 31 TG:@nodpai
-      - 韩国|tg频道:@ripaojiedian 2
-      - US-69.84.182.248-153
-      - Relay 🇸🇬 Singapore(ChatGPT) 36 TG:@nodpai
-      - _CN_中国->🇺🇸_US_美国
-      - Relay 🇹🇼 Taiwan(ChatGPT) 31 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 34 TG:@nodpai
-      - Relay 🇯🇵 Japan 38 TG:@nodpai
-      - Relay 🇯🇵 Japan 47 TG:@nodpai
-      - _SG_新加坡_1_18@10
-      - Relay 🇸🇬 Singapore 23 TG:@nodpai
-      - 日本|tg频道:@ripaojiedian
-      - Relay 🇭🇰 Hong Kong 55 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 54 TG:@nodpai
-      - Relay 🇯🇵 Japan 39 TG:@nodpai
-      - Relay 🇯🇵 Japan 40 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 39 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 59 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 30 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 43 TG:@nodpai
-      - Relay 🇭🇰 Hong Kong 07 TG:@nodpai
-      - 中国【付费推荐：v1.mk/vip】158
-      - 香港2|tg频道:@ripaojiedian 2 2
-      - 美国【付费推荐：v1.mk/vip】83
-      - 英国 001
-      - 美国【付费推荐：v1.mk/vip】62
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 18 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 46 TG:@nodpai
-      - 日本 049
-      - Relay 🇫🇷 France 02 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】104
-      - Relay 🇨🇦 Canada 01 TG:@nodpai
-      - 印度 005
-      - _CN_中国->🇺🇸_US_美国 2
-      - KR-52.79.186.163-176
-      - 美国【付费推荐：v1.mk/vip】74
-      - Japan 09 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】75
-      - 美国【付费推荐：v1.mk/vip】56
-      - 美国【付费推荐：v1.mk/vip】21
-      - Russia 05 TG:@nodpai
-      - Relay 🇹🇼 Taiwan(ChatGPT) 28 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】18
-      - RELAY-172.67.190.72-108
-      - 4Jadi-887
-      - github.com/mehdimoghaddam-cell_10
-      - Taiwan(ChatGPT) 29 TG:@nodpai
-      - Hong Kong 35 TG:@nodpai
-      - CN-120.240.163.56-038
-      - Relay 🇹🇷 Turkey(ChatGPT) 02 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】9
-      - _US_美国->🇩🇪_DE_德国_5@8
-      - Relay 🇧🇷 Brazil 01 TG:@nodpai
-      - Relay 🇺🇸 United States 07 TG:@nodpai
-      - US-69.84.182.243-155
-      - United States 13 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】127
-      - 美国【付费推荐：v1.mk/vip】12
-      - 日本 050
-      - Japan 13 TG:@nodpai
-      - France 01 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】28
-      - _US_电报频道： @pjrjzy
-      - Hong Kong 09 TG:@nodpai
-      - Japan 26 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_128
-      - Hong Kong 50 TG:@nodpai
-      - Relay 🇸🇬 Singapore 35 TG:@nodpai
-      - Hong Kong 27 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_303
-      - _US_美国->🇬🇧_GB_英国 4
-      - United States(ChatGPT) 04 TG:@nodpai
-      - Russia 06 TG:@nodpai
-      - Relay 🇹🇷 Turkey(ChatGPT) 01 TG:@nodpai
-      - Russia 02 TG:@nodpai
-      - _US_电报频道： @pjrjzy 4 2
-      - 梦歌|广港中继|解锁流媒体_83
-      - 美国【付费推荐：v1.mk/vip】54
-      - 美国【付费推荐：v1.mk/vip】79
-      - _CN_中国_1_12@4
-      - Relay 🇸🇬 Singapore 25 TG:@nodpai
-      - Germany 01 TG:@nodpai
-      - Hong Kong 08 TG:@nodpai
-      - Hong Kong 48 TG:@nodpai
-      - _US_电报频道： @pjrjzy 48
 rules:
+  - DOMAIN-KEYWORD,missav,🔰 节点选择
+  - DOMAIN-KEYWORD,youtube,🔰 节点选择
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
   - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
