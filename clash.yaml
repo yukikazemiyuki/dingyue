@@ -5,3131 +5,838 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: Singapore(ChatGPT) 01 TG:@nodpai
-    server: 1a03879e-145d-4b60-8c14-a2ff5e0aca74.interface.buzz
-    port: 443
-    type: vmess
-    uuid: 285adff2-eb0b-41f6-80d7-8a8fc65b10fc
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /index.html
-      headers:
-        Host: apps.apple.com
-    udp: true
-  - name: 香港 022
-    server: 16.162.74.222
-    port: 443
-    type: vmess
-    uuid: 6ff66f42-38d7-41c6-9a08-0d48f2ef3aa5
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /zh-cn
-    udp: true
-  - name: 4Jadi-161
-    server: 23.224.110.182
-    port: 443
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /path/080712342310
-    udp: true
-  - name: Relay 🇨🇳 China 01 TG:@nodpai 2
-    server: 198.2.205.108
-    port: 53327
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国_8_11@29
-    server: 198.16.45.166
-    port: 53392
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_电报频道： @pjrjzy 51
-    server: cf-lt.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: hk-hytron.ilovescp.com
-    udp: true
-  - name: 香港 002
-    server: hk2.c2bfe79372be.sanfen001.pics
-    port: 443
-    type: vmess
-    uuid: 6ff66f42-38d7-41c6-9a08-0d48f2ef3aa5
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /zh-cn
-      headers:
-        Host: hk2.c2bfe79372be.sanfen001.pics
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
-    server: england1.yj2022.ga
-    port: 443
-    type: vmess
-    uuid: 4b5e4565-322f-4223-a891-78a84f189726
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /Eynyyo4kJfl2fkJfl2f
-      headers:
-        Host: england1.yj2022.ga
-    udp: true
-  - name: _US_jichangvpn.cloud 5
-    server: cf-lt.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: hk2.ilovescp.com
-    udp: true
-  - name: 美国3|tg频道:@ripaojiedian
-    server: 137.175.52.17
-    port: 33002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
-    server: pm.motori.pw
-    port: 8880
-    type: vmess
-    uuid: d1c59699-1874-49f1-b9ba-bbbfd7968075
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: pm.motori.pw
-    udp: true
-  - name: United States 26 TG:@nodpai
-    server: 171.22.134.28
-    port: 53433
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国【付费推荐：v1.mk/vip】51
-    server: els200.jslist.tk
-    port: 8443
-    type: vmess
-    uuid: e30cfa80-bc2c-43df-e808-97876aee77e2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /wo.php
-      headers:
-        Host: els200.jslist.tk
-    udp: true
-  - name: US-142.4.114.26-017
-    server: 142.4.114.26
-    port: 34002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国_8_9@13
-    server: USG.fljsm.com
-    port: 443
-    type: vmess
-    uuid: e5543efd-5400-3760-9bb6-02767728e888
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /video
-      headers:
-        Host: USG.fljsm.com
-    udp: true
-  - name: _US_电报频道： @pjrjzy 53
-    server: cf-lt.sharecentre.online
-    port: 443
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: hk-hytron.ilovescp.com
-    udp: true
-  - name: 美国【付费推荐：v1.mk/vip】82
-    server: 3.mamadcucu.com
-    port: 2086
-    type: vmess
-    uuid: 929344e1-473c-4feb-b86b-fde3ee1ccd16
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /ArsalanTauBot
-      headers:
-        Host: 3.mamadcucu.com
-    udp: true
-  - name: _US_美国 3
-    server: 198.2.204.248
-    port: 46802
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_jichangvpn.cloud 20
-    server: cf-lt.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: sg2.sharecentrepro.com
-    udp: true
-  - name: _US_美国 15
-    server: 140.99.157.82
-    port: 47815
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: China 02 TG:@nodpai
-    server: 142.4.110.29
-    port: 52902
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_83
-    server: 107.148.195.16
-    port: 50014
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国 12
-    server: 142.4.114.26
-    port: 34002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: Relay 🇨🇳 China 01 TG:@nodpai
-    server: 198.2.205.108
-    port: 53327
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_128 2
-    server: 107.148.195.16
-    port: 50014
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国【付费推荐：v1.mk/vip】70
-    server: 4.mamadcucu.com
-    port: 8880
-    type: vmess
-    uuid: 51ba5a9a-4b7c-4c62-b4ae-0e53ec8d3024
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /ArsalanTauBot
-      headers:
-        Host: 4.mamadcucu.com
-    udp: true
-  - name: Relay 🇨🇳 China 01 TG:@nodpai 3
-    server: 198.2.205.108
-    port: 53327
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_电报频道： @pjrjzy 40
-    server: cf-lt.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: ny1.sharecentrepro.org
-    udp: true
-  - name: US-142.4.114.26-017 2
-    server: 142.4.114.26
-    port: 34002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: United States 25 TG:@nodpai
-    server: 140.99.157.82
-    port: 47815
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: United States(ChatGPT) 32 TG:@nodpai
-    server: 172.67.209.126
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: lv1.sharecentrepro.org
-    udp: true
-  - name: Switzerland(ChatGPT) 01 TG:@nodpai
-    server: 195.15.243.26
-    port: 443
-    type: trojan
-    password: "4478"
-    skip-cert-verify: true
-    udp: true
-  - name: Relay 🇨🇳 China 01 TG:@nodpai 4
-    server: 198.2.205.108
-    port: 53327
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: United States 27 TG:@nodpai
-    server: 107.148.195.16
-    port: 50014
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国 17
-    server: 198.2.206.35
-    port: 33012
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: United States 10 TG:@nodpai
-    server: 192.74.232.250
-    port: 51802
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: United States 03 TG:@nodpai
-    server: 137.175.52.17
-    port: 33002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: US-137.175.3.228-009
-    server: 137.175.3.228
-    port: 53002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _FR_法国_0@18
-    server: 92.243.24.58
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: h2Bd2jFzAuYA
-    udp: true
-  - name: 美国 087
-    server: 140.99.157.82
-    port: 47815
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: DE 4 → tg@nicevpn123
-    server: 130.61.111.167
-    port: 21872
-    type: vmess
-    uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: United States 29 TG:@nodpai
-    server: 142.4.114.26
-    port: 34002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_128
-    server: 107.148.195.16
-    port: 50014
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_297
-    server: 172.67.132.15
-    port: 443
-    type: vmess
-    uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /ray
-      headers:
-        Host: ming2.kiwireich.com
-    udp: true
-  - name: Netherlands(ChatGPT) 01 TG:@nodpai
-    server: 156.225.67.101
-    port: 44388
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: US-69.84.182.248-153
-    server: ch.learnpropy.click
-    port: 2053
-    type: vmess
-    uuid: 8cab8fb7-4977-4ec2-8bba-2914dd43bfbd
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /gsdg43575
-      headers:
-        Host: abs.learnpropy.click
-    udp: true
-  - name: _US_美国->🇳🇱_NL_荷兰
-    server: 156.225.67.213
-    port: 47134
-    type: vmess
-    uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: US-156.225.67.213-032
-    server: 156.225.67.213
-    port: 47134
-    type: vmess
-    uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国 3 2
-    server: 198.2.204.248
-    port: 46802
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国【付费推荐：v1.mk/vip】62
-    server: 172.67.57.22
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: uk1.scproxy.top
-    udp: true
-  - name: _US_美国->🇳🇱_NL_荷兰 2
-    server: 156.225.67.213
-    port: 47134
-    type: vmess
-    uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国->🇳🇱_NL_荷兰 3
-    server: 156.225.67.213
-    port: 47134
-    type: vmess
-    uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 荷兰 004
-    server: 46.182.107.15
-    port: 51332
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: Singapore 02 TG:@nodpai
-    server: 54.169.160.39
-    port: 801
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: tvX1v#NSFP_LG_bJ
-    udp: true
-  - name: US-69.84.182.243-155
-    server: mm.learnpropy.click
-    port: 2053
-    type: vmess
-    uuid: 8cab8fb7-4977-4ec2-8bba-2914dd43bfbd
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /gsdg43575
-      headers:
-        Host: abs.learnpropy.click
-    udp: true
-  - name: Hong Kong 02 TG:@nodpai
-    server: 58f84dd3-49bf-663b-f21b-6f6562601afa.interface.buzz
-    port: 443
-    type: vmess
-    uuid: 285adff2-eb0b-41f6-80d7-8a8fc65b10fc
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /index.html
-      headers:
-        Host: apps.apple.com
-    udp: true
-  - name: 荷兰 014
-    server: 46.182.107.15
-    port: 51332
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _JP_日本
-    server: 1.huaxia4364.icu
-    port: 80
-    type: vmess
-    uuid: 34d3b5e5-5208-4b5f-b9e2-2c6932dc4810
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国 087 2
-    server: 140.99.157.82
-    port: 47815
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: Relay 🇨🇳 China 01 TG:@nodpai 5
-    server: 198.2.205.108
-    port: 53327
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _JP_日本 4
-    server: fschk.fscloud123456789.com
-    port: 443
-    type: trojan
-    password: 38541d74-6ffd-4352-988d-715ee989947c
-    skip-cert-verify: true
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
-    server: 152.70.74.66
-    port: 443
-    type: trojan
-    password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e
-    skip-cert-verify: true
-    udp: true
-  - name: United States(ChatGPT) 06 TG:@nodpai
-    server: cf-lt.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: lv1.sharecentrepro.org
-    udp: true
-  - name: _US_美国_7_0@31
-    server: hk-hytron.ilovescp.com
-    port: 443
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: hk-hytron.ilovescp.com
-    udp: true
-  - name: 美国【付费推荐：v1.mk/vip】88
-    server: 172.67.199.253
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: uk1.scproxy.top
-    udp: true
-  - name: _US_美国 3 2 2
-    server: 198.2.204.248
-    port: 46802
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _TW_台湾_3_2@27
-    server: sldron.kctr2038.icu
-    port: 14590
-    type: vmess
-    uuid: 35a2abc9-b5a4-462b-b9cb-8662867e39fe
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /7355608
-      headers:
-        Host: sldron.kctr2038.icu
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_319
-    server: cf.fovi.tk
-    port: 2053
-    type: vmess
-    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /eisasqa
-      headers:
-        Host: foxpol.fovi.tk
-    udp: true
-  - name: _US_jichangvpn.cloud 56
-    server: hk-hytron.ilovescp.com
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: hk-hytron.ilovescp.com
-    udp: true
-  - name: 美国 014
-    server: 172.64.173.160
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: ca.ilovescp.com
-    udp: true
-  - name: NONE
-    server: stonebreak.online
-    port: 443
-    type: trojan
-    password: xl87654321
-    skip-cert-verify: true
-    udp: true
-  - name: 美国B|tg频道:@ripaojiedian
-    server: 172.67.86.79
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: hk-hytron.ilovescp.com
-    udp: true
-  - name: _US_美国->🇳🇱_NL_荷兰 2 2
-    server: 156.225.67.213
-    port: 47134
-    type: vmess
-    uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: Germany 01 TG:@nodpai
-    server: join-bede.vmessorg.fun
-    port: 80
-    type: vmess
-    uuid: 94645613-dab4-41f2-bc48-6aa5fcfb9119
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: join-bede.vmessorg.fun
-    udp: true
-  - name: 美国 079
-    server: 156.225.67.166
-    port: 49440
-    type: vmess
-    uuid: ebec2adf-e940-446f-bed4-d8c91143b54a
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
-    server: 170.187.206.48
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /chat
-    udp: true
-  - name: _US_美国->🇳🇱_NL_荷兰 4
-    server: 156.225.67.115
-    port: 49920
-    type: vmess
-    uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _CA_加拿大_0@46
-    server: 158.69.185.230
-    port: 14783
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 8c80d838-253c-41df-afda-d0f04a2c0873
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
-    server: lsb-gy.heinu.cf
-    port: 2096
-    type: vmess
-    uuid: d793c013-f596-4af9-de0a-2062bb864dd7
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /@heinuhome
-      headers:
-        Host: lsb-gy.heinu.cf
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
-    server: lsb-gy.heinu.cf
-    port: 2095
-    type: vmess
-    uuid: 1eda6b95-f248-4f3b-ae10-d7503415a788
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /@heinuhome
-      headers:
-        Host: lsb-gy.heinu.cf
-    udp: true
-  - name: v2rayfree.eu.org - 美国CloudFlare公司CDN节点 11
-    server: 104.17.3.81
-    port: 80
-    type: vmess
-    uuid: e40b2de3-b829-4591-a7b6-99d1913f3246
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: w.evouch77.live
-    udp: true
-  - name: _NL_荷兰
-    server: 46.182.107.15
-    port: 51332
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国 013
-    server: ping.pe
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: uk1.scproxy.top
-    udp: true
-  - name: _US_美国_5_0@13
-    server: 167.88.63.79
-    port: 8119
-    type: ss
-    cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
-    udp: true
-  - name: 美国【付费推荐：v1.mk/vip】45
-    server: 172.67.140.193
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: uk1.scproxy.top
-    udp: true
-  - name: _US_美国_2_0@10
-    server: 167.88.63.79
-    port: 8882
-    type: ss
-    cipher: aes-256-gcm
-    password: kDWvXYZoTBcGkC4
-    udp: true
-  - name: _US_美国->🇫🇷_FR_法国
-    server: cf.yj2022.ga
-    port: 443
-    type: vmess
-    uuid: 4b5e4565-322f-4223-a891-78a84f189726
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /E86414F638E11
-      headers:
-        Host: france1.yj2022.ga
-    udp: true
-  - name: France 01 TG:@nodpai
-    server: a1.veryfastnet1.tk
-    port: 32894
-    type: trojan
-    password: HchlVCfnXB
-    sni: jamaran.ir
-    skip-cert-verify: true
-    udp: true
-  - name: 荷兰 014 2
-    server: 46.182.107.15
-    port: 51332
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 荷兰 004 2
-    server: 46.182.107.15
-    port: 51332
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: RELAY-172.67.190.72-108
-    server: cf.515188.xyz
-    port: 8080
-    type: vmess
-    uuid: 9d553e2b-4176-44ef-bf70-48aa8eb6da60
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /api/v3/download.getFile
-      headers:
-        Host: ssrsub.v03.ssrsub.com
-    udp: true
-  - name: US-156.225.67.213-032 2
-    server: 156.225.67.213
-    port: 47134
-    type: vmess
-    uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国_3_0@11
-    server: 167.88.63.79
-    port: 2375
-    type: ss
-    cipher: aes-256-gcm
-    password: faBAoD54k87UJG7
-    udp: true
-  - name: Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
-    server: 120.240.163.62
-    port: 59629
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_442
-    server: cf.fovi.tk
-    port: 2053
-    type: vmess
-    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /eisasqa
-      headers:
-        Host: foxpol3.fovi.tk
-    udp: true
-  - name: _CN_中国->🇺🇸_US_美国_0@1
-    server: 120.240.163.62
-    port: 59629
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国->🇳🇱_NL_荷兰_0@47
-    server: 156.225.67.166
-    port: 49440
-    type: vmess
-    uuid: ebec2adf-e940-446f-bed4-d8c91143b54a
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国 9
-    server: 198.2.204.248
-    port: 46802
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 4Jadi-703
-    server: ca.ilovescp.com
-    port: 443
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: ca.ilovescp.com
-    udp: true
-  - name: United States 12 TG:@nodpai
-    server: cf-lt.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: dp3.scproxy.top
-    udp: true
-  - name: US美国(youtube阿伟科技) 2
-    server: cf.515188.xyz
-    port: 8080
-    type: vmess
-    uuid: 9d553e2b-4176-44ef-bf70-48aa8eb6da60
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /api/v3/download.getFile
-      headers:
-        Host: ssrsub.v01.ssrsub.com
-    udp: true
-  - name: _DE_德国_2@13
-    server: vde2.0bad.com
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /chat
-      headers:
-        Host: vde2.0bad.com
-    udp: true
-  - name: _US_美国_7_0@15
-    server: 167.88.63.79
-    port: 8009
-    type: ss
-    cipher: aes-256-gcm
-    password: XKFKl2rULjIp74
-    udp: true
-  - name: 荷兰 004 3
-    server: 46.182.107.15
-    port: 51332
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_jichangvpn.cloud 60
-    server: cf-lt.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: dp1.scproxy.top
-    udp: true
-  - name: _US_美国_4_0@12
-    server: 167.88.63.79
-    port: 9101
-    type: ss
-    cipher: aes-256-gcm
-    password: e4FCWrgpkji3QY
-    udp: true
-  - name: 荷兰 004 4
-    server: 46.182.107.15
-    port: 51332
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_电报频道： @pjrjzy 4 2
-    server: 140.99.149.43
-    port: 56882
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国【付费推荐：v1.mk/vip】34
-    server: 140.99.149.43
-    port: 56882
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国_19_0@45
-    server: 143.42.99.183
-    port: 443
-    type: vmess
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /chat
-    udp: true
-  - name: _US_jichangvpn.cloud 54
-    server: microsoftdebug.com
-    port: 80
-    type: vmess
-    uuid: 1017ef6a-67d9-4bb3-b667-0d67c1ee5546
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /secx
-      headers:
-        Host: v1.us9.microsoftdebug.com
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
-    server: france1.yj2022.ga
-    port: 443
-    type: vmess
-    uuid: 4b5e4565-322f-4223-a891-78a84f189726
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /E86414F638E11
-      headers:
-        Host: france1.yj2022.ga
-    udp: true
-  - name: Netherlands(ChatGPT) 03 TG:@nodpai
-    server: 46.182.107.15
-    port: 51332
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国_12_0@27
-    server: 167.88.63.79
-    port: 5003
-    type: ss
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-    udp: true
-  - name: United States 16 TG:@nodpai
-    server: cf-lt.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: ca.ilovescp.com
-    udp: true
-  - name: _JP_日本 2
-    server: cloud.cluster.download.cloudsys.buzz
-    port: 80
-    type: vmess
-    uuid: 49a14374-d7e9-4bc2-833a-5072966de09e
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /ac9c9cf8-d1c3-4eb7-aa66-5052edaf9a94.ts
-      headers:
-        Host: cloud.cluster.download.cloudsys.buzz
-    udp: true
-  - name: _US_美国_13_0@29
-    server: 167.88.63.79
-    port: 3306
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    udp: true
-  - name: _CN_jichangvpn.cloud 4
-    server: 120.210.205.220
-    port: 36918
-    type: vmess
-    uuid: 411dacd6-030b-41ad-bfb6-3a822ec83014
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_8
-    server: 112.132.215.189
-    port: 50002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: HK-16.163.94.236-102
-    server: 16.163.94.236
-    port: 443
-    type: vmess
-    uuid: 6ff66f42-38d7-41c6-9a08-0d48f2ef3aa5
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /zh-cn
-      headers:
-        Host: 16.163.94.236
-    udp: true
-  - name: Japan(ChatGPT) 01 TG:@nodpai
-    server: cd529a06-85c5-4662-9157-a0ce584cd324.interface.buzz
-    port: 443
-    type: vmess
-    uuid: 285adff2-eb0b-41f6-80d7-8a8fc65b10fc
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /index.html
-      headers:
-        Host: apps.apple.com
-    udp: true
-  - name: 日本|tg频道:@ripaojiedian
-    server: sv1jptr3.151cc.xyz
-    port: 80
-    type: vmess
-    uuid: 86e2466d-e1f8-3d62-938b-97191c0a43cf
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: sv1jptr3.151cc.xyz
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
-    server: 23.224.51.62
-    port: 443
-    type: vmess
-    uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-    alterId: 64
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /path/220128071100
-    udp: true
-  - name: _US_美国_6_0@14
-    server: 167.88.63.79
-    port: 3389
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    udp: true
-  - name: 美国【付费推荐：v1.mk/vip】115
-    server: cf-lt.sharecentre.online
-    port: 443
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: dp3.scproxy.top
-    udp: true
-  - name: Hong Kong 51 TG:@nodpai
-    server: n1680936928.aqdisrv.cn
-    port: 443
-    type: vmess
-    uuid: f64fd522-b638-409b-93d6-1c90c23d0c3b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: n1680936928.aqdisrv.cn
-    udp: true
-  - name: 美国【付费推荐：tt.vg/vip】34
-    server: cf-lt.sharecentre.online
-    port: 443
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: sg1.sharecentrepro.com
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_143
-    server: cf.fovi.tk
-    port: 2053
-    type: vmess
-    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /eisasqa
-      headers:
-        Host: foxpol2.fovi.tk
-    udp: true
-  - name: _US_美国_8_11@29 2
-    server: 198.16.45.166
-    port: 53392
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_jichangvpn.cloud 27
-    server: 172.67.86.214
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: lv2.sharecentrepro.org
-    udp: true
-  - name: github.com/mehdimoghaddam-cell_10
-    server: 45.64.22.56
-    port: 443
-    type: trojan
-    password: "123456"
-    sni: trojan-ctb-sg02.globalssh.xyz
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国_10_0@25
-    server: 167.88.63.79
-    port: 7307
-    type: ss
-    cipher: aes-256-gcm
-    password: FoOiGlkAA9yPEGP
-    udp: true
-  - name: _US_jichangvpn.cloud 49
-    server: 140.99.149.43
-    port: 56882
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _NL_荷兰_8_0@31
-    server: 172.99.188.99
-    port: 8888
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    udp: true
-  - name: _US_jichangvpn.cloud 49 2
-    server: 140.99.149.43
-    port: 56882
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国【付费推荐：tt.vg/vip】120
-    server: speed.cloudflare.com
-    port: 443
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: sg1.sharecentrepro.com
-    udp: true
-  - name: US_youtube@资源分享师_47
-    server: cf-lt.sharecentre.online
-    port: 443
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: lv3.sharecentrepro.org
-    udp: true
-  - name: 美国 015
-    server: microsoftdebug.com
-    port: 80
-    type: vmess
-    uuid: 0673903d-6ff4-437c-87ee-ebdbda5e52a6
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /secx
-      headers:
-        Host: v1.us9.microsoftdebug.com
-    udp: true
-  - name: _JP_日本 2 2
-    server: 131.186.41.192
-    port: 26297
-    type: vmess
-    uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_电报频道： @pjrjzy 48
-    server: cf-lt.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: uk1.scproxy.top
-    udp: true
-  - name: 日本 050
-    server: 131.186.41.192
-    port: 26297
-    type: vmess
-    uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国_9_0@24
-    server: 167.88.63.79
-    port: 8118
-    type: ss
-    cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
-    udp: true
-  - name: _NL_荷兰_1_0@8
-    server: 172.99.188.99
-    port: 5000
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    udp: true
-  - name: _US_美国_11_0@26
-    server: 167.88.63.79
-    port: 8881
-    type: ss
-    cipher: aes-256-gcm
-    password: kDWvXYZoTBcGkC4
-    udp: true
-  - name: _US_美国 19
-    server: 198.41.220.47
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: lv3.sharecentrepro.org
-    udp: true
-  - name: 美国【付费推荐：v1.mk/vip】74
-    server: 172.67.21.219
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: uk1.scproxy.top
-    udp: true
-  - name: _NL_荷兰_2_0@20
-    server: 172.99.188.99
-    port: 5003
-    type: ss
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-    udp: true
-  - name: 美国【付费推荐：v1.mk/vip】54
-    server: 172.67.113.82
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: uk1.scproxy.top
-    udp: true
-  - name: 美国【付费推荐：v1.mk/vip】4
-    server: cf-lt.sharecentre.online
-    port: 443
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: ca.ilovescp.com
-    udp: true
-  - name: _FR_法国_1
-    server: 54.37.185.148
-    port: 32894
-    type: trojan
-    password: HchlVCfnXB
-    sni: fararu.com
-    skip-cert-verify: true
-    udp: true
-  - name: _US_电报频道： @pjrjzy
-    server: cf-lt.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: lv2.sharecentrepro.org
-    udp: true
-  - name: 美国【付费推荐：v1.mk/vip】56
-    server: 172.67.87.132
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: uk1.scproxy.top
-    udp: true
-  - name: _CN_中国->🇬🇧_GB_英国
-    server: 120.210.205.220
-    port: 36918
-    type: vmess
-    uuid: 411dacd6-030b-41ad-bfb6-3a822ec83014
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: DE 4 → tg@nicevpn123 2
-    server: 130.61.111.167
-    port: 21872
-    type: vmess
-    uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _NL_荷兰_5_0@23
-    server: 172.99.188.99
-    port: 2375
-    type: ss
-    cipher: aes-256-gcm
-    password: faBAoD54k87UJG7
-    udp: true
-  - name: _NL_荷兰_7_0@30
-    server: ak1663.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 5000
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    udp: true
-  - name: _US_美国_20_0@48
-    server: 167.88.63.79
-    port: 443
-    type: ss
-    cipher: aes-256-gcm
-    password: pKEW8JPByTVTLtM
-    udp: true
-  - name: 美国【付费推荐：v1.mk/vip】79
-    server: 172.67.84.93
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: uk1.scproxy.top
-    udp: true
-  - name: _US_美国_1_14@0
-    server: 4bb4ced4.ikunxiao.top
-    port: 2096
-    type: vmess
-    uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /index
-      headers:
-        Host: 4bb4ced4.ikunxiao.top
-    udp: true
-  - name: _NL_荷兰_10_0@34
-    server: ak1643.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    port: 8888
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    udp: true
-  - name: _US_jichangvpn.cloud 47
-    server: cf-lt.sharecentre.online
-    port: 443
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: dp1.scproxy.top
-    udp: true
-  - name: _US_美国->🇨🇭_CH_瑞士_2@35
-    server: surongwei.eu.org
-    port: 443
-    type: vmess
-    uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /reffs7y26g0ua
-      headers:
-        Host: surongwei.eu.org
-    udp: true
-  - name: 美国2|tg频道:@ripaojiedian
-    server: 198.2.204.248
-    port: 46802
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _NL_荷兰_4_0@22
-    server: 172.99.188.99
-    port: 6379
-    type: ss
-    cipher: aes-256-gcm
-    password: zDNVedRFPQexG9v
-    udp: true
-  - name: 美国【付费推荐：v1.mk/vip】75
-    server: 172.67.86.87
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: uk1.scproxy.top
-    udp: true
-  - name: 美国【付费推荐：v1.mk/vip】21
-    server: 172.67.127.123
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: dp1.scproxy.top
-    udp: true
-  - name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_246
-    server: germany2.yj2022.ga
-    port: 443
-    type: vmess
-    uuid: 4b5e4565-322f-4223-a891-78a84f189726
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /8kH8qnepjkprbsidLrLkmX
-      headers:
-        Host: germany2.yj2022.ga
-    udp: true
-  - name: _US_电报频道： @pjrjzy 50
-    server: cf-lt.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: de1.sharecentrepro.org
-    udp: true
-  - name: _US_美国_7_1@10
-    server: 4bb4ced4.8200860.xyz
-    port: 2096
-    type: vmess
-    uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /index
-      headers:
-        Host: 4bb4ced4.8200860.xyz
-    udp: true
-  - name: United States(ChatGPT) 02 TG:@nodpai
-    server: 23.224.14.117
-    port: 51552
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _NL_荷兰_6_0@28
-    server: 172.99.188.99
-    port: 5001
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    udp: true
-  - name: 美国【付费推荐：v1.mk/vip】104
-    server: 172.67.98.34
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: uk1.scproxy.top
-    udp: true
-  - name: _NL_荷兰_3_0@21
-    server: 172.99.188.99
-    port: 5004
-    type: ss
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-    udp: true
-  - name: 美国3|tg频道:@ripaojiedian 2
-    server: 137.175.52.17
-    port: 33002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国 10
-    server: 0001.jp.genzpn.com
-    port: 80
-    type: vmess
-    uuid: c7823733-dfc9-430d-a7cf-c3302f9627d6
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 0001.jp.genzpn.com
-    udp: true
-  - name: _US_美国 12 2
-    server: 142.4.114.26
-    port: 34002
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_电报频道： @pjrjzy 4 2 2
-    server: 140.99.149.43
-    port: 56882
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: United States 23 TG:@nodpai
-    server: 142.4.126.56
-    port: 33302
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _GB_英国->🇳🇱_NL_荷兰
-    server: 185.193.30.158
-    port: 443
-    type: vmess
-    uuid: A59E320C-BAC6-45E3-8A27-1518610708D0
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /speedtest
-      headers:
-        Host: Amsterdam.v2ray.online
-    udp: true
-  - name: _SG_新加坡_1_0@0
-    server: sg-3.test3.net
-    port: 443
-    type: trojan
-    password: 275ec150-da51-11ed-893a-1239d0255272
-    sni: gz0.googleusercontent.com
-    skip-cert-verify: true
-    udp: true
-  - name: 未知 100
-    server: r2wind.com
-    port: 8080
-    type: vmess
-    uuid: 9d553e2b-4176-44ef-bf70-48aa8eb6da60
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /api/v3/download.getFile
-      headers:
-        Host: ssrsub.v01.ssrsub.com
-    udp: true
-  - name: 美国 026
-    server: 140.99.149.43
-    port: 56882
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: United Kingdom 03 TG:@nodpai
-    server: 51.195.35.148
-    port: 58812
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _NL_荷兰_9_0@32
-    server: 172.99.188.99
-    port: 8882
-    type: ss
-    cipher: aes-256-gcm
-    password: kDWvXYZoTBcGkC4
-    udp: true
-  - name: _SG_新加坡_1@51
-    server: 00000000000000000000000000000000000000000000000000000000000006a.node-for-bigairport.win
-    port: 443
-    type: vmess
-    uuid: 34367fa9-7135-4018-80fe-0ca78d90a28b
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国->🇬🇧_GB_英国 4
-    server: 162.159.138.245
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: uk1.scproxy.top
-    udp: true
-  - name: _US_电报频道： @pjrjzy 42
-    server: cf-lt.sharecentre.online
-    port: 80
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: sg1.sharecentrepro.com
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_83 2
-    server: 107.148.195.16
-    port: 50014
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 香港 026
-    server: 27.124.47.84
-    port: 58065
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 美国 CloudFlare节点
-    server: cf-lt.sharecentre.online
-    port: 443
-    type: vmess
-    uuid: 2e496758-950e-4549-8842-d5eec98d9fde
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /shirker
-      headers:
-        Host: dp2.scproxy.top
-    udp: true
-  - name: US-107.148.195.16-011
-    server: 107.148.195.16
-    port: 50014
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国 12 3
-    server: 107.148.195.16
-    port: 50014
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国 6
-    server: 192.74.243.43
-    port: 49206
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国_8_11@29 3
-    server: 198.16.45.166
-    port: 53392
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_128 3
-    server: 107.148.195.16
-    port: 50014
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: United States 04 TG:@nodpai
-    server: 45.86.11.201
-    port: 44101
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: US-107.148.195.16-011 2
-    server: 107.148.195.16
-    port: 50014
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 梦歌|广港中继|解锁流媒体_128 4
-    server: 107.148.195.16
-    port: 50014
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: _US_美国_8_11@29 2 2
-    server: 198.16.45.166
-    port: 53392
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
+  - {name: _US_美国 17, server: 198.2.206.35, port: 33012, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5, server: 23.224.51.62, port: 443, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/220128071100}, udp: true}
+  - {name: US-142.4.114.26-017, server: 142.4.114.26, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 087, server: 140.99.157.82, port: 47815, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: United States 12 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: _US_美国, server: 198.16.45.166, port: 53392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: United States 03 TG:@nodpai, server: 137.175.52.17, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 5, server: 198.2.198.11, port: 42288, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623, server: 170.187.206.48, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat}, udp: true}
+  - {name: _US_美国_8_9@13, server: USG.fljsm.com, port: 443, type: vmess, uuid: e5543efd-5400-3760-9bb6-02767728e888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: USG.fljsm.com}}, udp: true}
+  - {name: Relay 🇨🇳 China 01 TG:@nodpai, server: 198.2.205.108, port: 53327, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_8_11@29 3, server: 198.16.45.166, port: 53392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_8_11@29 2, server: 198.16.45.166, port: 53392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 12, server: 142.4.114.26, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【付费推荐：v1.mk/vip】51, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wo.php, headers: {Host: els200.jslist.tk}}, udp: true}
+  - {name: _US_美国_8_2@32, server: ca.ilovescp.com, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: United States(ChatGPT) 02 TG:@nodpai, server: 23.224.14.117, port: 51552, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: United States 04 TG:@nodpai, server: 45.86.11.201, port: 44101, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 087 2, server: 140.99.157.82, port: 47815, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇨🇳 China 01 TG:@nodpai 3, server: 198.2.205.108, port: 53327, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482, server: france1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /E86414F638E11, headers: {Host: france1.yj2022.ga}}, udp: true}
+  - {name: github.com/freefq - 香港Microsoft数据中心 9, server: 58f84dd3-49bf-663b-f21b-6f6562601afa.interface.buzz, port: 443, type: vmess, uuid: 285adff2-eb0b-41f6-80d7-8a8fc65b10fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index.html, headers: {Host: apps.apple.com}}, udp: true}
+  - {name: _US_美国_14_0@38, server: 140.99.157.82, port: 47815, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_19_0@45, server: 143.42.99.183, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat}, udp: true}
+  - {name: _US_美国_7_2@31, server: hk-hytron.ilovescp.com, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: _US_美国->🇫🇷_FR_法国, server: cf.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /E86414F638E11, headers: {Host: france1.yj2022.ga}}, udp: true}
+  - {name: 美国【付费推荐：v1.mk/vip】56, server: 172.67.87.132, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: _US_美国_19_0@45 2, server: 143.42.99.183, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat}, udp: true}
+  - {name: 未知 100, server: r2wind.com, port: 8080, type: vmess, uuid: 9d553e2b-4176-44ef-bf70-48aa8eb6da60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
+  - {name: 梦歌|广港中继|解锁流媒体_83 2, server: 107.148.195.16, port: 50014, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_电报频道： @pjrjzy 42, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg1.sharecentrepro.com}}, udp: true}
+  - {name: Relay 🇨🇳 China 01 TG:@nodpai 2, server: 198.2.205.108, port: 53327, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 014, server: 172.64.173.160, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: 美国【付费推荐：v1.mk/vip】104, server: 172.67.98.34, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: DE 4 → tg@nicevpn123, server: 130.61.111.167, port: 21872, type: vmess, uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 6, server: 192.74.243.43, port: 49206, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: United States 23 TG:@nodpai, server: 142.4.126.56, port: 33302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【付费推荐：v1.mk/vip】45, server: 172.67.140.193, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: _US_jichangvpn.cloud 20, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg2.sharecentrepro.com}}, udp: true}
+  - {name: _US_美国 19, server: 198.41.220.47, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
+  - {name: US美国(youtube阿伟科技) 2, server: cf.515188.xyz, port: 8080, type: vmess, uuid: 9d553e2b-4176-44ef-bf70-48aa8eb6da60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
+  - {name: _FR_法国_1_1@20, server: 54.37.185.148, port: 32894, type: trojan, password: HchlVCfnXB, sni: fararu.com, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇨🇳 China 01 TG:@nodpai 4, server: 198.2.205.108, port: 53327, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【付费推荐：v1.mk/vip】70, server: 4.mamadcucu.com, port: 8880, type: vmess, uuid: 51ba5a9a-4b7c-4c62-b4ae-0e53ec8d3024, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ArsalanTauBot, headers: {Host: 4.mamadcucu.com}}, udp: true}
+  - {name: _FR_法国_2_1@29, server: a1.veryfastnet1.tk, port: 32894, type: trojan, password: HchlVCfnXB, sni: jamaran.ir, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_9_14@20, server: 170.187.206.48, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat}, udp: true}
+  - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_319, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol.fovi.tk}}, udp: true}
+  - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_143, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol2.fovi.tk}}, udp: true}
+  - {name: _US_电报频道： @pjrjzy 51, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: 美国【付费推荐：v1.mk/vip】74, server: 172.67.21.219, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 23, server: mtn.ircf.space, port: 443, type: vmess, uuid: fb938bf0-db02-11ed-b936-205c6d5f5d78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us-3.0rd.net, network: ws, ws-opts: {path: /zonrigyb, headers: {Host: us-3.0rd.net}}, udp: true}
+  - {name: github.com/freefq - 上海市联通 4, server: 223.167.41.202, port: 63078, type: vmess, uuid: b96f9e5b-7b2a-3c03-b1b3-2e93234f9108, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
+  - {name: _FR_法国_0@18, server: 92.243.24.58, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: h2Bd2jFzAuYA, udp: true}
+  - {name: US-69.84.182.248-153, server: ch.learnpropy.click, port: 2053, type: vmess, uuid: 8cab8fb7-4977-4ec2-8bba-2914dd43bfbd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /gsdg43575, headers: {Host: abs.learnpropy.click}}, udp: true}
+  - {name: _US_美国_4_5@20, server: usg.fljsm.com, port: 443, type: vmess, uuid: e5543efd-5400-3760-9bb6-02767728e888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video, headers: {Host: usg.fljsm.com}}, udp: true}
+  - {name: _US_电报频道： @pjrjzy 53, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: 美国【付费推荐：v1.mk/vip】82, server: 3.mamadcucu.com, port: 2086, type: vmess, uuid: 929344e1-473c-4feb-b86b-fde3ee1ccd16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ArsalanTauBot, headers: {Host: 3.mamadcucu.com}}, udp: true}
+  - {name: 香港 002, server: hk2.c2bfe79372be.sanfen001.pics, port: 443, type: vmess, uuid: 6ff66f42-38d7-41c6-9a08-0d48f2ef3aa5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: hk2.c2bfe79372be.sanfen001.pics}}, udp: true}
+  - {name: 美国3|tg频道:@ripaojiedian, server: 137.175.52.17, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 9, server: 198.2.204.248, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 法国  15, server: 92.243.24.58, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: h2Bd2jFzAuYA, udp: true}
+  - {name: 4Jadi-161, server: 23.224.110.182, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/080712342310}, udp: true}
+  - {name: 美国 079, server: 156.225.67.166, port: 49440, type: vmess, uuid: ebec2adf-e940-446f-bed4-d8c91143b54a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【付费推荐：v1.mk/vip】54, server: 172.67.113.82, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: 美国3|tg频道:@ripaojiedian 2, server: 137.175.52.17, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3 2 2, server: 198.2.204.248, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 马来西亚Tmnet大马电讯 14, server: join-bede.vmessorg.fun, port: 80, type: vmess, uuid: 94645613-dab4-41f2-bc48-6aa5fcfb9119, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: join-bede.vmessorg.fun}}, udp: true}
+  - {name: 美国B|tg频道:@ripaojiedian, server: 172.67.86.79, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰 2 2, server: 156.225.67.213, port: 47134, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【付费推荐：v1.mk/vip】79, server: 172.67.84.93, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: Germany 01 TG:@nodpai, server: join-bede.vmessorg.fun, port: 80, type: vmess, uuid: 94645613-dab4-41f2-bc48-6aa5fcfb9119, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: join-bede.vmessorg.fun}}, udp: true}
+  - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_442, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol3.fovi.tk}}, udp: true}
+  - {name: _US_美国_10_11@22, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wo.php, headers: {Host: els200.jslist.tk}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 32, server: lsb-gy.heinu.cf, port: 2096, type: vmess, uuid: d793c013-f596-4af9-de0a-2062bb864dd7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@heinuhome, headers: {Host: lsb-gy.heinu.cf}}, udp: true}
+  - {name: 美国2|tg频道:@ripaojiedian, server: 198.2.204.248, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【付费推荐：v1.mk/vip】75, server: 172.67.86.87, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: _US_美国 17 2, server: 198.2.206.35, port: 33012, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_7_0@31, server: hk-hytron.ilovescp.com, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: United States 16 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰 2, server: 156.225.67.101, port: 44388, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China 02 TG:@nodpai, server: 142.4.110.29, port: 52902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【付费推荐：v1.mk/vip】88, server: 172.67.199.253, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: 美国【付费推荐：v1.mk/vip】115, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: RELAY-172.67.190.72-108, server: cf.515188.xyz, port: 8080, type: vmess, uuid: 9d553e2b-4176-44ef-bf70-48aa8eb6da60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
+  - {name: _US_jichangvpn.cloud 5, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk2.ilovescp.com}}, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰, server: 156.225.67.115, port: 49920, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰_0@47, server: 156.225.67.166, port: 49440, type: vmess, uuid: ebec2adf-e940-446f-bed4-d8c91143b54a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_8_11@29, server: 198.16.45.166, port: 53392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_jichangvpn.cloud 56, server: hk-hytron.ilovescp.com, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: _US_美国_15_1@42, server: lsb-gy.heinu.cf, port: 2096, type: vmess, uuid: d793c013-f596-4af9-de0a-2062bb864dd7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@heinuhome, headers: {Host: lsb-gy.heinu.cf}}, udp: true}
+  - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384, server: england1.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Eynyyo4kJfl2fkJfl2f, headers: {Host: england1.yj2022.ga}}, udp: true}
+  - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304, server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
+  - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454, server: lsb-gy.heinu.cf, port: 2096, type: vmess, uuid: d793c013-f596-4af9-de0a-2062bb864dd7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@heinuhome, headers: {Host: lsb-gy.heinu.cf}}, udp: true}
+  - {name: _US_美国->🇬🇧_GB_英国 4, server: 162.159.138.245, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: _US_jichangvpn.cloud 54, server: microsoftdebug.com, port: 80, type: vmess, uuid: 1017ef6a-67d9-4bb3-b667-0d67c1ee5546, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /secx, headers: {Host: v1.us9.microsoftdebug.com}}, udp: true}
+  - {name: _CN_jichangvpn.cloud 4, server: 120.210.205.220, port: 36918, type: vmess, uuid: 411dacd6-030b-41ad-bfb6-3a822ec83014, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰 3, server: 156.225.67.213, port: 47134, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 013, server: ping.pe, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰 2 3, server: 156.225.67.213, port: 47134, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: United States 29 TG:@nodpai, server: 142.4.114.26, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇳🇱_NL_荷兰_0@47 2, server: 156.225.67.166, port: 49440, type: vmess, uuid: ebec2adf-e940-446f-bed4-d8c91143b54a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Netherlands(ChatGPT) 01 TG:@nodpai, server: 156.225.67.101, port: 44388, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本|tg频道:@ripaojiedian, server: sv1jptr3.151cc.xyz, port: 80, type: vmess, uuid: 86e2466d-e1f8-3d62-938b-97191c0a43cf, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sv1jptr3.151cc.xyz}}, udp: true}
+  - {name: _US_美国 8, server: cf.515188.xyz, port: 8080, type: vmess, uuid: 9d553e2b-4176-44ef-bf70-48aa8eb6da60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.ssrsub.com}}, udp: true}
+  - {name: _HK_香港_3_1@12, server: hk2.c2bfe79372be.sanfen001.pics, port: 443, type: vmess, uuid: 6ff66f42-38d7-41c6-9a08-0d48f2ef3aa5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: hk2.c2bfe79372be.sanfen001.pics}}, udp: true}
+  - {name: Singapore(ChatGPT) 01 TG:@nodpai, server: 1a03879e-145d-4b60-8c14-a2ff5e0aca74.interface.buzz, port: 443, type: vmess, uuid: 285adff2-eb0b-41f6-80d7-8a8fc65b10fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index.html, headers: {Host: apps.apple.com}}, udp: true}
+  - {name: US-156.225.67.213-032 2, server: 156.225.67.213, port: 47134, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490, server: pm.motori.pw, port: 8880, type: vmess, uuid: d1c59699-1874-49f1-b9ba-bbbfd7968075, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pm.motori.pw}}, udp: true}
+  - {name: Hong Kong 51 TG:@nodpai, server: n1680936928.aqdisrv.cn, port: 443, type: vmess, uuid: f64fd522-b638-409b-93d6-1c90c23d0c3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1680936928.aqdisrv.cn}}, udp: true}
+  - {name: _US_美国 3, server: 198.2.204.248, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_0@1, server: 120.240.163.62, port: 59629, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_47, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
+  - {name: _DE_德国_2@13, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde2.0bad.com}}, udp: true}
+  - {name: United States(ChatGPT) 32 TG:@nodpai, server: 172.67.209.126, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: United States(ChatGPT) 06 TG:@nodpai, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv1.sharecentrepro.org}}, udp: true}
+  - {name: 美国【付费推荐：v1.mk/vip】4, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: _US_电报频道： @pjrjzy 48, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: _US_jichangvpn.cloud 27, server: 172.67.86.214, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 5, server: 142.4.99.74, port: 41169, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_jichangvpn.cloud 47, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
+  - {name: 美国【付费推荐：v1.mk/vip】62, server: 172.67.57.22, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
+  - {name: _US_美国_7_1@10, server: 4bb4ced4.8200860.xyz, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 4bb4ced4.8200860.xyz}}, udp: true}
+  - {name: _US_美国_7_1@10 2, server: 4bb4ced4.8200860.xyz, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 4bb4ced4.8200860.xyz}}, udp: true}
+  - {name: 香港 022, server: 16.162.74.222, port: 443, type: vmess, uuid: 6ff66f42-38d7-41c6-9a08-0d48f2ef3aa5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn}, udp: true}
+  - {name: _US_美国 6 2, server: 192.74.243.43, port: 49206, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【付费推荐：tt.vg/vip】34, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg1.sharecentrepro.com}}, udp: true}
+  - {name: _US_美国 12 2, server: 107.148.195.16, port: 50014, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_电报频道： @pjrjzy 40, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}, udp: true}
+  - {name: _US_美国 15, server: 140.99.157.82, port: 47815, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国_0@1 2, server: 120.240.163.62, port: 59629, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 10, server: 0001.jp.genzpn.com, port: 80, type: vmess, uuid: c7823733-dfc9-430d-a7cf-c3302f9627d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0001.jp.genzpn.com}}, udp: true}
+  - {name: _US_美国 4, server: 45.88.176.222, port: 47815, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 015, server: microsoftdebug.com, port: 80, type: vmess, uuid: 0673903d-6ff4-437c-87ee-ebdbda5e52a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /secx, headers: {Host: v1.us9.microsoftdebug.com}}, udp: true}
+  - {name: 美国 CloudFlare节点, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
+  - {name: github.com/freefq - 美国惠普HP 11, server: 16.163.94.236, port: 443, type: vmess, uuid: 6ff66f42-38d7-41c6-9a08-0d48f2ef3aa5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn}, udp: true}
+  - {name: _TW_台湾_3_2@27, server: sldron.kctr2038.icu, port: 14590, type: vmess, uuid: 35a2abc9-b5a4-462b-b9cb-8662867e39fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /7355608, headers: {Host: sldron.kctr2038.icu}}, udp: true}
+  - {name: github.com/freefq - 美国惠普HP 3, server: 16.162.74.222, port: 443, type: vmess, uuid: 6ff66f42-38d7-41c6-9a08-0d48f2ef3aa5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn}, udp: true}
+  - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323, server: lsb-gy.heinu.cf, port: 2095, type: vmess, uuid: 1eda6b95-f248-4f3b-ae10-d7503415a788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@heinuhome, headers: {Host: lsb-gy.heinu.cf}}, udp: true}
+  - {name: 4Jadi-703, server: ca.ilovescp.com, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: US-137.175.3.228-009, server: 137.175.3.228, port: 53002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【付费推荐：v1.mk/vip】21, server: 172.67.127.123, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
+  - {name: _US_美国 15 2, server: 140.99.157.82, port: 47815, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_1_14@0, server: 4bb4ced4.ikunxiao.top, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 4bb4ced4.ikunxiao.top}}, udp: true}
+  - {name: United States 25 TG:@nodpai, server: 140.99.157.82, port: 47815, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: United States 10 TG:@nodpai, server: 192.74.232.250, port: 51802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3 2, server: 198.2.204.248, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_电报频道： @pjrjzy 50, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: de1.sharecentrepro.org}}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 27, server: 172.67.217.222, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
+  - {name: United States 26 TG:@nodpai, server: 171.22.134.28, port: 53433, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US-142.4.114.26-017 2, server: 142.4.114.26, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai, server: 120.240.163.62, port: 59629, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK-16.163.94.236-102, server: 16.163.94.236, port: 443, type: vmess, uuid: 6ff66f42-38d7-41c6-9a08-0d48f2ef3aa5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: 16.163.94.236}}, udp: true}
+  - {name: 梦歌|广港中继|解锁流媒体_83, server: 107.148.195.16, port: 50014, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NONE, server: stonebreak.online, port: 443, type: trojan, password: xl87654321, skip-cert-verify: true, udp: true}
+  - {name: United States 27 TG:@nodpai, server: 107.148.195.16, port: 50014, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 026, server: 140.99.149.43, port: 56882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡 4, server: 54.169.160.39, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: tvX1v#NSFP_LG_bJ, udp: true}
+  - {name: _CN_中国->🇬🇧_GB_英国, server: 120.210.205.220, port: 36918, type: vmess, uuid: 411dacd6-030b-41ad-bfb6-3a822ec83014, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay 🇨🇳 China 01 TG:@nodpai 5, server: 198.2.205.108, port: 53327, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: France 01 TG:@nodpai, server: a1.veryfastnet1.tk, port: 32894, type: trojan, password: HchlVCfnXB, sni: jamaran.ir, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 9 2, server: 198.2.204.248, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_8_13@29, server: 198.16.45.166, port: 53392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
-      - ⚖️ 负载MISSAV
-      - ⚖️ 负载YOUTUBE
       - ♻️ 自动选择
       - ♻️ Youtube
       - ♻️ Missav
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - 香港 022
-      - 4Jadi-161
-      - Relay 🇨🇳 China 01 TG:@nodpai 2
-      - _US_美国_8_11@29
-      - _US_电报频道： @pjrjzy 51
-      - 香港 002
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
-      - _US_jichangvpn.cloud 5
-      - 美国3|tg频道:@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
-      - United States 26 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】51
+      - _US_美国 17
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
       - US-142.4.114.26-017
+      - 美国 087
+      - United States 12 TG:@nodpai
+      - _US_美国
+      - United States 03 TG:@nodpai
+      - _US_美国 5
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
       - _US_美国_8_9@13
+      - Relay 🇨🇳 China 01 TG:@nodpai
+      - _US_美国_8_11@29 3
+      - _US_美国_8_11@29 2
+      - _US_美国 12
+      - 美国【付费推荐：v1.mk/vip】51
+      - _US_美国_8_2@32
+      - United States(ChatGPT) 02 TG:@nodpai
+      - United States 04 TG:@nodpai
+      - 美国 087 2
+      - Relay 🇨🇳 China 01 TG:@nodpai 3
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
+      - github.com/freefq - 香港Microsoft数据中心 9
+      - _US_美国_14_0@38
+      - _US_美国_19_0@45
+      - _US_美国_7_2@31
+      - _US_美国->🇫🇷_FR_法国
+      - 美国【付费推荐：v1.mk/vip】56
+      - _US_美国_19_0@45 2
+      - 未知 100
+      - 梦歌|广港中继|解锁流媒体_83 2
+      - _US_电报频道： @pjrjzy 42
+      - Relay 🇨🇳 China 01 TG:@nodpai 2
+      - 美国 014
+      - 美国【付费推荐：v1.mk/vip】104
+      - DE 4 → tg@nicevpn123
+      - _US_美国 6
+      - United States 23 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】45
+      - _US_jichangvpn.cloud 20
+      - _US_美国 19
+      - US美国(youtube阿伟科技) 2
+      - _FR_法国_1_1@20
+      - Relay 🇨🇳 China 01 TG:@nodpai 4
+      - 美国【付费推荐：v1.mk/vip】70
+      - _FR_法国_2_1@29
+      - _US_美国_9_14@20
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_319
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_143
+      - _US_电报频道： @pjrjzy 51
+      - 美国【付费推荐：v1.mk/vip】74
+      - github.com/freefq - 美国CloudFlare公司CDN节点 23
+      - github.com/freefq - 上海市联通 4
+      - _FR_法国_0@18
+      - US-69.84.182.248-153
+      - _US_美国_4_5@20
       - _US_电报频道： @pjrjzy 53
       - 美国【付费推荐：v1.mk/vip】82
-      - _US_美国 3
-      - _US_jichangvpn.cloud 20
-      - _US_美国 15
-      - China 02 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_83
-      - _US_美国 12
-      - Relay 🇨🇳 China 01 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_128 2
-      - 美国【付费推荐：v1.mk/vip】70
-      - Relay 🇨🇳 China 01 TG:@nodpai 3
-      - _US_电报频道： @pjrjzy 40
-      - US-142.4.114.26-017 2
-      - United States 25 TG:@nodpai
-      - United States(ChatGPT) 32 TG:@nodpai
-      - Switzerland(ChatGPT) 01 TG:@nodpai
-      - Relay 🇨🇳 China 01 TG:@nodpai 4
-      - United States 27 TG:@nodpai
-      - _US_美国 17
-      - United States 10 TG:@nodpai
-      - United States 03 TG:@nodpai
-      - US-137.175.3.228-009
-      - _FR_法国_0@18
-      - 美国 087
-      - DE 4 → tg@nicevpn123
-      - United States 29 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_128
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_297
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - US-69.84.182.248-153
-      - _US_美国->🇳🇱_NL_荷兰
-      - US-156.225.67.213-032
-      - _US_美国 3 2
-      - 美国【付费推荐：v1.mk/vip】62
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - 荷兰 004
-      - Singapore 02 TG:@nodpai
-      - US-69.84.182.243-155
-      - Hong Kong 02 TG:@nodpai
-      - 荷兰 014
-      - _JP_日本
-      - 美国 087 2
-      - Relay 🇨🇳 China 01 TG:@nodpai 5
-      - _JP_日本 4
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
-      - United States(ChatGPT) 06 TG:@nodpai
-      - _US_美国_7_0@31
-      - 美国【付费推荐：v1.mk/vip】88
+      - 香港 002
+      - 美国3|tg频道:@ripaojiedian
+      - _US_美国 9
+      - github.com/freefq - 法国  15
+      - 4Jadi-161
+      - 美国 079
+      - 美国【付费推荐：v1.mk/vip】54
+      - 美国3|tg频道:@ripaojiedian 2
       - _US_美国 3 2 2
-      - _TW_台湾_3_2@27
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_319
-      - _US_jichangvpn.cloud 56
-      - 美国 014
-      - NONE
+      - github.com/freefq - 马来西亚Tmnet大马电讯 14
       - 美国B|tg频道:@ripaojiedian
       - _US_美国->🇳🇱_NL_荷兰 2 2
-      - Germany 01 TG:@nodpai
-      - 美国 079
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _CA_加拿大_0@46
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 11
-      - _NL_荷兰
-      - 美国 013
-      - _US_美国_5_0@13
-      - 美国【付费推荐：v1.mk/vip】45
-      - _US_美国_2_0@10
-      - _US_美国->🇫🇷_FR_法国
-      - France 01 TG:@nodpai
-      - 荷兰 014 2
-      - 荷兰 004 2
-      - RELAY-172.67.190.72-108
-      - US-156.225.67.213-032 2
-      - _US_美国_3_0@11
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_442
-      - _CN_中国->🇺🇸_US_美国_0@1
-      - _US_美国->🇳🇱_NL_荷兰_0@47
-      - _US_美国 9
-      - 4Jadi-703
-      - United States 12 TG:@nodpai
-      - US美国(youtube阿伟科技) 2
-      - _DE_德国_2@13
-      - _US_美国_7_0@15
-      - 荷兰 004 3
-      - _US_jichangvpn.cloud 60
-      - _US_美国_4_0@12
-      - 荷兰 004 4
-      - _US_电报频道： @pjrjzy 4 2
-      - 美国【付费推荐：v1.mk/vip】34
-      - _US_美国_19_0@45
-      - _US_jichangvpn.cloud 54
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
-      - Netherlands(ChatGPT) 03 TG:@nodpai
-      - _US_美国_12_0@27
-      - United States 16 TG:@nodpai
-      - _JP_日本 2
-      - _US_美国_13_0@29
-      - _CN_jichangvpn.cloud 4
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_8
-      - HK-16.163.94.236-102
-      - Japan(ChatGPT) 01 TG:@nodpai
-      - 日本|tg频道:@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
-      - _US_美国_6_0@14
-      - 美国【付费推荐：v1.mk/vip】115
-      - Hong Kong 51 TG:@nodpai
-      - 美国【付费推荐：tt.vg/vip】34
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_143
-      - _US_美国_8_11@29 2
-      - _US_jichangvpn.cloud 27
-      - github.com/mehdimoghaddam-cell_10
-      - _US_美国_10_0@25
-      - _US_jichangvpn.cloud 49
-      - _NL_荷兰_8_0@31
-      - _US_jichangvpn.cloud 49 2
-      - 美国【付费推荐：tt.vg/vip】120
-      - US_youtube@资源分享师_47
-      - 美国 015
-      - _JP_日本 2 2
-      - _US_电报频道： @pjrjzy 48
-      - 日本 050
-      - _US_美国_9_0@24
-      - _NL_荷兰_1_0@8
-      - _US_美国_11_0@26
-      - _US_美国 19
-      - 美国【付费推荐：v1.mk/vip】74
-      - _NL_荷兰_2_0@20
-      - 美国【付费推荐：v1.mk/vip】54
-      - 美国【付费推荐：v1.mk/vip】4
-      - _FR_法国_1
-      - _US_电报频道： @pjrjzy
-      - 美国【付费推荐：v1.mk/vip】56
-      - _CN_中国->🇬🇧_GB_英国
-      - DE 4 → tg@nicevpn123 2
-      - _NL_荷兰_5_0@23
-      - _NL_荷兰_7_0@30
-      - _US_美国_20_0@48
       - 美国【付费推荐：v1.mk/vip】79
-      - _US_美国_1_14@0
-      - _NL_荷兰_10_0@34
-      - _US_jichangvpn.cloud 47
-      - _US_美国->🇨🇭_CH_瑞士_2@35
+      - Germany 01 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_442
+      - _US_美国_10_11@22
+      - github.com/freefq - 美国CloudFlare节点 32
       - 美国2|tg频道:@ripaojiedian
-      - _NL_荷兰_4_0@22
       - 美国【付费推荐：v1.mk/vip】75
-      - 美国【付费推荐：v1.mk/vip】21
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_246
-      - _US_电报频道： @pjrjzy 50
-      - _US_美国_7_1@10
-      - United States(ChatGPT) 02 TG:@nodpai
-      - _NL_荷兰_6_0@28
-      - 美国【付费推荐：v1.mk/vip】104
-      - _NL_荷兰_3_0@21
-      - 美国3|tg频道:@ripaojiedian 2
-      - _US_美国 10
-      - _US_美国 12 2
-      - _US_电报频道： @pjrjzy 4 2 2
-      - United States 23 TG:@nodpai
-      - _GB_英国->🇳🇱_NL_荷兰
-      - _SG_新加坡_1_0@0
-      - 未知 100
-      - 美国 026
-      - United Kingdom 03 TG:@nodpai
-      - _NL_荷兰_9_0@32
-      - _SG_新加坡_1@51
+      - _US_美国 17 2
+      - _US_美国_7_0@31
+      - United States 16 TG:@nodpai
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - China 02 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】88
+      - 美国【付费推荐：v1.mk/vip】115
+      - RELAY-172.67.190.72-108
+      - _US_jichangvpn.cloud 5
+      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国->🇳🇱_NL_荷兰_0@47
+      - _US_美国_8_11@29
+      - _US_jichangvpn.cloud 56
+      - _US_美国_15_1@42
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
       - _US_美国->🇬🇧_GB_英国 4
-      - _US_电报频道： @pjrjzy 42
-      - 梦歌|广港中继|解锁流媒体_83 2
-      - 香港 026
+      - _US_jichangvpn.cloud 54
+      - _CN_jichangvpn.cloud 4
+      - _US_美国->🇳🇱_NL_荷兰 3
+      - 美国 013
+      - _US_美国->🇳🇱_NL_荷兰 2 3
+      - United States 29 TG:@nodpai
+      - _US_美国->🇳🇱_NL_荷兰_0@47 2
+      - Netherlands(ChatGPT) 01 TG:@nodpai
+      - 日本|tg频道:@ripaojiedian
+      - _US_美国 8
+      - _HK_香港_3_1@12
+      - Singapore(ChatGPT) 01 TG:@nodpai
+      - US-156.225.67.213-032 2
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
+      - Hong Kong 51 TG:@nodpai
+      - _US_美国 3
+      - _CN_中国->🇺🇸_US_美国_0@1
+      - US_youtube@资源分享师_47
+      - _DE_德国_2@13
+      - United States(ChatGPT) 32 TG:@nodpai
+      - United States(ChatGPT) 06 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】4
+      - _US_电报频道： @pjrjzy 48
+      - _US_jichangvpn.cloud 27
+      - github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 5
+      - _US_jichangvpn.cloud 47
+      - 美国【付费推荐：v1.mk/vip】62
+      - _US_美国_7_1@10
+      - _US_美国_7_1@10 2
+      - 香港 022
+      - _US_美国 6 2
+      - 美国【付费推荐：tt.vg/vip】34
+      - _US_美国 12 2
+      - _US_电报频道： @pjrjzy 40
+      - _US_美国 15
+      - _CN_中国->🇺🇸_US_美国_0@1 2
+      - _US_美国 10
+      - _US_美国 4
+      - 美国 015
       - 美国 CloudFlare节点
-      - US-107.148.195.16-011
-      - _US_美国 12 3
-      - _US_美国 6
-      - _US_美国_8_11@29 3
-      - 梦歌|广港中继|解锁流媒体_128 3
-      - United States 04 TG:@nodpai
-      - US-107.148.195.16-011 2
-      - 梦歌|广港中继|解锁流媒体_128 4
-      - _US_美国_8_11@29 2 2
+      - github.com/freefq - 美国惠普HP 11
+      - _TW_台湾_3_2@27
+      - github.com/freefq - 美国惠普HP 3
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
+      - 4Jadi-703
+      - US-137.175.3.228-009
+      - 美国【付费推荐：v1.mk/vip】21
+      - _US_美国 15 2
+      - _US_美国_1_14@0
+      - United States 25 TG:@nodpai
+      - United States 10 TG:@nodpai
+      - _US_美国 3 2
+      - _US_电报频道： @pjrjzy 50
+      - github.com/freefq - 美国CloudFlare节点 27
+      - United States 26 TG:@nodpai
+      - US-142.4.114.26-017 2
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
+      - HK-16.163.94.236-102
+      - 梦歌|广港中继|解锁流媒体_83
+      - NONE
+      - United States 27 TG:@nodpai
+      - 美国 026
+      - _SG_新加坡 4
+      - _CN_中国->🇬🇧_GB_英国
+      - Relay 🇨🇳 China 01 TG:@nodpai 5
+      - France 01 TG:@nodpai
+      - _US_美国 9 2
+      - _US_美国_8_13@29
   - name: ♻️ 自动选择
     type: fallback
     url: https://raw.githubusercontent.com/
     interval: 6
     proxies:
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - 香港 022
-      - 4Jadi-161
-      - Relay 🇨🇳 China 01 TG:@nodpai 2
-      - _US_美国_8_11@29
-      - _US_电报频道： @pjrjzy 51
-      - 香港 002
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
-      - _US_jichangvpn.cloud 5
-      - 美国3|tg频道:@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
-      - United States 26 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】51
+      - _US_美国 17
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
       - US-142.4.114.26-017
+      - 美国 087
+      - United States 12 TG:@nodpai
+      - _US_美国
+      - United States 03 TG:@nodpai
+      - _US_美国 5
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
       - _US_美国_8_9@13
+      - Relay 🇨🇳 China 01 TG:@nodpai
+      - _US_美国_8_11@29 3
+      - _US_美国_8_11@29 2
+      - _US_美国 12
+      - 美国【付费推荐：v1.mk/vip】51
+      - _US_美国_8_2@32
+      - United States(ChatGPT) 02 TG:@nodpai
+      - United States 04 TG:@nodpai
+      - 美国 087 2
+      - Relay 🇨🇳 China 01 TG:@nodpai 3
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
+      - github.com/freefq - 香港Microsoft数据中心 9
+      - _US_美国_14_0@38
+      - _US_美国_19_0@45
+      - _US_美国_7_2@31
+      - _US_美国->🇫🇷_FR_法国
+      - 美国【付费推荐：v1.mk/vip】56
+      - _US_美国_19_0@45 2
+      - 未知 100
+      - 梦歌|广港中继|解锁流媒体_83 2
+      - _US_电报频道： @pjrjzy 42
+      - Relay 🇨🇳 China 01 TG:@nodpai 2
+      - 美国 014
+      - 美国【付费推荐：v1.mk/vip】104
+      - DE 4 → tg@nicevpn123
+      - _US_美国 6
+      - United States 23 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】45
+      - _US_jichangvpn.cloud 20
+      - _US_美国 19
+      - US美国(youtube阿伟科技) 2
+      - _FR_法国_1_1@20
+      - Relay 🇨🇳 China 01 TG:@nodpai 4
+      - 美国【付费推荐：v1.mk/vip】70
+      - _FR_法国_2_1@29
+      - _US_美国_9_14@20
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_319
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_143
+      - _US_电报频道： @pjrjzy 51
+      - 美国【付费推荐：v1.mk/vip】74
+      - github.com/freefq - 美国CloudFlare公司CDN节点 23
+      - github.com/freefq - 上海市联通 4
+      - _FR_法国_0@18
+      - US-69.84.182.248-153
+      - _US_美国_4_5@20
       - _US_电报频道： @pjrjzy 53
       - 美国【付费推荐：v1.mk/vip】82
-      - _US_美国 3
-      - _US_jichangvpn.cloud 20
-      - _US_美国 15
-      - China 02 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_83
-      - _US_美国 12
-      - Relay 🇨🇳 China 01 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_128 2
-      - 美国【付费推荐：v1.mk/vip】70
-      - Relay 🇨🇳 China 01 TG:@nodpai 3
-      - _US_电报频道： @pjrjzy 40
-      - US-142.4.114.26-017 2
-      - United States 25 TG:@nodpai
-      - United States(ChatGPT) 32 TG:@nodpai
-      - Switzerland(ChatGPT) 01 TG:@nodpai
-      - Relay 🇨🇳 China 01 TG:@nodpai 4
-      - United States 27 TG:@nodpai
-      - _US_美国 17
-      - United States 10 TG:@nodpai
-      - United States 03 TG:@nodpai
-      - US-137.175.3.228-009
-      - _FR_法国_0@18
-      - 美国 087
-      - DE 4 → tg@nicevpn123
-      - United States 29 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_128
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_297
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - US-69.84.182.248-153
-      - _US_美国->🇳🇱_NL_荷兰
-      - US-156.225.67.213-032
-      - _US_美国 3 2
-      - 美国【付费推荐：v1.mk/vip】62
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - 荷兰 004
-      - Singapore 02 TG:@nodpai
-      - US-69.84.182.243-155
-      - Hong Kong 02 TG:@nodpai
-      - 荷兰 014
-      - _JP_日本
-      - 美国 087 2
-      - Relay 🇨🇳 China 01 TG:@nodpai 5
-      - _JP_日本 4
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
-      - United States(ChatGPT) 06 TG:@nodpai
-      - _US_美国_7_0@31
-      - 美国【付费推荐：v1.mk/vip】88
+      - 香港 002
+      - 美国3|tg频道:@ripaojiedian
+      - _US_美国 9
+      - github.com/freefq - 法国  15
+      - 4Jadi-161
+      - 美国 079
+      - 美国【付费推荐：v1.mk/vip】54
+      - 美国3|tg频道:@ripaojiedian 2
       - _US_美国 3 2 2
-      - _TW_台湾_3_2@27
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_319
-      - _US_jichangvpn.cloud 56
-      - 美国 014
-      - NONE
+      - github.com/freefq - 马来西亚Tmnet大马电讯 14
       - 美国B|tg频道:@ripaojiedian
       - _US_美国->🇳🇱_NL_荷兰 2 2
-      - Germany 01 TG:@nodpai
-      - 美国 079
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _CA_加拿大_0@46
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 11
-      - _NL_荷兰
-      - 美国 013
-      - _US_美国_5_0@13
-      - 美国【付费推荐：v1.mk/vip】45
-      - _US_美国_2_0@10
-      - _US_美国->🇫🇷_FR_法国
-      - France 01 TG:@nodpai
-      - 荷兰 014 2
-      - 荷兰 004 2
-      - RELAY-172.67.190.72-108
-      - US-156.225.67.213-032 2
-      - _US_美国_3_0@11
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_442
-      - _CN_中国->🇺🇸_US_美国_0@1
-      - _US_美国->🇳🇱_NL_荷兰_0@47
-      - _US_美国 9
-      - 4Jadi-703
-      - United States 12 TG:@nodpai
-      - US美国(youtube阿伟科技) 2
-      - _DE_德国_2@13
-      - _US_美国_7_0@15
-      - 荷兰 004 3
-      - _US_jichangvpn.cloud 60
-      - _US_美国_4_0@12
-      - 荷兰 004 4
-      - _US_电报频道： @pjrjzy 4 2
-      - 美国【付费推荐：v1.mk/vip】34
-      - _US_美国_19_0@45
-      - _US_jichangvpn.cloud 54
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
-      - Netherlands(ChatGPT) 03 TG:@nodpai
-      - _US_美国_12_0@27
-      - United States 16 TG:@nodpai
-      - _JP_日本 2
-      - _US_美国_13_0@29
-      - _CN_jichangvpn.cloud 4
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_8
-      - HK-16.163.94.236-102
-      - Japan(ChatGPT) 01 TG:@nodpai
-      - 日本|tg频道:@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
-      - _US_美国_6_0@14
-      - 美国【付费推荐：v1.mk/vip】115
-      - Hong Kong 51 TG:@nodpai
-      - 美国【付费推荐：tt.vg/vip】34
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_143
-      - _US_美国_8_11@29 2
-      - _US_jichangvpn.cloud 27
-      - github.com/mehdimoghaddam-cell_10
-      - _US_美国_10_0@25
-      - _US_jichangvpn.cloud 49
-      - _NL_荷兰_8_0@31
-      - _US_jichangvpn.cloud 49 2
-      - 美国【付费推荐：tt.vg/vip】120
-      - US_youtube@资源分享师_47
-      - 美国 015
-      - _JP_日本 2 2
-      - _US_电报频道： @pjrjzy 48
-      - 日本 050
-      - _US_美国_9_0@24
-      - _NL_荷兰_1_0@8
-      - _US_美国_11_0@26
-      - _US_美国 19
-      - 美国【付费推荐：v1.mk/vip】74
-      - _NL_荷兰_2_0@20
-      - 美国【付费推荐：v1.mk/vip】54
-      - 美国【付费推荐：v1.mk/vip】4
-      - _FR_法国_1
-      - _US_电报频道： @pjrjzy
-      - 美国【付费推荐：v1.mk/vip】56
-      - _CN_中国->🇬🇧_GB_英国
-      - DE 4 → tg@nicevpn123 2
-      - _NL_荷兰_5_0@23
-      - _NL_荷兰_7_0@30
-      - _US_美国_20_0@48
       - 美国【付费推荐：v1.mk/vip】79
-      - _US_美国_1_14@0
-      - _NL_荷兰_10_0@34
-      - _US_jichangvpn.cloud 47
-      - _US_美国->🇨🇭_CH_瑞士_2@35
+      - Germany 01 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_442
+      - _US_美国_10_11@22
+      - github.com/freefq - 美国CloudFlare节点 32
       - 美国2|tg频道:@ripaojiedian
-      - _NL_荷兰_4_0@22
       - 美国【付费推荐：v1.mk/vip】75
-      - 美国【付费推荐：v1.mk/vip】21
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_246
-      - _US_电报频道： @pjrjzy 50
-      - _US_美国_7_1@10
-      - United States(ChatGPT) 02 TG:@nodpai
-      - _NL_荷兰_6_0@28
-      - 美国【付费推荐：v1.mk/vip】104
-      - _NL_荷兰_3_0@21
-      - 美国3|tg频道:@ripaojiedian 2
-      - _US_美国 10
-      - _US_美国 12 2
-      - _US_电报频道： @pjrjzy 4 2 2
-      - United States 23 TG:@nodpai
-      - _GB_英国->🇳🇱_NL_荷兰
-      - _SG_新加坡_1_0@0
-      - 未知 100
-      - 美国 026
-      - United Kingdom 03 TG:@nodpai
-      - _NL_荷兰_9_0@32
-      - _SG_新加坡_1@51
+      - _US_美国 17 2
+      - _US_美国_7_0@31
+      - United States 16 TG:@nodpai
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - China 02 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】88
+      - 美国【付费推荐：v1.mk/vip】115
+      - RELAY-172.67.190.72-108
+      - _US_jichangvpn.cloud 5
+      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国->🇳🇱_NL_荷兰_0@47
+      - _US_美国_8_11@29
+      - _US_jichangvpn.cloud 56
+      - _US_美国_15_1@42
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
       - _US_美国->🇬🇧_GB_英国 4
-      - _US_电报频道： @pjrjzy 42
-      - 梦歌|广港中继|解锁流媒体_83 2
-      - 香港 026
+      - _US_jichangvpn.cloud 54
+      - _CN_jichangvpn.cloud 4
+      - _US_美国->🇳🇱_NL_荷兰 3
+      - 美国 013
+      - _US_美国->🇳🇱_NL_荷兰 2 3
+      - United States 29 TG:@nodpai
+      - _US_美国->🇳🇱_NL_荷兰_0@47 2
+      - Netherlands(ChatGPT) 01 TG:@nodpai
+      - 日本|tg频道:@ripaojiedian
+      - _US_美国 8
+      - _HK_香港_3_1@12
+      - Singapore(ChatGPT) 01 TG:@nodpai
+      - US-156.225.67.213-032 2
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
+      - Hong Kong 51 TG:@nodpai
+      - _US_美国 3
+      - _CN_中国->🇺🇸_US_美国_0@1
+      - US_youtube@资源分享师_47
+      - _DE_德国_2@13
+      - United States(ChatGPT) 32 TG:@nodpai
+      - United States(ChatGPT) 06 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】4
+      - _US_电报频道： @pjrjzy 48
+      - _US_jichangvpn.cloud 27
+      - github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 5
+      - _US_jichangvpn.cloud 47
+      - 美国【付费推荐：v1.mk/vip】62
+      - _US_美国_7_1@10
+      - _US_美国_7_1@10 2
+      - 香港 022
+      - _US_美国 6 2
+      - 美国【付费推荐：tt.vg/vip】34
+      - _US_美国 12 2
+      - _US_电报频道： @pjrjzy 40
+      - _US_美国 15
+      - _CN_中国->🇺🇸_US_美国_0@1 2
+      - _US_美国 10
+      - _US_美国 4
+      - 美国 015
       - 美国 CloudFlare节点
-      - US-107.148.195.16-011
-      - _US_美国 12 3
-      - _US_美国 6
-      - _US_美国_8_11@29 3
-      - 梦歌|广港中继|解锁流媒体_128 3
-      - United States 04 TG:@nodpai
-      - US-107.148.195.16-011 2
-      - 梦歌|广港中继|解锁流媒体_128 4
-      - _US_美国_8_11@29 2 2
+      - github.com/freefq - 美国惠普HP 11
+      - _TW_台湾_3_2@27
+      - github.com/freefq - 美国惠普HP 3
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
+      - 4Jadi-703
+      - US-137.175.3.228-009
+      - 美国【付费推荐：v1.mk/vip】21
+      - _US_美国 15 2
+      - _US_美国_1_14@0
+      - United States 25 TG:@nodpai
+      - United States 10 TG:@nodpai
+      - _US_美国 3 2
+      - _US_电报频道： @pjrjzy 50
+      - github.com/freefq - 美国CloudFlare节点 27
+      - United States 26 TG:@nodpai
+      - US-142.4.114.26-017 2
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
+      - HK-16.163.94.236-102
+      - 梦歌|广港中继|解锁流媒体_83
+      - NONE
+      - United States 27 TG:@nodpai
+      - 美国 026
+      - _SG_新加坡 4
+      - _CN_中国->🇬🇧_GB_英国
+      - Relay 🇨🇳 China 01 TG:@nodpai 5
+      - France 01 TG:@nodpai
+      - _US_美国 9 2
+      - _US_美国_8_13@29
   - name: ♻️ Youtube
     type: fallback
     url: https://www.youtube.com
     interval: 6
     proxies:
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - 香港 022
-      - 4Jadi-161
-      - Relay 🇨🇳 China 01 TG:@nodpai 2
-      - _US_美国_8_11@29
-      - _US_电报频道： @pjrjzy 51
-      - 香港 002
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
-      - _US_jichangvpn.cloud 5
-      - 美国3|tg频道:@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
-      - United States 26 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】51
+      - _US_美国 17
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
       - US-142.4.114.26-017
+      - 美国 087
+      - United States 12 TG:@nodpai
+      - _US_美国
+      - United States 03 TG:@nodpai
+      - _US_美国 5
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
       - _US_美国_8_9@13
+      - Relay 🇨🇳 China 01 TG:@nodpai
+      - _US_美国_8_11@29 3
+      - _US_美国_8_11@29 2
+      - _US_美国 12
+      - 美国【付费推荐：v1.mk/vip】51
+      - _US_美国_8_2@32
+      - United States(ChatGPT) 02 TG:@nodpai
+      - United States 04 TG:@nodpai
+      - 美国 087 2
+      - Relay 🇨🇳 China 01 TG:@nodpai 3
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
+      - github.com/freefq - 香港Microsoft数据中心 9
+      - _US_美国_14_0@38
+      - _US_美国_19_0@45
+      - _US_美国_7_2@31
+      - _US_美国->🇫🇷_FR_法国
+      - 美国【付费推荐：v1.mk/vip】56
+      - _US_美国_19_0@45 2
+      - 未知 100
+      - 梦歌|广港中继|解锁流媒体_83 2
+      - _US_电报频道： @pjrjzy 42
+      - Relay 🇨🇳 China 01 TG:@nodpai 2
+      - 美国 014
+      - 美国【付费推荐：v1.mk/vip】104
+      - DE 4 → tg@nicevpn123
+      - _US_美国 6
+      - United States 23 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】45
+      - _US_jichangvpn.cloud 20
+      - _US_美国 19
+      - US美国(youtube阿伟科技) 2
+      - _FR_法国_1_1@20
+      - Relay 🇨🇳 China 01 TG:@nodpai 4
+      - 美国【付费推荐：v1.mk/vip】70
+      - _FR_法国_2_1@29
+      - _US_美国_9_14@20
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_319
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_143
+      - _US_电报频道： @pjrjzy 51
+      - 美国【付费推荐：v1.mk/vip】74
+      - github.com/freefq - 美国CloudFlare公司CDN节点 23
+      - github.com/freefq - 上海市联通 4
+      - _FR_法国_0@18
+      - US-69.84.182.248-153
+      - _US_美国_4_5@20
       - _US_电报频道： @pjrjzy 53
       - 美国【付费推荐：v1.mk/vip】82
-      - _US_美国 3
-      - _US_jichangvpn.cloud 20
-      - _US_美国 15
-      - China 02 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_83
-      - _US_美国 12
-      - Relay 🇨🇳 China 01 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_128 2
-      - 美国【付费推荐：v1.mk/vip】70
-      - Relay 🇨🇳 China 01 TG:@nodpai 3
-      - _US_电报频道： @pjrjzy 40
-      - US-142.4.114.26-017 2
-      - United States 25 TG:@nodpai
-      - United States(ChatGPT) 32 TG:@nodpai
-      - Switzerland(ChatGPT) 01 TG:@nodpai
-      - Relay 🇨🇳 China 01 TG:@nodpai 4
-      - United States 27 TG:@nodpai
-      - _US_美国 17
-      - United States 10 TG:@nodpai
-      - United States 03 TG:@nodpai
-      - US-137.175.3.228-009
-      - _FR_法国_0@18
-      - 美国 087
-      - DE 4 → tg@nicevpn123
-      - United States 29 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_128
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_297
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - US-69.84.182.248-153
-      - _US_美国->🇳🇱_NL_荷兰
-      - US-156.225.67.213-032
-      - _US_美国 3 2
-      - 美国【付费推荐：v1.mk/vip】62
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - 荷兰 004
-      - Singapore 02 TG:@nodpai
-      - US-69.84.182.243-155
-      - Hong Kong 02 TG:@nodpai
-      - 荷兰 014
-      - _JP_日本
-      - 美国 087 2
-      - Relay 🇨🇳 China 01 TG:@nodpai 5
-      - _JP_日本 4
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
-      - United States(ChatGPT) 06 TG:@nodpai
-      - _US_美国_7_0@31
-      - 美国【付费推荐：v1.mk/vip】88
+      - 香港 002
+      - 美国3|tg频道:@ripaojiedian
+      - _US_美国 9
+      - github.com/freefq - 法国  15
+      - 4Jadi-161
+      - 美国 079
+      - 美国【付费推荐：v1.mk/vip】54
+      - 美国3|tg频道:@ripaojiedian 2
       - _US_美国 3 2 2
-      - _TW_台湾_3_2@27
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_319
-      - _US_jichangvpn.cloud 56
-      - 美国 014
-      - NONE
+      - github.com/freefq - 马来西亚Tmnet大马电讯 14
       - 美国B|tg频道:@ripaojiedian
       - _US_美国->🇳🇱_NL_荷兰 2 2
-      - Germany 01 TG:@nodpai
-      - 美国 079
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _CA_加拿大_0@46
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 11
-      - _NL_荷兰
-      - 美国 013
-      - _US_美国_5_0@13
-      - 美国【付费推荐：v1.mk/vip】45
-      - _US_美国_2_0@10
-      - _US_美国->🇫🇷_FR_法国
-      - France 01 TG:@nodpai
-      - 荷兰 014 2
-      - 荷兰 004 2
-      - RELAY-172.67.190.72-108
-      - US-156.225.67.213-032 2
-      - _US_美国_3_0@11
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_442
-      - _CN_中国->🇺🇸_US_美国_0@1
-      - _US_美国->🇳🇱_NL_荷兰_0@47
-      - _US_美国 9
-      - 4Jadi-703
-      - United States 12 TG:@nodpai
-      - US美国(youtube阿伟科技) 2
-      - _DE_德国_2@13
-      - _US_美国_7_0@15
-      - 荷兰 004 3
-      - _US_jichangvpn.cloud 60
-      - _US_美国_4_0@12
-      - 荷兰 004 4
-      - _US_电报频道： @pjrjzy 4 2
-      - 美国【付费推荐：v1.mk/vip】34
-      - _US_美国_19_0@45
-      - _US_jichangvpn.cloud 54
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
-      - Netherlands(ChatGPT) 03 TG:@nodpai
-      - _US_美国_12_0@27
-      - United States 16 TG:@nodpai
-      - _JP_日本 2
-      - _US_美国_13_0@29
-      - _CN_jichangvpn.cloud 4
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_8
-      - HK-16.163.94.236-102
-      - Japan(ChatGPT) 01 TG:@nodpai
-      - 日本|tg频道:@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
-      - _US_美国_6_0@14
-      - 美国【付费推荐：v1.mk/vip】115
-      - Hong Kong 51 TG:@nodpai
-      - 美国【付费推荐：tt.vg/vip】34
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_143
-      - _US_美国_8_11@29 2
-      - _US_jichangvpn.cloud 27
-      - github.com/mehdimoghaddam-cell_10
-      - _US_美国_10_0@25
-      - _US_jichangvpn.cloud 49
-      - _NL_荷兰_8_0@31
-      - _US_jichangvpn.cloud 49 2
-      - 美国【付费推荐：tt.vg/vip】120
-      - US_youtube@资源分享师_47
-      - 美国 015
-      - _JP_日本 2 2
-      - _US_电报频道： @pjrjzy 48
-      - 日本 050
-      - _US_美国_9_0@24
-      - _NL_荷兰_1_0@8
-      - _US_美国_11_0@26
-      - _US_美国 19
-      - 美国【付费推荐：v1.mk/vip】74
-      - _NL_荷兰_2_0@20
-      - 美国【付费推荐：v1.mk/vip】54
-      - 美国【付费推荐：v1.mk/vip】4
-      - _FR_法国_1
-      - _US_电报频道： @pjrjzy
-      - 美国【付费推荐：v1.mk/vip】56
-      - _CN_中国->🇬🇧_GB_英国
-      - DE 4 → tg@nicevpn123 2
-      - _NL_荷兰_5_0@23
-      - _NL_荷兰_7_0@30
-      - _US_美国_20_0@48
       - 美国【付费推荐：v1.mk/vip】79
-      - _US_美国_1_14@0
-      - _NL_荷兰_10_0@34
-      - _US_jichangvpn.cloud 47
-      - _US_美国->🇨🇭_CH_瑞士_2@35
+      - Germany 01 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_442
+      - _US_美国_10_11@22
+      - github.com/freefq - 美国CloudFlare节点 32
       - 美国2|tg频道:@ripaojiedian
-      - _NL_荷兰_4_0@22
       - 美国【付费推荐：v1.mk/vip】75
-      - 美国【付费推荐：v1.mk/vip】21
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_246
-      - _US_电报频道： @pjrjzy 50
-      - _US_美国_7_1@10
-      - United States(ChatGPT) 02 TG:@nodpai
-      - _NL_荷兰_6_0@28
-      - 美国【付费推荐：v1.mk/vip】104
-      - _NL_荷兰_3_0@21
-      - 美国3|tg频道:@ripaojiedian 2
-      - _US_美国 10
-      - _US_美国 12 2
-      - _US_电报频道： @pjrjzy 4 2 2
-      - United States 23 TG:@nodpai
-      - _GB_英国->🇳🇱_NL_荷兰
-      - _SG_新加坡_1_0@0
-      - 未知 100
-      - 美国 026
-      - United Kingdom 03 TG:@nodpai
-      - _NL_荷兰_9_0@32
-      - _SG_新加坡_1@51
+      - _US_美国 17 2
+      - _US_美国_7_0@31
+      - United States 16 TG:@nodpai
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - China 02 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】88
+      - 美国【付费推荐：v1.mk/vip】115
+      - RELAY-172.67.190.72-108
+      - _US_jichangvpn.cloud 5
+      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国->🇳🇱_NL_荷兰_0@47
+      - _US_美国_8_11@29
+      - _US_jichangvpn.cloud 56
+      - _US_美国_15_1@42
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
       - _US_美国->🇬🇧_GB_英国 4
-      - _US_电报频道： @pjrjzy 42
-      - 梦歌|广港中继|解锁流媒体_83 2
-      - 香港 026
+      - _US_jichangvpn.cloud 54
+      - _CN_jichangvpn.cloud 4
+      - _US_美国->🇳🇱_NL_荷兰 3
+      - 美国 013
+      - _US_美国->🇳🇱_NL_荷兰 2 3
+      - United States 29 TG:@nodpai
+      - _US_美国->🇳🇱_NL_荷兰_0@47 2
+      - Netherlands(ChatGPT) 01 TG:@nodpai
+      - 日本|tg频道:@ripaojiedian
+      - _US_美国 8
+      - _HK_香港_3_1@12
+      - Singapore(ChatGPT) 01 TG:@nodpai
+      - US-156.225.67.213-032 2
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
+      - Hong Kong 51 TG:@nodpai
+      - _US_美国 3
+      - _CN_中国->🇺🇸_US_美国_0@1
+      - US_youtube@资源分享师_47
+      - _DE_德国_2@13
+      - United States(ChatGPT) 32 TG:@nodpai
+      - United States(ChatGPT) 06 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】4
+      - _US_电报频道： @pjrjzy 48
+      - _US_jichangvpn.cloud 27
+      - github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 5
+      - _US_jichangvpn.cloud 47
+      - 美国【付费推荐：v1.mk/vip】62
+      - _US_美国_7_1@10
+      - _US_美国_7_1@10 2
+      - 香港 022
+      - _US_美国 6 2
+      - 美国【付费推荐：tt.vg/vip】34
+      - _US_美国 12 2
+      - _US_电报频道： @pjrjzy 40
+      - _US_美国 15
+      - _CN_中国->🇺🇸_US_美国_0@1 2
+      - _US_美国 10
+      - _US_美国 4
+      - 美国 015
       - 美国 CloudFlare节点
-      - US-107.148.195.16-011
-      - _US_美国 12 3
-      - _US_美国 6
-      - _US_美国_8_11@29 3
-      - 梦歌|广港中继|解锁流媒体_128 3
-      - United States 04 TG:@nodpai
-      - US-107.148.195.16-011 2
-      - 梦歌|广港中继|解锁流媒体_128 4
-      - _US_美国_8_11@29 2 2
+      - github.com/freefq - 美国惠普HP 11
+      - _TW_台湾_3_2@27
+      - github.com/freefq - 美国惠普HP 3
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
+      - 4Jadi-703
+      - US-137.175.3.228-009
+      - 美国【付费推荐：v1.mk/vip】21
+      - _US_美国 15 2
+      - _US_美国_1_14@0
+      - United States 25 TG:@nodpai
+      - United States 10 TG:@nodpai
+      - _US_美国 3 2
+      - _US_电报频道： @pjrjzy 50
+      - github.com/freefq - 美国CloudFlare节点 27
+      - United States 26 TG:@nodpai
+      - US-142.4.114.26-017 2
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
+      - HK-16.163.94.236-102
+      - 梦歌|广港中继|解锁流媒体_83
+      - NONE
+      - United States 27 TG:@nodpai
+      - 美国 026
+      - _SG_新加坡 4
+      - _CN_中国->🇬🇧_GB_英国
+      - Relay 🇨🇳 China 01 TG:@nodpai 5
+      - France 01 TG:@nodpai
+      - _US_美国 9 2
+      - _US_美国_8_13@29
   - name: ♻️ Missav
     type: fallback
     url: https://www.Missav.com
     interval: 6
     proxies:
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - 香港 022
-      - 4Jadi-161
-      - Relay 🇨🇳 China 01 TG:@nodpai 2
-      - _US_美国_8_11@29
-      - _US_电报频道： @pjrjzy 51
-      - 香港 002
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
-      - _US_jichangvpn.cloud 5
-      - 美国3|tg频道:@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
-      - United States 26 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】51
+      - _US_美国 17
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
       - US-142.4.114.26-017
+      - 美国 087
+      - United States 12 TG:@nodpai
+      - _US_美国
+      - United States 03 TG:@nodpai
+      - _US_美国 5
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
       - _US_美国_8_9@13
+      - Relay 🇨🇳 China 01 TG:@nodpai
+      - _US_美国_8_11@29 3
+      - _US_美国_8_11@29 2
+      - _US_美国 12
+      - 美国【付费推荐：v1.mk/vip】51
+      - _US_美国_8_2@32
+      - United States(ChatGPT) 02 TG:@nodpai
+      - United States 04 TG:@nodpai
+      - 美国 087 2
+      - Relay 🇨🇳 China 01 TG:@nodpai 3
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
+      - github.com/freefq - 香港Microsoft数据中心 9
+      - _US_美国_14_0@38
+      - _US_美国_19_0@45
+      - _US_美国_7_2@31
+      - _US_美国->🇫🇷_FR_法国
+      - 美国【付费推荐：v1.mk/vip】56
+      - _US_美国_19_0@45 2
+      - 未知 100
+      - 梦歌|广港中继|解锁流媒体_83 2
+      - _US_电报频道： @pjrjzy 42
+      - Relay 🇨🇳 China 01 TG:@nodpai 2
+      - 美国 014
+      - 美国【付费推荐：v1.mk/vip】104
+      - DE 4 → tg@nicevpn123
+      - _US_美国 6
+      - United States 23 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】45
+      - _US_jichangvpn.cloud 20
+      - _US_美国 19
+      - US美国(youtube阿伟科技) 2
+      - _FR_法国_1_1@20
+      - Relay 🇨🇳 China 01 TG:@nodpai 4
+      - 美国【付费推荐：v1.mk/vip】70
+      - _FR_法国_2_1@29
+      - _US_美国_9_14@20
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_319
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_143
+      - _US_电报频道： @pjrjzy 51
+      - 美国【付费推荐：v1.mk/vip】74
+      - github.com/freefq - 美国CloudFlare公司CDN节点 23
+      - github.com/freefq - 上海市联通 4
+      - _FR_法国_0@18
+      - US-69.84.182.248-153
+      - _US_美国_4_5@20
       - _US_电报频道： @pjrjzy 53
       - 美国【付费推荐：v1.mk/vip】82
-      - _US_美国 3
-      - _US_jichangvpn.cloud 20
-      - _US_美国 15
-      - China 02 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_83
-      - _US_美国 12
-      - Relay 🇨🇳 China 01 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_128 2
-      - 美国【付费推荐：v1.mk/vip】70
-      - Relay 🇨🇳 China 01 TG:@nodpai 3
-      - _US_电报频道： @pjrjzy 40
-      - US-142.4.114.26-017 2
-      - United States 25 TG:@nodpai
-      - United States(ChatGPT) 32 TG:@nodpai
-      - Switzerland(ChatGPT) 01 TG:@nodpai
-      - Relay 🇨🇳 China 01 TG:@nodpai 4
-      - United States 27 TG:@nodpai
-      - _US_美国 17
-      - United States 10 TG:@nodpai
-      - United States 03 TG:@nodpai
-      - US-137.175.3.228-009
-      - _FR_法国_0@18
-      - 美国 087
-      - DE 4 → tg@nicevpn123
-      - United States 29 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_128
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_297
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - US-69.84.182.248-153
-      - _US_美国->🇳🇱_NL_荷兰
-      - US-156.225.67.213-032
-      - _US_美国 3 2
-      - 美国【付费推荐：v1.mk/vip】62
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - 荷兰 004
-      - Singapore 02 TG:@nodpai
-      - US-69.84.182.243-155
-      - Hong Kong 02 TG:@nodpai
-      - 荷兰 014
-      - _JP_日本
-      - 美国 087 2
-      - Relay 🇨🇳 China 01 TG:@nodpai 5
-      - _JP_日本 4
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
-      - United States(ChatGPT) 06 TG:@nodpai
-      - _US_美国_7_0@31
-      - 美国【付费推荐：v1.mk/vip】88
+      - 香港 002
+      - 美国3|tg频道:@ripaojiedian
+      - _US_美国 9
+      - github.com/freefq - 法国  15
+      - 4Jadi-161
+      - 美国 079
+      - 美国【付费推荐：v1.mk/vip】54
+      - 美国3|tg频道:@ripaojiedian 2
       - _US_美国 3 2 2
-      - _TW_台湾_3_2@27
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_319
-      - _US_jichangvpn.cloud 56
-      - 美国 014
-      - NONE
+      - github.com/freefq - 马来西亚Tmnet大马电讯 14
       - 美国B|tg频道:@ripaojiedian
       - _US_美国->🇳🇱_NL_荷兰 2 2
-      - Germany 01 TG:@nodpai
-      - 美国 079
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _CA_加拿大_0@46
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 11
-      - _NL_荷兰
-      - 美国 013
-      - _US_美国_5_0@13
-      - 美国【付费推荐：v1.mk/vip】45
-      - _US_美国_2_0@10
-      - _US_美国->🇫🇷_FR_法国
-      - France 01 TG:@nodpai
-      - 荷兰 014 2
-      - 荷兰 004 2
-      - RELAY-172.67.190.72-108
-      - US-156.225.67.213-032 2
-      - _US_美国_3_0@11
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_442
-      - _CN_中国->🇺🇸_US_美国_0@1
-      - _US_美国->🇳🇱_NL_荷兰_0@47
-      - _US_美国 9
-      - 4Jadi-703
-      - United States 12 TG:@nodpai
-      - US美国(youtube阿伟科技) 2
-      - _DE_德国_2@13
-      - _US_美国_7_0@15
-      - 荷兰 004 3
-      - _US_jichangvpn.cloud 60
-      - _US_美国_4_0@12
-      - 荷兰 004 4
-      - _US_电报频道： @pjrjzy 4 2
-      - 美国【付费推荐：v1.mk/vip】34
-      - _US_美国_19_0@45
-      - _US_jichangvpn.cloud 54
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
-      - Netherlands(ChatGPT) 03 TG:@nodpai
-      - _US_美国_12_0@27
-      - United States 16 TG:@nodpai
-      - _JP_日本 2
-      - _US_美国_13_0@29
-      - _CN_jichangvpn.cloud 4
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_8
-      - HK-16.163.94.236-102
-      - Japan(ChatGPT) 01 TG:@nodpai
-      - 日本|tg频道:@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
-      - _US_美国_6_0@14
-      - 美国【付费推荐：v1.mk/vip】115
-      - Hong Kong 51 TG:@nodpai
-      - 美国【付费推荐：tt.vg/vip】34
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_143
-      - _US_美国_8_11@29 2
-      - _US_jichangvpn.cloud 27
-      - github.com/mehdimoghaddam-cell_10
-      - _US_美国_10_0@25
-      - _US_jichangvpn.cloud 49
-      - _NL_荷兰_8_0@31
-      - _US_jichangvpn.cloud 49 2
-      - 美国【付费推荐：tt.vg/vip】120
-      - US_youtube@资源分享师_47
-      - 美国 015
-      - _JP_日本 2 2
-      - _US_电报频道： @pjrjzy 48
-      - 日本 050
-      - _US_美国_9_0@24
-      - _NL_荷兰_1_0@8
-      - _US_美国_11_0@26
-      - _US_美国 19
-      - 美国【付费推荐：v1.mk/vip】74
-      - _NL_荷兰_2_0@20
-      - 美国【付费推荐：v1.mk/vip】54
-      - 美国【付费推荐：v1.mk/vip】4
-      - _FR_法国_1
-      - _US_电报频道： @pjrjzy
-      - 美国【付费推荐：v1.mk/vip】56
-      - _CN_中国->🇬🇧_GB_英国
-      - DE 4 → tg@nicevpn123 2
-      - _NL_荷兰_5_0@23
-      - _NL_荷兰_7_0@30
-      - _US_美国_20_0@48
       - 美国【付费推荐：v1.mk/vip】79
-      - _US_美国_1_14@0
-      - _NL_荷兰_10_0@34
-      - _US_jichangvpn.cloud 47
-      - _US_美国->🇨🇭_CH_瑞士_2@35
+      - Germany 01 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_442
+      - _US_美国_10_11@22
+      - github.com/freefq - 美国CloudFlare节点 32
       - 美国2|tg频道:@ripaojiedian
-      - _NL_荷兰_4_0@22
       - 美国【付费推荐：v1.mk/vip】75
-      - 美国【付费推荐：v1.mk/vip】21
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_246
-      - _US_电报频道： @pjrjzy 50
-      - _US_美国_7_1@10
-      - United States(ChatGPT) 02 TG:@nodpai
-      - _NL_荷兰_6_0@28
-      - 美国【付费推荐：v1.mk/vip】104
-      - _NL_荷兰_3_0@21
-      - 美国3|tg频道:@ripaojiedian 2
-      - _US_美国 10
-      - _US_美国 12 2
-      - _US_电报频道： @pjrjzy 4 2 2
-      - United States 23 TG:@nodpai
-      - _GB_英国->🇳🇱_NL_荷兰
-      - _SG_新加坡_1_0@0
-      - 未知 100
-      - 美国 026
-      - United Kingdom 03 TG:@nodpai
-      - _NL_荷兰_9_0@32
-      - _SG_新加坡_1@51
+      - _US_美国 17 2
+      - _US_美国_7_0@31
+      - United States 16 TG:@nodpai
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - China 02 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】88
+      - 美国【付费推荐：v1.mk/vip】115
+      - RELAY-172.67.190.72-108
+      - _US_jichangvpn.cloud 5
+      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国->🇳🇱_NL_荷兰_0@47
+      - _US_美国_8_11@29
+      - _US_jichangvpn.cloud 56
+      - _US_美国_15_1@42
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
       - _US_美国->🇬🇧_GB_英国 4
-      - _US_电报频道： @pjrjzy 42
-      - 梦歌|广港中继|解锁流媒体_83 2
-      - 香港 026
+      - _US_jichangvpn.cloud 54
+      - _CN_jichangvpn.cloud 4
+      - _US_美国->🇳🇱_NL_荷兰 3
+      - 美国 013
+      - _US_美国->🇳🇱_NL_荷兰 2 3
+      - United States 29 TG:@nodpai
+      - _US_美国->🇳🇱_NL_荷兰_0@47 2
+      - Netherlands(ChatGPT) 01 TG:@nodpai
+      - 日本|tg频道:@ripaojiedian
+      - _US_美国 8
+      - _HK_香港_3_1@12
+      - Singapore(ChatGPT) 01 TG:@nodpai
+      - US-156.225.67.213-032 2
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
+      - Hong Kong 51 TG:@nodpai
+      - _US_美国 3
+      - _CN_中国->🇺🇸_US_美国_0@1
+      - US_youtube@资源分享师_47
+      - _DE_德国_2@13
+      - United States(ChatGPT) 32 TG:@nodpai
+      - United States(ChatGPT) 06 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】4
+      - _US_电报频道： @pjrjzy 48
+      - _US_jichangvpn.cloud 27
+      - github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 5
+      - _US_jichangvpn.cloud 47
+      - 美国【付费推荐：v1.mk/vip】62
+      - _US_美国_7_1@10
+      - _US_美国_7_1@10 2
+      - 香港 022
+      - _US_美国 6 2
+      - 美国【付费推荐：tt.vg/vip】34
+      - _US_美国 12 2
+      - _US_电报频道： @pjrjzy 40
+      - _US_美国 15
+      - _CN_中国->🇺🇸_US_美国_0@1 2
+      - _US_美国 10
+      - _US_美国 4
+      - 美国 015
       - 美国 CloudFlare节点
-      - US-107.148.195.16-011
-      - _US_美国 12 3
-      - _US_美国 6
-      - _US_美国_8_11@29 3
-      - 梦歌|广港中继|解锁流媒体_128 3
-      - United States 04 TG:@nodpai
-      - US-107.148.195.16-011 2
-      - 梦歌|广港中继|解锁流媒体_128 4
-      - _US_美国_8_11@29 2 2
+      - github.com/freefq - 美国惠普HP 11
+      - _TW_台湾_3_2@27
+      - github.com/freefq - 美国惠普HP 3
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
+      - 4Jadi-703
+      - US-137.175.3.228-009
+      - 美国【付费推荐：v1.mk/vip】21
+      - _US_美国 15 2
+      - _US_美国_1_14@0
+      - United States 25 TG:@nodpai
+      - United States 10 TG:@nodpai
+      - _US_美国 3 2
+      - _US_电报频道： @pjrjzy 50
+      - github.com/freefq - 美国CloudFlare节点 27
+      - United States 26 TG:@nodpai
+      - US-142.4.114.26-017 2
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
+      - HK-16.163.94.236-102
+      - 梦歌|广港中继|解锁流媒体_83
+      - NONE
+      - United States 27 TG:@nodpai
+      - 美国 026
+      - _SG_新加坡 4
+      - _CN_中国->🇬🇧_GB_英国
+      - Relay 🇨🇳 China 01 TG:@nodpai 5
+      - France 01 TG:@nodpai
+      - _US_美国 9 2
+      - _US_美国_8_13@29
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3145,615 +852,168 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - 香港 022
-      - 4Jadi-161
-      - Relay 🇨🇳 China 01 TG:@nodpai 2
-      - _US_美国_8_11@29
-      - _US_电报频道： @pjrjzy 51
-      - 香港 002
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
-      - _US_jichangvpn.cloud 5
-      - 美国3|tg频道:@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
-      - United States 26 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】51
+      - _US_美国 17
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
       - US-142.4.114.26-017
+      - 美国 087
+      - United States 12 TG:@nodpai
+      - _US_美国
+      - United States 03 TG:@nodpai
+      - _US_美国 5
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
       - _US_美国_8_9@13
+      - Relay 🇨🇳 China 01 TG:@nodpai
+      - _US_美国_8_11@29 3
+      - _US_美国_8_11@29 2
+      - _US_美国 12
+      - 美国【付费推荐：v1.mk/vip】51
+      - _US_美国_8_2@32
+      - United States(ChatGPT) 02 TG:@nodpai
+      - United States 04 TG:@nodpai
+      - 美国 087 2
+      - Relay 🇨🇳 China 01 TG:@nodpai 3
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
+      - github.com/freefq - 香港Microsoft数据中心 9
+      - _US_美国_14_0@38
+      - _US_美国_19_0@45
+      - _US_美国_7_2@31
+      - _US_美国->🇫🇷_FR_法国
+      - 美国【付费推荐：v1.mk/vip】56
+      - _US_美国_19_0@45 2
+      - 未知 100
+      - 梦歌|广港中继|解锁流媒体_83 2
+      - _US_电报频道： @pjrjzy 42
+      - Relay 🇨🇳 China 01 TG:@nodpai 2
+      - 美国 014
+      - 美国【付费推荐：v1.mk/vip】104
+      - DE 4 → tg@nicevpn123
+      - _US_美国 6
+      - United States 23 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】45
+      - _US_jichangvpn.cloud 20
+      - _US_美国 19
+      - US美国(youtube阿伟科技) 2
+      - _FR_法国_1_1@20
+      - Relay 🇨🇳 China 01 TG:@nodpai 4
+      - 美国【付费推荐：v1.mk/vip】70
+      - _FR_法国_2_1@29
+      - _US_美国_9_14@20
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_319
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_143
+      - _US_电报频道： @pjrjzy 51
+      - 美国【付费推荐：v1.mk/vip】74
+      - github.com/freefq - 美国CloudFlare公司CDN节点 23
+      - github.com/freefq - 上海市联通 4
+      - _FR_法国_0@18
+      - US-69.84.182.248-153
+      - _US_美国_4_5@20
       - _US_电报频道： @pjrjzy 53
       - 美国【付费推荐：v1.mk/vip】82
-      - _US_美国 3
-      - _US_jichangvpn.cloud 20
-      - _US_美国 15
-      - China 02 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_83
-      - _US_美国 12
-      - Relay 🇨🇳 China 01 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_128 2
-      - 美国【付费推荐：v1.mk/vip】70
-      - Relay 🇨🇳 China 01 TG:@nodpai 3
-      - _US_电报频道： @pjrjzy 40
-      - US-142.4.114.26-017 2
-      - United States 25 TG:@nodpai
-      - United States(ChatGPT) 32 TG:@nodpai
-      - Switzerland(ChatGPT) 01 TG:@nodpai
-      - Relay 🇨🇳 China 01 TG:@nodpai 4
-      - United States 27 TG:@nodpai
-      - _US_美国 17
-      - United States 10 TG:@nodpai
-      - United States 03 TG:@nodpai
-      - US-137.175.3.228-009
-      - _FR_法国_0@18
-      - 美国 087
-      - DE 4 → tg@nicevpn123
-      - United States 29 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_128
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_297
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - US-69.84.182.248-153
-      - _US_美国->🇳🇱_NL_荷兰
-      - US-156.225.67.213-032
-      - _US_美国 3 2
-      - 美国【付费推荐：v1.mk/vip】62
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - 荷兰 004
-      - Singapore 02 TG:@nodpai
-      - US-69.84.182.243-155
-      - Hong Kong 02 TG:@nodpai
-      - 荷兰 014
-      - _JP_日本
-      - 美国 087 2
-      - Relay 🇨🇳 China 01 TG:@nodpai 5
-      - _JP_日本 4
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
-      - United States(ChatGPT) 06 TG:@nodpai
-      - _US_美国_7_0@31
-      - 美国【付费推荐：v1.mk/vip】88
-      - _US_美国 3 2 2
-      - _TW_台湾_3_2@27
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_319
-      - _US_jichangvpn.cloud 56
-      - 美国 014
-      - NONE
-      - 美国B|tg频道:@ripaojiedian
-      - _US_美国->🇳🇱_NL_荷兰 2 2
-      - Germany 01 TG:@nodpai
-      - 美国 079
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _CA_加拿大_0@46
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 11
-      - _NL_荷兰
-      - 美国 013
-      - _US_美国_5_0@13
-      - 美国【付费推荐：v1.mk/vip】45
-      - _US_美国_2_0@10
-      - _US_美国->🇫🇷_FR_法国
-      - France 01 TG:@nodpai
-      - 荷兰 014 2
-      - 荷兰 004 2
-      - RELAY-172.67.190.72-108
-      - US-156.225.67.213-032 2
-      - _US_美国_3_0@11
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_442
-      - _CN_中国->🇺🇸_US_美国_0@1
-      - _US_美国->🇳🇱_NL_荷兰_0@47
-      - _US_美国 9
-      - 4Jadi-703
-      - United States 12 TG:@nodpai
-      - US美国(youtube阿伟科技) 2
-      - _DE_德国_2@13
-      - _US_美国_7_0@15
-      - 荷兰 004 3
-      - _US_jichangvpn.cloud 60
-      - _US_美国_4_0@12
-      - 荷兰 004 4
-      - _US_电报频道： @pjrjzy 4 2
-      - 美国【付费推荐：v1.mk/vip】34
-      - _US_美国_19_0@45
-      - _US_jichangvpn.cloud 54
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
-      - Netherlands(ChatGPT) 03 TG:@nodpai
-      - _US_美国_12_0@27
-      - United States 16 TG:@nodpai
-      - _JP_日本 2
-      - _US_美国_13_0@29
-      - _CN_jichangvpn.cloud 4
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_8
-      - HK-16.163.94.236-102
-      - Japan(ChatGPT) 01 TG:@nodpai
-      - 日本|tg频道:@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
-      - _US_美国_6_0@14
-      - 美国【付费推荐：v1.mk/vip】115
-      - Hong Kong 51 TG:@nodpai
-      - 美国【付费推荐：tt.vg/vip】34
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_143
-      - _US_美国_8_11@29 2
-      - _US_jichangvpn.cloud 27
-      - github.com/mehdimoghaddam-cell_10
-      - _US_美国_10_0@25
-      - _US_jichangvpn.cloud 49
-      - _NL_荷兰_8_0@31
-      - _US_jichangvpn.cloud 49 2
-      - 美国【付费推荐：tt.vg/vip】120
-      - US_youtube@资源分享师_47
-      - 美国 015
-      - _JP_日本 2 2
-      - _US_电报频道： @pjrjzy 48
-      - 日本 050
-      - _US_美国_9_0@24
-      - _NL_荷兰_1_0@8
-      - _US_美国_11_0@26
-      - _US_美国 19
-      - 美国【付费推荐：v1.mk/vip】74
-      - _NL_荷兰_2_0@20
-      - 美国【付费推荐：v1.mk/vip】54
-      - 美国【付费推荐：v1.mk/vip】4
-      - _FR_法国_1
-      - _US_电报频道： @pjrjzy
-      - 美国【付费推荐：v1.mk/vip】56
-      - _CN_中国->🇬🇧_GB_英国
-      - DE 4 → tg@nicevpn123 2
-      - _NL_荷兰_5_0@23
-      - _NL_荷兰_7_0@30
-      - _US_美国_20_0@48
-      - 美国【付费推荐：v1.mk/vip】79
-      - _US_美国_1_14@0
-      - _NL_荷兰_10_0@34
-      - _US_jichangvpn.cloud 47
-      - _US_美国->🇨🇭_CH_瑞士_2@35
-      - 美国2|tg频道:@ripaojiedian
-      - _NL_荷兰_4_0@22
-      - 美国【付费推荐：v1.mk/vip】75
-      - 美国【付费推荐：v1.mk/vip】21
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_246
-      - _US_电报频道： @pjrjzy 50
-      - _US_美国_7_1@10
-      - United States(ChatGPT) 02 TG:@nodpai
-      - _NL_荷兰_6_0@28
-      - 美国【付费推荐：v1.mk/vip】104
-      - _NL_荷兰_3_0@21
-      - 美国3|tg频道:@ripaojiedian 2
-      - _US_美国 10
-      - _US_美国 12 2
-      - _US_电报频道： @pjrjzy 4 2 2
-      - United States 23 TG:@nodpai
-      - _GB_英国->🇳🇱_NL_荷兰
-      - _SG_新加坡_1_0@0
-      - 未知 100
-      - 美国 026
-      - United Kingdom 03 TG:@nodpai
-      - _NL_荷兰_9_0@32
-      - _SG_新加坡_1@51
-      - _US_美国->🇬🇧_GB_英国 4
-      - _US_电报频道： @pjrjzy 42
-      - 梦歌|广港中继|解锁流媒体_83 2
-      - 香港 026
-      - 美国 CloudFlare节点
-      - US-107.148.195.16-011
-      - _US_美国 12 3
-      - _US_美国 6
-      - _US_美国_8_11@29 3
-      - 梦歌|广港中继|解锁流媒体_128 3
-      - United States 04 TG:@nodpai
-      - US-107.148.195.16-011 2
-      - 梦歌|广港中继|解锁流媒体_128 4
-      - _US_美国_8_11@29 2 2
-  - name: ⚖️ 负载YOUTUBE
-    type: load-balance
-    url: https://www.youtube.com/
-    interval: 6
-    strategy: round-robin
-    proxies:
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - 香港 022
-      - 4Jadi-161
-      - Relay 🇨🇳 China 01 TG:@nodpai 2
-      - _US_美国_8_11@29
-      - _US_电报频道： @pjrjzy 51
       - 香港 002
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
-      - _US_jichangvpn.cloud 5
       - 美国3|tg频道:@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
-      - United States 26 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】51
-      - US-142.4.114.26-017
-      - _US_美国_8_9@13
-      - _US_电报频道： @pjrjzy 53
-      - 美国【付费推荐：v1.mk/vip】82
-      - _US_美国 3
-      - _US_jichangvpn.cloud 20
-      - _US_美国 15
-      - China 02 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_83
-      - _US_美国 12
-      - Relay 🇨🇳 China 01 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_128 2
-      - 美国【付费推荐：v1.mk/vip】70
-      - Relay 🇨🇳 China 01 TG:@nodpai 3
-      - _US_电报频道： @pjrjzy 40
-      - US-142.4.114.26-017 2
-      - United States 25 TG:@nodpai
-      - United States(ChatGPT) 32 TG:@nodpai
-      - Switzerland(ChatGPT) 01 TG:@nodpai
-      - Relay 🇨🇳 China 01 TG:@nodpai 4
-      - United States 27 TG:@nodpai
-      - _US_美国 17
-      - United States 10 TG:@nodpai
-      - United States 03 TG:@nodpai
-      - US-137.175.3.228-009
-      - _FR_法国_0@18
-      - 美国 087
-      - DE 4 → tg@nicevpn123
-      - United States 29 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_128
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_297
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - US-69.84.182.248-153
-      - _US_美国->🇳🇱_NL_荷兰
-      - US-156.225.67.213-032
-      - _US_美国 3 2
-      - 美国【付费推荐：v1.mk/vip】62
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - 荷兰 004
-      - Singapore 02 TG:@nodpai
-      - US-69.84.182.243-155
-      - Hong Kong 02 TG:@nodpai
-      - 荷兰 014
-      - _JP_日本
-      - 美国 087 2
-      - Relay 🇨🇳 China 01 TG:@nodpai 5
-      - _JP_日本 4
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
-      - United States(ChatGPT) 06 TG:@nodpai
-      - _US_美国_7_0@31
-      - 美国【付费推荐：v1.mk/vip】88
-      - _US_美国 3 2 2
-      - _TW_台湾_3_2@27
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_319
-      - _US_jichangvpn.cloud 56
-      - 美国 014
-      - NONE
-      - 美国B|tg频道:@ripaojiedian
-      - _US_美国->🇳🇱_NL_荷兰 2 2
-      - Germany 01 TG:@nodpai
-      - 美国 079
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _CA_加拿大_0@46
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 11
-      - _NL_荷兰
-      - 美国 013
-      - _US_美国_5_0@13
-      - 美国【付费推荐：v1.mk/vip】45
-      - _US_美国_2_0@10
-      - _US_美国->🇫🇷_FR_法国
-      - France 01 TG:@nodpai
-      - 荷兰 014 2
-      - 荷兰 004 2
-      - RELAY-172.67.190.72-108
-      - US-156.225.67.213-032 2
-      - _US_美国_3_0@11
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_442
-      - _CN_中国->🇺🇸_US_美国_0@1
-      - _US_美国->🇳🇱_NL_荷兰_0@47
       - _US_美国 9
-      - 4Jadi-703
-      - United States 12 TG:@nodpai
-      - US美国(youtube阿伟科技) 2
-      - _DE_德国_2@13
-      - _US_美国_7_0@15
-      - 荷兰 004 3
-      - _US_jichangvpn.cloud 60
-      - _US_美国_4_0@12
-      - 荷兰 004 4
-      - _US_电报频道： @pjrjzy 4 2
-      - 美国【付费推荐：v1.mk/vip】34
-      - _US_美国_19_0@45
-      - _US_jichangvpn.cloud 54
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
-      - Netherlands(ChatGPT) 03 TG:@nodpai
-      - _US_美国_12_0@27
-      - United States 16 TG:@nodpai
-      - _JP_日本 2
-      - _US_美国_13_0@29
-      - _CN_jichangvpn.cloud 4
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_8
-      - HK-16.163.94.236-102
-      - Japan(ChatGPT) 01 TG:@nodpai
-      - 日本|tg频道:@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
-      - _US_美国_6_0@14
-      - 美国【付费推荐：v1.mk/vip】115
-      - Hong Kong 51 TG:@nodpai
-      - 美国【付费推荐：tt.vg/vip】34
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_143
-      - _US_美国_8_11@29 2
-      - _US_jichangvpn.cloud 27
-      - github.com/mehdimoghaddam-cell_10
-      - _US_美国_10_0@25
-      - _US_jichangvpn.cloud 49
-      - _NL_荷兰_8_0@31
-      - _US_jichangvpn.cloud 49 2
-      - 美国【付费推荐：tt.vg/vip】120
-      - US_youtube@资源分享师_47
-      - 美国 015
-      - _JP_日本 2 2
-      - _US_电报频道： @pjrjzy 48
-      - 日本 050
-      - _US_美国_9_0@24
-      - _NL_荷兰_1_0@8
-      - _US_美国_11_0@26
-      - _US_美国 19
-      - 美国【付费推荐：v1.mk/vip】74
-      - _NL_荷兰_2_0@20
-      - 美国【付费推荐：v1.mk/vip】54
-      - 美国【付费推荐：v1.mk/vip】4
-      - _FR_法国_1
-      - _US_电报频道： @pjrjzy
-      - 美国【付费推荐：v1.mk/vip】56
-      - _CN_中国->🇬🇧_GB_英国
-      - DE 4 → tg@nicevpn123 2
-      - _NL_荷兰_5_0@23
-      - _NL_荷兰_7_0@30
-      - _US_美国_20_0@48
-      - 美国【付费推荐：v1.mk/vip】79
-      - _US_美国_1_14@0
-      - _NL_荷兰_10_0@34
-      - _US_jichangvpn.cloud 47
-      - _US_美国->🇨🇭_CH_瑞士_2@35
-      - 美国2|tg频道:@ripaojiedian
-      - _NL_荷兰_4_0@22
-      - 美国【付费推荐：v1.mk/vip】75
-      - 美国【付费推荐：v1.mk/vip】21
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_246
-      - _US_电报频道： @pjrjzy 50
-      - _US_美国_7_1@10
-      - United States(ChatGPT) 02 TG:@nodpai
-      - _NL_荷兰_6_0@28
-      - 美国【付费推荐：v1.mk/vip】104
-      - _NL_荷兰_3_0@21
-      - 美国3|tg频道:@ripaojiedian 2
-      - _US_美国 10
-      - _US_美国 12 2
-      - _US_电报频道： @pjrjzy 4 2 2
-      - United States 23 TG:@nodpai
-      - _GB_英国->🇳🇱_NL_荷兰
-      - _SG_新加坡_1_0@0
-      - 未知 100
-      - 美国 026
-      - United Kingdom 03 TG:@nodpai
-      - _NL_荷兰_9_0@32
-      - _SG_新加坡_1@51
-      - _US_美国->🇬🇧_GB_英国 4
-      - _US_电报频道： @pjrjzy 42
-      - 梦歌|广港中继|解锁流媒体_83 2
-      - 香港 026
-      - 美国 CloudFlare节点
-      - US-107.148.195.16-011
-      - _US_美国 12 3
-      - _US_美国 6
-      - _US_美国_8_11@29 3
-      - 梦歌|广港中继|解锁流媒体_128 3
-      - United States 04 TG:@nodpai
-      - US-107.148.195.16-011 2
-      - 梦歌|广港中继|解锁流媒体_128 4
-      - _US_美国_8_11@29 2 2
-  - name: ⚖️ 负载MISSAV
-    type: load-balance
-    url: hhttps://www.missav.com/
-    interval: 6
-    strategy: round-robin
-    proxies:
-      - Singapore(ChatGPT) 01 TG:@nodpai
-      - 香港 022
+      - github.com/freefq - 法国  15
       - 4Jadi-161
-      - Relay 🇨🇳 China 01 TG:@nodpai 2
-      - _US_美国_8_11@29
-      - _US_电报频道： @pjrjzy 51
-      - 香港 002
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
-      - _US_jichangvpn.cloud 5
-      - 美国3|tg频道:@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
-      - United States 26 TG:@nodpai
-      - 美国【付费推荐：v1.mk/vip】51
-      - US-142.4.114.26-017
-      - _US_美国_8_9@13
-      - _US_电报频道： @pjrjzy 53
-      - 美国【付费推荐：v1.mk/vip】82
-      - _US_美国 3
-      - _US_jichangvpn.cloud 20
-      - _US_美国 15
-      - China 02 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_83
-      - _US_美国 12
-      - Relay 🇨🇳 China 01 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_128 2
-      - 美国【付费推荐：v1.mk/vip】70
-      - Relay 🇨🇳 China 01 TG:@nodpai 3
-      - _US_电报频道： @pjrjzy 40
-      - US-142.4.114.26-017 2
-      - United States 25 TG:@nodpai
-      - United States(ChatGPT) 32 TG:@nodpai
-      - Switzerland(ChatGPT) 01 TG:@nodpai
-      - Relay 🇨🇳 China 01 TG:@nodpai 4
-      - United States 27 TG:@nodpai
-      - _US_美国 17
-      - United States 10 TG:@nodpai
-      - United States 03 TG:@nodpai
-      - US-137.175.3.228-009
-      - _FR_法国_0@18
-      - 美国 087
-      - DE 4 → tg@nicevpn123
-      - United States 29 TG:@nodpai
-      - 梦歌|广港中继|解锁流媒体_128
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_297
-      - Netherlands(ChatGPT) 01 TG:@nodpai
-      - US-69.84.182.248-153
-      - _US_美国->🇳🇱_NL_荷兰
-      - US-156.225.67.213-032
-      - _US_美国 3 2
-      - 美国【付费推荐：v1.mk/vip】62
-      - _US_美国->🇳🇱_NL_荷兰 2
-      - _US_美国->🇳🇱_NL_荷兰 3
-      - 荷兰 004
-      - Singapore 02 TG:@nodpai
-      - US-69.84.182.243-155
-      - Hong Kong 02 TG:@nodpai
-      - 荷兰 014
-      - _JP_日本
-      - 美国 087 2
-      - Relay 🇨🇳 China 01 TG:@nodpai 5
-      - _JP_日本 4
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
-      - United States(ChatGPT) 06 TG:@nodpai
-      - _US_美国_7_0@31
-      - 美国【付费推荐：v1.mk/vip】88
+      - 美国 079
+      - 美国【付费推荐：v1.mk/vip】54
+      - 美国3|tg频道:@ripaojiedian 2
       - _US_美国 3 2 2
-      - _TW_台湾_3_2@27
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_319
-      - _US_jichangvpn.cloud 56
-      - 美国 014
-      - NONE
+      - github.com/freefq - 马来西亚Tmnet大马电讯 14
       - 美国B|tg频道:@ripaojiedian
       - _US_美国->🇳🇱_NL_荷兰 2 2
-      - Germany 01 TG:@nodpai
-      - 美国 079
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_623
-      - _US_美国->🇳🇱_NL_荷兰 4
-      - _CA_加拿大_0@46
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
-      - v2rayfree.eu.org - 美国CloudFlare公司CDN节点 11
-      - _NL_荷兰
-      - 美国 013
-      - _US_美国_5_0@13
-      - 美国【付费推荐：v1.mk/vip】45
-      - _US_美国_2_0@10
-      - _US_美国->🇫🇷_FR_法国
-      - France 01 TG:@nodpai
-      - 荷兰 014 2
-      - 荷兰 004 2
-      - RELAY-172.67.190.72-108
-      - US-156.225.67.213-032 2
-      - _US_美国_3_0@11
-      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_442
-      - _CN_中国->🇺🇸_US_美国_0@1
-      - _US_美国->🇳🇱_NL_荷兰_0@47
-      - _US_美国 9
-      - 4Jadi-703
-      - United States 12 TG:@nodpai
-      - US美国(youtube阿伟科技) 2
-      - _DE_德国_2@13
-      - _US_美国_7_0@15
-      - 荷兰 004 3
-      - _US_jichangvpn.cloud 60
-      - _US_美国_4_0@12
-      - 荷兰 004 4
-      - _US_电报频道： @pjrjzy 4 2
-      - 美国【付费推荐：v1.mk/vip】34
-      - _US_美国_19_0@45
-      - _US_jichangvpn.cloud 54
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_482
-      - Netherlands(ChatGPT) 03 TG:@nodpai
-      - _US_美国_12_0@27
-      - United States 16 TG:@nodpai
-      - _JP_日本 2
-      - _US_美国_13_0@29
-      - _CN_jichangvpn.cloud 4
-      - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_8
-      - HK-16.163.94.236-102
-      - Japan(ChatGPT) 01 TG:@nodpai
-      - 日本|tg频道:@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_5
-      - _US_美国_6_0@14
-      - 美国【付费推荐：v1.mk/vip】115
-      - Hong Kong 51 TG:@nodpai
-      - 美国【付费推荐：tt.vg/vip】34
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_143
-      - _US_美国_8_11@29 2
-      - _US_jichangvpn.cloud 27
-      - github.com/mehdimoghaddam-cell_10
-      - _US_美国_10_0@25
-      - _US_jichangvpn.cloud 49
-      - _NL_荷兰_8_0@31
-      - _US_jichangvpn.cloud 49 2
-      - 美国【付费推荐：tt.vg/vip】120
-      - US_youtube@资源分享师_47
-      - 美国 015
-      - _JP_日本 2 2
-      - _US_电报频道： @pjrjzy 48
-      - 日本 050
-      - _US_美国_9_0@24
-      - _NL_荷兰_1_0@8
-      - _US_美国_11_0@26
-      - _US_美国 19
-      - 美国【付费推荐：v1.mk/vip】74
-      - _NL_荷兰_2_0@20
-      - 美国【付费推荐：v1.mk/vip】54
-      - 美国【付费推荐：v1.mk/vip】4
-      - _FR_法国_1
-      - _US_电报频道： @pjrjzy
-      - 美国【付费推荐：v1.mk/vip】56
-      - _CN_中国->🇬🇧_GB_英国
-      - DE 4 → tg@nicevpn123 2
-      - _NL_荷兰_5_0@23
-      - _NL_荷兰_7_0@30
-      - _US_美国_20_0@48
       - 美国【付费推荐：v1.mk/vip】79
-      - _US_美国_1_14@0
-      - _NL_荷兰_10_0@34
-      - _US_jichangvpn.cloud 47
-      - _US_美国->🇨🇭_CH_瑞士_2@35
+      - Germany 01 TG:@nodpai
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_442
+      - _US_美国_10_11@22
+      - github.com/freefq - 美国CloudFlare节点 32
       - 美国2|tg频道:@ripaojiedian
-      - _NL_荷兰_4_0@22
       - 美国【付费推荐：v1.mk/vip】75
-      - 美国【付费推荐：v1.mk/vip】21
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_246
-      - _US_电报频道： @pjrjzy 50
-      - _US_美国_7_1@10
-      - United States(ChatGPT) 02 TG:@nodpai
-      - _NL_荷兰_6_0@28
-      - 美国【付费推荐：v1.mk/vip】104
-      - _NL_荷兰_3_0@21
-      - 美国3|tg频道:@ripaojiedian 2
-      - _US_美国 10
-      - _US_美国 12 2
-      - _US_电报频道： @pjrjzy 4 2 2
-      - United States 23 TG:@nodpai
-      - _GB_英国->🇳🇱_NL_荷兰
-      - _SG_新加坡_1_0@0
-      - 未知 100
-      - 美国 026
-      - United Kingdom 03 TG:@nodpai
-      - _NL_荷兰_9_0@32
-      - _SG_新加坡_1@51
+      - _US_美国 17 2
+      - _US_美国_7_0@31
+      - United States 16 TG:@nodpai
+      - _US_美国->🇳🇱_NL_荷兰 2
+      - China 02 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】88
+      - 美国【付费推荐：v1.mk/vip】115
+      - RELAY-172.67.190.72-108
+      - _US_jichangvpn.cloud 5
+      - _US_美国->🇳🇱_NL_荷兰
+      - _US_美国->🇳🇱_NL_荷兰_0@47
+      - _US_美国_8_11@29
+      - _US_jichangvpn.cloud 56
+      - _US_美国_15_1@42
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_384
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_304
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_454
       - _US_美国->🇬🇧_GB_英国 4
-      - _US_电报频道： @pjrjzy 42
-      - 梦歌|广港中继|解锁流媒体_83 2
-      - 香港 026
+      - _US_jichangvpn.cloud 54
+      - _CN_jichangvpn.cloud 4
+      - _US_美国->🇳🇱_NL_荷兰 3
+      - 美国 013
+      - _US_美国->🇳🇱_NL_荷兰 2 3
+      - United States 29 TG:@nodpai
+      - _US_美国->🇳🇱_NL_荷兰_0@47 2
+      - Netherlands(ChatGPT) 01 TG:@nodpai
+      - 日本|tg频道:@ripaojiedian
+      - _US_美国 8
+      - _HK_香港_3_1@12
+      - Singapore(ChatGPT) 01 TG:@nodpai
+      - US-156.225.67.213-032 2
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_490
+      - Hong Kong 51 TG:@nodpai
+      - _US_美国 3
+      - _CN_中国->🇺🇸_US_美国_0@1
+      - US_youtube@资源分享师_47
+      - _DE_德国_2@13
+      - United States(ChatGPT) 32 TG:@nodpai
+      - United States(ChatGPT) 06 TG:@nodpai
+      - 美国【付费推荐：v1.mk/vip】4
+      - _US_电报频道： @pjrjzy 48
+      - _US_jichangvpn.cloud 27
+      - github.com/freefq - 美国加利福尼亚州圣何塞PEG TECH 5
+      - _US_jichangvpn.cloud 47
+      - 美国【付费推荐：v1.mk/vip】62
+      - _US_美国_7_1@10
+      - _US_美国_7_1@10 2
+      - 香港 022
+      - _US_美国 6 2
+      - 美国【付费推荐：tt.vg/vip】34
+      - _US_美国 12 2
+      - _US_电报频道： @pjrjzy 40
+      - _US_美国 15
+      - _CN_中国->🇺🇸_US_美国_0@1 2
+      - _US_美国 10
+      - _US_美国 4
+      - 美国 015
       - 美国 CloudFlare节点
-      - US-107.148.195.16-011
-      - _US_美国 12 3
-      - _US_美国 6
-      - _US_美国_8_11@29 3
-      - 梦歌|广港中继|解锁流媒体_128 3
-      - United States 04 TG:@nodpai
-      - US-107.148.195.16-011 2
-      - 梦歌|广港中继|解锁流媒体_128 4
-      - _US_美国_8_11@29 2 2
+      - github.com/freefq - 美国惠普HP 11
+      - _TW_台湾_3_2@27
+      - github.com/freefq - 美国惠普HP 3
+      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_323
+      - 4Jadi-703
+      - US-137.175.3.228-009
+      - 美国【付费推荐：v1.mk/vip】21
+      - _US_美国 15 2
+      - _US_美国_1_14@0
+      - United States 25 TG:@nodpai
+      - United States 10 TG:@nodpai
+      - _US_美国 3 2
+      - _US_电报频道： @pjrjzy 50
+      - github.com/freefq - 美国CloudFlare节点 27
+      - United States 26 TG:@nodpai
+      - US-142.4.114.26-017 2
+      - Relay 🇭🇰 Hong Kong(ChatGPT) 01 TG:@nodpai
+      - HK-16.163.94.236-102
+      - 梦歌|广港中继|解锁流媒体_83
+      - NONE
+      - United States 27 TG:@nodpai
+      - 美国 026
+      - _SG_新加坡 4
+      - _CN_中国->🇬🇧_GB_英国
+      - Relay 🇨🇳 China 01 TG:@nodpai 5
+      - France 01 TG:@nodpai
+      - _US_美国 9 2
+      - _US_美国_8_13@29
 rules:
   - DOMAIN-KEYWORD,missav,🔰 节点选择
   - DOMAIN-KEYWORD,youtube,🔰 节点选择
