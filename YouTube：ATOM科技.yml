@@ -1,4 +1,4 @@
-port: 7890
+﻿port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
@@ -4842,8 +4842,6 @@ proxies:
   - {name: Relay 🇭🇰 Hong Kong 04 ..., server: gzdx.jcnode.top, port: 40002, type: ss, cipher: aes-256-gcm, password: 34656e77-cec3-4ddd-aba5-1c4c93e901aa, udp: true}
   - {name: Relay 🇹🇼 Taiwan(ChatGP..., server: gzyd.jcnode.top, port: 24003, type: ss, cipher: aes-256-gcm, password: c19861c8-25b5-49bb-88d5-ae5681165319, udp: true}
   - {name: speednode_0007, server: gzdx.jcnode.top, port: 43001, type: ss, cipher: aes-256-gcm, password: f379d6af-904f-4bac-87c9-ef644ef3b325, udp: true}
-  - {name: 纽约测试|@ripaojiedian, server: 216.52.183.242, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: "", host: ""}, udp: true}
-  - {name: 纽约测试|@ripaojiedian 2, server: 216.52.183.242, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: ""}, udp: true}
   - {name: Relay+🇱🇺+Luxembourg(ChatGPT)+01+TG:@nodpai, server: jfan9l3mxptv2qjj8pm1.xn--vur082k.cc, port: 29360, type: ss, cipher: aes-128-gcm, password: 26dfcd14-ecbb-4e34-a9da-075ec23464a5, udp: true}
   - {name: Relay+🇩🇪+Germany+04+TG:@nodpai, server: zjcu.lele233.top, port: 41236, type: ss, cipher: aes-128-gcm, password: c0942f3d-58cd-43a9-8282-1bcc3b9f291e, udp: true}
   - {name: _GB_jichangvpn.cloud 5, server: 212.102.53.79, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -10604,8 +10602,6 @@ proxy-groups:
       - Relay 🇭🇰 Hong Kong 04 ...
       - Relay 🇹🇼 Taiwan(ChatGP...
       - speednode_0007
-      - 纽约测试|@ripaojiedian
-      - 纽约测试|@ripaojiedian 2
       - Relay+🇱🇺+Luxembourg(ChatGPT)+01+TG:@nodpai
       - Relay+🇩🇪+Germany+04+TG:@nodpai
       - _GB_jichangvpn.cloud 5
@@ -16364,8 +16360,6 @@ proxy-groups:
       - Relay 🇭🇰 Hong Kong 04 ...
       - Relay 🇹🇼 Taiwan(ChatGP...
       - speednode_0007
-      - 纽约测试|@ripaojiedian
-      - 纽约测试|@ripaojiedian 2
       - Relay+🇱🇺+Luxembourg(ChatGPT)+01+TG:@nodpai
       - Relay+🇩🇪+Germany+04+TG:@nodpai
       - _GB_jichangvpn.cloud 5
@@ -22124,8 +22118,6 @@ proxy-groups:
       - Relay 🇭🇰 Hong Kong 04 ...
       - Relay 🇹🇼 Taiwan(ChatGP...
       - speednode_0007
-      - 纽约测试|@ripaojiedian
-      - 纽约测试|@ripaojiedian 2
       - Relay+🇱🇺+Luxembourg(ChatGPT)+01+TG:@nodpai
       - Relay+🇩🇪+Germany+04+TG:@nodpai
       - _GB_jichangvpn.cloud 5
@@ -27884,8 +27876,6 @@ proxy-groups:
       - Relay 🇭🇰 Hong Kong 04 ...
       - Relay 🇹🇼 Taiwan(ChatGP...
       - speednode_0007
-      - 纽约测试|@ripaojiedian
-      - 纽约测试|@ripaojiedian 2
       - Relay+🇱🇺+Luxembourg(ChatGPT)+01+TG:@nodpai
       - Relay+🇩🇪+Germany+04+TG:@nodpai
       - _GB_jichangvpn.cloud 5
@@ -33654,8 +33644,6 @@ proxy-groups:
       - Relay 🇭🇰 Hong Kong 04 ...
       - Relay 🇹🇼 Taiwan(ChatGP...
       - speednode_0007
-      - 纽约测试|@ripaojiedian
-      - 纽约测试|@ripaojiedian 2
       - Relay+🇱🇺+Luxembourg(ChatGPT)+01+TG:@nodpai
       - Relay+🇩🇪+Germany+04+TG:@nodpai
       - _GB_jichangvpn.cloud 5
