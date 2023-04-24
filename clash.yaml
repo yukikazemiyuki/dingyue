@@ -11153,4 +11153,5 @@ rules:
  - GEOIP,CN,🎯 全球直连
  - DOMAIN-KEYWORD,youtube,🔰 节点选择
  - DOMAIN-KEYWORD,googlevideo,🔰 节点选择
+ - DOMAIN-KEYWORD,missav,🔰 节点选择
  - MATCH,🐟 漏网之鱼
