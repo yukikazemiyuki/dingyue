@@ -763,7 +763,7 @@ proxy-groups:
       - US 18 → tg@nicevpn123
   - name: ♻️ Youtube
     type: fallback
-    url: https://www.youtube.com
+    url: https://m.youtube.com
     interval: 6
     proxies:
       - 美国【付费推荐：https://v1.mk/vip】19
