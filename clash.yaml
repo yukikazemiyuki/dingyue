@@ -5099,10 +5099,10 @@ proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
-      - ⚖️ Missav均衡轮询
-      - ⚖️ Youtube均衡轮询
-      - ⚖️ Missav均衡散列
-      - ⚖️ Youtube均衡散列
+      - ⚖️ Missav轮询
+      - ⚖️ Youtube轮询
+      - ⚖️ Missav散列
+      - ⚖️ Youtube散列
       - ♻️ 自动选择
       - ♻️ Youtube
       - ♻️ M.Youtube
@@ -7866,7 +7866,7 @@ proxy-groups:
       - 中国【付费推荐：https://v1.mk/vip】151
       - 中国【付费推荐：https://v1.mk/vip】156
       - 中国-湖南-郴州-ss-assets.fla...
-  - name: ⚖️ Youtube均衡散列
+  - name: ⚖️ Youtube散列
     type: load-balance
     url: http://youtube.com
     interval: 6
@@ -8326,7 +8326,7 @@ proxy-groups:
       - 中国【付费推荐：https://v1.mk/vip】151
       - 中国【付费推荐：https://v1.mk/vip】156
       - 中国-湖南-郴州-ss-assets.fla...
-  - name: ⚖️ Youtube均衡轮询
+  - name: ⚖️ Youtube轮询
     type: load-balance
     url: http:/youtube.com
     interval: 6
@@ -8786,7 +8786,7 @@ proxy-groups:
       - 中国【付费推荐：https://v1.mk/vip】151
       - 中国【付费推荐：https://v1.mk/vip】156
       - 中国-湖南-郴州-ss-assets.fla...
-  - name: ⚖️ Missav均衡散列
+  - name: ⚖️ Missav散列
     type: load-balance
     url: http://www.Missav.com
     interval: 6
@@ -9246,7 +9246,7 @@ proxy-groups:
       - 中国【付费推荐：https://v1.mk/vip】151
       - 中国【付费推荐：https://v1.mk/vip】156
       - 中国-湖南-郴州-ss-assets.fla...
-  - name: ⚖️ Missav均衡轮询
+  - name: ⚖️ Missav轮询
     type: load-balance
     url: http://www.Missav.com
     interval: 6

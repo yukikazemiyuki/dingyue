@@ -1521,10 +1521,10 @@ proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
-      - ⚖️ Missav均衡轮询
-      - ⚖️ Youtube均衡轮询
-      - ⚖️ Missav均衡散列
-      - ⚖️ Youtube均衡散列
+      - ⚖️ Missav轮询
+      - ⚖️ Youtube轮询
+      - ⚖️ Missav散列
+      - ⚖️ Youtube散列
       - ♻️ 自动选择
       - ♻️ Youtube
       - ♻️ M.Youtube
@@ -2860,7 +2860,7 @@ proxy-groups:
       - CH-156.146.62.160-0814...
       - US-212.102.47.198-07...
       - US-184.170.241.194-0...
-  - name: ⚖️ Youtube均衡散列
+  - name: ⚖️ Youtube散列
     type: load-balance
     url: http://youtube.com
     interval: 6
@@ -3082,7 +3082,7 @@ proxy-groups:
       - CH-156.146.62.160-0814...
       - US-212.102.47.198-07...
       - US-184.170.241.194-0...
-  - name: ⚖️ Youtube均衡轮询
+  - name: ⚖️ Youtube轮询
     type: load-balance
     url: http:/youtube.com
     interval: 6
@@ -3304,7 +3304,7 @@ proxy-groups:
       - CH-156.146.62.160-0814...
       - US-212.102.47.198-07...
       - US-184.170.241.194-0...
-  - name: ⚖️ Missav均衡散列
+  - name: ⚖️ Missav散列
     type: load-balance
     url: http://www.Missav.com
     interval: 6
@@ -3526,7 +3526,7 @@ proxy-groups:
       - CH-156.146.62.160-0814...
       - US-212.102.47.198-07...
       - US-184.170.241.194-0...
-  - name: ⚖️ Missav均衡轮询
+  - name: ⚖️ Missav轮询
     type: load-balance
     url: http://www.Missav.com
     interval: 6
