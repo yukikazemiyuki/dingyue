@@ -1,4 +1,4 @@
-﻿port: 7890
+port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
@@ -12549,5 +12549,3 @@ rules:
   - DOMAIN-KEYWORD,googlevideo,🔰 节点选择
   - DOMAIN-KEYWORD,missav,🔰 节点选择
   - MATCH,🐟 漏网之鱼
-proxy-providers: {}
-rule-providers: {}
