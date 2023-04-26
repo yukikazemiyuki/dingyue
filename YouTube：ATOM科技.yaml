@@ -1611,7 +1611,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: fallback
     url: https://raw.githubusercontent.com/
-    interval: 6
+    interval: 2
     proxies:
       - _VN_越南->🇨🇳_CN_中国
       - _US_美国_11_17@43
@@ -1808,7 +1808,7 @@ proxy-groups:
   - name: ♻️ M.Youtube
     type: fallback
     url: https://m.youtube.com
-    interval: 6
+    interval: 2
     proxies:
       - _VN_越南->🇨🇳_CN_中国
       - _US_美国_11_17@43
@@ -2005,7 +2005,7 @@ proxy-groups:
   - name: ♻️ Youtube
     type: fallback
     url: https://youtube.com
-    interval: 6
+    interval: 2
     proxies:
       - _VN_越南->🇨🇳_CN_中国
       - _US_美国_11_17@43
@@ -2202,7 +2202,7 @@ proxy-groups:
   - name: ♻️ googlevideo
     type: fallback
     url: https://googlevideo.com
-    interval: 6
+    interval: 2
     proxies:
       - _VN_越南->🇨🇳_CN_中国
       - _US_美国_11_17@43
@@ -2399,7 +2399,7 @@ proxy-groups:
   - name: ♻️ Missav
     type: fallback
     url: https://www.Missav.com
-    interval: 6
+    interval: 2
     proxies:
       - _VN_越南->🇨🇳_CN_中国
       - _US_美国_11_17@43

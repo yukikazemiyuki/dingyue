@@ -4162,7 +4162,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: fallback
     url: https://raw.githubusercontent.com/
-    interval: 6
+    interval: 2
     proxies:
       - Relay+🇭🇰+Hong+Kong+01+TG:@nodpai
       - 189
@@ -4502,7 +4502,7 @@ proxy-groups:
   - name: ♻️ M.Youtube
     type: fallback
     url: https://m.youtube.com
-    interval: 6
+    interval: 2
     proxies:
       - Relay+🇭🇰+Hong+Kong+01+TG:@nodpai
       - 189
@@ -4842,7 +4842,7 @@ proxy-groups:
   - name: ♻️ Youtube
     type: fallback
     url: https://youtube.com
-    interval: 6
+    interval: 2
     proxies:
       - Relay+🇭🇰+Hong+Kong+01+TG:@nodpai
       - 189
@@ -5182,7 +5182,7 @@ proxy-groups:
   - name: ♻️ googlevideo
     type: fallback
     url: https://googlevideo.com
-    interval: 6
+    interval: 2
     proxies:
       - Relay+🇭🇰+Hong+Kong+01+TG:@nodpai
       - 189
@@ -5522,7 +5522,7 @@ proxy-groups:
   - name: ♻️ Missav
     type: fallback
     url: https://www.Missav.com
-    interval: 6
+    interval: 2
     proxies:
       - Relay+🇭🇰+Hong+Kong+01+TG:@nodpai
       - 189
@@ -6212,7 +6212,7 @@ proxy-groups:
   - name: ⚖️ Youtube散列
     type: load-balance
     url: http://youtube.com
-    interval: 6
+    interval: 2
     strategy: consistent-hashing
     proxies:
       - Relay+🇭🇰+Hong+Kong+01+TG:@nodpai
@@ -6894,7 +6894,7 @@ proxy-groups:
   - name: ⚖️ Youtube轮询
     type: load-balance
     url: http:/youtube.com
-    interval: 6
+    interval: 2
     strategy: round-robin
     proxies:
       - Relay+🇭🇰+Hong+Kong+01+TG:@nodpai
