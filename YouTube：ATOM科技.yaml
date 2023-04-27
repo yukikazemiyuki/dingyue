@@ -229,7 +229,6 @@ proxies:
   - {name: _JP_日本_由快嘴科技提供：kkzui..., server: 13.231.173.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 韩国特殊|@ripaojiedian 2, server: 18.141.146.6, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 日本特殊|@ripaojiedian 2, server: 43.206.240.122, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: CN-120.240.48.19-077, server: 120.240.48.19, port: 38106, type: vmess, uuid: 79386685-16da亚洲(欢迎订阅Youtube破解资源君)-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 120.240.48.19}}, udp: true}
   - {name: South+Korea+02+TG:@nodpai, server: 54.180.82.158, port: 6983, type: ss, cipher: chacha20-ietf, password: Hucloud12, udp: true}
   - {name: KR-54.180.82.158-082..., server: playweb.ml, port: 6983, type: ss, cipher: chacha20-ietf, password: Hucloud12, udp: true}
   - {name: 美国【付费推荐：https://v1.mk/vip】7, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
@@ -482,7 +481,6 @@ proxy-groups:
       - _JP_日本_由快嘴科技提供：kkzui...
       - 韩国特殊|@ripaojiedian 2
       - 日本特殊|@ripaojiedian 2
-      - CN-120.240.48.19-077
       - South+Korea+02+TG:@nodpai
       - KR-54.180.82.158-082...
       - 美国【付费推荐：https://v1.mk/vip】7
@@ -732,7 +730,6 @@ proxy-groups:
       - _JP_日本_由快嘴科技提供：kkzui...
       - 韩国特殊|@ripaojiedian 2
       - 日本特殊|@ripaojiedian 2
-      - CN-120.240.48.19-077
       - South+Korea+02+TG:@nodpai
       - KR-54.180.82.158-082...
       - 美国【付费推荐：https://v1.mk/vip】7
@@ -982,7 +979,6 @@ proxy-groups:
       - _JP_日本_由快嘴科技提供：kkzui...
       - 韩国特殊|@ripaojiedian 2
       - 日本特殊|@ripaojiedian 2
-      - CN-120.240.48.19-077
       - South+Korea+02+TG:@nodpai
       - KR-54.180.82.158-082...
       - 美国【付费推荐：https://v1.mk/vip】7
@@ -1232,7 +1228,6 @@ proxy-groups:
       - _JP_日本_由快嘴科技提供：kkzui...
       - 韩国特殊|@ripaojiedian 2
       - 日本特殊|@ripaojiedian 2
-      - CN-120.240.48.19-077
       - South+Korea+02+TG:@nodpai
       - KR-54.180.82.158-082...
       - 美国【付费推荐：https://v1.mk/vip】7
@@ -1482,7 +1477,6 @@ proxy-groups:
       - _JP_日本_由快嘴科技提供：kkzui...
       - 韩国特殊|@ripaojiedian 2
       - 日本特殊|@ripaojiedian 2
-      - CN-120.240.48.19-077
       - South+Korea+02+TG:@nodpai
       - KR-54.180.82.158-082...
       - 美国【付费推荐：https://v1.mk/vip】7
@@ -1742,7 +1736,6 @@ proxy-groups:
       - _JP_日本_由快嘴科技提供：kkzui...
       - 韩国特殊|@ripaojiedian 2
       - 日本特殊|@ripaojiedian 2
-      - CN-120.240.48.19-077
       - South+Korea+02+TG:@nodpai
       - KR-54.180.82.158-082...
       - 美国【付费推荐：https://v1.mk/vip】7
