@@ -73,8 +73,6 @@ proxies:
   - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_628, server: v3-tw.aliyun-obsd.xyz, port: 5622, type: ss, cipher: aes-128-gcm, password: 1ec48ff6-2359-4bb7-936a-e553de8655f5, udp: true}
   - {name: CN-101.132.192.212-134, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
   - {name: CN-101.132.192.212-135, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m, udp: true}
-  - {name: US+256+→+tg@nicevpn123, server: 216.52.183.242, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: websocket, host: ""}, udp: true}
-  - {name: 纽约测试|@ripaojiedian 2, server: 216.52.183.242, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: "", host: ""}, udp: true}
   - {name: 新加坡|小火箭clash, server: 139.162.59.135, port: 443, type: ss, cipher: aes-128-gcm, password: tg@herhero6, plugin: v2ray-plugin, plugin-opts: {mode: "", host: cloudfront.com, path: /herhero6, tls: false, mux: true, skip-cert-verify: true}, udp: true}
   - {name: _KR_韩国_1_0@5, server: 43.201.86.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _KR_韩国_2_0@6, server: 43.201.37.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -312,8 +310,6 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_628
       - CN-101.132.192.212-134
       - CN-101.132.192.212-135
-      - US+256+→+tg@nicevpn123
-      - 纽约测试|@ripaojiedian 2
       - 新加坡|小火箭clash
       - _KR_韩国_1_0@5
       - _KR_韩国_2_0@6
@@ -548,8 +544,6 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_628
       - CN-101.132.192.212-134
       - CN-101.132.192.212-135
-      - US+256+→+tg@nicevpn123
-      - 纽约测试|@ripaojiedian 2
       - 新加坡|小火箭clash
       - _KR_韩国_1_0@5
       - _KR_韩国_2_0@6
@@ -784,8 +778,6 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_628
       - CN-101.132.192.212-134
       - CN-101.132.192.212-135
-      - US+256+→+tg@nicevpn123
-      - 纽约测试|@ripaojiedian 2
       - 新加坡|小火箭clash
       - _KR_韩国_1_0@5
       - _KR_韩国_2_0@6
@@ -1020,8 +1012,6 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_628
       - CN-101.132.192.212-134
       - CN-101.132.192.212-135
-      - US+256+→+tg@nicevpn123
-      - 纽约测试|@ripaojiedian 2
       - 新加坡|小火箭clash
       - _KR_韩国_1_0@5
       - _KR_韩国_2_0@6
@@ -1256,8 +1246,6 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_628
       - CN-101.132.192.212-134
       - CN-101.132.192.212-135
-      - US+256+→+tg@nicevpn123
-      - 纽约测试|@ripaojiedian 2
       - 新加坡|小火箭clash
       - _KR_韩国_1_0@5
       - _KR_韩国_2_0@6
@@ -1502,8 +1490,6 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_628
       - CN-101.132.192.212-134
       - CN-101.132.192.212-135
-      - US+256+→+tg@nicevpn123
-      - 纽约测试|@ripaojiedian 2
       - 新加坡|小火箭clash
       - _KR_韩国_1_0@5
       - _KR_韩国_2_0@6
