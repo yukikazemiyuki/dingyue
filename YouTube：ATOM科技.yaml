@@ -19,7 +19,6 @@ proxies:
   - {name: _CN_中国_10_1@32, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _CN_中国_11_1@33, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _CN_中国_12_1@34, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CN_中国_13_1@35, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _CN_中国_14_1@36, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _CN_中国->🇭🇰_HK_香港_2_1@39, server: 14.29.124.168, port: 31046, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _CN_中国_5_2@23, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
@@ -174,32 +173,50 @@ proxies:
   - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_25, server: 52.221.240.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_151, server: 13.213.17.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_256, server: 18.141.236.127, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国, server: 43.200.245.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国 2, server: 43.200.252.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国 30, server: 35.161.78.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: JP 37 → tg@nicevpn123, server: 43.201.57.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: JP 5 → tg@nicevpn123, server: 43.207.119.219, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: JP 9 → tg@nicevpn123, server: 43.206.239.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KR 4 → tg@nicevpn123, server: 13.124.43.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG 17 → tg@nicevpn123, server: 54.179.24.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG 19 → tg@nicevpn123, server: 18.141.204.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG 3 → tg@nicevpn123, server: 13.250.40.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG 5 → tg@nicevpn123, server: 13.229.47.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG 8 → tg@nicevpn123, server: 13.229.105.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: US 200 → tg@nicevpn123, server: 54.213.121.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: US 317 → tg@nicevpn123, server: 54.189.189.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: US 41 → tg@nicevpn123, server: 3.38.193.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: US 417 → tg@nicevpn123, server: 13.213.34.54, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: US 444 → tg@nicevpn123, server: 34.220.173.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 狮城特殊|@ripaojiedian 2, server: 54.255.243.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 狮城|@ripaojiedian, server: 18.142.57.66, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 韩国A|@ripaojiedian, server: 3.36.54.241, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 韩国特殊|@ripaojiedian 2, server: 13.124.185.141, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG-18.141.204.24-007, server: 18.141.204.24, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG-18.143.171.181-011, server: 18.143.171.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG-18.143.169.43-013, server: 18.143.169.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP-43.207.119.219-031, server: 43.207.119.219, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US-54.189.189.17-032, server: 54.189.189.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP-43.206.239.7-040, server: 43.206.239.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: MK-46.183.185.15-141, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: JP 25 → tg@nicevpn123, server: 43.200.245.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP 49 → tg@nicevpn123, server: 43.200.252.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP 61 → tg@nicevpn123, server: 43.201.57.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: KR 3 → tg@nicevpn123, server: 13.124.43.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG 15 → tg@nicevpn123, server: 13.229.47.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG 18 → tg@nicevpn123, server: 13.229.105.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG 3 → tg@nicevpn123, server: 54.179.24.231, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG 4 → tg@nicevpn123, server: 13.250.40.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US 11 → tg@nicevpn123, server: 3.38.193.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US 24 → tg@nicevpn123, server: 13.213.34.54, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US 420 → tg@nicevpn123, server: 54.213.121.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US 473 → tg@nicevpn123, server: 35.161.78.22, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US 66 → tg@nicevpn123, server: 34.220.173.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 韩国-首尔-首尔-ss-54.180.1..., server: 54.180.126.95, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 瑞典-0-0-ss-194.71.126..., server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 新加坡-0-0-ss-13.250.12..., server: 13.250.127.127, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 塞浦路斯-0-0-ss-213.169...., server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 瑞典-0-0-ss-194.71.130..., server: 194.71.130.194, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
   - {name: KR 2 → tg@nicevpn123, server: playweb.ml, port: 6983, type: ss, cipher: chacha20-ietf, password: Hucloud12, udp: true}
-  - {name: _SG_新加坡 2, server: 18.143.169.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 德国|tg频道:@ripaojiedian, server: 45.128.153.168, port: 33411, type: vmess, uuid: e748f5b1-5b7a-4398-fa1a-20a0cc1b2ec4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _🇯🇵_JP_日本_分享师_89, server: 47.91.30.130, port: 2095, type: vmess, uuid: 19350d64-6868-4a64-e501-9c0df903d788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: h3.mamadcucu.com}}, udp: true}
+  - {name: _CN_中国_47, server: 120.232.179.161, port: 63004, type: vmess, uuid: 7feb22ed-8283-3313-a09f-c5dc1402333b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _🇺🇸_US_美国_顺丰_34, server: sw.tbstbstbstbs666.com, port: 18839, type: vmess, uuid: 29d5b05b-9166-3981-be60-a2561d1aa95d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sw.tbstbstbstbs666.com}}, udp: true}
+  - {name: _CN_中国_13, server: 120.232.179.161, port: 63086, type: vmess, uuid: 7feb22ed-8283-3313-a09f-c5dc1402333b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube：ATOM科技_83, server: sw.tbstbstbstbs666.com, port: 18805, type: vmess, uuid: 29d5b05b-9166-3981-be60-a2561d1aa95d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sw.tbstbstbstbs666.com}}, udp: true}
+  - {name: CN 151 → tg@nicevpn123, server: 198.2.205.113, port: 53002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US-108.186.116.177-017, server: 108.186.116.177, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US-107.148.43.68-035, server: 107.148.43.68, port: 8788, type: vmess, uuid: d5682a44-62f8-74c3-e4b0-01b56ab7410f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 3, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm2.yxjnode.com}}, udp: true}
+  - {name: _CN_中国_39, server: 59.36.84.180, port: 63090, type: vmess, uuid: 7feb22ed-8283-3313-a09f-c5dc1402333b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: YouTube：ATOM科技_11, server: 42.192.17.34, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _🇺🇸_US_美国_顺丰_23, server: shiresho.foriran.nl, port: 443, type: vmess, uuid: a6e6b3e0-b8a7-4123-8ab4-573a9241a259, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /UcM6L7nnEW8E0h3Y, headers: {Host: shiresho.foriran.nl}}, udp: true}
+  - {name: YouTube：ATOM科技_174, server: wangqifei.tk, port: 47885, type: trojan, password: SNzkw22YNz, skip-cert-verify: true, udp: true}
+  - {name: YouTube：ATOM科技_90, server: t.cccao.cyou, port: 16635, type: vmess, uuid: ad3f9bf7-d8d1-47df-a6bd-77ff50037339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 「SCP」JP-HTTP|赞助商 @KinhChannel, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: jp.scproxy.top}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -222,7 +239,6 @@ proxy-groups:
       - _CN_中国_10_1@32
       - _CN_中国_11_1@33
       - _CN_中国_12_1@34
-      - _CN_中国_13_1@35
       - _CN_中国_14_1@36
       - _CN_中国->🇭🇰_HK_香港_2_1@39
       - _CN_中国_5_2@23
@@ -377,32 +393,50 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_25
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_151
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_256
-      - _KR_韩国
-      - _KR_韩国 2
-      - _US_美国 30
-      - JP 37 → tg@nicevpn123
-      - JP 5 → tg@nicevpn123
-      - JP 9 → tg@nicevpn123
-      - KR 4 → tg@nicevpn123
-      - SG 17 → tg@nicevpn123
-      - SG 19 → tg@nicevpn123
-      - SG 3 → tg@nicevpn123
-      - SG 5 → tg@nicevpn123
-      - SG 8 → tg@nicevpn123
-      - US 200 → tg@nicevpn123
-      - US 317 → tg@nicevpn123
-      - US 41 → tg@nicevpn123
-      - US 417 → tg@nicevpn123
-      - US 444 → tg@nicevpn123
       - 狮城特殊|@ripaojiedian 2
       - 狮城|@ripaojiedian
       - 韩国A|@ripaojiedian
       - 韩国特殊|@ripaojiedian 2
+      - SG-18.141.204.24-007
+      - SG-18.143.171.181-011
+      - SG-18.143.169.43-013
+      - JP-43.207.119.219-031
+      - US-54.189.189.17-032
+      - JP-43.206.239.7-040
+      - MK-46.183.185.15-141
+      - JP 25 → tg@nicevpn123
+      - JP 49 → tg@nicevpn123
+      - JP 61 → tg@nicevpn123
+      - KR 3 → tg@nicevpn123
+      - SG 15 → tg@nicevpn123
+      - SG 18 → tg@nicevpn123
+      - SG 3 → tg@nicevpn123
+      - SG 4 → tg@nicevpn123
+      - US 11 → tg@nicevpn123
+      - US 24 → tg@nicevpn123
+      - US 420 → tg@nicevpn123
+      - US 473 → tg@nicevpn123
+      - US 66 → tg@nicevpn123
+      - 韩国-首尔-首尔-ss-54.180.1...
+      - 瑞典-0-0-ss-194.71.126...
       - 新加坡-0-0-ss-13.250.12...
-      - 塞浦路斯-0-0-ss-213.169....
-      - 瑞典-0-0-ss-194.71.130...
       - KR 2 → tg@nicevpn123
-      - _SG_新加坡 2
+      - 德国|tg频道:@ripaojiedian
+      - _🇯🇵_JP_日本_分享师_89
+      - _CN_中国_47
+      - _🇺🇸_US_美国_顺丰_34
+      - _CN_中国_13
+      - YouTube：ATOM科技_83
+      - CN 151 → tg@nicevpn123
+      - US-108.186.116.177-017
+      - US-107.148.43.68-035
+      - github.com/freefq - 美国CloudFlare节点 3
+      - _CN_中国_39
+      - YouTube：ATOM科技_11
+      - _🇺🇸_US_美国_顺丰_23
+      - YouTube：ATOM科技_174
+      - YouTube：ATOM科技_90
+      - 「SCP」JP-HTTP|赞助商 @KinhChannel
   - name: ♻️ 自动选择
     type: fallback
     url: https://raw.githubusercontent.com/
@@ -422,7 +456,6 @@ proxy-groups:
       - _CN_中国_10_1@32
       - _CN_中国_11_1@33
       - _CN_中国_12_1@34
-      - _CN_中国_13_1@35
       - _CN_中国_14_1@36
       - _CN_中国->🇭🇰_HK_香港_2_1@39
       - _CN_中国_5_2@23
@@ -577,32 +610,50 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_25
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_151
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_256
-      - _KR_韩国
-      - _KR_韩国 2
-      - _US_美国 30
-      - JP 37 → tg@nicevpn123
-      - JP 5 → tg@nicevpn123
-      - JP 9 → tg@nicevpn123
-      - KR 4 → tg@nicevpn123
-      - SG 17 → tg@nicevpn123
-      - SG 19 → tg@nicevpn123
-      - SG 3 → tg@nicevpn123
-      - SG 5 → tg@nicevpn123
-      - SG 8 → tg@nicevpn123
-      - US 200 → tg@nicevpn123
-      - US 317 → tg@nicevpn123
-      - US 41 → tg@nicevpn123
-      - US 417 → tg@nicevpn123
-      - US 444 → tg@nicevpn123
       - 狮城特殊|@ripaojiedian 2
       - 狮城|@ripaojiedian
       - 韩国A|@ripaojiedian
       - 韩国特殊|@ripaojiedian 2
+      - SG-18.141.204.24-007
+      - SG-18.143.171.181-011
+      - SG-18.143.169.43-013
+      - JP-43.207.119.219-031
+      - US-54.189.189.17-032
+      - JP-43.206.239.7-040
+      - MK-46.183.185.15-141
+      - JP 25 → tg@nicevpn123
+      - JP 49 → tg@nicevpn123
+      - JP 61 → tg@nicevpn123
+      - KR 3 → tg@nicevpn123
+      - SG 15 → tg@nicevpn123
+      - SG 18 → tg@nicevpn123
+      - SG 3 → tg@nicevpn123
+      - SG 4 → tg@nicevpn123
+      - US 11 → tg@nicevpn123
+      - US 24 → tg@nicevpn123
+      - US 420 → tg@nicevpn123
+      - US 473 → tg@nicevpn123
+      - US 66 → tg@nicevpn123
+      - 韩国-首尔-首尔-ss-54.180.1...
+      - 瑞典-0-0-ss-194.71.126...
       - 新加坡-0-0-ss-13.250.12...
-      - 塞浦路斯-0-0-ss-213.169....
-      - 瑞典-0-0-ss-194.71.130...
       - KR 2 → tg@nicevpn123
-      - _SG_新加坡 2
+      - 德国|tg频道:@ripaojiedian
+      - _🇯🇵_JP_日本_分享师_89
+      - _CN_中国_47
+      - _🇺🇸_US_美国_顺丰_34
+      - _CN_中国_13
+      - YouTube：ATOM科技_83
+      - CN 151 → tg@nicevpn123
+      - US-108.186.116.177-017
+      - US-107.148.43.68-035
+      - github.com/freefq - 美国CloudFlare节点 3
+      - _CN_中国_39
+      - YouTube：ATOM科技_11
+      - _🇺🇸_US_美国_顺丰_23
+      - YouTube：ATOM科技_174
+      - YouTube：ATOM科技_90
+      - 「SCP」JP-HTTP|赞助商 @KinhChannel
   - name: ♻️ M.Youtube
     type: fallback
     url: https://m.youtube.com
@@ -622,7 +673,6 @@ proxy-groups:
       - _CN_中国_10_1@32
       - _CN_中国_11_1@33
       - _CN_中国_12_1@34
-      - _CN_中国_13_1@35
       - _CN_中国_14_1@36
       - _CN_中国->🇭🇰_HK_香港_2_1@39
       - _CN_中国_5_2@23
@@ -777,32 +827,50 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_25
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_151
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_256
-      - _KR_韩国
-      - _KR_韩国 2
-      - _US_美国 30
-      - JP 37 → tg@nicevpn123
-      - JP 5 → tg@nicevpn123
-      - JP 9 → tg@nicevpn123
-      - KR 4 → tg@nicevpn123
-      - SG 17 → tg@nicevpn123
-      - SG 19 → tg@nicevpn123
-      - SG 3 → tg@nicevpn123
-      - SG 5 → tg@nicevpn123
-      - SG 8 → tg@nicevpn123
-      - US 200 → tg@nicevpn123
-      - US 317 → tg@nicevpn123
-      - US 41 → tg@nicevpn123
-      - US 417 → tg@nicevpn123
-      - US 444 → tg@nicevpn123
       - 狮城特殊|@ripaojiedian 2
       - 狮城|@ripaojiedian
       - 韩国A|@ripaojiedian
       - 韩国特殊|@ripaojiedian 2
+      - SG-18.141.204.24-007
+      - SG-18.143.171.181-011
+      - SG-18.143.169.43-013
+      - JP-43.207.119.219-031
+      - US-54.189.189.17-032
+      - JP-43.206.239.7-040
+      - MK-46.183.185.15-141
+      - JP 25 → tg@nicevpn123
+      - JP 49 → tg@nicevpn123
+      - JP 61 → tg@nicevpn123
+      - KR 3 → tg@nicevpn123
+      - SG 15 → tg@nicevpn123
+      - SG 18 → tg@nicevpn123
+      - SG 3 → tg@nicevpn123
+      - SG 4 → tg@nicevpn123
+      - US 11 → tg@nicevpn123
+      - US 24 → tg@nicevpn123
+      - US 420 → tg@nicevpn123
+      - US 473 → tg@nicevpn123
+      - US 66 → tg@nicevpn123
+      - 韩国-首尔-首尔-ss-54.180.1...
+      - 瑞典-0-0-ss-194.71.126...
       - 新加坡-0-0-ss-13.250.12...
-      - 塞浦路斯-0-0-ss-213.169....
-      - 瑞典-0-0-ss-194.71.130...
       - KR 2 → tg@nicevpn123
-      - _SG_新加坡 2
+      - 德国|tg频道:@ripaojiedian
+      - _🇯🇵_JP_日本_分享师_89
+      - _CN_中国_47
+      - _🇺🇸_US_美国_顺丰_34
+      - _CN_中国_13
+      - YouTube：ATOM科技_83
+      - CN 151 → tg@nicevpn123
+      - US-108.186.116.177-017
+      - US-107.148.43.68-035
+      - github.com/freefq - 美国CloudFlare节点 3
+      - _CN_中国_39
+      - YouTube：ATOM科技_11
+      - _🇺🇸_US_美国_顺丰_23
+      - YouTube：ATOM科技_174
+      - YouTube：ATOM科技_90
+      - 「SCP」JP-HTTP|赞助商 @KinhChannel
   - name: ♻️ Youtube
     type: fallback
     url: https://youtube.com
@@ -822,7 +890,6 @@ proxy-groups:
       - _CN_中国_10_1@32
       - _CN_中国_11_1@33
       - _CN_中国_12_1@34
-      - _CN_中国_13_1@35
       - _CN_中国_14_1@36
       - _CN_中国->🇭🇰_HK_香港_2_1@39
       - _CN_中国_5_2@23
@@ -977,32 +1044,50 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_25
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_151
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_256
-      - _KR_韩国
-      - _KR_韩国 2
-      - _US_美国 30
-      - JP 37 → tg@nicevpn123
-      - JP 5 → tg@nicevpn123
-      - JP 9 → tg@nicevpn123
-      - KR 4 → tg@nicevpn123
-      - SG 17 → tg@nicevpn123
-      - SG 19 → tg@nicevpn123
-      - SG 3 → tg@nicevpn123
-      - SG 5 → tg@nicevpn123
-      - SG 8 → tg@nicevpn123
-      - US 200 → tg@nicevpn123
-      - US 317 → tg@nicevpn123
-      - US 41 → tg@nicevpn123
-      - US 417 → tg@nicevpn123
-      - US 444 → tg@nicevpn123
       - 狮城特殊|@ripaojiedian 2
       - 狮城|@ripaojiedian
       - 韩国A|@ripaojiedian
       - 韩国特殊|@ripaojiedian 2
+      - SG-18.141.204.24-007
+      - SG-18.143.171.181-011
+      - SG-18.143.169.43-013
+      - JP-43.207.119.219-031
+      - US-54.189.189.17-032
+      - JP-43.206.239.7-040
+      - MK-46.183.185.15-141
+      - JP 25 → tg@nicevpn123
+      - JP 49 → tg@nicevpn123
+      - JP 61 → tg@nicevpn123
+      - KR 3 → tg@nicevpn123
+      - SG 15 → tg@nicevpn123
+      - SG 18 → tg@nicevpn123
+      - SG 3 → tg@nicevpn123
+      - SG 4 → tg@nicevpn123
+      - US 11 → tg@nicevpn123
+      - US 24 → tg@nicevpn123
+      - US 420 → tg@nicevpn123
+      - US 473 → tg@nicevpn123
+      - US 66 → tg@nicevpn123
+      - 韩国-首尔-首尔-ss-54.180.1...
+      - 瑞典-0-0-ss-194.71.126...
       - 新加坡-0-0-ss-13.250.12...
-      - 塞浦路斯-0-0-ss-213.169....
-      - 瑞典-0-0-ss-194.71.130...
       - KR 2 → tg@nicevpn123
-      - _SG_新加坡 2
+      - 德国|tg频道:@ripaojiedian
+      - _🇯🇵_JP_日本_分享师_89
+      - _CN_中国_47
+      - _🇺🇸_US_美国_顺丰_34
+      - _CN_中国_13
+      - YouTube：ATOM科技_83
+      - CN 151 → tg@nicevpn123
+      - US-108.186.116.177-017
+      - US-107.148.43.68-035
+      - github.com/freefq - 美国CloudFlare节点 3
+      - _CN_中国_39
+      - YouTube：ATOM科技_11
+      - _🇺🇸_US_美国_顺丰_23
+      - YouTube：ATOM科技_174
+      - YouTube：ATOM科技_90
+      - 「SCP」JP-HTTP|赞助商 @KinhChannel
   - name: ♻️ Missav
     type: fallback
     url: https://www.Missav.com
@@ -1022,7 +1107,6 @@ proxy-groups:
       - _CN_中国_10_1@32
       - _CN_中国_11_1@33
       - _CN_中国_12_1@34
-      - _CN_中国_13_1@35
       - _CN_中国_14_1@36
       - _CN_中国->🇭🇰_HK_香港_2_1@39
       - _CN_中国_5_2@23
@@ -1177,32 +1261,50 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_25
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_151
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_256
-      - _KR_韩国
-      - _KR_韩国 2
-      - _US_美国 30
-      - JP 37 → tg@nicevpn123
-      - JP 5 → tg@nicevpn123
-      - JP 9 → tg@nicevpn123
-      - KR 4 → tg@nicevpn123
-      - SG 17 → tg@nicevpn123
-      - SG 19 → tg@nicevpn123
-      - SG 3 → tg@nicevpn123
-      - SG 5 → tg@nicevpn123
-      - SG 8 → tg@nicevpn123
-      - US 200 → tg@nicevpn123
-      - US 317 → tg@nicevpn123
-      - US 41 → tg@nicevpn123
-      - US 417 → tg@nicevpn123
-      - US 444 → tg@nicevpn123
       - 狮城特殊|@ripaojiedian 2
       - 狮城|@ripaojiedian
       - 韩国A|@ripaojiedian
       - 韩国特殊|@ripaojiedian 2
+      - SG-18.141.204.24-007
+      - SG-18.143.171.181-011
+      - SG-18.143.169.43-013
+      - JP-43.207.119.219-031
+      - US-54.189.189.17-032
+      - JP-43.206.239.7-040
+      - MK-46.183.185.15-141
+      - JP 25 → tg@nicevpn123
+      - JP 49 → tg@nicevpn123
+      - JP 61 → tg@nicevpn123
+      - KR 3 → tg@nicevpn123
+      - SG 15 → tg@nicevpn123
+      - SG 18 → tg@nicevpn123
+      - SG 3 → tg@nicevpn123
+      - SG 4 → tg@nicevpn123
+      - US 11 → tg@nicevpn123
+      - US 24 → tg@nicevpn123
+      - US 420 → tg@nicevpn123
+      - US 473 → tg@nicevpn123
+      - US 66 → tg@nicevpn123
+      - 韩国-首尔-首尔-ss-54.180.1...
+      - 瑞典-0-0-ss-194.71.126...
       - 新加坡-0-0-ss-13.250.12...
-      - 塞浦路斯-0-0-ss-213.169....
-      - 瑞典-0-0-ss-194.71.130...
       - KR 2 → tg@nicevpn123
-      - _SG_新加坡 2
+      - 德国|tg频道:@ripaojiedian
+      - _🇯🇵_JP_日本_分享师_89
+      - _CN_中国_47
+      - _🇺🇸_US_美国_顺丰_34
+      - _CN_中国_13
+      - YouTube：ATOM科技_83
+      - CN 151 → tg@nicevpn123
+      - US-108.186.116.177-017
+      - US-107.148.43.68-035
+      - github.com/freefq - 美国CloudFlare节点 3
+      - _CN_中国_39
+      - YouTube：ATOM科技_11
+      - _🇺🇸_US_美国_顺丰_23
+      - YouTube：ATOM科技_174
+      - YouTube：ATOM科技_90
+      - 「SCP」JP-HTTP|赞助商 @KinhChannel
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1232,7 +1334,6 @@ proxy-groups:
       - _CN_中国_10_1@32
       - _CN_中国_11_1@33
       - _CN_中国_12_1@34
-      - _CN_中国_13_1@35
       - _CN_中国_14_1@36
       - _CN_中国->🇭🇰_HK_香港_2_1@39
       - _CN_中国_5_2@23
@@ -1387,32 +1488,50 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_25
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_151
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_256
-      - _KR_韩国
-      - _KR_韩国 2
-      - _US_美国 30
-      - JP 37 → tg@nicevpn123
-      - JP 5 → tg@nicevpn123
-      - JP 9 → tg@nicevpn123
-      - KR 4 → tg@nicevpn123
-      - SG 17 → tg@nicevpn123
-      - SG 19 → tg@nicevpn123
-      - SG 3 → tg@nicevpn123
-      - SG 5 → tg@nicevpn123
-      - SG 8 → tg@nicevpn123
-      - US 200 → tg@nicevpn123
-      - US 317 → tg@nicevpn123
-      - US 41 → tg@nicevpn123
-      - US 417 → tg@nicevpn123
-      - US 444 → tg@nicevpn123
       - 狮城特殊|@ripaojiedian 2
       - 狮城|@ripaojiedian
       - 韩国A|@ripaojiedian
       - 韩国特殊|@ripaojiedian 2
+      - SG-18.141.204.24-007
+      - SG-18.143.171.181-011
+      - SG-18.143.169.43-013
+      - JP-43.207.119.219-031
+      - US-54.189.189.17-032
+      - JP-43.206.239.7-040
+      - MK-46.183.185.15-141
+      - JP 25 → tg@nicevpn123
+      - JP 49 → tg@nicevpn123
+      - JP 61 → tg@nicevpn123
+      - KR 3 → tg@nicevpn123
+      - SG 15 → tg@nicevpn123
+      - SG 18 → tg@nicevpn123
+      - SG 3 → tg@nicevpn123
+      - SG 4 → tg@nicevpn123
+      - US 11 → tg@nicevpn123
+      - US 24 → tg@nicevpn123
+      - US 420 → tg@nicevpn123
+      - US 473 → tg@nicevpn123
+      - US 66 → tg@nicevpn123
+      - 韩国-首尔-首尔-ss-54.180.1...
+      - 瑞典-0-0-ss-194.71.126...
       - 新加坡-0-0-ss-13.250.12...
-      - 塞浦路斯-0-0-ss-213.169....
-      - 瑞典-0-0-ss-194.71.130...
       - KR 2 → tg@nicevpn123
-      - _SG_新加坡 2
+      - 德国|tg频道:@ripaojiedian
+      - _🇯🇵_JP_日本_分享师_89
+      - _CN_中国_47
+      - _🇺🇸_US_美国_顺丰_34
+      - _CN_中国_13
+      - YouTube：ATOM科技_83
+      - CN 151 → tg@nicevpn123
+      - US-108.186.116.177-017
+      - US-107.148.43.68-035
+      - github.com/freefq - 美国CloudFlare节点 3
+      - _CN_中国_39
+      - YouTube：ATOM科技_11
+      - _🇺🇸_US_美国_顺丰_23
+      - YouTube：ATOM科技_174
+      - YouTube：ATOM科技_90
+      - 「SCP」JP-HTTP|赞助商 @KinhChannel
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
