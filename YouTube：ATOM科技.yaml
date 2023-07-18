@@ -6,6 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: _CN_中国->🇹🇼_TW_台湾, server: 14.29.124.168, port: 24001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay+🇹🇼+Taiwan(ChatGPT)+01+TG:@nodpai, server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _CN_中国_1_0@4, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _CN_中国_3_0@13, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _CN_中国_4_0@14, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
@@ -28,7 +29,6 @@ proxies:
   - {name: _CN_中国_8_2@26, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _CN_中国_3_3@20, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: _CN_中国_4_3@21, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay+🇹🇼+Taiwan(ChatGPT)+01+TG:@nodpai, server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_177, server: 14.29.124.168, port: 24008, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_183, server: 14.29.124.168, port: 24005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_336, server: 14.29.124.168, port: 24000, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
@@ -53,33 +53,44 @@ proxies:
   - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_548, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_600, server: 14.29.124.168, port: 24009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_444, server: 14.29.124.168, port: 24007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 18|纽约测试|@ripaojiedian, server: 216.52.183.245, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, udp: true}
-  - {name: KR-54.180.154.97-009, server: 54.180.154.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KR-43.202.64.174-010, server: 43.202.64.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KR-43.200.1.53-012, server: 43.200.1.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KR-13.125.74.132-032, server: 13.125.74.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: JP-54.168.131.62-033, server: 54.168.131.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KR-3.38.211.225-034, server: 3.38.211.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KE-62.12.116.66-046, server: 62.12.116.66, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: JP-54.199.83.239-049, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io, udp: true}
-  - {name: SG-13.213.46.196-194, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: SG-54.251.168.143-196, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: AL_speednode_0001, server: 31.171.153.181, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: DK_speednode_0004, server: 192.36.27.116, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: EG_speednode_0005, server: 38.54.59.99, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: FR_speednode_0006, server: 135.125.244.103, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: GB_speednode_0007, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: IE_speednode_0011, server: 23.92.127.134, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: KR_speednode_0017, server: 43.202.63.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: KR_speednode_0018, server: 221.150.109.69, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: SG_speednode_0031, server: 54.255.237.136, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io, udp: true}
-  - {name: TR_speednode_0032, server: 45.89.52.66, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: US_speednode_0045, server: 185.47.255.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: ZA_speednode_0047, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _JP_日本, server: 43.207.74.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _KR_韩国, server: 43.202.55.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 韩国特殊|@ripaojiedian, server: 13.125.74.132, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 日本特殊|@ripaojiedian, server: 43.202.65.138, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _FR_法国->🇦🇹_AT_奥地利, server: 135.125.244.103, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: DK_speednode_0002, server: 192.36.27.116, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: GB_speednode_0006, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: IE_speednode_0010, server: 23.92.127.134, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: IS_speednode_0012, server: 37.235.49.152, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: KR_speednode_0013, server: 221.150.109.69, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: SG_speednode_0026, server: 54.255.237.136, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io, udp: true}
+  - {name: TR_speednode_0028, server: 45.89.52.66, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: TR_speednode_0029, server: 45.89.52.66, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: US_speednode_0070, server: 185.47.255.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: SG-13.229.98.23-008, server: 13.229.98.23, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: KR-43.201.247.194-018, server: 43.201.247.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: KR-43.202.49.224-020, server: 43.202.49.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: KR-43.202.64.174-023, server: 43.202.64.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: AL-31.171.153.181-031, server: 31.171.153.181, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: LV-185.135.86.173-040, server: 185.135.86.173, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: SG-13.213.46.196-153, server: 13.213.46.196, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP-54.199.83.239-154, server: 54.199.83.239, port: 2333, type: ss, cipher: aes-256-cfb, password: doub.io, udp: true}
+  - {name: SG-54.251.168.143-155, server: 54.251.168.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _KR_韩国+2, server: 43.201.254.164, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 韩国特殊|@ripaojiedian, server: 43.202.58.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 韩国特殊2|@ripaojiedian, server: 43.201.247.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 狮城特殊|@ripaojiedian, server: 13.213.53.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: South+Korea(ChatGPT)+01+TG:@nodpai, server: 3.36.95.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: South+Korea(ChatGPT)+02+TG:@nodpai, server: 43.201.254.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _KR_韩国+2 2, server: 43.202.45.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _KR_韩国+3, server: 43.200.244.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国+12, server: 54.187.97.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP+10+→+tg@nicevpn123, server: 43.202.58.144, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP+13+→+tg@nicevpn123, server: 43.202.63.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP+14+→+tg@nicevpn123, server: 43.202.52.108, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP+15+→+tg@nicevpn123, server: 3.112.43.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP+5+→+tg@nicevpn123, server: 43.201.15.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP+6+→+tg@nicevpn123, server: 43.201.60.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG+1+→+tg@nicevpn123, server: 3.0.183.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG+2+→+tg@nicevpn123, server: 52.221.214.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US+218+→+tg@nicevpn123, server: 13.213.53.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _KR_韩国_1_0@5, server: 43.201.86.41, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _KR_韩国_2_0@6, server: 43.201.37.176, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _JP_日本_0@17, server: 43.207.66.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -137,34 +148,41 @@ proxies:
   - {name: _US_美国_2_21@16, server: 35.92.132.241, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _SG_新加坡_6_21@17, server: 13.213.38.103, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _KR_韩国_24@17, server: 43.201.48.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国_1_1@4, server: 3.36.103.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _FR_法国_1@10, server: 54.36.115.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _KR_韩国_2_1@15, server: 43.201.15.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _NO_挪威_1@16, server: 185.90.61.153, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _JP_日本_1_2@3, server: 43.207.74.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国_2@4, server: 43.201.19.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _LV_拉脱维亚_2@14, server: 185.135.86.173, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: _JP_日本_2_2@23, server: 3.112.29.230, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _JP_日本_3_2@24, server: 3.112.43.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _JP_日本_3_3@24, server: 43.207.83.147, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国_2_3@26, server: 43.202.55.210, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _PL_波兰_3@39, server: 217.30.10.70, port: 9044, type: ss, cipher: aes-256-cfb, password: KBGjZYcy4SyRShmA, udp: true}
-  - {name: _SG_新加坡_1_5@2, server: 3.1.203.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _SG_新加坡_3_5@6, server: 3.0.183.226, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国_9_5@16, server: 54.190.212.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _JP_日本_7@7, server: 18.183.217.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国_1_10@7, server: 43.201.60.244, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国_2_10@8, server: 3.35.230.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _SG_新加坡_1_10@9, server: 18.139.108.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _SG_新加坡_2_10@16, server: 52.221.196.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国_2_14@4, server: 43.200.255.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国_4_14@13, server: 43.201.72.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国_1_15@7, server: 43.202.52.108, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国_4_15@20, server: 13.125.37.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _SG_新加坡_2_15@26, server: 18.139.163.228, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _JP_日本_2_19@11, server: 13.230.137.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _JP_日本_2_21@20, server: 3.112.28.34, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国_2_21@25, server: 43.202.49.224, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _LV_拉脱维亚_1@1, server: 185.135.86.173, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: _KR_韩国_3@8, server: 43.200.1.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _KR_韩国_1_4@4, server: 3.36.103.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _FR_法国_4@10, server: 54.36.115.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _NO_挪威_4@16, server: 185.90.61.153, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _KR_韩国_5@4, server: 43.201.19.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _LV_拉脱维亚_5@14, server: 185.135.86.173, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: _KE_肯尼亚_5@19, server: 62.12.116.66, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: _JP_日本_2_5@23, server: 3.112.29.230, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _JP_日本_3_6@24, server: 43.207.83.147, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _PL_波兰_6@39, server: 217.30.10.70, port: 9044, type: ss, cipher: aes-256-cfb, password: KBGjZYcy4SyRShmA, udp: true}
+  - {name: _SG_新加坡_1_8@2, server: 3.1.203.193, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国_9_8@16, server: 54.190.212.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _JP_日本_10@7, server: 18.183.217.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _KR_韩国_2_13@8, server: 3.35.230.64, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _SG_新加坡_1_13@9, server: 18.139.108.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _SG_新加坡_2_13@16, server: 52.221.196.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _KR_韩国_2_17@4, server: 43.200.255.57, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _KR_韩国_4_17@13, server: 43.201.72.181, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _KR_韩国_4_18@20, server: 13.125.37.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _SG_新加坡_2_18@26, server: 18.139.163.228, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _JP_日本_2_22@11, server: 13.230.137.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _JP_日本_2_24@20, server: 3.112.28.34, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _KR_韩国_4_24@35, server: 3.38.211.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_4, server: 13.215.251.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_10, server: 13.215.250.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_97, server: 43.207.1.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_161, server: 43.201.147.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_167, server: 13.230.221.122, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_452, server: 74.121.191.98, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_454, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_488, server: 103.253.43.41, port: 9055, type: ss, cipher: aes-256-cfb, password: tu9rqjTTTMPqake4, udp: true}
+  - {name: KR-54.180.154.97-009, server: 54.180.154.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: JP-54.168.131.62-033, server: 54.168.131.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: EG_speednode_0005, server: 38.54.59.99, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: _SG_新加坡_7_22@19, server: 54.151.179.33, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _SG_新加坡_9_22@21, server: 13.215.46.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _LV_拉脱维亚_22@24, server: 185.135.86.173, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
@@ -172,18 +190,6 @@ proxies:
   - {name: _KR_韩国_2_22@27, server: 52.78.217.18, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _SG_新加坡_4_23@23, server: 13.213.66.163, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _SG_新加坡_5_23@24, server: 13.215.175.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国+2 2, server: 43.202.45.84, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _KR_韩国+3, server: 43.200.244.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _US_美国+12, server: 54.187.97.19, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: South+Korea(ChatGPT)+01+TG:@nodpai, server: 3.36.95.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: South+Korea(ChatGPT)+02+TG:@nodpai, server: 43.201.254.7, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_4, server: 13.215.251.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_10, server: 13.215.250.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_97, server: 43.207.1.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_161, server: 43.201.147.86, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_167, server: 13.230.221.122, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_452, server: 74.121.191.98, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_488, server: 103.253.43.41, port: 9055, type: ss, cipher: aes-256-cfb, password: tu9rqjTTTMPqake4, udp: true}
   - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_9, server: 43.201.60.60, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_10, server: 18.143.187.111, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_25, server: 52.221.240.172, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -191,36 +197,15 @@ proxies:
   - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_256, server: 18.141.236.127, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_873, server: 54.251.24.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_874, server: 54.169.7.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: CN-120.232.204.149-006, server: video.tiktokuu.xyz, port: 673, type: ss, cipher: rc4-md5, password: BoomCloud2020, udp: true}
+  - {name: 美国特殊|@ripaojiedian, server: 54.245.150.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: CN+15+→+tg@nicevpn123, server: video.tiktokuu.xyz, port: 699, type: ss, cipher: rc4-md5, password: BoomCloud2020, udp: true}
+  - {name: CN+18+→+tg@nicevpn123, server: video.tiktokuu.xyz, port: 752, type: ss, cipher: rc4-md5, password: BoomCloud2020, udp: true}
+  - {name: CN+3+→+tg@nicevpn123, server: video.tiktokuu.xyz, port: 673, type: ss, cipher: rc4-md5, password: BoomCloud2020, udp: true}
+  - {name: CN+4+→+tg@nicevpn123, server: video.tiktokuu.xyz, port: 695, type: ss, cipher: rc4-md5, password: BoomCloud2020, udp: true}
   - {name: CN-120.232.204.149-007, server: video.tiktokuu.xyz, port: 674, type: ss, cipher: rc4-md5, password: BoomCloud2020, udp: true}
   - {name: CN-120.232.204.149-008, server: video.tiktokuu.xyz, port: 679, type: ss, cipher: rc4-md5, password: BoomCloud2020, udp: true}
   - {name: CN-120.232.204.149-037, server: video.tiktokuu.xyz, port: 748, type: ss, cipher: rc4-md5, password: BoomCloud2020, udp: true}
-  - {name: CN-120.232.204.149-041, server: video.tiktokuu.xyz, port: 695, type: ss, cipher: rc4-md5, password: BoomCloud2020, udp: true}
   - {name: CN-120.232.204.149-044, server: video.tiktokuu.xyz, port: 700, type: ss, cipher: rc4-md5, password: BoomCloud2020, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本, server: video.tiktokuu.xyz, port: 673, type: ss, cipher: rc4-md5, password: BoomCloud2020, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本 2, server: video.tiktokuu.xyz, port: 674, type: ss, cipher: rc4-md5, password: BoomCloud2020, udp: true}
-  - {name: _CN_中国->🇯🇵_JP_日本 3, server: video.tiktokuu.xyz, port: 679, type: ss, cipher: rc4-md5, password: BoomCloud2020, udp: true}
-  - {name: _CN_中国->🇩🇪_DE_德国, server: video.tiktokuu.xyz, port: 748, type: ss, cipher: rc4-md5, password: BoomCloud2020, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: video.tiktokuu.xyz, port: 695, type: ss, cipher: rc4-md5, password: BoomCloud2020, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: video.tiktokuu.xyz, port: 700, type: ss, cipher: rc4-md5, password: BoomCloud2020, udp: true}
-  - {name: 美国 加利福尼亚州洛杉矶Sharktech数据中心, server: 64.32.4.44, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_620, server: v6.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v6.heduian.online}}, udp: true}
-  - {name: LV_speednode_0019, server: 185.135.86.86, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: PhilEhgKJQ540MNK7mNoim, udp: true}
-  - {name: US_speednode_0044, server: ust1.greenssh.xyz, port: 80, type: trojan, password: 7ea37e4f-325b-416f-901a-67012367307f, sni: ust1.greenssh.xyz, skip-cert-verify: true, udp: true}
-  - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_592, server: beacon.liveon.id, port: 443, type: vmess, uuid: 3580bde6-ce2c-401c-866e-d6eb2a343546, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg2-ctb.v2rayserv.com}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】139, server: 104.19.97.1, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 「SCP」US-BuyVM3-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】79, server: 104.19.146.123, port: 80, type: vmess, uuid: 298530df-8418-4bc6-bff2-eeee595bf5cd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】93, server: 104.20.224.54, port: 2086, type: vmess, uuid: dac9cf36-ff4c-4d90-d549-d39086e75088, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: RELAY-173.245.58.237-254, server: 173.245.58.237, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: RELAY-104.31.16.28-187, server: 104.31.16.28, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca4.tehme2.fun}}, udp: true}
-  - {name: 美国【付费推荐：https://tt.vg/vip】1, server: 198.41.206.174, port: 2053, type: vmess, uuid: 3a73acf2-c7e3-43b9-fca9-bdd2eb886186, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ylks.vtcss.top}}, udp: true}
-  - {name: "8,16|🇭🇰_HK_香港->🇳🇱_NL_荷兰", server: 156.245.8.130, port: 31920, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "6,7,16|美国【付费推荐：https://tt.vg/vip】67", server: 198.2.203.57, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国, server: 52.47.208.16, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trj.rollingnext.co.uk, skip-cert-verify: true, udp: true}
-  - {name: "[peasoft/NoMoreWalls]3,13,16|🇺🇸 _US_美国 #29", server: 64.32.4.44, port: 43166, type: vmess, uuid: 8653004f-de67-44c2-9cce-e0830933fb03, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[peasoft/NoMoreWalls]6,7,23|美国86", server: 142.4.106.242, port: 52908, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "3|🇺🇸 _US_美国 #46", server: cf1.992688.xyz, port: 8080, type: vmess, uuid: bbfa65cf-236e-4e4f-eb3d-a9e159d3f945, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: eu2.992688.xyz}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -230,6 +215,7 @@ proxy-groups:
       - ♻️ M.Youtube
       - ♻️ Missav
       - _CN_中国->🇹🇼_TW_台湾
+      - Relay+🇹🇼+Taiwan(ChatGPT)+01+TG:@nodpai
       - _CN_中国_1_0@4
       - _CN_中国_3_0@13
       - _CN_中国_4_0@14
@@ -252,7 +238,6 @@ proxy-groups:
       - _CN_中国_8_2@26
       - _CN_中国_3_3@20
       - _CN_中国_4_3@21
-      - Relay+🇹🇼+Taiwan(ChatGPT)+01+TG:@nodpai
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_177
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_183
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_336
@@ -277,33 +262,44 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_548
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_600
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_444
-      - 18|纽约测试|@ripaojiedian
-      - KR-54.180.154.97-009
-      - KR-43.202.64.174-010
-      - KR-43.200.1.53-012
-      - KR-13.125.74.132-032
-      - JP-54.168.131.62-033
-      - KR-3.38.211.225-034
-      - KE-62.12.116.66-046
-      - JP-54.199.83.239-049
-      - SG-13.213.46.196-194
-      - SG-54.251.168.143-196
-      - AL_speednode_0001
-      - DK_speednode_0004
-      - EG_speednode_0005
-      - FR_speednode_0006
-      - GB_speednode_0007
-      - IE_speednode_0011
-      - KR_speednode_0017
-      - KR_speednode_0018
-      - SG_speednode_0031
-      - TR_speednode_0032
-      - US_speednode_0045
-      - ZA_speednode_0047
-      - _KR_韩国+2
+      - _JP_日本
+      - _KR_韩国
       - 韩国特殊|@ripaojiedian
-      - 韩国特殊2|@ripaojiedian
-      - 狮城特殊|@ripaojiedian
+      - 日本特殊|@ripaojiedian
+      - _FR_法国->🇦🇹_AT_奥地利
+      - DK_speednode_0002
+      - GB_speednode_0006
+      - IE_speednode_0010
+      - IS_speednode_0012
+      - KR_speednode_0013
+      - SG_speednode_0026
+      - TR_speednode_0028
+      - TR_speednode_0029
+      - US_speednode_0070
+      - SG-13.229.98.23-008
+      - KR-43.201.247.194-018
+      - KR-43.202.49.224-020
+      - KR-43.202.64.174-023
+      - AL-31.171.153.181-031
+      - LV-185.135.86.173-040
+      - SG-13.213.46.196-153
+      - JP-54.199.83.239-154
+      - SG-54.251.168.143-155
+      - _KR_韩国+2
+      - South+Korea(ChatGPT)+01+TG:@nodpai
+      - South+Korea(ChatGPT)+02+TG:@nodpai
+      - _KR_韩国+2 2
+      - _KR_韩国+3
+      - _US_美国+12
+      - JP+10+→+tg@nicevpn123
+      - JP+13+→+tg@nicevpn123
+      - JP+14+→+tg@nicevpn123
+      - JP+15+→+tg@nicevpn123
+      - JP+5+→+tg@nicevpn123
+      - JP+6+→+tg@nicevpn123
+      - SG+1+→+tg@nicevpn123
+      - SG+2+→+tg@nicevpn123
+      - US+218+→+tg@nicevpn123
       - _KR_韩国_1_0@5
       - _KR_韩国_2_0@6
       - _JP_日本_0@17
@@ -361,34 +357,41 @@ proxy-groups:
       - _US_美国_2_21@16
       - _SG_新加坡_6_21@17
       - _KR_韩国_24@17
-      - _KR_韩国_1_1@4
-      - _FR_法国_1@10
-      - _KR_韩国_2_1@15
-      - _NO_挪威_1@16
-      - _JP_日本_1_2@3
-      - _KR_韩国_2@4
-      - _LV_拉脱维亚_2@14
-      - _JP_日本_2_2@23
-      - _JP_日本_3_2@24
-      - _JP_日本_3_3@24
-      - _KR_韩国_2_3@26
-      - _PL_波兰_3@39
-      - _SG_新加坡_1_5@2
-      - _SG_新加坡_3_5@6
-      - _US_美国_9_5@16
-      - _JP_日本_7@7
-      - _KR_韩国_1_10@7
-      - _KR_韩国_2_10@8
-      - _SG_新加坡_1_10@9
-      - _SG_新加坡_2_10@16
-      - _KR_韩国_2_14@4
-      - _KR_韩国_4_14@13
-      - _KR_韩国_1_15@7
-      - _KR_韩国_4_15@20
-      - _SG_新加坡_2_15@26
-      - _JP_日本_2_19@11
-      - _JP_日本_2_21@20
-      - _KR_韩国_2_21@25
+      - _LV_拉脱维亚_1@1
+      - _KR_韩国_3@8
+      - _KR_韩国_1_4@4
+      - _FR_法国_4@10
+      - _NO_挪威_4@16
+      - _KR_韩国_5@4
+      - _LV_拉脱维亚_5@14
+      - _KE_肯尼亚_5@19
+      - _JP_日本_2_5@23
+      - _JP_日本_3_6@24
+      - _PL_波兰_6@39
+      - _SG_新加坡_1_8@2
+      - _US_美国_9_8@16
+      - _JP_日本_10@7
+      - _KR_韩国_2_13@8
+      - _SG_新加坡_1_13@9
+      - _SG_新加坡_2_13@16
+      - _KR_韩国_2_17@4
+      - _KR_韩国_4_17@13
+      - _KR_韩国_4_18@20
+      - _SG_新加坡_2_18@26
+      - _JP_日本_2_22@11
+      - _JP_日本_2_24@20
+      - _KR_韩国_4_24@35
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_4
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_10
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_97
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_161
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_167
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_452
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_454
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_488
+      - KR-54.180.154.97-009
+      - JP-54.168.131.62-033
+      - EG_speednode_0005
       - _SG_新加坡_7_22@19
       - _SG_新加坡_9_22@21
       - _LV_拉脱维亚_22@24
@@ -396,18 +399,6 @@ proxy-groups:
       - _KR_韩国_2_22@27
       - _SG_新加坡_4_23@23
       - _SG_新加坡_5_23@24
-      - _KR_韩国+2 2
-      - _KR_韩国+3
-      - _US_美国+12
-      - South+Korea(ChatGPT)+01+TG:@nodpai
-      - South+Korea(ChatGPT)+02+TG:@nodpai
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_4
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_10
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_97
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_161
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_167
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_452
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_488
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_9
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_10
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_25
@@ -415,42 +406,22 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_256
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_873
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_874
-      - CN-120.232.204.149-006
+      - 美国特殊|@ripaojiedian
+      - CN+15+→+tg@nicevpn123
+      - CN+18+→+tg@nicevpn123
+      - CN+3+→+tg@nicevpn123
+      - CN+4+→+tg@nicevpn123
       - CN-120.232.204.149-007
       - CN-120.232.204.149-008
       - CN-120.232.204.149-037
-      - CN-120.232.204.149-041
       - CN-120.232.204.149-044
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_620
-      - LV_speednode_0019
-      - US_speednode_0044
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_592
-      - 美国【付费推荐：https://tt.vg/vip】139
-      - 「SCP」US-BuyVM3-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】79
-      - 美国【付费推荐：https://tt.vg/vip】93
-      - RELAY-173.245.58.237-254
-      - RELAY-104.31.16.28-187
-      - 美国【付费推荐：https://tt.vg/vip】1
-      - 8,16|🇭🇰_HK_香港->🇳🇱_NL_荷兰
-      - 6,7,16|美国【付费推荐：https://tt.vg/vip】67
-      - _FR_法国
-      - "[peasoft/NoMoreWalls]3,13,16|🇺🇸 _US_美国 #29"
-      - "[peasoft/NoMoreWalls]6,7,23|美国86"
-      - "3|🇺🇸 _US_美国 #46"
   - name: ♻️ 自动选择
     type: fallback
     url: https://raw.githubusercontent.com/
     interval: 2
     proxies:
       - _CN_中国->🇹🇼_TW_台湾
+      - Relay+🇹🇼+Taiwan(ChatGPT)+01+TG:@nodpai
       - _CN_中国_1_0@4
       - _CN_中国_3_0@13
       - _CN_中国_4_0@14
@@ -473,7 +444,6 @@ proxy-groups:
       - _CN_中国_8_2@26
       - _CN_中国_3_3@20
       - _CN_中国_4_3@21
-      - Relay+🇹🇼+Taiwan(ChatGPT)+01+TG:@nodpai
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_177
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_183
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_336
@@ -498,33 +468,44 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_548
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_600
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_444
-      - 18|纽约测试|@ripaojiedian
-      - KR-54.180.154.97-009
-      - KR-43.202.64.174-010
-      - KR-43.200.1.53-012
-      - KR-13.125.74.132-032
-      - JP-54.168.131.62-033
-      - KR-3.38.211.225-034
-      - KE-62.12.116.66-046
-      - JP-54.199.83.239-049
-      - SG-13.213.46.196-194
-      - SG-54.251.168.143-196
-      - AL_speednode_0001
-      - DK_speednode_0004
-      - EG_speednode_0005
-      - FR_speednode_0006
-      - GB_speednode_0007
-      - IE_speednode_0011
-      - KR_speednode_0017
-      - KR_speednode_0018
-      - SG_speednode_0031
-      - TR_speednode_0032
-      - US_speednode_0045
-      - ZA_speednode_0047
-      - _KR_韩国+2
+      - _JP_日本
+      - _KR_韩国
       - 韩国特殊|@ripaojiedian
-      - 韩国特殊2|@ripaojiedian
-      - 狮城特殊|@ripaojiedian
+      - 日本特殊|@ripaojiedian
+      - _FR_法国->🇦🇹_AT_奥地利
+      - DK_speednode_0002
+      - GB_speednode_0006
+      - IE_speednode_0010
+      - IS_speednode_0012
+      - KR_speednode_0013
+      - SG_speednode_0026
+      - TR_speednode_0028
+      - TR_speednode_0029
+      - US_speednode_0070
+      - SG-13.229.98.23-008
+      - KR-43.201.247.194-018
+      - KR-43.202.49.224-020
+      - KR-43.202.64.174-023
+      - AL-31.171.153.181-031
+      - LV-185.135.86.173-040
+      - SG-13.213.46.196-153
+      - JP-54.199.83.239-154
+      - SG-54.251.168.143-155
+      - _KR_韩国+2
+      - South+Korea(ChatGPT)+01+TG:@nodpai
+      - South+Korea(ChatGPT)+02+TG:@nodpai
+      - _KR_韩国+2 2
+      - _KR_韩国+3
+      - _US_美国+12
+      - JP+10+→+tg@nicevpn123
+      - JP+13+→+tg@nicevpn123
+      - JP+14+→+tg@nicevpn123
+      - JP+15+→+tg@nicevpn123
+      - JP+5+→+tg@nicevpn123
+      - JP+6+→+tg@nicevpn123
+      - SG+1+→+tg@nicevpn123
+      - SG+2+→+tg@nicevpn123
+      - US+218+→+tg@nicevpn123
       - _KR_韩国_1_0@5
       - _KR_韩国_2_0@6
       - _JP_日本_0@17
@@ -582,34 +563,41 @@ proxy-groups:
       - _US_美国_2_21@16
       - _SG_新加坡_6_21@17
       - _KR_韩国_24@17
-      - _KR_韩国_1_1@4
-      - _FR_法国_1@10
-      - _KR_韩国_2_1@15
-      - _NO_挪威_1@16
-      - _JP_日本_1_2@3
-      - _KR_韩国_2@4
-      - _LV_拉脱维亚_2@14
-      - _JP_日本_2_2@23
-      - _JP_日本_3_2@24
-      - _JP_日本_3_3@24
-      - _KR_韩国_2_3@26
-      - _PL_波兰_3@39
-      - _SG_新加坡_1_5@2
-      - _SG_新加坡_3_5@6
-      - _US_美国_9_5@16
-      - _JP_日本_7@7
-      - _KR_韩国_1_10@7
-      - _KR_韩国_2_10@8
-      - _SG_新加坡_1_10@9
-      - _SG_新加坡_2_10@16
-      - _KR_韩国_2_14@4
-      - _KR_韩国_4_14@13
-      - _KR_韩国_1_15@7
-      - _KR_韩国_4_15@20
-      - _SG_新加坡_2_15@26
-      - _JP_日本_2_19@11
-      - _JP_日本_2_21@20
-      - _KR_韩国_2_21@25
+      - _LV_拉脱维亚_1@1
+      - _KR_韩国_3@8
+      - _KR_韩国_1_4@4
+      - _FR_法国_4@10
+      - _NO_挪威_4@16
+      - _KR_韩国_5@4
+      - _LV_拉脱维亚_5@14
+      - _KE_肯尼亚_5@19
+      - _JP_日本_2_5@23
+      - _JP_日本_3_6@24
+      - _PL_波兰_6@39
+      - _SG_新加坡_1_8@2
+      - _US_美国_9_8@16
+      - _JP_日本_10@7
+      - _KR_韩国_2_13@8
+      - _SG_新加坡_1_13@9
+      - _SG_新加坡_2_13@16
+      - _KR_韩国_2_17@4
+      - _KR_韩国_4_17@13
+      - _KR_韩国_4_18@20
+      - _SG_新加坡_2_18@26
+      - _JP_日本_2_22@11
+      - _JP_日本_2_24@20
+      - _KR_韩国_4_24@35
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_4
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_10
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_97
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_161
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_167
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_452
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_454
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_488
+      - KR-54.180.154.97-009
+      - JP-54.168.131.62-033
+      - EG_speednode_0005
       - _SG_新加坡_7_22@19
       - _SG_新加坡_9_22@21
       - _LV_拉脱维亚_22@24
@@ -617,18 +605,6 @@ proxy-groups:
       - _KR_韩国_2_22@27
       - _SG_新加坡_4_23@23
       - _SG_新加坡_5_23@24
-      - _KR_韩国+2 2
-      - _KR_韩国+3
-      - _US_美国+12
-      - South+Korea(ChatGPT)+01+TG:@nodpai
-      - South+Korea(ChatGPT)+02+TG:@nodpai
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_4
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_10
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_97
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_161
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_167
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_452
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_488
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_9
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_10
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_25
@@ -636,42 +612,22 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_256
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_873
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_874
-      - CN-120.232.204.149-006
+      - 美国特殊|@ripaojiedian
+      - CN+15+→+tg@nicevpn123
+      - CN+18+→+tg@nicevpn123
+      - CN+3+→+tg@nicevpn123
+      - CN+4+→+tg@nicevpn123
       - CN-120.232.204.149-007
       - CN-120.232.204.149-008
       - CN-120.232.204.149-037
-      - CN-120.232.204.149-041
       - CN-120.232.204.149-044
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_620
-      - LV_speednode_0019
-      - US_speednode_0044
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_592
-      - 美国【付费推荐：https://tt.vg/vip】139
-      - 「SCP」US-BuyVM3-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】79
-      - 美国【付费推荐：https://tt.vg/vip】93
-      - RELAY-173.245.58.237-254
-      - RELAY-104.31.16.28-187
-      - 美国【付费推荐：https://tt.vg/vip】1
-      - 8,16|🇭🇰_HK_香港->🇳🇱_NL_荷兰
-      - 6,7,16|美国【付费推荐：https://tt.vg/vip】67
-      - _FR_法国
-      - "[peasoft/NoMoreWalls]3,13,16|🇺🇸 _US_美国 #29"
-      - "[peasoft/NoMoreWalls]6,7,23|美国86"
-      - "3|🇺🇸 _US_美国 #46"
   - name: ♻️ M.Youtube
     type: fallback
     url: https://m.youtube.com
     interval: 2
     proxies:
       - _CN_中国->🇹🇼_TW_台湾
+      - Relay+🇹🇼+Taiwan(ChatGPT)+01+TG:@nodpai
       - _CN_中国_1_0@4
       - _CN_中国_3_0@13
       - _CN_中国_4_0@14
@@ -694,7 +650,6 @@ proxy-groups:
       - _CN_中国_8_2@26
       - _CN_中国_3_3@20
       - _CN_中国_4_3@21
-      - Relay+🇹🇼+Taiwan(ChatGPT)+01+TG:@nodpai
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_177
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_183
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_336
@@ -719,33 +674,44 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_548
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_600
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_444
-      - 18|纽约测试|@ripaojiedian
-      - KR-54.180.154.97-009
-      - KR-43.202.64.174-010
-      - KR-43.200.1.53-012
-      - KR-13.125.74.132-032
-      - JP-54.168.131.62-033
-      - KR-3.38.211.225-034
-      - KE-62.12.116.66-046
-      - JP-54.199.83.239-049
-      - SG-13.213.46.196-194
-      - SG-54.251.168.143-196
-      - AL_speednode_0001
-      - DK_speednode_0004
-      - EG_speednode_0005
-      - FR_speednode_0006
-      - GB_speednode_0007
-      - IE_speednode_0011
-      - KR_speednode_0017
-      - KR_speednode_0018
-      - SG_speednode_0031
-      - TR_speednode_0032
-      - US_speednode_0045
-      - ZA_speednode_0047
-      - _KR_韩国+2
+      - _JP_日本
+      - _KR_韩国
       - 韩国特殊|@ripaojiedian
-      - 韩国特殊2|@ripaojiedian
-      - 狮城特殊|@ripaojiedian
+      - 日本特殊|@ripaojiedian
+      - _FR_法国->🇦🇹_AT_奥地利
+      - DK_speednode_0002
+      - GB_speednode_0006
+      - IE_speednode_0010
+      - IS_speednode_0012
+      - KR_speednode_0013
+      - SG_speednode_0026
+      - TR_speednode_0028
+      - TR_speednode_0029
+      - US_speednode_0070
+      - SG-13.229.98.23-008
+      - KR-43.201.247.194-018
+      - KR-43.202.49.224-020
+      - KR-43.202.64.174-023
+      - AL-31.171.153.181-031
+      - LV-185.135.86.173-040
+      - SG-13.213.46.196-153
+      - JP-54.199.83.239-154
+      - SG-54.251.168.143-155
+      - _KR_韩国+2
+      - South+Korea(ChatGPT)+01+TG:@nodpai
+      - South+Korea(ChatGPT)+02+TG:@nodpai
+      - _KR_韩国+2 2
+      - _KR_韩国+3
+      - _US_美国+12
+      - JP+10+→+tg@nicevpn123
+      - JP+13+→+tg@nicevpn123
+      - JP+14+→+tg@nicevpn123
+      - JP+15+→+tg@nicevpn123
+      - JP+5+→+tg@nicevpn123
+      - JP+6+→+tg@nicevpn123
+      - SG+1+→+tg@nicevpn123
+      - SG+2+→+tg@nicevpn123
+      - US+218+→+tg@nicevpn123
       - _KR_韩国_1_0@5
       - _KR_韩国_2_0@6
       - _JP_日本_0@17
@@ -803,34 +769,41 @@ proxy-groups:
       - _US_美国_2_21@16
       - _SG_新加坡_6_21@17
       - _KR_韩国_24@17
-      - _KR_韩国_1_1@4
-      - _FR_法国_1@10
-      - _KR_韩国_2_1@15
-      - _NO_挪威_1@16
-      - _JP_日本_1_2@3
-      - _KR_韩国_2@4
-      - _LV_拉脱维亚_2@14
-      - _JP_日本_2_2@23
-      - _JP_日本_3_2@24
-      - _JP_日本_3_3@24
-      - _KR_韩国_2_3@26
-      - _PL_波兰_3@39
-      - _SG_新加坡_1_5@2
-      - _SG_新加坡_3_5@6
-      - _US_美国_9_5@16
-      - _JP_日本_7@7
-      - _KR_韩国_1_10@7
-      - _KR_韩国_2_10@8
-      - _SG_新加坡_1_10@9
-      - _SG_新加坡_2_10@16
-      - _KR_韩国_2_14@4
-      - _KR_韩国_4_14@13
-      - _KR_韩国_1_15@7
-      - _KR_韩国_4_15@20
-      - _SG_新加坡_2_15@26
-      - _JP_日本_2_19@11
-      - _JP_日本_2_21@20
-      - _KR_韩国_2_21@25
+      - _LV_拉脱维亚_1@1
+      - _KR_韩国_3@8
+      - _KR_韩国_1_4@4
+      - _FR_法国_4@10
+      - _NO_挪威_4@16
+      - _KR_韩国_5@4
+      - _LV_拉脱维亚_5@14
+      - _KE_肯尼亚_5@19
+      - _JP_日本_2_5@23
+      - _JP_日本_3_6@24
+      - _PL_波兰_6@39
+      - _SG_新加坡_1_8@2
+      - _US_美国_9_8@16
+      - _JP_日本_10@7
+      - _KR_韩国_2_13@8
+      - _SG_新加坡_1_13@9
+      - _SG_新加坡_2_13@16
+      - _KR_韩国_2_17@4
+      - _KR_韩国_4_17@13
+      - _KR_韩国_4_18@20
+      - _SG_新加坡_2_18@26
+      - _JP_日本_2_22@11
+      - _JP_日本_2_24@20
+      - _KR_韩国_4_24@35
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_4
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_10
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_97
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_161
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_167
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_452
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_454
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_488
+      - KR-54.180.154.97-009
+      - JP-54.168.131.62-033
+      - EG_speednode_0005
       - _SG_新加坡_7_22@19
       - _SG_新加坡_9_22@21
       - _LV_拉脱维亚_22@24
@@ -838,18 +811,6 @@ proxy-groups:
       - _KR_韩国_2_22@27
       - _SG_新加坡_4_23@23
       - _SG_新加坡_5_23@24
-      - _KR_韩国+2 2
-      - _KR_韩国+3
-      - _US_美国+12
-      - South+Korea(ChatGPT)+01+TG:@nodpai
-      - South+Korea(ChatGPT)+02+TG:@nodpai
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_4
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_10
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_97
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_161
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_167
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_452
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_488
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_9
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_10
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_25
@@ -857,42 +818,22 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_256
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_873
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_874
-      - CN-120.232.204.149-006
+      - 美国特殊|@ripaojiedian
+      - CN+15+→+tg@nicevpn123
+      - CN+18+→+tg@nicevpn123
+      - CN+3+→+tg@nicevpn123
+      - CN+4+→+tg@nicevpn123
       - CN-120.232.204.149-007
       - CN-120.232.204.149-008
       - CN-120.232.204.149-037
-      - CN-120.232.204.149-041
       - CN-120.232.204.149-044
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_620
-      - LV_speednode_0019
-      - US_speednode_0044
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_592
-      - 美国【付费推荐：https://tt.vg/vip】139
-      - 「SCP」US-BuyVM3-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】79
-      - 美国【付费推荐：https://tt.vg/vip】93
-      - RELAY-173.245.58.237-254
-      - RELAY-104.31.16.28-187
-      - 美国【付费推荐：https://tt.vg/vip】1
-      - 8,16|🇭🇰_HK_香港->🇳🇱_NL_荷兰
-      - 6,7,16|美国【付费推荐：https://tt.vg/vip】67
-      - _FR_法国
-      - "[peasoft/NoMoreWalls]3,13,16|🇺🇸 _US_美国 #29"
-      - "[peasoft/NoMoreWalls]6,7,23|美国86"
-      - "3|🇺🇸 _US_美国 #46"
   - name: ♻️ Youtube
     type: fallback
     url: https://youtube.com
     interval: 2
     proxies:
       - _CN_中国->🇹🇼_TW_台湾
+      - Relay+🇹🇼+Taiwan(ChatGPT)+01+TG:@nodpai
       - _CN_中国_1_0@4
       - _CN_中国_3_0@13
       - _CN_中国_4_0@14
@@ -915,7 +856,6 @@ proxy-groups:
       - _CN_中国_8_2@26
       - _CN_中国_3_3@20
       - _CN_中国_4_3@21
-      - Relay+🇹🇼+Taiwan(ChatGPT)+01+TG:@nodpai
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_177
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_183
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_336
@@ -940,33 +880,44 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_548
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_600
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_444
-      - 18|纽约测试|@ripaojiedian
-      - KR-54.180.154.97-009
-      - KR-43.202.64.174-010
-      - KR-43.200.1.53-012
-      - KR-13.125.74.132-032
-      - JP-54.168.131.62-033
-      - KR-3.38.211.225-034
-      - KE-62.12.116.66-046
-      - JP-54.199.83.239-049
-      - SG-13.213.46.196-194
-      - SG-54.251.168.143-196
-      - AL_speednode_0001
-      - DK_speednode_0004
-      - EG_speednode_0005
-      - FR_speednode_0006
-      - GB_speednode_0007
-      - IE_speednode_0011
-      - KR_speednode_0017
-      - KR_speednode_0018
-      - SG_speednode_0031
-      - TR_speednode_0032
-      - US_speednode_0045
-      - ZA_speednode_0047
-      - _KR_韩国+2
+      - _JP_日本
+      - _KR_韩国
       - 韩国特殊|@ripaojiedian
-      - 韩国特殊2|@ripaojiedian
-      - 狮城特殊|@ripaojiedian
+      - 日本特殊|@ripaojiedian
+      - _FR_法国->🇦🇹_AT_奥地利
+      - DK_speednode_0002
+      - GB_speednode_0006
+      - IE_speednode_0010
+      - IS_speednode_0012
+      - KR_speednode_0013
+      - SG_speednode_0026
+      - TR_speednode_0028
+      - TR_speednode_0029
+      - US_speednode_0070
+      - SG-13.229.98.23-008
+      - KR-43.201.247.194-018
+      - KR-43.202.49.224-020
+      - KR-43.202.64.174-023
+      - AL-31.171.153.181-031
+      - LV-185.135.86.173-040
+      - SG-13.213.46.196-153
+      - JP-54.199.83.239-154
+      - SG-54.251.168.143-155
+      - _KR_韩国+2
+      - South+Korea(ChatGPT)+01+TG:@nodpai
+      - South+Korea(ChatGPT)+02+TG:@nodpai
+      - _KR_韩国+2 2
+      - _KR_韩国+3
+      - _US_美国+12
+      - JP+10+→+tg@nicevpn123
+      - JP+13+→+tg@nicevpn123
+      - JP+14+→+tg@nicevpn123
+      - JP+15+→+tg@nicevpn123
+      - JP+5+→+tg@nicevpn123
+      - JP+6+→+tg@nicevpn123
+      - SG+1+→+tg@nicevpn123
+      - SG+2+→+tg@nicevpn123
+      - US+218+→+tg@nicevpn123
       - _KR_韩国_1_0@5
       - _KR_韩国_2_0@6
       - _JP_日本_0@17
@@ -1024,34 +975,41 @@ proxy-groups:
       - _US_美国_2_21@16
       - _SG_新加坡_6_21@17
       - _KR_韩国_24@17
-      - _KR_韩国_1_1@4
-      - _FR_法国_1@10
-      - _KR_韩国_2_1@15
-      - _NO_挪威_1@16
-      - _JP_日本_1_2@3
-      - _KR_韩国_2@4
-      - _LV_拉脱维亚_2@14
-      - _JP_日本_2_2@23
-      - _JP_日本_3_2@24
-      - _JP_日本_3_3@24
-      - _KR_韩国_2_3@26
-      - _PL_波兰_3@39
-      - _SG_新加坡_1_5@2
-      - _SG_新加坡_3_5@6
-      - _US_美国_9_5@16
-      - _JP_日本_7@7
-      - _KR_韩国_1_10@7
-      - _KR_韩国_2_10@8
-      - _SG_新加坡_1_10@9
-      - _SG_新加坡_2_10@16
-      - _KR_韩国_2_14@4
-      - _KR_韩国_4_14@13
-      - _KR_韩国_1_15@7
-      - _KR_韩国_4_15@20
-      - _SG_新加坡_2_15@26
-      - _JP_日本_2_19@11
-      - _JP_日本_2_21@20
-      - _KR_韩国_2_21@25
+      - _LV_拉脱维亚_1@1
+      - _KR_韩国_3@8
+      - _KR_韩国_1_4@4
+      - _FR_法国_4@10
+      - _NO_挪威_4@16
+      - _KR_韩国_5@4
+      - _LV_拉脱维亚_5@14
+      - _KE_肯尼亚_5@19
+      - _JP_日本_2_5@23
+      - _JP_日本_3_6@24
+      - _PL_波兰_6@39
+      - _SG_新加坡_1_8@2
+      - _US_美国_9_8@16
+      - _JP_日本_10@7
+      - _KR_韩国_2_13@8
+      - _SG_新加坡_1_13@9
+      - _SG_新加坡_2_13@16
+      - _KR_韩国_2_17@4
+      - _KR_韩国_4_17@13
+      - _KR_韩国_4_18@20
+      - _SG_新加坡_2_18@26
+      - _JP_日本_2_22@11
+      - _JP_日本_2_24@20
+      - _KR_韩国_4_24@35
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_4
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_10
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_97
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_161
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_167
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_452
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_454
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_488
+      - KR-54.180.154.97-009
+      - JP-54.168.131.62-033
+      - EG_speednode_0005
       - _SG_新加坡_7_22@19
       - _SG_新加坡_9_22@21
       - _LV_拉脱维亚_22@24
@@ -1059,18 +1017,6 @@ proxy-groups:
       - _KR_韩国_2_22@27
       - _SG_新加坡_4_23@23
       - _SG_新加坡_5_23@24
-      - _KR_韩国+2 2
-      - _KR_韩国+3
-      - _US_美国+12
-      - South+Korea(ChatGPT)+01+TG:@nodpai
-      - South+Korea(ChatGPT)+02+TG:@nodpai
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_4
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_10
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_97
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_161
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_167
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_452
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_488
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_9
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_10
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_25
@@ -1078,42 +1024,22 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_256
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_873
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_874
-      - CN-120.232.204.149-006
+      - 美国特殊|@ripaojiedian
+      - CN+15+→+tg@nicevpn123
+      - CN+18+→+tg@nicevpn123
+      - CN+3+→+tg@nicevpn123
+      - CN+4+→+tg@nicevpn123
       - CN-120.232.204.149-007
       - CN-120.232.204.149-008
       - CN-120.232.204.149-037
-      - CN-120.232.204.149-041
       - CN-120.232.204.149-044
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_620
-      - LV_speednode_0019
-      - US_speednode_0044
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_592
-      - 美国【付费推荐：https://tt.vg/vip】139
-      - 「SCP」US-BuyVM3-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】79
-      - 美国【付费推荐：https://tt.vg/vip】93
-      - RELAY-173.245.58.237-254
-      - RELAY-104.31.16.28-187
-      - 美国【付费推荐：https://tt.vg/vip】1
-      - 8,16|🇭🇰_HK_香港->🇳🇱_NL_荷兰
-      - 6,7,16|美国【付费推荐：https://tt.vg/vip】67
-      - _FR_法国
-      - "[peasoft/NoMoreWalls]3,13,16|🇺🇸 _US_美国 #29"
-      - "[peasoft/NoMoreWalls]6,7,23|美国86"
-      - "3|🇺🇸 _US_美国 #46"
   - name: ♻️ Missav
     type: fallback
     url: https://www.Missav.com
     interval: 2
     proxies:
       - _CN_中国->🇹🇼_TW_台湾
+      - Relay+🇹🇼+Taiwan(ChatGPT)+01+TG:@nodpai
       - _CN_中国_1_0@4
       - _CN_中国_3_0@13
       - _CN_中国_4_0@14
@@ -1136,7 +1062,6 @@ proxy-groups:
       - _CN_中国_8_2@26
       - _CN_中国_3_3@20
       - _CN_中国_4_3@21
-      - Relay+🇹🇼+Taiwan(ChatGPT)+01+TG:@nodpai
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_177
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_183
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_336
@@ -1161,33 +1086,44 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_548
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_600
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_444
-      - 18|纽约测试|@ripaojiedian
-      - KR-54.180.154.97-009
-      - KR-43.202.64.174-010
-      - KR-43.200.1.53-012
-      - KR-13.125.74.132-032
-      - JP-54.168.131.62-033
-      - KR-3.38.211.225-034
-      - KE-62.12.116.66-046
-      - JP-54.199.83.239-049
-      - SG-13.213.46.196-194
-      - SG-54.251.168.143-196
-      - AL_speednode_0001
-      - DK_speednode_0004
-      - EG_speednode_0005
-      - FR_speednode_0006
-      - GB_speednode_0007
-      - IE_speednode_0011
-      - KR_speednode_0017
-      - KR_speednode_0018
-      - SG_speednode_0031
-      - TR_speednode_0032
-      - US_speednode_0045
-      - ZA_speednode_0047
-      - _KR_韩国+2
+      - _JP_日本
+      - _KR_韩国
       - 韩国特殊|@ripaojiedian
-      - 韩国特殊2|@ripaojiedian
-      - 狮城特殊|@ripaojiedian
+      - 日本特殊|@ripaojiedian
+      - _FR_法国->🇦🇹_AT_奥地利
+      - DK_speednode_0002
+      - GB_speednode_0006
+      - IE_speednode_0010
+      - IS_speednode_0012
+      - KR_speednode_0013
+      - SG_speednode_0026
+      - TR_speednode_0028
+      - TR_speednode_0029
+      - US_speednode_0070
+      - SG-13.229.98.23-008
+      - KR-43.201.247.194-018
+      - KR-43.202.49.224-020
+      - KR-43.202.64.174-023
+      - AL-31.171.153.181-031
+      - LV-185.135.86.173-040
+      - SG-13.213.46.196-153
+      - JP-54.199.83.239-154
+      - SG-54.251.168.143-155
+      - _KR_韩国+2
+      - South+Korea(ChatGPT)+01+TG:@nodpai
+      - South+Korea(ChatGPT)+02+TG:@nodpai
+      - _KR_韩国+2 2
+      - _KR_韩国+3
+      - _US_美国+12
+      - JP+10+→+tg@nicevpn123
+      - JP+13+→+tg@nicevpn123
+      - JP+14+→+tg@nicevpn123
+      - JP+15+→+tg@nicevpn123
+      - JP+5+→+tg@nicevpn123
+      - JP+6+→+tg@nicevpn123
+      - SG+1+→+tg@nicevpn123
+      - SG+2+→+tg@nicevpn123
+      - US+218+→+tg@nicevpn123
       - _KR_韩国_1_0@5
       - _KR_韩国_2_0@6
       - _JP_日本_0@17
@@ -1245,34 +1181,41 @@ proxy-groups:
       - _US_美国_2_21@16
       - _SG_新加坡_6_21@17
       - _KR_韩国_24@17
-      - _KR_韩国_1_1@4
-      - _FR_法国_1@10
-      - _KR_韩国_2_1@15
-      - _NO_挪威_1@16
-      - _JP_日本_1_2@3
-      - _KR_韩国_2@4
-      - _LV_拉脱维亚_2@14
-      - _JP_日本_2_2@23
-      - _JP_日本_3_2@24
-      - _JP_日本_3_3@24
-      - _KR_韩国_2_3@26
-      - _PL_波兰_3@39
-      - _SG_新加坡_1_5@2
-      - _SG_新加坡_3_5@6
-      - _US_美国_9_5@16
-      - _JP_日本_7@7
-      - _KR_韩国_1_10@7
-      - _KR_韩国_2_10@8
-      - _SG_新加坡_1_10@9
-      - _SG_新加坡_2_10@16
-      - _KR_韩国_2_14@4
-      - _KR_韩国_4_14@13
-      - _KR_韩国_1_15@7
-      - _KR_韩国_4_15@20
-      - _SG_新加坡_2_15@26
-      - _JP_日本_2_19@11
-      - _JP_日本_2_21@20
-      - _KR_韩国_2_21@25
+      - _LV_拉脱维亚_1@1
+      - _KR_韩国_3@8
+      - _KR_韩国_1_4@4
+      - _FR_法国_4@10
+      - _NO_挪威_4@16
+      - _KR_韩国_5@4
+      - _LV_拉脱维亚_5@14
+      - _KE_肯尼亚_5@19
+      - _JP_日本_2_5@23
+      - _JP_日本_3_6@24
+      - _PL_波兰_6@39
+      - _SG_新加坡_1_8@2
+      - _US_美国_9_8@16
+      - _JP_日本_10@7
+      - _KR_韩国_2_13@8
+      - _SG_新加坡_1_13@9
+      - _SG_新加坡_2_13@16
+      - _KR_韩国_2_17@4
+      - _KR_韩国_4_17@13
+      - _KR_韩国_4_18@20
+      - _SG_新加坡_2_18@26
+      - _JP_日本_2_22@11
+      - _JP_日本_2_24@20
+      - _KR_韩国_4_24@35
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_4
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_10
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_97
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_161
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_167
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_452
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_454
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_488
+      - KR-54.180.154.97-009
+      - JP-54.168.131.62-033
+      - EG_speednode_0005
       - _SG_新加坡_7_22@19
       - _SG_新加坡_9_22@21
       - _LV_拉脱维亚_22@24
@@ -1280,18 +1223,6 @@ proxy-groups:
       - _KR_韩国_2_22@27
       - _SG_新加坡_4_23@23
       - _SG_新加坡_5_23@24
-      - _KR_韩国+2 2
-      - _KR_韩国+3
-      - _US_美国+12
-      - South+Korea(ChatGPT)+01+TG:@nodpai
-      - South+Korea(ChatGPT)+02+TG:@nodpai
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_4
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_10
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_97
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_161
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_167
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_452
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_488
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_9
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_10
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_25
@@ -1299,36 +1230,15 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_256
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_873
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_874
-      - CN-120.232.204.149-006
+      - 美国特殊|@ripaojiedian
+      - CN+15+→+tg@nicevpn123
+      - CN+18+→+tg@nicevpn123
+      - CN+3+→+tg@nicevpn123
+      - CN+4+→+tg@nicevpn123
       - CN-120.232.204.149-007
       - CN-120.232.204.149-008
       - CN-120.232.204.149-037
-      - CN-120.232.204.149-041
       - CN-120.232.204.149-044
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_620
-      - LV_speednode_0019
-      - US_speednode_0044
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_592
-      - 美国【付费推荐：https://tt.vg/vip】139
-      - 「SCP」US-BuyVM3-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】79
-      - 美国【付费推荐：https://tt.vg/vip】93
-      - RELAY-173.245.58.237-254
-      - RELAY-104.31.16.28-187
-      - 美国【付费推荐：https://tt.vg/vip】1
-      - 8,16|🇭🇰_HK_香港->🇳🇱_NL_荷兰
-      - 6,7,16|美国【付费推荐：https://tt.vg/vip】67
-      - _FR_法国
-      - "[peasoft/NoMoreWalls]3,13,16|🇺🇸 _US_美国 #29"
-      - "[peasoft/NoMoreWalls]6,7,23|美国86"
-      - "3|🇺🇸 _US_美国 #46"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1345,6 +1255,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _CN_中国->🇹🇼_TW_台湾
+      - Relay+🇹🇼+Taiwan(ChatGPT)+01+TG:@nodpai
       - _CN_中国_1_0@4
       - _CN_中国_3_0@13
       - _CN_中国_4_0@14
@@ -1367,7 +1278,6 @@ proxy-groups:
       - _CN_中国_8_2@26
       - _CN_中国_3_3@20
       - _CN_中国_4_3@21
-      - Relay+🇹🇼+Taiwan(ChatGPT)+01+TG:@nodpai
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_177
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_183
       - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_336
@@ -1392,33 +1302,44 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_548
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_600
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_444
-      - 18|纽约测试|@ripaojiedian
-      - KR-54.180.154.97-009
-      - KR-43.202.64.174-010
-      - KR-43.200.1.53-012
-      - KR-13.125.74.132-032
-      - JP-54.168.131.62-033
-      - KR-3.38.211.225-034
-      - KE-62.12.116.66-046
-      - JP-54.199.83.239-049
-      - SG-13.213.46.196-194
-      - SG-54.251.168.143-196
-      - AL_speednode_0001
-      - DK_speednode_0004
-      - EG_speednode_0005
-      - FR_speednode_0006
-      - GB_speednode_0007
-      - IE_speednode_0011
-      - KR_speednode_0017
-      - KR_speednode_0018
-      - SG_speednode_0031
-      - TR_speednode_0032
-      - US_speednode_0045
-      - ZA_speednode_0047
-      - _KR_韩国+2
+      - _JP_日本
+      - _KR_韩国
       - 韩国特殊|@ripaojiedian
-      - 韩国特殊2|@ripaojiedian
-      - 狮城特殊|@ripaojiedian
+      - 日本特殊|@ripaojiedian
+      - _FR_法国->🇦🇹_AT_奥地利
+      - DK_speednode_0002
+      - GB_speednode_0006
+      - IE_speednode_0010
+      - IS_speednode_0012
+      - KR_speednode_0013
+      - SG_speednode_0026
+      - TR_speednode_0028
+      - TR_speednode_0029
+      - US_speednode_0070
+      - SG-13.229.98.23-008
+      - KR-43.201.247.194-018
+      - KR-43.202.49.224-020
+      - KR-43.202.64.174-023
+      - AL-31.171.153.181-031
+      - LV-185.135.86.173-040
+      - SG-13.213.46.196-153
+      - JP-54.199.83.239-154
+      - SG-54.251.168.143-155
+      - _KR_韩国+2
+      - South+Korea(ChatGPT)+01+TG:@nodpai
+      - South+Korea(ChatGPT)+02+TG:@nodpai
+      - _KR_韩国+2 2
+      - _KR_韩国+3
+      - _US_美国+12
+      - JP+10+→+tg@nicevpn123
+      - JP+13+→+tg@nicevpn123
+      - JP+14+→+tg@nicevpn123
+      - JP+15+→+tg@nicevpn123
+      - JP+5+→+tg@nicevpn123
+      - JP+6+→+tg@nicevpn123
+      - SG+1+→+tg@nicevpn123
+      - SG+2+→+tg@nicevpn123
+      - US+218+→+tg@nicevpn123
       - _KR_韩国_1_0@5
       - _KR_韩国_2_0@6
       - _JP_日本_0@17
@@ -1476,34 +1397,41 @@ proxy-groups:
       - _US_美国_2_21@16
       - _SG_新加坡_6_21@17
       - _KR_韩国_24@17
-      - _KR_韩国_1_1@4
-      - _FR_法国_1@10
-      - _KR_韩国_2_1@15
-      - _NO_挪威_1@16
-      - _JP_日本_1_2@3
-      - _KR_韩国_2@4
-      - _LV_拉脱维亚_2@14
-      - _JP_日本_2_2@23
-      - _JP_日本_3_2@24
-      - _JP_日本_3_3@24
-      - _KR_韩国_2_3@26
-      - _PL_波兰_3@39
-      - _SG_新加坡_1_5@2
-      - _SG_新加坡_3_5@6
-      - _US_美国_9_5@16
-      - _JP_日本_7@7
-      - _KR_韩国_1_10@7
-      - _KR_韩国_2_10@8
-      - _SG_新加坡_1_10@9
-      - _SG_新加坡_2_10@16
-      - _KR_韩国_2_14@4
-      - _KR_韩国_4_14@13
-      - _KR_韩国_1_15@7
-      - _KR_韩国_4_15@20
-      - _SG_新加坡_2_15@26
-      - _JP_日本_2_19@11
-      - _JP_日本_2_21@20
-      - _KR_韩国_2_21@25
+      - _LV_拉脱维亚_1@1
+      - _KR_韩国_3@8
+      - _KR_韩国_1_4@4
+      - _FR_法国_4@10
+      - _NO_挪威_4@16
+      - _KR_韩国_5@4
+      - _LV_拉脱维亚_5@14
+      - _KE_肯尼亚_5@19
+      - _JP_日本_2_5@23
+      - _JP_日本_3_6@24
+      - _PL_波兰_6@39
+      - _SG_新加坡_1_8@2
+      - _US_美国_9_8@16
+      - _JP_日本_10@7
+      - _KR_韩国_2_13@8
+      - _SG_新加坡_1_13@9
+      - _SG_新加坡_2_13@16
+      - _KR_韩国_2_17@4
+      - _KR_韩国_4_17@13
+      - _KR_韩国_4_18@20
+      - _SG_新加坡_2_18@26
+      - _JP_日本_2_22@11
+      - _JP_日本_2_24@20
+      - _KR_韩国_4_24@35
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_4
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_10
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_97
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_161
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_167
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_452
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_454
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_488
+      - KR-54.180.154.97-009
+      - JP-54.168.131.62-033
+      - EG_speednode_0005
       - _SG_新加坡_7_22@19
       - _SG_新加坡_9_22@21
       - _LV_拉脱维亚_22@24
@@ -1511,18 +1439,6 @@ proxy-groups:
       - _KR_韩国_2_22@27
       - _SG_新加坡_4_23@23
       - _SG_新加坡_5_23@24
-      - _KR_韩国+2 2
-      - _KR_韩国+3
-      - _US_美国+12
-      - South+Korea(ChatGPT)+01+TG:@nodpai
-      - South+Korea(ChatGPT)+02+TG:@nodpai
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_4
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_10
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_97
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_161
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_167
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_452
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_488
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_9
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_10
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_25
@@ -1530,36 +1446,15 @@ proxy-groups:
       - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_256
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_873
       - 订阅已稳定20天，YouTube搜（ATOM科技）获取新的长效订阅_874
-      - CN-120.232.204.149-006
+      - 美国特殊|@ripaojiedian
+      - CN+15+→+tg@nicevpn123
+      - CN+18+→+tg@nicevpn123
+      - CN+3+→+tg@nicevpn123
+      - CN+4+→+tg@nicevpn123
       - CN-120.232.204.149-007
       - CN-120.232.204.149-008
       - CN-120.232.204.149-037
-      - CN-120.232.204.149-041
       - CN-120.232.204.149-044
-      - _CN_中国->🇯🇵_JP_日本
-      - _CN_中国->🇯🇵_JP_日本 2
-      - _CN_中国->🇯🇵_JP_日本 3
-      - _CN_中国->🇩🇪_DE_德国
-      - _CN_中国->🇺🇸_US_美国
-      - _CN_中国->🇺🇸_US_美国 2
-      - 美国 加利福尼亚州洛杉矶Sharktech数据中心
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_620
-      - LV_speednode_0019
-      - US_speednode_0044
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_592
-      - 美国【付费推荐：https://tt.vg/vip】139
-      - 「SCP」US-BuyVM3-HTTP
-      - 美国【付费推荐：https://tt.vg/vip】79
-      - 美国【付费推荐：https://tt.vg/vip】93
-      - RELAY-173.245.58.237-254
-      - RELAY-104.31.16.28-187
-      - 美国【付费推荐：https://tt.vg/vip】1
-      - 8,16|🇭🇰_HK_香港->🇳🇱_NL_荷兰
-      - 6,7,16|美国【付费推荐：https://tt.vg/vip】67
-      - _FR_法国
-      - "[peasoft/NoMoreWalls]3,13,16|🇺🇸 _US_美国 #29"
-      - "[peasoft/NoMoreWalls]6,7,23|美国86"
-      - "3|🇺🇸 _US_美国 #46"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
