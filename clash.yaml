@@ -1175,6 +1175,12 @@ proxy-groups:
       - ⚖️ Youtube轮询
       - ⚖️ MYoutube散列
       - ⚖️ Youtube散列
+      - ⚖️ Missav散列
+      - ⚖️ Missav轮询
+      - ⚖️ MYoutube轮询
+      - ⚖️ Youtube轮询
+      - ⚖️ MYoutube散列
+      - ⚖️ Youtube散列
       - ♻️ 自动选择
       - ♻️ Youtube
       - ♻️ M.Youtube
@@ -2342,6 +2348,36 @@ proxy-groups:
       - 16|🇺🇸US美国(youtube阿伟科技)
       - 「节点冠名招商中」UK-CF-HTTP
       - US_speednode_0041
+  - name: ⚖️ Youtube散列
+    type: load-balance
+    url: http://youtube.com
+    interval: 6
+    strategy: consistent-hashing
+  - name: ⚖️ MYoutube散列
+    type: load-balance
+    url: http://M.youtube.com
+    interval: 6
+    strategy: consistent-hashing
+  - name: ⚖️ Youtube轮询
+    type: load-balance
+    url: http:/youtube.com
+    interval: 6
+    strategy: round-robin
+  - name: ⚖️ MYoutube轮询
+    type: load-balance
+    url: http:/M.youtube.com
+    interval: 6
+    strategy: round-robin
+  - name: ⚖️ Missav散列
+    type: load-balance
+    url: http://www.Missav.com
+    interval: 6
+    strategy: consistent-hashing
+  - name: ⚖️ Missav轮询
+    type: load-balance
+    url: http://www.Missav.com
+    interval: 6
+    strategy: round-robin
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
