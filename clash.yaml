@@ -5,191 +5,288 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港 01 | 1x HK, server: 5m4h0k01.mcfront.xyz, port: 31601, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: hk01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: US 734 → tg@nicevpn123, server: 23.224.202.86, port: 57702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0061, server: 142.0.131.56, port: 443, type: vmess, uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/252617081903, headers: {Host: www.68757543.xyz}}, udp: true}
-  - {name: US_speednode_0056, server: 140.99.128.99, port: 58402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: RU_speednode_0035, server: 185.59.218.177, port: 443, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /72d6d25e-1b39-11ee-a5c8-8213fd3be4b9, headers: {Host: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster}}, udp: true}
-  - {name: US_speednode_0055, server: 74.217.182.105, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691318318420, headers: {Host: www.59197212.xyz}}, udp: true}
-  - {name: US_speednode_0081, server: 142.0.134.73, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/252617081903, headers: {Host: www.51896962.xyz}}, udp: true}
-  - {name: 乌克兰01, server: 8u9a01.abzoones.xyz, port: 36871, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: ua01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 英国 01 | 1x UK, server: 3a4u0k01.mcfront.xyz, port: 31811, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: uk01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印度 01 | 1x IN, server: 6q3i1n01.mcfront.xyz, port: 31831, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: in01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0079, server: 142.4.110.7, port: 443, type: vmess, uuid: 08fc4943-4c7a-4a69-9265-fb961eaea917, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/252617081903, headers: {Host: www.53846731.xyz}}, udp: true}
-  - {name: 新加坡01, server: 9s5g01.abzoones.xyz, port: 36201, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: sg01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 乌克兰04, server: 8u9a04.abzoones.xyz, port: 36871, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ua04.abpilot.xyz, udp: true}
-  - {name: 台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw05.lovemc.xyz, udp: true}
+  - {name: JP 40 → tg@nicevpn123, server: pqawssg001.aiopen.cfd, port: 443, type: trojan, password: ca2daa1f-484b-49db-b088-f25b6a398d8c, skip-cert-verify: true, udp: true}
+  - {name: 日本 02  | 1x JP, server: 6w7j3p02.mcfront.xyz, port: 31106, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: jp02.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0062, server: 45.199.138.179, port: 40678, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 025, server: 172.64.108.66, port: 2052, type: vmess, uuid: 6e13ff0b-55a6-3767-8b92-3098fda40927, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bxqmiao, headers: {Host: bxa.76898102.xyz}}, udp: true}
+  - {name: CN-14.18.89.198-129, server: gzdx.jcnode.top, port: 62684, type: vmess, uuid: eeba25ea-dbaf-40ff-b38e-4d7584f5072c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}, udp: true}
+  - {name: 加拿大 01 | 1x CA, server: 3d1c4a01.mcfront.xyz, port: 31701, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: ca01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 12|美国 065, server: 162.159.243.53, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: CN-14.116.214.232-128, server: gzyd.jcnode.top, port: 21036, type: vmess, uuid: eeba25ea-dbaf-40ff-b38e-4d7584f5072c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}, udp: true}
+  - {name: 韩国 01 | 1x KR | New Bing, server: 8l2k1r01.mcfront.xyz, port: 31401, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: kr01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本 05  | 1x JP, server: 6w7j3p05.mcfront.xyz, port: 31106, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp05.lovemc.xyz, udp: true}
+  - {name: 台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw04.lovemc.xyz, udp: true}
+  - {name: 美国01 | 1x US, server: 4a2u0a01.mcfront.xyz, port: 31501, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: us01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 加拿大 02 | 1x CA, server: 3d1c4a04.mcfront.xyz, port: 31701, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ca04.lovemc.xyz, udp: true}
+  - {name: 香港 03 | 1x HK, server: 5m4h0k03.mcfront.xyz, port: 31611, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: hk03.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 巴西 04 | 1x BR, server: 7c6i2r04.mcfront.xyz, port: 31877, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: br04.lovemc.xyz, udp: true}
+  - {name: 新加坡 06 | 1x SG, server: 1c7s2g06.mcfront.xyz, port: 31211, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg06.lovemc.xyz, udp: true}
+  - {name: 美国03, server: 3u1s03.abzoones.xyz, port: 36511, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: us03.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇸🇬_SG_新加坡, server: cfcdn3.sanfencdn.net, port: 2052, type: vmess, uuid: 16582759-3d20-4804-9c9c-a58ad7b260a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg3.sanfencdn2.com}}, udp: true}
+  - {name: 土耳其04, server: 2t1u04.abzoones.xyz, port: 36868, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tr04.abpilot.xyz, udp: true}
+  - {name: 俄罗斯04, server: 8r5u04.abzoones.xyz, port: 36851, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ru04.abpilot.xyz, udp: true}
+  - {name: 澳大利亚01, server: 5a4u01.abzoones.xyz, port: 36821, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: au01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP 47 → tg@nicevpn123, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: ca2daa1f-484b-49db-b088-f25b6a398d8c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 匈牙利04, server: 2h4u04.abzoones.xyz, port: 36864, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hu04.abpilot.xyz, udp: true}
   - {name: US_speednode_0047, server: 45.92.161.166, port: 32929, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国, server: 36.150.27.31, port: 80, type: vmess, uuid: db8d12d5-1968-4125-b775-77d50aa65923, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: US_speednode_0070, server: 142.4.109.6, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/252617081903, headers: {Host: www.29253744.xyz}}, udp: true}
-  - {name: 葡萄牙01, server: 4p2t01.abzoones.xyz, port: 36881, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: pt01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾 01  | 1x TWN | New Bing, server: 2d1t5w01.mcfront.xyz, port: 31301, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: tw01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国, server: 57.128.173.6, port: 443, type: trojan, password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d, sni: www.speedtest.net, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0047 2, server: 45.92.161.166, port: 32929, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚04, server: 5a4u04.abzoones.xyz, port: 36821, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: au04.abpilot.xyz, udp: true}
-  - {name: 荷兰01, server: 2n8l01.abzoones.xyz, port: 36901, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: nl01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 西班牙04, server: 6e2s04.abzoones.xyz, port: 36884, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: es04.abpilot.xyz, udp: true}
-  - {name: 韩国 01 | 1x KR | New Bing, server: 8l2k1r01.mcfront.xyz, port: 31401, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: kr01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 西班牙01, server: 6e2s01.abzoones.xyz, port: 36884, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: es01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 英国01, server: 2u3k01.abzoones.xyz, port: 36811, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: uk01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港06, server: 8h2k06.abzoones.xyz, port: 36611, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk06.abpilot.xyz, udp: true}
-  - {name: FR_speednode_0008, server: 156.249.18.129, port: 443, type: vmess, uuid: 11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691403540577, headers: {Host: www.11649769.xyz}}, udp: true}
-  - {name: US 734 → tg@nicevpn123 2, server: 23.224.202.86, port: 57702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "8,13|🇺🇸_US_美国 #2", server: cdn.chigua.tk, port: 80, type: vmess, uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2TokGE9A/, headers: {Host: us6.cachexy.cf}}, udp: true}
-  - {name: 加拿大 01 | 1x CA, server: 3d1c4a01.mcfront.xyz, port: 31701, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: ca01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾03, server: 8t6w03.abzoones.xyz, port: 36311, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: tw03.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 04 | 1x SG, server: 1c7s2g04.mcfront.xyz, port: 31201, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg04.lovemc.xyz, udp: true}
-  - {name: 德国 04 | 1x AU, server: 9t1d5e04.mcfront.xyz, port: 31841, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: de04.lovemc.xyz, udp: true}
-  - {name: 葡萄牙04, server: 4p2t01.abzoones.xyz, port: 36881, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pt04.abpilot.xyz, udp: true}
-  - {name: 俄罗斯 04 | 1x RU, server: 4t1r5u04.mcfront.xyz, port: 31851, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ru04.lovemc.xyz, udp: true}
-  - {name: 土耳其 04 | 1x TR, server: 4t1u6r04.mcfront.xyz, port: 31868, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tr04.lovemc.xyz, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: 美国03, server: 3u1s03.abzoones.xyz, port: 36511, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: us03.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本 03  | 1x JP, server: 6w7j3p03.mcfront.xyz, port: 31111, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: jp03.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾 03  | 1x TWN, server: 2d1t5w03.mcfront.xyz, port: 31311, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: tw03.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 阿根廷 01 | 1x AR, server: 7c1a1r01.mcfront.xyz, port: 31861, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: ar01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 巴西 04 | 1x BR, server: 7c6i2r04.mcfront.xyz, port: 31877, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: br04.lovemc.xyz, udp: true}
-  - {name: "18,19|🇯🇵 日本A|@ripaojiedian", server: as.xcv2r.com, port: 27214, type: vmess, uuid: d193192c-b0ff-40c6-8dae-3e4073fe0668, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk04.lovemc.xyz, udp: true}
-  - {name: 台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw06.abpilot.xyz, udp: true}
-  - {name: 马来西亚 04 | 1x MY, server: 6e3m6y04.mcfront.xyz, port: 31887, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: my04.lovemc.xyz, udp: true}
-  - {name: 新加坡 02 | 1x SG, server: 1c7s2g02.mcfront.xyz, port: 31206, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: sg02.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 巴西 01 | 1x BR, server: 7c6i2r01.mcfront.xyz, port: 31877, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: br01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 03 | 1x HK, server: 5m4h0k03.mcfront.xyz, port: 31611, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: hk03.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾 02  | 1x TWN, server: 2d1t5w02.mcfront.xyz, port: 31306, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: tw02.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本 04  | 1x JP, server: 6w7j3p04.mcfront.xyz, port: 31116, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp04.lovemc.xyz, udp: true}
-  - {name: 马来西亚04, server: 8m6y01.abzoones.xyz, port: 36887, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: my04.abpilot.xyz, udp: true}
-  - {name: 土耳其04, server: 2t1u04.abzoones.xyz, port: 36868, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tr04.abpilot.xyz, udp: true}
-  - {name: 马来西亚 01 | 1x MY, server: 6e3m6y01.mcfront.xyz, port: 31887, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: my01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港02, server: 8h2k02.abzoones.xyz, port: 36606, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: hk02.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: de04.abpilot.xyz, udp: true}
-  - {name: 美国02, server: 3u1s02.abzoones.xyz, port: 36506, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: us02.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港05, server: 8h2k05.abzoones.xyz, port: 36606, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk05.abpilot.xyz, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
-  - {name: 香港01, server: 8h2k01.abzoones.xyz, port: 36601, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: hk01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 16|🇩🇪DE德国(youtube阿伟科技), server: mtn.bamarambash.monster, port: 443, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /d84ee332-1284-11ee-a5c8-8213fd3be4b9, headers: {Host: d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster}}, udp: true}
-  - {name: 日本05, server: 1j8p05.abzoones.xyz, port: 36106, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp05.abpilot.xyz, udp: true}
-  - {name: 美国06, server: 3u1s06.abzoones.xyz, port: 36511, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us06.abpilot.xyz, udp: true}
-  - {name: 台湾02, server: 8t6w02.abzoones.xyz, port: 36306, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: tw02.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 韩国 02 | 1x KR, server: 8l2k1r04.mcfront.xyz, port: 31401, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kr04.lovemc.xyz, udp: true}
-  - {name: US_speednode_0054, server: 198.2.202.215, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691403540577, headers: {Host: www.13364896.xyz}}, udp: true}
-  - {name: 俄罗斯01, server: 8r5u01.abzoones.xyz, port: 36851, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: ru01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 05 | 1x HK, server: 5m4h0k05.mcfront.xyz, port: 31606, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk05.lovemc.xyz, udp: true}
-  - {name: 俄罗斯 01 | 1x RU, server: 4t1r5u01.mcfront.xyz, port: 31851, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: ru01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本 06  | 1x JP, server: 6w7j3p06.mcfront.xyz, port: 31111, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp06.lovemc.xyz, udp: true}
-  - {name: 美国 04 | 1x US, server: 4a2u0a04.mcfront.xyz, port: 31501, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us04.lovemc.xyz, udp: true}
-  - {name: 台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw04.abpilot.xyz, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 新加坡 05 | 1x SG, server: 1c7s2g05.mcfront.xyz, port: 31206, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg05.lovemc.xyz, udp: true}
-  - {name: 韩国04, server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kr04.abpilot.xyz, udp: true}
-  - {name: 「SCP」US-DP4-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
-  - {name: 美国04, server: 3u1s04.abzoones.xyz, port: 36501, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us04.abpilot.xyz, udp: true}
+  - {name: 日本01, server: 1j8p01.abzoones.xyz, port: 36116, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: jp01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚 04 | 1x AU, server: 4o5a3u04.mcfront.xyz, port: 31821, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: au04.lovemc.xyz, udp: true}
+  - {name: 乌克兰 04 | 1x UA, server: 4w7u4a04.mcfront.xyz, port: 31871, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ua04.lovemc.xyz, udp: true}
+  - {name: 新加坡05, server: 9s5g05.abzoones.xyz, port: 36206, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg05.abpilot.xyz, udp: true}
+  - {name: 台湾03, server: 8t6w03.abzoones.xyz, port: 36311, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: tw03.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本04, server: 1j8p04.abzoones.xyz, port: 36116, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp04.abpilot.xyz, udp: true}
+  - {name: 日本05, server: 1j8p05.abzoones.xyz, port: 36106, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp05.abpilot.xyz, udp: true}
+  - {name: 美国 05 | 1x US, server: 4a2u0a05.mcfront.xyz, port: 31506, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us05.lovemc.xyz, udp: true}
+  - {name: 美国04, server: 3u1s04.abzoones.xyz, port: 36501, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us04.abpilot.xyz, udp: true}
+  - {name: 新加坡04, server: 9s5g04.abzoones.xyz, port: 36201, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg04.abpilot.xyz, udp: true}
+  - {name: 台湾06, server: 8t6w06.abzoones.xyz, port: 36311, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw06.abpilot.xyz, udp: true}
+  - {name: 美国 033, server: 45.199.138.179, port: 40678, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国 01 | 1x DE, server: 9t1d5e01.mcfront.xyz, port: 31841, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: de01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 德国04, server: 3d6e04.abzoones.xyz, port: 36841, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: de04.abpilot.xyz, udp: true}
+  - {name: 香港04, server: 8h2k04.abzoones.xyz, port: 36601, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk04.abpilot.xyz, udp: true}
+  - {name: 俄罗斯01, server: 8r5u01.abzoones.xyz, port: 36851, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: ru01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 韩国04, server: 8k2r04.abzoones.xyz, port: 36401, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kr04.abpilot.xyz, udp: true}
+  - {name: 日本06, server: 1j8p06.abzoones.xyz, port: 36111, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp06.abpilot.xyz, udp: true}
+  - {name: 台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw05.abpilot.xyz, udp: true}
+  - {name: 马来西亚 04 | 1x MY, server: 6e3m6y04.mcfront.xyz, port: 31887, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: my04.lovemc.xyz, udp: true}
+  - {name: 德国 04 | 1x AU, server: 9t1d5e04.mcfront.xyz, port: 31841, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: de04.lovemc.xyz, udp: true}
+  - {name: 日本 06  | 1x JP, server: 6w7j3p06.mcfront.xyz, port: 31111, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp06.lovemc.xyz, udp: true}
+  - {name: US 409 → tg@nicevpn123, server: pqawsjp2.aiopen.cfd, port: 443, type: trojan, password: ca2daa1f-484b-49db-b088-f25b6a398d8c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: US-45.199.138.139-196, server: 45.199.138.139, port: 43342, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 葡萄牙04, server: 4p2t01.abzoones.xyz, port: 36881, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pt04.abpilot.xyz, udp: true}
+  - {name: 日本 03  | 1x JP, server: 6w7j3p03.mcfront.xyz, port: 31111, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: jp03.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡06, server: 9s5g06.abzoones.xyz, port: 36211, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg06.abpilot.xyz, udp: true}
+  - {name: 澳大利亚04, server: 5a4u04.abzoones.xyz, port: 36821, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: au04.abpilot.xyz, udp: true}
+  - {name: 香港05, server: 8h2k05.abzoones.xyz, port: 36606, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk05.abpilot.xyz, udp: true}
+  - {name: 荷兰 01 | 1x NL, server: 6e2n8l01.mcfront.xyz, port: 31901, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: nl01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 阿根廷04, server: 9a8r04.abzoones.xyz, port: 36861, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ar04.abpilot.xyz, udp: true}
+  - {name: 美国 097, server: bxaa.76898102.xyz, port: 2052, type: vmess, uuid: 0bb55212-6c02-39d5-8189-e6c5a9f825be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bxqmiao, headers: {Host: bxa.76898102.xyz}}, udp: true}
+  - {name: 荷兰04, server: 2n8l04.abzoones.xyz, port: 36901, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: nl04.abpilot.xyz, udp: true}
+  - {name: 印度 01 | 1x IN, server: 6q3i1n01.mcfront.xyz, port: 31831, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: in01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0101, server: 74.217.182.119, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691318318420, headers: {Host: www.62976171.xyz}}, udp: true}
+  - {name: 西班牙04, server: 6e2s04.abzoones.xyz, port: 36884, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: es04.abpilot.xyz, udp: true}
+  - {name: 新加坡 01  | 1x SG, server: 1c7s2g01.mcfront.xyz, port: 31201, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: sg01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: "0,3,24|🇹🇼 _CN_中国->🇹🇼_TW_台湾", server: 08.kccic2pa.xyz, port: 50008, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国01 | New Bing, server: 8k2r01.abzoones.xyz, port: 36401, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: kr01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 05 | 1x HK, server: 5m4h0k05.mcfront.xyz, port: 31606, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk05.lovemc.xyz, udp: true}
+  - {name: CN-14.18.89.198-088, server: gzdx.jcnode.top, port: 44885, type: vmess, uuid: eeba25ea-dbaf-40ff-b38e-4d7584f5072c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}, udp: true}
+  - {name: "12,16|美国 004", server: 45.199.138.179, port: 40678, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US 1185 → tg@nicevpn123, server: 140.99.128.99, port: 58402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0065, server: 45.199.138.139, port: 43342, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 葡萄牙 04 | 1x PT, server: 4c3p1t01.mcfront.xyz, port: 31881, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pt04.lovemc.xyz, udp: true}
+  - {name: _US_美国, server: 45.199.138.158, port: 49183, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国05, server: 3u1s05.abzoones.xyz, port: 36506, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us05.abpilot.xyz, udp: true}
+  - {name: 荷兰 190, server: 45.199.138.149, port: 47922, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 16|🇺🇸 美国_08111000, server: 45.92.161.166, port: 32929, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 印度04, server: 7i4n04.abzoones.xyz, port: 36831, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: in04.abpilot.xyz, udp: true}
+  - {name: 西班牙01, server: 6e2s01.abzoones.xyz, port: 36884, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: es01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港03, server: 8h2k03.abzoones.xyz, port: 36611, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: hk03.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国 026, server: 172.64.201.185, port: 2052, type: vmess, uuid: 6e13ff0b-55a6-3767-8b92-3098fda40927, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bxqmiao, headers: {Host: bxa.76898102.xyz}}, udp: true}
+  - {name: 韩国 02 | 1x KR, server: 8l2k1r04.mcfront.xyz, port: 31401, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: kr04.lovemc.xyz, udp: true}
+  - {name: 加拿大01, server: 5c1a01.abzoones.xyz, port: 36701, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: ca01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 西班牙 02 | 1x ES, server: 2d3e6s01.mcfront.xyz, port: 31884, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: es04.lovemc.xyz, udp: true}
+  - {name: 日本 04  | 1x JP, server: 6w7j3p04.mcfront.xyz, port: 31116, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp04.lovemc.xyz, udp: true}
+  - {name: 香港02, server: 8h2k02.abzoones.xyz, port: 36606, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: hk02.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国CloudFlare公司CDN节点 20, server: cf.dalazhi.eu.org, port: 443, type: vmess, uuid: 64480f4c-61c2-4d88-89c3-fc0045229bfc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /kplxvws, headers: {Host: us.dalazhi.eu.org}}, udp: true}
+  - {name: 台湾 03  | 1x TWN, server: 2d1t5w03.mcfront.xyz, port: 31311, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: tw03.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国 013, server: 162.159.251.216, port: 8080, type: vmess, uuid: d3ded505-f89d-4070-dafa-8288ffbabd32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vceu3.vpn66.eu.org}}, udp: true}
+  - {name: 印度 04 | 1x IN, server: 6q3i1n04.mcfront.xyz, port: 31831, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: in04.lovemc.xyz, udp: true}
+  - {name: 美国 030, server: 141.101.120.188, port: 2052, type: vmess, uuid: 6e13ff0b-55a6-3767-8b92-3098fda40927, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bxqmiao, headers: {Host: bxa.76898102.xyz}}, udp: true}
+  - {name: 美国 06 | 1x US, server: 4a2u0a06.mcfront.xyz, port: 31511, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us06.lovemc.xyz, udp: true}
+  - {name: 巴西04, server: 6i2r04.abzoones.xyz, port: 36877, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: br04.abpilot.xyz, udp: true}
+  - {name: 台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw06.lovemc.xyz, udp: true}
+  - {name: US_speednode_0081, server: 142.0.134.73, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/252617081903, headers: {Host: www.51896962.xyz}}, udp: true}
+  - {name: 阿根廷 04 | 1x AR, server: 7c1a1r04.mcfront.xyz, port: 31861, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ar04.lovemc.xyz, udp: true}
+  - {name: CN 226 → tg@nicevpn123, server: 21.kccic2pa.xyz, port: 50021, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US_speednode_0085, server: 45.199.138.158, port: 49183, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国阿里云 4, server: cdn.anycast.eu.org, port: 80, type: vmess, uuid: e3a37909-487c-4748-8ba4-945290267018, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: e3a37909, headers: {Host: dd2.1808.cf}}, udp: true}
-  - {name: 香港03, server: 8h2k03.abzoones.xyz, port: 36611, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: hk03.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 1, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk04.abpilot.xyz, udp: true}
-  - {name: 匈牙利 04 | 1x HU, server: 3c2h4u04.mcfront.xyz, port: 31864, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hu04.lovemc.xyz, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 5, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: 阿根廷04, server: 9a8r04.abzoones.xyz, port: 36861, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ar04.abpilot.xyz, udp: true}
-  - {name: 匈牙利 01 | 1x HU, server: 3c2h4u01.mcfront.xyz, port: 31864, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: hu01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本04, server: 1j8p04.abzoones.xyz, port: 36116, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp04.abpilot.xyz, udp: true}
-  - {name: 美国 03 | 1x US, server: 4a2u0a03.mcfront.xyz, port: 31511, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: us03.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国01, server: 3u1s01.abzoones.xyz, port: 36501, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: us01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印度01, server: 7i4n01.abzoones.xyz, port: 36831, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: in01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印度 04 | 1x IN, server: 6q3i1n04.mcfront.xyz, port: 31831, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: in04.lovemc.xyz, udp: true}
-  - {name: 美国 06 | 1x US, server: 4a2u0a06.mcfront.xyz, port: 31511, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us06.lovemc.xyz, udp: true}
-  - {name: 新加坡04, server: 9s5g04.abzoones.xyz, port: 36201, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg04.abpilot.xyz, udp: true}
-  - {name: 韩国01 | New Bing, server: 8k2r01.abzoones.xyz, port: 36401, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: kr01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 06 | 1x SG, server: 1c7s2g06.mcfront.xyz, port: 31211, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg06.lovemc.xyz, udp: true}
-  - {name: 新加坡 03 | 1x SG, server: 1c7s2g03.mcfront.xyz, port: 31211, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: sg03.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡05, server: 9s5g05.abzoones.xyz, port: 36206, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg05.abpilot.xyz, udp: true}
-  - {name: 土耳其 01 | 1x TR, server: 4t1u6r01.mcfront.xyz, port: 31868, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: tr01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港04, server: 8h2k04.abzoones.xyz, port: 36601, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk04.abpilot.xyz, udp: true}
-  - {name: 台湾05, server: 8t6w05.abzoones.xyz, port: 36306, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw05.abpilot.xyz, udp: true}
-  - {name: 日本02, server: 1j8p02.abzoones.xyz, port: 36106, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: jp02.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本 02  | 1x JP, server: 6w7j3p02.mcfront.xyz, port: 31106, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: jp02.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 印度04, server: 7i4n04.abzoones.xyz, port: 36831, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: in04.abpilot.xyz, udp: true}
-  - {name: 阿根廷 04 | 1x AR, server: 7c1a1r04.mcfront.xyz, port: 31861, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ar04.lovemc.xyz, udp: true}
-  - {name: 加拿大 02 | 1x CA, server: 3d1c4a04.mcfront.xyz, port: 31701, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ca04.lovemc.xyz, udp: true}
-  - {name: 美国 05 | 1x US, server: 4a2u0a05.mcfront.xyz, port: 31506, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us05.lovemc.xyz, udp: true}
-  - {name: 澳大利亚 04 | 1x AU, server: 4o5a3u04.mcfront.xyz, port: 31821, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: au04.lovemc.xyz, udp: true}
-  - {name: 日本 05  | 1x JP, server: 6w7j3p05.mcfront.xyz, port: 31106, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp05.lovemc.xyz, udp: true}
-  - {name: 乌克兰 04 | 1x UA, server: 4w7u4a04.mcfront.xyz, port: 31871, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ua04.lovemc.xyz, udp: true}
-  - {name: 日本01, server: 1j8p01.abzoones.xyz, port: 36116, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: jp01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾 06  | 1x TWN, server: 2d1t5w06.mcfront.xyz, port: 31311, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw06.lovemc.xyz, udp: true}
-  - {name: 美国05, server: 3u1s05.abzoones.xyz, port: 36506, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us05.abpilot.xyz, udp: true}
-  - {name: 西班牙 02 | 1x ES, server: 2d3e6s01.mcfront.xyz, port: 31884, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: es04.lovemc.xyz, udp: true}
-  - {name: 匈牙利04, server: 2h4u04.abzoones.xyz, port: 36864, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hu04.abpilot.xyz, udp: true}
-  - {name: 美国 02 | 1x US, server: 4a2u0a02.mcfront.xyz, port: 31506, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: us02.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 马来西亚01, server: 8m6y01.abzoones.xyz, port: 36887, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: my01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 巴西04, server: 6i2r04.abzoones.xyz, port: 36877, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: br04.abpilot.xyz, udp: true}
-  - {name: 葡萄牙 04 | 1x PT, server: 4c3p1t01.mcfront.xyz, port: 31881, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: pt04.lovemc.xyz, udp: true}
-  - {name: 俄罗斯04, server: 8r5u04.abzoones.xyz, port: 36851, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ru04.abpilot.xyz, udp: true}
-  - {name: 加拿大01, server: 5c1a01.abzoones.xyz, port: 36701, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: ca01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 荷兰04, server: 2n8l04.abzoones.xyz, port: 36901, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: nl04.abpilot.xyz, udp: true}
-  - {name: 澳大利亚01, server: 5a4u01.abzoones.xyz, port: 36821, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: au01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 巴西01, server: 6i2r01.abzoones.xyz, port: 36877, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: br01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 02 | 1x HK, server: 5m4h0k02.mcfront.xyz, port: 31606, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: hk02.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡02, server: 9s5g02.abzoones.xyz, port: 36206, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: sg02.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 阿根廷01, server: 9a8r01.abzoones.xyz, port: 36861, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: ar01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 土耳其01, server: 2t1u01.abzoones.xyz, port: 36868, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: tr01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 葡萄牙 01 | 1x PT, server: 4c3p1t01.mcfront.xyz, port: 31881, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: pt01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 加拿大04, server: 5c1a04.abzoones.xyz, port: 36701, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ca04.abpilot.xyz, udp: true}
-  - {name: 乌克兰 01 | 1x UA, server: 4w7u4a01.mcfront.xyz, port: 31871, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: ua01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 德国01, server: 3d6e01.abzoones.xyz, port: 36841, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: de01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 荷兰 02 | 1x NL, server: 6e2n8l04.mcfront.xyz, port: 31901, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: nl04.lovemc.xyz, udp: true}
-  - {name: 荷兰 01 | 1x NL, server: 6e2n8l01.mcfront.xyz, port: 31901, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: nl01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 德国 01 | 1x DE, server: 9t1d5e01.mcfront.xyz, port: 31841, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: de01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国01 | 1x US, server: 4a2u0a01.mcfront.xyz, port: 31501, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: us01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡03, server: 9s5g03.abzoones.xyz, port: 36211, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: sg03.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 台湾01 | New Bing, server: 8t6w01.abzoones.xyz, port: 36301, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: tw01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 01  | 1x SG, server: 1c7s2g01.mcfront.xyz, port: 31201, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: sg01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 04 | 1x HK, server: 5m4h0k04.mcfront.xyz, port: 31601, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk04.lovemc.xyz, udp: true}
-  - {name: 澳大利亚 01 | 1x AU, server: 4o5a3u01.mcfront.xyz, port: 31821, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: au01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 匈牙利01, server: 2h4u01.abzoones.xyz, port: 36864, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: hu01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本03, server: 1j8p03.abzoones.xyz, port: 36111, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: jp03.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港A|@ripaojiedian, server: 9ef2.foamddns.online, port: 42943, type: ss, cipher: aes-128-gcm, password: 9b41e68e-1363-4031-b424-727036860857, udp: true}
-  - {name: 香港 06 | 1x HK, server: 5m4h0k06.mcfront.xyz, port: 31611, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk06.lovemc.xyz, udp: true}
-  - {name: 台湾 04  | 1x TWN, server: 2d1t5w04.mcfront.xyz, port: 31301, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw04.lovemc.xyz, udp: true}
-  - {name: 日本 01 | 1x JP, server: 6w7j3p01.mcfront.xyz, port: 31116, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: jp01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 西班牙 01 | 1x ES, server: 2d3e6s01.mcfront.xyz, port: 31884, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: es01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: "[peasoft/NoMoreWalls]23|🇺🇸_US_美国_8_23", server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxlux.fovi.tk}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 6, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
-  - {name: 日本06, server: 1j8p06.abzoones.xyz, port: 36111, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp06.abpilot.xyz, udp: true}
-  - {name: 越南 01 | 1x VN, server: 2w8u2a01.mcfront.xyz, port: 31874, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: vn01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 越南04, server: 3v4n04.abzoones.xyz, port: 36874, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vn04.abpilot.xyz, udp: true}
-  - {name: 23|🇨🇳_CN_中国_48, server: cdn.node.user-sub.pddns-usersdk.com, port: 13003, type: vmess, uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}, udp: true}
-  - {name: 越南 04 | 1x VN, server: 2w8u2a04.mcfront.xyz, port: 31874, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vn04.lovemc.xyz, udp: true}
-  - {name: 越南01, server: 3v4n01.abzoones.xyz, port: 36874, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: vn01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 7, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 8, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 新加坡06, server: 9s5g06.abzoones.xyz, port: 36211, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg06.abpilot.xyz, udp: true}
-  - {name: 日本A|@ripaojiedian, server: as.xcv2r.com, port: 27214, type: vmess, uuid: d193192c-b0ff-40c6-8dae-3e4073fe0668, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 120 → tg@nicevpn123, server: 120.241.47.40, port: 58002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0060, server: 198.2.197.77, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691489542385, headers: {Host: www.71825152.xyz}}, udp: true}
-  - {name: US_speednode_0066, server: 192.74.229.34, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691489542385, headers: {Host: www.19458162.xyz}}, udp: true}
-  - {name: US_speednode_0051, server: 74.217.182.119, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691318318420, headers: {Host: www.62976171.xyz}}, udp: true}
-  - {name: 泰国04, server: 1t8h04.abzoones.xyz, port: 36904, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: th04.abpilot.xyz, udp: true}
+  - {name: 日本02, server: 1j8p02.abzoones.xyz, port: 36106, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: jp02.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 乌克兰01, server: 8u9a01.abzoones.xyz, port: 36871, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: ua01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 11, server: us2.cmbm.link, port: 443, type: vmess, uuid: 5436474d-13a9-47ef-898a-7101c2921be9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /re, headers: {Host: us2.cmbm.link}}, udp: true}
+  - {name: 美国01, server: 3u1s01.abzoones.xyz, port: 36501, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: us01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾 02  | 1x TWN, server: 2d1t5w02.mcfront.xyz, port: 31306, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: tw02.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 土耳其01, server: 2t1u01.abzoones.xyz, port: 36868, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: tr01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: NU_speednode_0052, server: vip.impervasec.info, port: 2095, type: vmess, uuid: 4bcd63da-c887-4766-d61f-5d4097796abc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vip.impervasec.info}}, udp: true}
+  - {name: 香港 06 | 1x HK, server: 5m4h0k06.mcfront.xyz, port: 31611, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk06.lovemc.xyz, udp: true}
+  - {name: 英国04, server: 2u3k04.abzoones.xyz, port: 36811, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk04.abpilot.xyz, udp: true}
+  - {name: 英国 01 | 1x UK, server: 3a4u0k01.mcfront.xyz, port: 31811, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: uk01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 阿根廷01, server: 9a8r01.abzoones.xyz, port: 36861, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: ar01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: NU_speednode_0049, server: microsoftdebug.com, port: 80, type: vmess, uuid: 58a05ba9-3e27-4f15-b534-eac1dd6f4f2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /windows7.ios, headers: {Host: v1.us1.microsoftdebug.com}}, udp: true}
+  - {name: "12,13,16|美国 031", server: 45.199.138.139, port: 43342, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 加拿大04, server: 5c1a04.abzoones.xyz, port: 36701, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ca04.abpilot.xyz, udp: true}
+  - {name: 马来西亚 01 | 1x MY, server: 6e3m6y01.mcfront.xyz, port: 31887, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: my01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国 04 | 1x US, server: 4a2u0a04.mcfront.xyz, port: 31501, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us04.lovemc.xyz, udp: true}
+  - {name: US 794 → tg@nicevpn123, server: 45.199.138.134, port: 44393, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 英国 04 | 1x UK, server: 3a4u0k04.mcfront.xyz, port: 31811, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: uk04.lovemc.xyz, udp: true}
+  - {name: US_speednode_0047 2, server: 45.92.161.166, port: 32929, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯 04 | 1x RU, server: 4t1r5u04.mcfront.xyz, port: 31851, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ru04.lovemc.xyz, udp: true}
+  - {name: 16|CY_youtube@资源分享师_50, server: 203.23.106.157, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.bobbykotick.rip}}, udp: true}
+  - {name: 美国06, server: 3u1s06.abzoones.xyz, port: 36511, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us06.abpilot.xyz, udp: true}
+  - {name: US_speednode_0061, server: 45.199.138.158, port: 49183, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 马来西亚04, server: 8m6y01.abzoones.xyz, port: 36887, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: my04.abpilot.xyz, udp: true}
+  - {name: HK 66 → tg@nicevpn123, server: 156.245.8.240, port: 45326, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0077, server: 45.86.8.9, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691489542385}, udp: true}
+  - {name: "12,16|美国 007", server: 45.199.138.187, port: 42111, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 04 | 1x SG, server: 1c7s2g04.mcfront.xyz, port: 31201, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg04.lovemc.xyz, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国, server: 51vfly1.win, port: 443, type: vmess, uuid: 9681f99e-d251-477a-d777-1d01ee550481, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /myblog, headers: {Host: 51vfly1.win}}, udp: true}
+  - {name: 新加坡02, server: 9s5g02.abzoones.xyz, port: 36206, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: sg02.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国 02 | 1x US, server: 4a2u0a02.mcfront.xyz, port: 31506, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: us02.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 荷兰 02 | 1x NL, server: 6e2n8l04.mcfront.xyz, port: 31901, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: nl04.lovemc.xyz, udp: true}
+  - {name: US_speednode_0060, server: 45.199.138.134, port: 44393, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 巴西 01 | 1x BR, server: 7c6i2r01.mcfront.xyz, port: 31877, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: br01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国弗吉尼亚州阿什本 CloudFlare节点, server: 173.245.49.236, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: 美国 009, server: 162.159.240.6, port: 2052, type: vmess, uuid: 6e13ff0b-55a6-3767-8b92-3098fda40927, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /bxqmiao, headers: {Host: bxa.76898102.xyz}}, udp: true}
+  - {name: US 1727 → tg@nicevpn123, server: 45.199.138.134, port: 44393, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 51 → tg@nicevpn123, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 葡萄牙01, server: 4p2t01.abzoones.xyz, port: 36881, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: pt01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 乌克兰 01 | 1x UA, server: 4w7u4a01.mcfront.xyz, port: 31871, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: ua01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯 01 | 1x RU, server: 4t1r5u01.mcfront.xyz, port: 31851, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: ru01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0056, server: 140.99.128.99, port: 58402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_9, server: 6q59.cdn.node.a.tddns-ounk.com, port: 40261, type: vmess, uuid: 72bea5d3-7591-3ca4-9d61-3c89bd6e45a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8, headers: {Host: 6q59.cdn.node.a.tddns-ounk.com}}, udp: true}
+  - {name: US_speednode_0099, server: pzl.p237875155.buzz, port: 443, type: vmess, uuid: 9b78b7fe-47a3-41eb-d695-22692ac835a0, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pzl237875155, headers: {Host: pzl.p237875155.buzz}}, udp: true}
+  - {name: 葡萄牙 01 | 1x PT, server: 4c3p1t01.mcfront.xyz, port: 31881, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: pt01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 05 | 1x SG, server: 1c7s2g05.mcfront.xyz, port: 31206, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg05.lovemc.xyz, udp: true}
+  - {name: 美国 004, server: 45.199.138.179, port: 40678, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 12|美国 008, server: 172.67.196.139, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: 8|🇨🇾_CY_塞浦路斯->🇬🇧_GB_英国, server: wi.saintink.eu.org, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vuk2.0bad.com/chat, headers: {Host: sub2.saintink.eu.org}}, udp: true}
+  - {name: US_speednode_0085 2, server: 45.199.138.158, port: 49183, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "1,2,4,12,16|_US_美国 9", server: 45.199.138.158, port: 49183, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "12,16|美国 004 2", server: 45.199.138.179, port: 40678, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "12,16|美国 012", server: 45.199.138.134, port: 44393, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 16|🇺🇸 美国 234, server: cfcdn2.sanfencdn.net, port: 2052, type: vmess, uuid: bbb8d21c-44f2-4d21-b588-b50de8b7e830, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us5.sanfencdn2.com}}, udp: true}
+  - {name: 印度01, server: 7i4n01.abzoones.xyz, port: 36831, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: in01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本 01 | 1x JP, server: 6w7j3p01.mcfront.xyz, port: 31116, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: jp01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾 05  | 1x TWN, server: 2d1t5w05.mcfront.xyz, port: 31306, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw05.lovemc.xyz, udp: true}
+  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_482, server: 154.85.1.2, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1683543024453, headers: {Host: www.42077230.xyz}}, udp: true}
+  - {name: 德国01, server: 3d6e01.abzoones.xyz, port: 36841, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: de01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: "12,16|美国 012 2", server: 45.199.138.134, port: 44393, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港01, server: 8h2k01.abzoones.xyz, port: 36601, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: hk01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: "13,16|github.com/freefq - 美国CloudFla...", server: 172.67.150.82, port: 443, type: vmess, uuid: e35026da-e985-49ca-b43b-276062a535a6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pNV7izRFLO8rGCkIH66kMFPa, headers: {Host: notdirect.howhealthyistoomajreally.homes}}, udp: true}
+  - {name: US_speednode_0048, server: 45.86.8.21, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691318318420}, udp: true}
+  - {name: 香港 01 | 1x HK, server: 5m4h0k01.mcfront.xyz, port: 31601, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: hk01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇨🇦_CA_加拿大, server: 104.18.29.109, port: 443, type: vmess, uuid: be74ca03-6a7c-4c88-edc2-c6434ead0cfa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /16575, headers: {Host: cdnca1.digisport.shop}}, udp: true}
+  - {name: US_speednode_0055, server: 74.217.182.105, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691318318420, headers: {Host: www.59197212.xyz}}, udp: true}
+  - {name: 美国 161, server: 45.199.138.158, port: 49183, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 匈牙利 01 | 1x HU, server: 3c2h4u01.mcfront.xyz, port: 31864, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: hu01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: NU_speednode_0051, server: sbhhy.quickerlink.xyz, port: 443, type: vmess, uuid: 5c270fb3-f647-473d-abf1-3d13e92afced, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /run, headers: {Host: sbhhy.quickerlink.xyz}}, udp: true}
+  - {name: 匈牙利01, server: 2h4u01.abzoones.xyz, port: 36864, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: hu01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0085 3, server: 45.199.138.158, port: 49183, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP 30 → tg@nicevpn123, server: gsawsjp2.aiopen.cfd, port: 443, type: trojan, password: ca2daa1f-484b-49db-b088-f25b6a398d8c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 新加坡03, server: 9s5g03.abzoones.xyz, port: 36211, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: sg03.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 04 | 1x HK, server: 5m4h0k04.mcfront.xyz, port: 31601, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk04.lovemc.xyz, udp: true}
+  - {name: 16|🇺🇸_US_美国->🇸🇬_SG_新加坡, server: do-sg.lzz.app, port: 443, type: vmess, uuid: 5436474d-13a9-47ef-898a-7101c2921be9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /re, headers: {Host: do-sg.lzz.app}}, udp: true}
+  - {name: RELAY-172.64.229.116-213, server: 172.64.229.116, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /XQ2WCa29jfDMGBcbnQ, headers: {Host: netherlands.yj2022.gq}}, udp: true}
+  - {name: 台湾01 | New Bing, server: 8t6w01.abzoones.xyz, port: 36301, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: tw01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 12|美国 016, server: 172.64.87.129, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
+  - {name: 荷兰01, server: 2n8l01.abzoones.xyz, port: 36901, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: nl01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: "12,16|美国 011", server: 64.32.24.211, port: 48659, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP_speednode_0039, server: jp4.fighting.win, port: 10001, type: trojan, password: 8861ad96-45d4-42f7-9703-7de363a39a0f, skip-cert-verify: true, udp: true}
+  - {name: "0,1,2,3,4,12,15,16,24|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1", server: 45.199.138.149, port: 47922, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 037, server: 45.199.138.187, port: 42111, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP_speednode_0037, server: jp1.fighting.win, port: 10001, type: trojan, password: 8861ad96-45d4-42f7-9703-7de363a39a0f, skip-cert-verify: true, udp: true}
+  - {name: "8,13|🇺🇸_US_美国 #2", server: cdn.chigua.tk, port: 80, type: vmess, uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2TokGE9A/, headers: {Host: us6.cachexy.cf}}, udp: true}
+  - {name: US_speednode_0085 4, server: 45.199.138.158, port: 49183, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 311 → tg@nicevpn123, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 16|🇺🇸 美国_08111000 2, server: 45.92.161.166, port: 32929, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇫🇷_FR_法国 5, server: cdn.narutos.top, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /SMNxcwVdTTzcou9yQftDyZcCGQui9a, headers: {Host: paris.yj2022.gq}}, udp: true}
+  - {name: 美国 03 | 1x US, server: 4a2u0a03.mcfront.xyz, port: 31511, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: us03.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 马来西亚01, server: 8m6y01.abzoones.xyz, port: 36887, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: my01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0047 3, server: 45.92.161.166, port: 32929, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US 1160 → tg@nicevpn123, server: pqawssg1.aiopen.cfd, port: 443, type: trojan, password: ca2daa1f-484b-49db-b088-f25b6a398d8c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 202, server: de4.opencc.eu.org, port: 443, type: vmess, uuid: 5436474d-13a9-47ef-898a-7101c2921be9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hax0eu, headers: {Host: de4.opencc.eu.org}}, udp: true}
+  - {name: US_speednode_0070, server: wxll.e5outllok.me, port: 80, type: vmess, uuid: 1da9d412-beb1-48cf-ac3e-ebc16403447b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wxll.e5outllok.me}}, udp: true}
+  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_226, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Dusseldorf.kotick.site}}, udp: true}
+  - {name: 美国 029, server: 172.64.203.172, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
+  - {name: 澳大利亚 01 | 1x AU, server: 4o5a3u01.mcfront.xyz, port: 31821, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: au01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国 038, server: 45.199.138.149, port: 47922, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾04, server: 8t6w04.abzoones.xyz, port: 36301, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tw04.abpilot.xyz, udp: true}
+  - {name: 西班牙 01 | 1x ES, server: 2d3e6s01.mcfront.xyz, port: 31884, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: es01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 巴西01, server: 6i2r01.abzoones.xyz, port: 36877, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: br01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: "12,16|美国 011 2", server: 64.32.24.211, port: 48659, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0090, server: sblarm.kaolll.tech, port: 80, type: vmess, uuid: de0fbe01-ffbd-40d0-a28c-0e5aed6b554e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sblarm.kaolll.tech}}, udp: true}
+  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_201, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.kotick.site}}, udp: true}
+  - {name: 英国01, server: 2u3k01.abzoones.xyz, port: 36811, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: uk01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0047 4, server: 45.92.161.166, port: 32929, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0089, server: sblarm.kaolll.tech, port: 80, type: vmess, uuid: f78be3ae-c715-4856-a797-720a6703ba65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sblarm.kaolll.tech}}, udp: true}
+  - {name: JP_speednode_0038, server: jp2.fighting.win, port: 10001, type: trojan, password: 8861ad96-45d4-42f7-9703-7de363a39a0f, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国 2, server: cf1.992688.xyz, port: 8080, type: vmess, uuid: d3ded505-f89d-4070-dafa-8288ffbabd32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vceu3.vpn66.eu.org}}, udp: true}
+  - {name: US_speednode_0069, server: wxll.e5outllok.me, port: 80, type: vmess, uuid: de0fbe01-ffbd-40d0-a28c-0e5aed6b554e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wxll.e5outllok.me}}, udp: true}
+  - {name: CN 254 → tg@nicevpn123, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US_speednode_0067, server: 171.22.116.55, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691489542385, headers: {Host: www.83993175.xyz}}, udp: true}
-  - {name: US_speednode_0073, server: 171.22.134.21, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691403540577, headers: {Host: www.28848492.xyz}}, udp: true}
-  - {name: US 740 → tg@nicevpn123, server: 74.217.182.119, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691057598680}, udp: true}
-  - {name: US_speednode_0045, server: 199.188.111.55, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691403540577, headers: {Host: www.62317155.xyz}}, udp: true}
-  - {name: 泰国01, server: 1t8h01.abzoones.xyz, port: 36904, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: th01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK 12 → tg@nicevpn123, server: 156.245.8.85, port: 443, type: vmess, uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1690941468017}, udp: true}
-  - {name: 泰国 01 | 1x TH, server: 2c2t8h01.mcfront.xyz, port: 31904, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: th01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_462, server: 114.117.234.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 泰国 04 | 1x TH, server: 2c2t8h04.mcfront.xyz, port: 31904, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: th04.lovemc.xyz, udp: true}
-  - {name: 菲律宾04, server: 7p3h04.abzoones.xyz, port: 36801, type: vmess, uuid: da26d348-7de2-4cfc-9f8d-bcd768eb971b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ph04.abpilot.xyz, udp: true}
-  - {name: 菲律宾01 | New Bing, server: 7p3h01.abzoones.xyz, port: 36801, type: trojan, password: da26d348-7de2-4cfc-9f8d-bcd768eb971b, sni: ph01.abpilot.xyz, skip-cert-verify: true, udp: true}
-  - {name: 菲律宾 04 | 1x PH, server: 1a4p0h04.mcfront.xyz, port: 31801, type: vmess, uuid: 84845122-2f15-4d88-a0b5-16bc4a28a6be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ph04.lovemc.xyz, udp: true}
-  - {name: 电报频道:@ripaojiedian, server: 163.197.220.89, port: 43609, type: vmess, uuid: 5c828c13-45c9-4a8a-f8b8-4991f1637cf0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /5c828c13}, udp: true}
-  - {name: 日本S|@ripaojiedian, server: 183.232.170.32, port: 20005, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, udp: true}
-  - {name: 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46, server: www.codepen.io, port: 443, type: vmess, uuid: 2cd39102-0799-4c61-abb6-2e7a258f0397, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: us-v.sshmax.xyz}}, udp: true}
-  - {name: 菲律宾 01 | 1x PH | New Bing, server: 1a4p0h01.mcfront.xyz, port: 31801, type: trojan, password: 84845122-2f15-4d88-a0b5-16bc4a28a6be, sni: ph01.lovemc.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_speednode_0048, server: 45.199.138.185, port: 44144, type: vmess, uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 「SCP」US-DP1-HTTP, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
+  - {name: 新加坡 02 | 1x SG, server: 1c7s2g02.mcfront.xyz, port: 31206, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: sg02.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN 258 → tg@nicevpn123, server: 21.kccic2pa.xyz, port: 50021, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN-14.18.89.198-127, server: gzdx.jcnode.top, port: 28204, type: vmess, uuid: eeba25ea-dbaf-40ff-b38e-4d7584f5072c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gzdx.jcnode.top}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国_0@22, server: 51vfly1.win, port: 443, type: vmess, uuid: 9681f99e-d251-477a-d777-1d01ee550481, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /myblog, headers: {Host: 51vfly1.win}}, udp: true}
+  - {name: US 1474 → tg@nicevpn123, server: 140.99.128.99, port: 58402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾02, server: 8t6w02.abzoones.xyz, port: 36306, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: tw02.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0095, server: 142.0.132.35, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691489542385, headers: {Host: www.45022499.xyz}}, udp: true}
+  - {name: 台湾 01  | 1x TWN | New Bing, server: 2d1t5w01.mcfront.xyz, port: 31301, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: tw01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 越南04, server: 3v4n04.abzoones.xyz, port: 36874, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vn04.abpilot.xyz, udp: true}
+  - {name: 12|美国 021, server: 172.64.193.37, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
+  - {name: US 182 → tg@nicevpn123, server: 140.99.128.99, port: 58402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本03, server: 1j8p03.abzoones.xyz, port: 36111, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: jp03.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港06, server: 8h2k06.abzoones.xyz, port: 36611, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hk06.abpilot.xyz, udp: true}
+  - {name: 新加坡01, server: 9s5g01.abzoones.xyz, port: 36201, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: sg01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇦🇹_AT_奥地利, server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG 27 → tg@nicevpn123, server: pqawssg2.aiopen.cfd, port: 443, type: trojan, password: ca2daa1f-484b-49db-b088-f25b6a398d8c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0071, server: wxll.e5outllok.me, port: 80, type: vmess, uuid: f78be3ae-c715-4856-a797-720a6703ba65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wxll.e5outllok.me}}, udp: true}
+  - {name: CN-14.116.214.232-125, server: gzyd.jcnode.top, port: 38381, type: vmess, uuid: eeba25ea-dbaf-40ff-b38e-4d7584f5072c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gzyd.jcnode.top}}, udp: true}
+  - {name: CN 314 → tg@nicevpn123, server: 21.kccic2pa.xyz, port: 50021, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 16|🇺🇸 美国 237, server: eu5.noml.app, port: 8080, type: vmess, uuid: 5436474d-13a9-47ef-898a-7101c2921be9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hax03eu, headers: {Host: eu5.noml.app}}, udp: true}
+  - {name: _CN_中国->🇦🇹_AT_奥地利 2, server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: RU_speednode_0035, server: 185.59.218.177, port: 443, type: vmess, uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /72d6d25e-1b39-11ee-a5c8-8213fd3be4b9, headers: {Host: 72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster}}, udp: true}
+  - {name: _US_美国_4_4@18, server: cold-dawn-9246.fly.dev, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, headers: {Host: cold-dawn-9246.fly.dev}}, udp: true}
+  - {name: CN 230 → tg@nicevpn123, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 144 → tg@nicevpn123, server: 21.kccic2pa.xyz, port: 50021, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0105, server: vless.wyhkaa0.cf, port: 80, type: vmess, uuid: 87d0aa5d-09df-4785-d95d-6a0deed473be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@hkaa0, headers: {Host: vless.wyhkaa0.cf}}, udp: true}
+  - {name: 美国 043, server: 64.32.21.247, port: 44313, type: vmess, uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 03 | 1x SG, server: 1c7s2g03.mcfront.xyz, port: 31211, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: sg03.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN 148 → tg@nicevpn123, server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿根廷 01 | 1x AR, server: 7c1a1r01.mcfront.xyz, port: 31861, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: ar01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 越南 04 | 1x VN, server: 2w8u2a04.mcfront.xyz, port: 31874, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: vn04.lovemc.xyz, udp: true}
+  - {name: US 1094 → tg@nicevpn123, server: 45.199.138.149, port: 47922, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "12,13,16|美国 024", server: 104.25.232.114, port: 2082, type: vmess, uuid: 0ddf0cc4-1487-4ff1-a6a7-d9ab93040606, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /blue, headers: {Host: tui.vtcss.top}}, udp: true}
+  - {name: NU_speednode_0050, server: de.opencc.eu.org, port: 8080, type: vmess, uuid: 5436474d-13a9-47ef-898a-7101c2921be9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /h2102, headers: {Host: de.opencc.eu.org}}, udp: true}
+  - {name: 匈牙利 04 | 1x HU, server: 3c2h4u04.mcfront.xyz, port: 31864, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hu04.lovemc.xyz, udp: true}
+  - {name: 美国 141, server: 74.217.182.119, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1691057598680}, udp: true}
+  - {name: RELAY-172.64.85.116-206, server: cfcdn5.sanfencdn.net, port: 80, type: vmess, uuid: bbb8d21c-44f2-4d21-b588-b50de8b7e830, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: jp4.sanfencdn2.com}}, udp: true}
+  - {name: CN-120.241.47.133-017, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[ClashNode]🇨🇦 _CA_加拿大", server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}, udp: true}
+  - {name: 土耳其 01 | 1x TR, server: 4t1u6r01.mcfront.xyz, port: 31868, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: tr01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN 76 → tg@nicevpn123, server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 023, server: 172.64.201.138, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
+  - {name: CN 112 → tg@nicevpn123, server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 032, server: 172.64.132.22, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.ilovescp.com}}, udp: true}
+  - {name: "2,12,15,24|_US_美国 #4", server: 162.159.130.198, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp4.scproxy.top}}, udp: true}
+  - {name: _US_美国 5, server: mci.ircf.space, port: 443, type: vmess, uuid: 0a02bab7-393c-4bb7-b4fd-8404f3bc72c3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: ua1.v2rayserv.com/vmess, headers: {Host: 4.saintink.eu.org}}, udp: true}
+  - {name: CN 257 → tg@nicevpn123, server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 2, server: ahsorathiyaa.fly.dev, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: ahsorathiyaa.fly.dev}}, udp: true}
+  - {name: 23|🇨🇳_CN_中国_48, server: cdn.node.user-sub.pddns-usersdk.com, port: 13003, type: vmess, uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ef483582-6269-468c-93af-c511eccb8a69, headers: {Host: cdn.node.user-sub.pddns-usersdk.com}}, udp: true}
+  - {name: 越南 01 | 1x VN, server: 2w8u2a01.mcfront.xyz, port: 31874, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: vn01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: TW-114.37.208.246-240, server: pqhinet1.aiopen.cfd, port: 443, type: trojan, password: ca2daa1f-484b-49db-b088-f25b6a398d8c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: "1,2,4,16|_US_美国 2", server: 140.99.128.99, port: 58402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0075, server: 15.204.209.50, port: 80, type: trojan, password: 7ea37e4f-325b-416f-901a-67012367307f, sni: telewebion.com, skip-cert-verify: true, udp: true}
+  - {name: CN 54 → tg@nicevpn123, server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港 02 | 1x HK, server: 5m4h0k02.mcfront.xyz, port: 31606, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: hk02.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 越南01, server: 3v4n01.abzoones.xyz, port: 36874, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: vn01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN 85 → tg@nicevpn123, server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国02, server: 3u1s02.abzoones.xyz, port: 36506, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: us02.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN 269 → tg@nicevpn123, server: 21.kccic2pa.xyz, port: 50021, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "1,2,4|_CN_中国->🇺🇸_US_美国 2", server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_speednode_0084, server: 45.12.144.69, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1690341237802, headers: {Host: www.11232252.xyz}}, udp: true}
+  - {name: 菲律宾 04 | 1x PH, server: 1a4p0h04.mcfront.xyz, port: 31801, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ph04.lovemc.xyz, udp: true}
+  - {name: 菲律宾01 | New Bing, server: 7p3h01.abzoones.xyz, port: 36801, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: ph01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN 313 → tg@nicevpn123, server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 泰国04, server: 1t8h04.abzoones.xyz, port: 36904, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: th04.abpilot.xyz, udp: true}
+  - {name: 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_230, server: www.gov.tw, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
+  - {name: 泰国 01 | 1x TH, server: 2c2t8h01.mcfront.xyz, port: 31904, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: th01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 泰国01, server: 1t8h01.abzoones.xyz, port: 36904, type: trojan, password: fcab3607-6463-45a2-a68d-cc4b602a0ee9, sni: th01.abpilot.xyz, skip-cert-verify: true, udp: true}
+  - {name: "18,19|移动专线|@ripaojiedian", server: 183.232.249.40, port: 52271, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "0,1,2,3,4,15,24|🇦🇹 _CN_中国->🇦🇹_AT_奥地利", server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: 5e419001-aaf0-4975-a931-fc7fc9459718, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 泰国 04 | 1x TH, server: 2c2t8h04.mcfront.xyz, port: 31904, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: th04.lovemc.xyz, udp: true}
+  - {name: _FR_法国_1@29, server: 57.128.173.6, port: 443, type: trojan, password: 29f2cf65-f0ee-4a08-83f3-df1beb74d55d, sni: www.speedtest.net, skip-cert-verify: true, udp: true}
+  - {name: 土耳其 04 | 1x TR, server: 4t1u6r04.mcfront.xyz, port: 31868, type: vmess, uuid: fb35808f-059f-4ade-ab08-4c182e4960f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: tr04.lovemc.xyz, udp: true}
+  - {name: 菲律宾 01 | 1x PH | New Bing, server: 1a4p0h01.mcfront.xyz, port: 31801, type: trojan, password: fb35808f-059f-4ade-ab08-4c182e4960f3, sni: ph01.lovemc.xyz, skip-cert-verify: true, udp: true}
+  - {name: 菲律宾04, server: 7p3h04.abzoones.xyz, port: 36801, type: vmess, uuid: fcab3607-6463-45a2-a68d-cc4b602a0ee9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ph04.abpilot.xyz, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -198,951 +295,1436 @@ proxy-groups:
       - ♻️ Youtube
       - ♻️ M.Youtube
       - ♻️ Missav
-      - 香港 01 | 1x HK
-      - US 734 → tg@nicevpn123
-      - US_speednode_0061
-      - US_speednode_0056
-      - RU_speednode_0035
-      - US_speednode_0055
-      - US_speednode_0081
-      - 乌克兰01
-      - 英国 01 | 1x UK
-      - 印度 01 | 1x IN
-      - US_speednode_0079
-      - 新加坡01
-      - 乌克兰04
-      - 台湾 05  | 1x TWN
-      - US_speednode_0047
-      - _CN_中国
-      - US_speednode_0070
-      - 葡萄牙01
-      - 台湾 01  | 1x TWN | New Bing
-      - _FR_法国
-      - US_speednode_0047 2
-      - 澳大利亚04
-      - 荷兰01
-      - 西班牙04
-      - 韩国 01 | 1x KR | New Bing
-      - 西班牙01
-      - 英国01
-      - 香港06
-      - FR_speednode_0008
-      - US 734 → tg@nicevpn123 2
-      - "8,13|🇺🇸_US_美国 #2"
-      - 加拿大 01 | 1x CA
-      - 台湾03
-      - 新加坡 04 | 1x SG
-      - 德国 04 | 1x AU
-      - 葡萄牙04
-      - 俄罗斯 04 | 1x RU
-      - 土耳其 04 | 1x TR
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国03
-      - 日本 03  | 1x JP
-      - 台湾 03  | 1x TWN
-      - 阿根廷 01 | 1x AR
-      - 巴西 04 | 1x BR
-      - 18,19|🇯🇵 日本A|@ripaojiedian
-      - 英国 04 | 1x UK
-      - 台湾06
-      - 马来西亚 04 | 1x MY
-      - 新加坡 02 | 1x SG
-      - 巴西 01 | 1x BR
-      - 香港 03 | 1x HK
-      - 台湾 02  | 1x TWN
-      - 日本 04  | 1x JP
-      - 马来西亚04
-      - 土耳其04
-      - 马来西亚 01 | 1x MY
-      - 香港02
-      - 德国04
-      - 美国02
-      - 香港05
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 香港01
-      - 16|🇩🇪DE德国(youtube阿伟科技)
-      - 日本05
-      - 美国06
-      - 台湾02
-      - 韩国 02 | 1x KR
-      - US_speednode_0054
-      - 俄罗斯01
-      - 香港 05 | 1x HK
-      - 俄罗斯 01 | 1x RU
-      - 日本 06  | 1x JP
-      - 美国 04 | 1x US
-      - 台湾04
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 新加坡 05 | 1x SG
-      - 韩国04
-      - 「SCP」US-DP4-HTTP
-      - 美国04
-      - US_speednode_0085
-      - github.com/freefq - 美国阿里云 4
-      - 香港03
-      - github.com/freefq - 美国CloudFlare节点 1
-      - 英国04
-      - 匈牙利 04 | 1x HU
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 阿根廷04
-      - 匈牙利 01 | 1x HU
-      - 日本04
-      - 美国 03 | 1x US
-      - 美国01
-      - 印度01
-      - 印度 04 | 1x IN
-      - 美国 06 | 1x US
-      - 新加坡04
-      - 韩国01 | New Bing
-      - 新加坡 06 | 1x SG
-      - 新加坡 03 | 1x SG
-      - 新加坡05
-      - 土耳其 01 | 1x TR
-      - 香港04
-      - 台湾05
-      - 日本02
+      - JP 40 → tg@nicevpn123
       - 日本 02  | 1x JP
-      - 印度04
-      - 阿根廷 04 | 1x AR
-      - 加拿大 02 | 1x CA
-      - 美国 05 | 1x US
-      - 澳大利亚 04 | 1x AU
+      - US_speednode_0062
+      - 美国 025
+      - CN-14.18.89.198-129
+      - 加拿大 01 | 1x CA
+      - 12|美国 065
+      - CN-14.116.214.232-128
+      - 韩国 01 | 1x KR | New Bing
       - 日本 05  | 1x JP
-      - 乌克兰 04 | 1x UA
-      - 日本01
-      - 台湾 06  | 1x TWN
-      - 美国05
-      - 西班牙 02 | 1x ES
-      - 匈牙利04
-      - 美国 02 | 1x US
-      - 马来西亚01
-      - 巴西04
-      - 葡萄牙 04 | 1x PT
-      - 俄罗斯04
-      - 加拿大01
-      - 荷兰04
-      - 澳大利亚01
-      - 巴西01
-      - 香港 02 | 1x HK
-      - 新加坡02
-      - 阿根廷01
-      - 土耳其01
-      - 葡萄牙 01 | 1x PT
-      - 加拿大04
-      - 乌克兰 01 | 1x UA
-      - 德国01
-      - 荷兰 02 | 1x NL
-      - 荷兰 01 | 1x NL
-      - 德国 01 | 1x DE
-      - 美国01 | 1x US
-      - 新加坡03
-      - 台湾01 | New Bing
-      - 新加坡 01  | 1x SG
-      - 香港 04 | 1x HK
-      - 澳大利亚 01 | 1x AU
-      - 匈牙利01
-      - 日本03
-      - 香港A|@ripaojiedian
-      - 香港 06 | 1x HK
       - 台湾 04  | 1x TWN
-      - 日本 01 | 1x JP
-      - 西班牙 01 | 1x ES
-      - "[peasoft/NoMoreWalls]23|🇺🇸_US_美国_8_23"
-      - 美国(yudou66.com 玉豆免费节点) 6
+      - 美国01 | 1x US
+      - 加拿大 02 | 1x CA
+      - 香港 03 | 1x HK
+      - 巴西 04 | 1x BR
+      - 新加坡 06 | 1x SG
+      - 美国03
+      - _US_美国->🇸🇬_SG_新加坡
+      - 土耳其04
+      - 俄罗斯04
+      - 澳大利亚01
+      - JP 47 → tg@nicevpn123
+      - 匈牙利04
+      - US_speednode_0047
+      - 日本01
+      - 澳大利亚 04 | 1x AU
+      - 乌克兰 04 | 1x UA
+      - 新加坡05
+      - 台湾03
+      - 日本04
+      - 日本05
+      - 美国 05 | 1x US
+      - 美国04
+      - 新加坡04
+      - 台湾06
+      - 美国 033
+      - 德国 01 | 1x DE
+      - 德国04
+      - 香港04
+      - 俄罗斯01
+      - 韩国04
       - 日本06
-      - 越南 01 | 1x VN
-      - 越南04
-      - 23|🇨🇳_CN_中国_48
-      - 越南 04 | 1x VN
-      - 越南01
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
+      - 台湾05
+      - 马来西亚 04 | 1x MY
+      - 德国 04 | 1x AU
+      - 日本 06  | 1x JP
+      - US 409 → tg@nicevpn123
+      - US-45.199.138.139-196
+      - 葡萄牙04
+      - 日本 03  | 1x JP
       - 新加坡06
-      - 日本A|@ripaojiedian
-      - CN 120 → tg@nicevpn123
+      - 澳大利亚04
+      - 香港05
+      - 荷兰 01 | 1x NL
+      - 阿根廷04
+      - 美国 097
+      - 荷兰04
+      - 印度 01 | 1x IN
+      - US_speednode_0101
+      - 西班牙04
+      - 新加坡 01  | 1x SG
+      - 0,3,24|🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 韩国01 | New Bing
+      - 香港 05 | 1x HK
+      - CN-14.18.89.198-088
+      - 12,16|美国 004
+      - US 1185 → tg@nicevpn123
+      - US_speednode_0065
+      - 葡萄牙 04 | 1x PT
+      - _US_美国
+      - 美国05
+      - 荷兰 190
+      - 16|🇺🇸 美国_08111000
+      - 印度04
+      - 西班牙01
+      - 香港03
+      - 美国 026
+      - 韩国 02 | 1x KR
+      - 加拿大01
+      - 西班牙 02 | 1x ES
+      - 日本 04  | 1x JP
+      - 香港02
+      - 美国CloudFlare公司CDN节点 20
+      - 台湾 03  | 1x TWN
+      - 美国 013
+      - 印度 04 | 1x IN
+      - 美国 030
+      - 美国 06 | 1x US
+      - 巴西04
+      - 台湾 06  | 1x TWN
+      - US_speednode_0081
+      - 阿根廷 04 | 1x AR
+      - CN 226 → tg@nicevpn123
+      - US_speednode_0085
+      - 日本02
+      - 乌克兰01
+      - _US_美国 11
+      - 美国01
+      - 台湾 02  | 1x TWN
+      - 土耳其01
+      - NU_speednode_0052
+      - 香港 06 | 1x HK
+      - 英国04
+      - 英国 01 | 1x UK
+      - 阿根廷01
+      - NU_speednode_0049
+      - 12,13,16|美国 031
+      - 加拿大04
+      - 马来西亚 01 | 1x MY
+      - 美国 04 | 1x US
+      - US 794 → tg@nicevpn123
+      - 英国 04 | 1x UK
+      - US_speednode_0047 2
+      - 俄罗斯 04 | 1x RU
+      - 16|CY_youtube@资源分享师_50
+      - 美国06
+      - US_speednode_0061
+      - 马来西亚04
+      - HK 66 → tg@nicevpn123
+      - US_speednode_0077
+      - 12,16|美国 007
+      - 新加坡 04 | 1x SG
+      - _US_美国->🇩🇪_DE_德国
+      - 新加坡02
+      - 美国 02 | 1x US
+      - 荷兰 02 | 1x NL
       - US_speednode_0060
-      - US_speednode_0066
-      - US_speednode_0051
-      - 泰国04
-      - US_speednode_0067
-      - US_speednode_0073
-      - US 740 → tg@nicevpn123
-      - US_speednode_0045
-      - 泰国01
-      - HK 12 → tg@nicevpn123
-      - 泰国 01 | 1x TH
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_462
-      - 泰国 04 | 1x TH
-      - 菲律宾04
-      - 菲律宾01 | New Bing
-      - 菲律宾 04 | 1x PH
-      - 电报频道:@ripaojiedian
-      - 日本S|@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
-      - 菲律宾 01 | 1x PH | New Bing
+      - 巴西 01 | 1x BR
+      - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 美国 009
+      - US 1727 → tg@nicevpn123
+      - CN 51 → tg@nicevpn123
+      - 葡萄牙01
+      - 乌克兰 01 | 1x UA
+      - 俄罗斯 01 | 1x RU
+      - US_speednode_0056
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_9
+      - US_speednode_0099
+      - 葡萄牙 01 | 1x PT
+      - 新加坡 05 | 1x SG
+      - 美国 004
+      - 12|美国 008
+      - 8|🇨🇾_CY_塞浦路斯->🇬🇧_GB_英国
+      - US_speednode_0085 2
+      - 1,2,4,12,16|_US_美国 9
+      - 12,16|美国 004 2
+      - 12,16|美国 012
+      - 16|🇺🇸 美国 234
+      - 印度01
+      - 日本 01 | 1x JP
+      - 台湾 05  | 1x TWN
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_482
+      - 德国01
+      - 12,16|美国 012 2
+      - 香港01
+      - 13,16|github.com/freefq - 美国CloudFla...
       - US_speednode_0048
-      - 「SCP」US-DP1-HTTP
+      - 香港 01 | 1x HK
+      - _US_美国->🇨🇦_CA_加拿大
+      - US_speednode_0055
+      - 美国 161
+      - 匈牙利 01 | 1x HU
+      - NU_speednode_0051
+      - 匈牙利01
+      - US_speednode_0085 3
+      - JP 30 → tg@nicevpn123
+      - 新加坡03
+      - 香港 04 | 1x HK
+      - 16|🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - RELAY-172.64.229.116-213
+      - 台湾01 | New Bing
+      - 12|美国 016
+      - 荷兰01
+      - 12,16|美国 011
+      - JP_speednode_0039
+      - "0,1,2,3,4,12,15,16,24|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1"
+      - 美国 037
+      - JP_speednode_0037
+      - "8,13|🇺🇸_US_美国 #2"
+      - US_speednode_0085 4
+      - CN 311 → tg@nicevpn123
+      - 16|🇺🇸 美国_08111000 2
+      - _US_美国->🇫🇷_FR_法国 5
+      - 美国 03 | 1x US
+      - 马来西亚01
+      - US_speednode_0047 3
+      - US 1160 → tg@nicevpn123
+      - 美国 202
+      - US_speednode_0070
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_226
+      - 美国 029
+      - 澳大利亚 01 | 1x AU
+      - 美国 038
+      - 台湾04
+      - 西班牙 01 | 1x ES
+      - 巴西01
+      - 12,16|美国 011 2
+      - US_speednode_0090
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_201
+      - 英国01
+      - US_speednode_0047 4
+      - US_speednode_0089
+      - JP_speednode_0038
+      - _US_美国->🇩🇪_DE_德国 2
+      - US_speednode_0069
+      - CN 254 → tg@nicevpn123
+      - US_speednode_0067
+      - 新加坡 02 | 1x SG
+      - CN 258 → tg@nicevpn123
+      - CN-14.18.89.198-127
+      - _US_美国->🇩🇪_DE_德国_0@22
+      - US 1474 → tg@nicevpn123
+      - 台湾02
+      - US_speednode_0095
+      - 台湾 01  | 1x TWN | New Bing
+      - 越南04
+      - 12|美国 021
+      - US 182 → tg@nicevpn123
+      - 日本03
+      - 香港06
+      - 新加坡01
+      - _CN_中国->🇦🇹_AT_奥地利
+      - SG 27 → tg@nicevpn123
+      - US_speednode_0071
+      - CN-14.116.214.232-125
+      - CN 314 → tg@nicevpn123
+      - 16|🇺🇸 美国 237
+      - _CN_中国->🇦🇹_AT_奥地利 2
+      - RU_speednode_0035
+      - _US_美国_4_4@18
+      - CN 230 → tg@nicevpn123
+      - CN 144 → tg@nicevpn123
+      - US_speednode_0105
+      - 美国 043
+      - 新加坡 03 | 1x SG
+      - CN 148 → tg@nicevpn123
+      - 阿根廷 01 | 1x AR
+      - 越南 04 | 1x VN
+      - US 1094 → tg@nicevpn123
+      - 12,13,16|美国 024
+      - NU_speednode_0050
+      - 匈牙利 04 | 1x HU
+      - 美国 141
+      - RELAY-172.64.85.116-206
+      - CN-120.241.47.133-017
+      - "[ClashNode]🇨🇦 _CA_加拿大"
+      - 土耳其 01 | 1x TR
+      - CN 76 → tg@nicevpn123
+      - 美国 023
+      - CN 112 → tg@nicevpn123
+      - 美国 032
+      - "2,12,15,24|_US_美国 #4"
+      - _US_美国 5
+      - CN 257 → tg@nicevpn123
+      - _US_美国 2
+      - 23|🇨🇳_CN_中国_48
+      - 越南 01 | 1x VN
+      - TW-114.37.208.246-240
+      - 1,2,4,16|_US_美国 2
+      - US_speednode_0075
+      - CN 54 → tg@nicevpn123
+      - 香港 02 | 1x HK
+      - 越南01
+      - CN 85 → tg@nicevpn123
+      - 美国02
+      - CN 269 → tg@nicevpn123
+      - 1,2,4|_CN_中国->🇺🇸_US_美国 2
+      - US_speednode_0084
+      - 菲律宾 04 | 1x PH
+      - 菲律宾01 | New Bing
+      - CN 313 → tg@nicevpn123
+      - 泰国04
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_230
+      - 泰国 01 | 1x TH
+      - 泰国01
+      - 18,19|移动专线|@ripaojiedian
+      - 0,1,2,3,4,15,24|🇦🇹 _CN_中国->🇦🇹_AT_奥地利
+      - 泰国 04 | 1x TH
+      - _FR_法国_1@29
+      - 土耳其 04 | 1x TR
+      - 菲律宾 01 | 1x PH | New Bing
+      - 菲律宾04
   - name: ♻️ 自动选择
     type: fallback
     url: https://raw.githubusercontent.com/
     interval: 2
     proxies:
-      - 香港 01 | 1x HK
-      - US 734 → tg@nicevpn123
-      - US_speednode_0061
-      - US_speednode_0056
-      - RU_speednode_0035
-      - US_speednode_0055
-      - US_speednode_0081
-      - 乌克兰01
-      - 英国 01 | 1x UK
-      - 印度 01 | 1x IN
-      - US_speednode_0079
-      - 新加坡01
-      - 乌克兰04
-      - 台湾 05  | 1x TWN
-      - US_speednode_0047
-      - _CN_中国
-      - US_speednode_0070
-      - 葡萄牙01
-      - 台湾 01  | 1x TWN | New Bing
-      - _FR_法国
-      - US_speednode_0047 2
-      - 澳大利亚04
-      - 荷兰01
-      - 西班牙04
-      - 韩国 01 | 1x KR | New Bing
-      - 西班牙01
-      - 英国01
-      - 香港06
-      - FR_speednode_0008
-      - US 734 → tg@nicevpn123 2
-      - "8,13|🇺🇸_US_美国 #2"
-      - 加拿大 01 | 1x CA
-      - 台湾03
-      - 新加坡 04 | 1x SG
-      - 德国 04 | 1x AU
-      - 葡萄牙04
-      - 俄罗斯 04 | 1x RU
-      - 土耳其 04 | 1x TR
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国03
-      - 日本 03  | 1x JP
-      - 台湾 03  | 1x TWN
-      - 阿根廷 01 | 1x AR
-      - 巴西 04 | 1x BR
-      - 18,19|🇯🇵 日本A|@ripaojiedian
-      - 英国 04 | 1x UK
-      - 台湾06
-      - 马来西亚 04 | 1x MY
-      - 新加坡 02 | 1x SG
-      - 巴西 01 | 1x BR
-      - 香港 03 | 1x HK
-      - 台湾 02  | 1x TWN
-      - 日本 04  | 1x JP
-      - 马来西亚04
-      - 土耳其04
-      - 马来西亚 01 | 1x MY
-      - 香港02
-      - 德国04
-      - 美国02
-      - 香港05
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 香港01
-      - 16|🇩🇪DE德国(youtube阿伟科技)
-      - 日本05
-      - 美国06
-      - 台湾02
-      - 韩国 02 | 1x KR
-      - US_speednode_0054
-      - 俄罗斯01
-      - 香港 05 | 1x HK
-      - 俄罗斯 01 | 1x RU
-      - 日本 06  | 1x JP
-      - 美国 04 | 1x US
-      - 台湾04
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 新加坡 05 | 1x SG
-      - 韩国04
-      - 「SCP」US-DP4-HTTP
-      - 美国04
-      - US_speednode_0085
-      - github.com/freefq - 美国阿里云 4
-      - 香港03
-      - github.com/freefq - 美国CloudFlare节点 1
-      - 英国04
-      - 匈牙利 04 | 1x HU
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 阿根廷04
-      - 匈牙利 01 | 1x HU
-      - 日本04
-      - 美国 03 | 1x US
-      - 美国01
-      - 印度01
-      - 印度 04 | 1x IN
-      - 美国 06 | 1x US
-      - 新加坡04
-      - 韩国01 | New Bing
-      - 新加坡 06 | 1x SG
-      - 新加坡 03 | 1x SG
-      - 新加坡05
-      - 土耳其 01 | 1x TR
-      - 香港04
-      - 台湾05
-      - 日本02
+      - JP 40 → tg@nicevpn123
       - 日本 02  | 1x JP
-      - 印度04
-      - 阿根廷 04 | 1x AR
-      - 加拿大 02 | 1x CA
-      - 美国 05 | 1x US
-      - 澳大利亚 04 | 1x AU
+      - US_speednode_0062
+      - 美国 025
+      - CN-14.18.89.198-129
+      - 加拿大 01 | 1x CA
+      - 12|美国 065
+      - CN-14.116.214.232-128
+      - 韩国 01 | 1x KR | New Bing
       - 日本 05  | 1x JP
-      - 乌克兰 04 | 1x UA
-      - 日本01
-      - 台湾 06  | 1x TWN
-      - 美国05
-      - 西班牙 02 | 1x ES
-      - 匈牙利04
-      - 美国 02 | 1x US
-      - 马来西亚01
-      - 巴西04
-      - 葡萄牙 04 | 1x PT
-      - 俄罗斯04
-      - 加拿大01
-      - 荷兰04
-      - 澳大利亚01
-      - 巴西01
-      - 香港 02 | 1x HK
-      - 新加坡02
-      - 阿根廷01
-      - 土耳其01
-      - 葡萄牙 01 | 1x PT
-      - 加拿大04
-      - 乌克兰 01 | 1x UA
-      - 德国01
-      - 荷兰 02 | 1x NL
-      - 荷兰 01 | 1x NL
-      - 德国 01 | 1x DE
-      - 美国01 | 1x US
-      - 新加坡03
-      - 台湾01 | New Bing
-      - 新加坡 01  | 1x SG
-      - 香港 04 | 1x HK
-      - 澳大利亚 01 | 1x AU
-      - 匈牙利01
-      - 日本03
-      - 香港A|@ripaojiedian
-      - 香港 06 | 1x HK
       - 台湾 04  | 1x TWN
-      - 日本 01 | 1x JP
-      - 西班牙 01 | 1x ES
-      - "[peasoft/NoMoreWalls]23|🇺🇸_US_美国_8_23"
-      - 美国(yudou66.com 玉豆免费节点) 6
+      - 美国01 | 1x US
+      - 加拿大 02 | 1x CA
+      - 香港 03 | 1x HK
+      - 巴西 04 | 1x BR
+      - 新加坡 06 | 1x SG
+      - 美国03
+      - _US_美国->🇸🇬_SG_新加坡
+      - 土耳其04
+      - 俄罗斯04
+      - 澳大利亚01
+      - JP 47 → tg@nicevpn123
+      - 匈牙利04
+      - US_speednode_0047
+      - 日本01
+      - 澳大利亚 04 | 1x AU
+      - 乌克兰 04 | 1x UA
+      - 新加坡05
+      - 台湾03
+      - 日本04
+      - 日本05
+      - 美国 05 | 1x US
+      - 美国04
+      - 新加坡04
+      - 台湾06
+      - 美国 033
+      - 德国 01 | 1x DE
+      - 德国04
+      - 香港04
+      - 俄罗斯01
+      - 韩国04
       - 日本06
-      - 越南 01 | 1x VN
-      - 越南04
-      - 23|🇨🇳_CN_中国_48
-      - 越南 04 | 1x VN
-      - 越南01
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
+      - 台湾05
+      - 马来西亚 04 | 1x MY
+      - 德国 04 | 1x AU
+      - 日本 06  | 1x JP
+      - US 409 → tg@nicevpn123
+      - US-45.199.138.139-196
+      - 葡萄牙04
+      - 日本 03  | 1x JP
       - 新加坡06
-      - 日本A|@ripaojiedian
-      - CN 120 → tg@nicevpn123
+      - 澳大利亚04
+      - 香港05
+      - 荷兰 01 | 1x NL
+      - 阿根廷04
+      - 美国 097
+      - 荷兰04
+      - 印度 01 | 1x IN
+      - US_speednode_0101
+      - 西班牙04
+      - 新加坡 01  | 1x SG
+      - 0,3,24|🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 韩国01 | New Bing
+      - 香港 05 | 1x HK
+      - CN-14.18.89.198-088
+      - 12,16|美国 004
+      - US 1185 → tg@nicevpn123
+      - US_speednode_0065
+      - 葡萄牙 04 | 1x PT
+      - _US_美国
+      - 美国05
+      - 荷兰 190
+      - 16|🇺🇸 美国_08111000
+      - 印度04
+      - 西班牙01
+      - 香港03
+      - 美国 026
+      - 韩国 02 | 1x KR
+      - 加拿大01
+      - 西班牙 02 | 1x ES
+      - 日本 04  | 1x JP
+      - 香港02
+      - 美国CloudFlare公司CDN节点 20
+      - 台湾 03  | 1x TWN
+      - 美国 013
+      - 印度 04 | 1x IN
+      - 美国 030
+      - 美国 06 | 1x US
+      - 巴西04
+      - 台湾 06  | 1x TWN
+      - US_speednode_0081
+      - 阿根廷 04 | 1x AR
+      - CN 226 → tg@nicevpn123
+      - US_speednode_0085
+      - 日本02
+      - 乌克兰01
+      - _US_美国 11
+      - 美国01
+      - 台湾 02  | 1x TWN
+      - 土耳其01
+      - NU_speednode_0052
+      - 香港 06 | 1x HK
+      - 英国04
+      - 英国 01 | 1x UK
+      - 阿根廷01
+      - NU_speednode_0049
+      - 12,13,16|美国 031
+      - 加拿大04
+      - 马来西亚 01 | 1x MY
+      - 美国 04 | 1x US
+      - US 794 → tg@nicevpn123
+      - 英国 04 | 1x UK
+      - US_speednode_0047 2
+      - 俄罗斯 04 | 1x RU
+      - 16|CY_youtube@资源分享师_50
+      - 美国06
+      - US_speednode_0061
+      - 马来西亚04
+      - HK 66 → tg@nicevpn123
+      - US_speednode_0077
+      - 12,16|美国 007
+      - 新加坡 04 | 1x SG
+      - _US_美国->🇩🇪_DE_德国
+      - 新加坡02
+      - 美国 02 | 1x US
+      - 荷兰 02 | 1x NL
       - US_speednode_0060
-      - US_speednode_0066
-      - US_speednode_0051
-      - 泰国04
-      - US_speednode_0067
-      - US_speednode_0073
-      - US 740 → tg@nicevpn123
-      - US_speednode_0045
-      - 泰国01
-      - HK 12 → tg@nicevpn123
-      - 泰国 01 | 1x TH
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_462
-      - 泰国 04 | 1x TH
-      - 菲律宾04
-      - 菲律宾01 | New Bing
-      - 菲律宾 04 | 1x PH
-      - 电报频道:@ripaojiedian
-      - 日本S|@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
-      - 菲律宾 01 | 1x PH | New Bing
+      - 巴西 01 | 1x BR
+      - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 美国 009
+      - US 1727 → tg@nicevpn123
+      - CN 51 → tg@nicevpn123
+      - 葡萄牙01
+      - 乌克兰 01 | 1x UA
+      - 俄罗斯 01 | 1x RU
+      - US_speednode_0056
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_9
+      - US_speednode_0099
+      - 葡萄牙 01 | 1x PT
+      - 新加坡 05 | 1x SG
+      - 美国 004
+      - 12|美国 008
+      - 8|🇨🇾_CY_塞浦路斯->🇬🇧_GB_英国
+      - US_speednode_0085 2
+      - 1,2,4,12,16|_US_美国 9
+      - 12,16|美国 004 2
+      - 12,16|美国 012
+      - 16|🇺🇸 美国 234
+      - 印度01
+      - 日本 01 | 1x JP
+      - 台湾 05  | 1x TWN
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_482
+      - 德国01
+      - 12,16|美国 012 2
+      - 香港01
+      - 13,16|github.com/freefq - 美国CloudFla...
       - US_speednode_0048
-      - 「SCP」US-DP1-HTTP
+      - 香港 01 | 1x HK
+      - _US_美国->🇨🇦_CA_加拿大
+      - US_speednode_0055
+      - 美国 161
+      - 匈牙利 01 | 1x HU
+      - NU_speednode_0051
+      - 匈牙利01
+      - US_speednode_0085 3
+      - JP 30 → tg@nicevpn123
+      - 新加坡03
+      - 香港 04 | 1x HK
+      - 16|🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - RELAY-172.64.229.116-213
+      - 台湾01 | New Bing
+      - 12|美国 016
+      - 荷兰01
+      - 12,16|美国 011
+      - JP_speednode_0039
+      - "0,1,2,3,4,12,15,16,24|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1"
+      - 美国 037
+      - JP_speednode_0037
+      - "8,13|🇺🇸_US_美国 #2"
+      - US_speednode_0085 4
+      - CN 311 → tg@nicevpn123
+      - 16|🇺🇸 美国_08111000 2
+      - _US_美国->🇫🇷_FR_法国 5
+      - 美国 03 | 1x US
+      - 马来西亚01
+      - US_speednode_0047 3
+      - US 1160 → tg@nicevpn123
+      - 美国 202
+      - US_speednode_0070
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_226
+      - 美国 029
+      - 澳大利亚 01 | 1x AU
+      - 美国 038
+      - 台湾04
+      - 西班牙 01 | 1x ES
+      - 巴西01
+      - 12,16|美国 011 2
+      - US_speednode_0090
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_201
+      - 英国01
+      - US_speednode_0047 4
+      - US_speednode_0089
+      - JP_speednode_0038
+      - _US_美国->🇩🇪_DE_德国 2
+      - US_speednode_0069
+      - CN 254 → tg@nicevpn123
+      - US_speednode_0067
+      - 新加坡 02 | 1x SG
+      - CN 258 → tg@nicevpn123
+      - CN-14.18.89.198-127
+      - _US_美国->🇩🇪_DE_德国_0@22
+      - US 1474 → tg@nicevpn123
+      - 台湾02
+      - US_speednode_0095
+      - 台湾 01  | 1x TWN | New Bing
+      - 越南04
+      - 12|美国 021
+      - US 182 → tg@nicevpn123
+      - 日本03
+      - 香港06
+      - 新加坡01
+      - _CN_中国->🇦🇹_AT_奥地利
+      - SG 27 → tg@nicevpn123
+      - US_speednode_0071
+      - CN-14.116.214.232-125
+      - CN 314 → tg@nicevpn123
+      - 16|🇺🇸 美国 237
+      - _CN_中国->🇦🇹_AT_奥地利 2
+      - RU_speednode_0035
+      - _US_美国_4_4@18
+      - CN 230 → tg@nicevpn123
+      - CN 144 → tg@nicevpn123
+      - US_speednode_0105
+      - 美国 043
+      - 新加坡 03 | 1x SG
+      - CN 148 → tg@nicevpn123
+      - 阿根廷 01 | 1x AR
+      - 越南 04 | 1x VN
+      - US 1094 → tg@nicevpn123
+      - 12,13,16|美国 024
+      - NU_speednode_0050
+      - 匈牙利 04 | 1x HU
+      - 美国 141
+      - RELAY-172.64.85.116-206
+      - CN-120.241.47.133-017
+      - "[ClashNode]🇨🇦 _CA_加拿大"
+      - 土耳其 01 | 1x TR
+      - CN 76 → tg@nicevpn123
+      - 美国 023
+      - CN 112 → tg@nicevpn123
+      - 美国 032
+      - "2,12,15,24|_US_美国 #4"
+      - _US_美国 5
+      - CN 257 → tg@nicevpn123
+      - _US_美国 2
+      - 23|🇨🇳_CN_中国_48
+      - 越南 01 | 1x VN
+      - TW-114.37.208.246-240
+      - 1,2,4,16|_US_美国 2
+      - US_speednode_0075
+      - CN 54 → tg@nicevpn123
+      - 香港 02 | 1x HK
+      - 越南01
+      - CN 85 → tg@nicevpn123
+      - 美国02
+      - CN 269 → tg@nicevpn123
+      - 1,2,4|_CN_中国->🇺🇸_US_美国 2
+      - US_speednode_0084
+      - 菲律宾 04 | 1x PH
+      - 菲律宾01 | New Bing
+      - CN 313 → tg@nicevpn123
+      - 泰国04
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_230
+      - 泰国 01 | 1x TH
+      - 泰国01
+      - 18,19|移动专线|@ripaojiedian
+      - 0,1,2,3,4,15,24|🇦🇹 _CN_中国->🇦🇹_AT_奥地利
+      - 泰国 04 | 1x TH
+      - _FR_法国_1@29
+      - 土耳其 04 | 1x TR
+      - 菲律宾 01 | 1x PH | New Bing
+      - 菲律宾04
   - name: ♻️ M.Youtube
     type: fallback
     url: https://m.youtube.com
     interval: 2
     proxies:
-      - 香港 01 | 1x HK
-      - US 734 → tg@nicevpn123
-      - US_speednode_0061
-      - US_speednode_0056
-      - RU_speednode_0035
-      - US_speednode_0055
-      - US_speednode_0081
-      - 乌克兰01
-      - 英国 01 | 1x UK
-      - 印度 01 | 1x IN
-      - US_speednode_0079
-      - 新加坡01
-      - 乌克兰04
-      - 台湾 05  | 1x TWN
-      - US_speednode_0047
-      - _CN_中国
-      - US_speednode_0070
-      - 葡萄牙01
-      - 台湾 01  | 1x TWN | New Bing
-      - _FR_法国
-      - US_speednode_0047 2
-      - 澳大利亚04
-      - 荷兰01
-      - 西班牙04
-      - 韩国 01 | 1x KR | New Bing
-      - 西班牙01
-      - 英国01
-      - 香港06
-      - FR_speednode_0008
-      - US 734 → tg@nicevpn123 2
-      - "8,13|🇺🇸_US_美国 #2"
-      - 加拿大 01 | 1x CA
-      - 台湾03
-      - 新加坡 04 | 1x SG
-      - 德国 04 | 1x AU
-      - 葡萄牙04
-      - 俄罗斯 04 | 1x RU
-      - 土耳其 04 | 1x TR
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国03
-      - 日本 03  | 1x JP
-      - 台湾 03  | 1x TWN
-      - 阿根廷 01 | 1x AR
-      - 巴西 04 | 1x BR
-      - 18,19|🇯🇵 日本A|@ripaojiedian
-      - 英国 04 | 1x UK
-      - 台湾06
-      - 马来西亚 04 | 1x MY
-      - 新加坡 02 | 1x SG
-      - 巴西 01 | 1x BR
-      - 香港 03 | 1x HK
-      - 台湾 02  | 1x TWN
-      - 日本 04  | 1x JP
-      - 马来西亚04
-      - 土耳其04
-      - 马来西亚 01 | 1x MY
-      - 香港02
-      - 德国04
-      - 美国02
-      - 香港05
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 香港01
-      - 16|🇩🇪DE德国(youtube阿伟科技)
-      - 日本05
-      - 美国06
-      - 台湾02
-      - 韩国 02 | 1x KR
-      - US_speednode_0054
-      - 俄罗斯01
-      - 香港 05 | 1x HK
-      - 俄罗斯 01 | 1x RU
-      - 日本 06  | 1x JP
-      - 美国 04 | 1x US
-      - 台湾04
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 新加坡 05 | 1x SG
-      - 韩国04
-      - 「SCP」US-DP4-HTTP
-      - 美国04
-      - US_speednode_0085
-      - github.com/freefq - 美国阿里云 4
-      - 香港03
-      - github.com/freefq - 美国CloudFlare节点 1
-      - 英国04
-      - 匈牙利 04 | 1x HU
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 阿根廷04
-      - 匈牙利 01 | 1x HU
-      - 日本04
-      - 美国 03 | 1x US
-      - 美国01
-      - 印度01
-      - 印度 04 | 1x IN
-      - 美国 06 | 1x US
-      - 新加坡04
-      - 韩国01 | New Bing
-      - 新加坡 06 | 1x SG
-      - 新加坡 03 | 1x SG
-      - 新加坡05
-      - 土耳其 01 | 1x TR
-      - 香港04
-      - 台湾05
-      - 日本02
+      - JP 40 → tg@nicevpn123
       - 日本 02  | 1x JP
-      - 印度04
-      - 阿根廷 04 | 1x AR
-      - 加拿大 02 | 1x CA
-      - 美国 05 | 1x US
-      - 澳大利亚 04 | 1x AU
+      - US_speednode_0062
+      - 美国 025
+      - CN-14.18.89.198-129
+      - 加拿大 01 | 1x CA
+      - 12|美国 065
+      - CN-14.116.214.232-128
+      - 韩国 01 | 1x KR | New Bing
       - 日本 05  | 1x JP
-      - 乌克兰 04 | 1x UA
-      - 日本01
-      - 台湾 06  | 1x TWN
-      - 美国05
-      - 西班牙 02 | 1x ES
-      - 匈牙利04
-      - 美国 02 | 1x US
-      - 马来西亚01
-      - 巴西04
-      - 葡萄牙 04 | 1x PT
-      - 俄罗斯04
-      - 加拿大01
-      - 荷兰04
-      - 澳大利亚01
-      - 巴西01
-      - 香港 02 | 1x HK
-      - 新加坡02
-      - 阿根廷01
-      - 土耳其01
-      - 葡萄牙 01 | 1x PT
-      - 加拿大04
-      - 乌克兰 01 | 1x UA
-      - 德国01
-      - 荷兰 02 | 1x NL
-      - 荷兰 01 | 1x NL
-      - 德国 01 | 1x DE
-      - 美国01 | 1x US
-      - 新加坡03
-      - 台湾01 | New Bing
-      - 新加坡 01  | 1x SG
-      - 香港 04 | 1x HK
-      - 澳大利亚 01 | 1x AU
-      - 匈牙利01
-      - 日本03
-      - 香港A|@ripaojiedian
-      - 香港 06 | 1x HK
       - 台湾 04  | 1x TWN
-      - 日本 01 | 1x JP
-      - 西班牙 01 | 1x ES
-      - "[peasoft/NoMoreWalls]23|🇺🇸_US_美国_8_23"
-      - 美国(yudou66.com 玉豆免费节点) 6
+      - 美国01 | 1x US
+      - 加拿大 02 | 1x CA
+      - 香港 03 | 1x HK
+      - 巴西 04 | 1x BR
+      - 新加坡 06 | 1x SG
+      - 美国03
+      - _US_美国->🇸🇬_SG_新加坡
+      - 土耳其04
+      - 俄罗斯04
+      - 澳大利亚01
+      - JP 47 → tg@nicevpn123
+      - 匈牙利04
+      - US_speednode_0047
+      - 日本01
+      - 澳大利亚 04 | 1x AU
+      - 乌克兰 04 | 1x UA
+      - 新加坡05
+      - 台湾03
+      - 日本04
+      - 日本05
+      - 美国 05 | 1x US
+      - 美国04
+      - 新加坡04
+      - 台湾06
+      - 美国 033
+      - 德国 01 | 1x DE
+      - 德国04
+      - 香港04
+      - 俄罗斯01
+      - 韩国04
       - 日本06
-      - 越南 01 | 1x VN
-      - 越南04
-      - 23|🇨🇳_CN_中国_48
-      - 越南 04 | 1x VN
-      - 越南01
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
+      - 台湾05
+      - 马来西亚 04 | 1x MY
+      - 德国 04 | 1x AU
+      - 日本 06  | 1x JP
+      - US 409 → tg@nicevpn123
+      - US-45.199.138.139-196
+      - 葡萄牙04
+      - 日本 03  | 1x JP
       - 新加坡06
-      - 日本A|@ripaojiedian
-      - CN 120 → tg@nicevpn123
+      - 澳大利亚04
+      - 香港05
+      - 荷兰 01 | 1x NL
+      - 阿根廷04
+      - 美国 097
+      - 荷兰04
+      - 印度 01 | 1x IN
+      - US_speednode_0101
+      - 西班牙04
+      - 新加坡 01  | 1x SG
+      - 0,3,24|🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 韩国01 | New Bing
+      - 香港 05 | 1x HK
+      - CN-14.18.89.198-088
+      - 12,16|美国 004
+      - US 1185 → tg@nicevpn123
+      - US_speednode_0065
+      - 葡萄牙 04 | 1x PT
+      - _US_美国
+      - 美国05
+      - 荷兰 190
+      - 16|🇺🇸 美国_08111000
+      - 印度04
+      - 西班牙01
+      - 香港03
+      - 美国 026
+      - 韩国 02 | 1x KR
+      - 加拿大01
+      - 西班牙 02 | 1x ES
+      - 日本 04  | 1x JP
+      - 香港02
+      - 美国CloudFlare公司CDN节点 20
+      - 台湾 03  | 1x TWN
+      - 美国 013
+      - 印度 04 | 1x IN
+      - 美国 030
+      - 美国 06 | 1x US
+      - 巴西04
+      - 台湾 06  | 1x TWN
+      - US_speednode_0081
+      - 阿根廷 04 | 1x AR
+      - CN 226 → tg@nicevpn123
+      - US_speednode_0085
+      - 日本02
+      - 乌克兰01
+      - _US_美国 11
+      - 美国01
+      - 台湾 02  | 1x TWN
+      - 土耳其01
+      - NU_speednode_0052
+      - 香港 06 | 1x HK
+      - 英国04
+      - 英国 01 | 1x UK
+      - 阿根廷01
+      - NU_speednode_0049
+      - 12,13,16|美国 031
+      - 加拿大04
+      - 马来西亚 01 | 1x MY
+      - 美国 04 | 1x US
+      - US 794 → tg@nicevpn123
+      - 英国 04 | 1x UK
+      - US_speednode_0047 2
+      - 俄罗斯 04 | 1x RU
+      - 16|CY_youtube@资源分享师_50
+      - 美国06
+      - US_speednode_0061
+      - 马来西亚04
+      - HK 66 → tg@nicevpn123
+      - US_speednode_0077
+      - 12,16|美国 007
+      - 新加坡 04 | 1x SG
+      - _US_美国->🇩🇪_DE_德国
+      - 新加坡02
+      - 美国 02 | 1x US
+      - 荷兰 02 | 1x NL
       - US_speednode_0060
-      - US_speednode_0066
-      - US_speednode_0051
-      - 泰国04
-      - US_speednode_0067
-      - US_speednode_0073
-      - US 740 → tg@nicevpn123
-      - US_speednode_0045
-      - 泰国01
-      - HK 12 → tg@nicevpn123
-      - 泰国 01 | 1x TH
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_462
-      - 泰国 04 | 1x TH
-      - 菲律宾04
-      - 菲律宾01 | New Bing
-      - 菲律宾 04 | 1x PH
-      - 电报频道:@ripaojiedian
-      - 日本S|@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
-      - 菲律宾 01 | 1x PH | New Bing
+      - 巴西 01 | 1x BR
+      - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 美国 009
+      - US 1727 → tg@nicevpn123
+      - CN 51 → tg@nicevpn123
+      - 葡萄牙01
+      - 乌克兰 01 | 1x UA
+      - 俄罗斯 01 | 1x RU
+      - US_speednode_0056
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_9
+      - US_speednode_0099
+      - 葡萄牙 01 | 1x PT
+      - 新加坡 05 | 1x SG
+      - 美国 004
+      - 12|美国 008
+      - 8|🇨🇾_CY_塞浦路斯->🇬🇧_GB_英国
+      - US_speednode_0085 2
+      - 1,2,4,12,16|_US_美国 9
+      - 12,16|美国 004 2
+      - 12,16|美国 012
+      - 16|🇺🇸 美国 234
+      - 印度01
+      - 日本 01 | 1x JP
+      - 台湾 05  | 1x TWN
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_482
+      - 德国01
+      - 12,16|美国 012 2
+      - 香港01
+      - 13,16|github.com/freefq - 美国CloudFla...
       - US_speednode_0048
-      - 「SCP」US-DP1-HTTP
+      - 香港 01 | 1x HK
+      - _US_美国->🇨🇦_CA_加拿大
+      - US_speednode_0055
+      - 美国 161
+      - 匈牙利 01 | 1x HU
+      - NU_speednode_0051
+      - 匈牙利01
+      - US_speednode_0085 3
+      - JP 30 → tg@nicevpn123
+      - 新加坡03
+      - 香港 04 | 1x HK
+      - 16|🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - RELAY-172.64.229.116-213
+      - 台湾01 | New Bing
+      - 12|美国 016
+      - 荷兰01
+      - 12,16|美国 011
+      - JP_speednode_0039
+      - "0,1,2,3,4,12,15,16,24|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1"
+      - 美国 037
+      - JP_speednode_0037
+      - "8,13|🇺🇸_US_美国 #2"
+      - US_speednode_0085 4
+      - CN 311 → tg@nicevpn123
+      - 16|🇺🇸 美国_08111000 2
+      - _US_美国->🇫🇷_FR_法国 5
+      - 美国 03 | 1x US
+      - 马来西亚01
+      - US_speednode_0047 3
+      - US 1160 → tg@nicevpn123
+      - 美国 202
+      - US_speednode_0070
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_226
+      - 美国 029
+      - 澳大利亚 01 | 1x AU
+      - 美国 038
+      - 台湾04
+      - 西班牙 01 | 1x ES
+      - 巴西01
+      - 12,16|美国 011 2
+      - US_speednode_0090
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_201
+      - 英国01
+      - US_speednode_0047 4
+      - US_speednode_0089
+      - JP_speednode_0038
+      - _US_美国->🇩🇪_DE_德国 2
+      - US_speednode_0069
+      - CN 254 → tg@nicevpn123
+      - US_speednode_0067
+      - 新加坡 02 | 1x SG
+      - CN 258 → tg@nicevpn123
+      - CN-14.18.89.198-127
+      - _US_美国->🇩🇪_DE_德国_0@22
+      - US 1474 → tg@nicevpn123
+      - 台湾02
+      - US_speednode_0095
+      - 台湾 01  | 1x TWN | New Bing
+      - 越南04
+      - 12|美国 021
+      - US 182 → tg@nicevpn123
+      - 日本03
+      - 香港06
+      - 新加坡01
+      - _CN_中国->🇦🇹_AT_奥地利
+      - SG 27 → tg@nicevpn123
+      - US_speednode_0071
+      - CN-14.116.214.232-125
+      - CN 314 → tg@nicevpn123
+      - 16|🇺🇸 美国 237
+      - _CN_中国->🇦🇹_AT_奥地利 2
+      - RU_speednode_0035
+      - _US_美国_4_4@18
+      - CN 230 → tg@nicevpn123
+      - CN 144 → tg@nicevpn123
+      - US_speednode_0105
+      - 美国 043
+      - 新加坡 03 | 1x SG
+      - CN 148 → tg@nicevpn123
+      - 阿根廷 01 | 1x AR
+      - 越南 04 | 1x VN
+      - US 1094 → tg@nicevpn123
+      - 12,13,16|美国 024
+      - NU_speednode_0050
+      - 匈牙利 04 | 1x HU
+      - 美国 141
+      - RELAY-172.64.85.116-206
+      - CN-120.241.47.133-017
+      - "[ClashNode]🇨🇦 _CA_加拿大"
+      - 土耳其 01 | 1x TR
+      - CN 76 → tg@nicevpn123
+      - 美国 023
+      - CN 112 → tg@nicevpn123
+      - 美国 032
+      - "2,12,15,24|_US_美国 #4"
+      - _US_美国 5
+      - CN 257 → tg@nicevpn123
+      - _US_美国 2
+      - 23|🇨🇳_CN_中国_48
+      - 越南 01 | 1x VN
+      - TW-114.37.208.246-240
+      - 1,2,4,16|_US_美国 2
+      - US_speednode_0075
+      - CN 54 → tg@nicevpn123
+      - 香港 02 | 1x HK
+      - 越南01
+      - CN 85 → tg@nicevpn123
+      - 美国02
+      - CN 269 → tg@nicevpn123
+      - 1,2,4|_CN_中国->🇺🇸_US_美国 2
+      - US_speednode_0084
+      - 菲律宾 04 | 1x PH
+      - 菲律宾01 | New Bing
+      - CN 313 → tg@nicevpn123
+      - 泰国04
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_230
+      - 泰国 01 | 1x TH
+      - 泰国01
+      - 18,19|移动专线|@ripaojiedian
+      - 0,1,2,3,4,15,24|🇦🇹 _CN_中国->🇦🇹_AT_奥地利
+      - 泰国 04 | 1x TH
+      - _FR_法国_1@29
+      - 土耳其 04 | 1x TR
+      - 菲律宾 01 | 1x PH | New Bing
+      - 菲律宾04
   - name: ♻️ Youtube
     type: fallback
     url: https://youtube.com
     interval: 2
     proxies:
-      - 香港 01 | 1x HK
-      - US 734 → tg@nicevpn123
-      - US_speednode_0061
-      - US_speednode_0056
-      - RU_speednode_0035
-      - US_speednode_0055
-      - US_speednode_0081
-      - 乌克兰01
-      - 英国 01 | 1x UK
-      - 印度 01 | 1x IN
-      - US_speednode_0079
-      - 新加坡01
-      - 乌克兰04
-      - 台湾 05  | 1x TWN
-      - US_speednode_0047
-      - _CN_中国
-      - US_speednode_0070
-      - 葡萄牙01
-      - 台湾 01  | 1x TWN | New Bing
-      - _FR_法国
-      - US_speednode_0047 2
-      - 澳大利亚04
-      - 荷兰01
-      - 西班牙04
-      - 韩国 01 | 1x KR | New Bing
-      - 西班牙01
-      - 英国01
-      - 香港06
-      - FR_speednode_0008
-      - US 734 → tg@nicevpn123 2
-      - "8,13|🇺🇸_US_美国 #2"
-      - 加拿大 01 | 1x CA
-      - 台湾03
-      - 新加坡 04 | 1x SG
-      - 德国 04 | 1x AU
-      - 葡萄牙04
-      - 俄罗斯 04 | 1x RU
-      - 土耳其 04 | 1x TR
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国03
-      - 日本 03  | 1x JP
-      - 台湾 03  | 1x TWN
-      - 阿根廷 01 | 1x AR
-      - 巴西 04 | 1x BR
-      - 18,19|🇯🇵 日本A|@ripaojiedian
-      - 英国 04 | 1x UK
-      - 台湾06
-      - 马来西亚 04 | 1x MY
-      - 新加坡 02 | 1x SG
-      - 巴西 01 | 1x BR
-      - 香港 03 | 1x HK
-      - 台湾 02  | 1x TWN
-      - 日本 04  | 1x JP
-      - 马来西亚04
-      - 土耳其04
-      - 马来西亚 01 | 1x MY
-      - 香港02
-      - 德国04
-      - 美国02
-      - 香港05
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 香港01
-      - 16|🇩🇪DE德国(youtube阿伟科技)
-      - 日本05
-      - 美国06
-      - 台湾02
-      - 韩国 02 | 1x KR
-      - US_speednode_0054
-      - 俄罗斯01
-      - 香港 05 | 1x HK
-      - 俄罗斯 01 | 1x RU
-      - 日本 06  | 1x JP
-      - 美国 04 | 1x US
-      - 台湾04
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 新加坡 05 | 1x SG
-      - 韩国04
-      - 「SCP」US-DP4-HTTP
-      - 美国04
-      - US_speednode_0085
-      - github.com/freefq - 美国阿里云 4
-      - 香港03
-      - github.com/freefq - 美国CloudFlare节点 1
-      - 英国04
-      - 匈牙利 04 | 1x HU
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 阿根廷04
-      - 匈牙利 01 | 1x HU
-      - 日本04
-      - 美国 03 | 1x US
-      - 美国01
-      - 印度01
-      - 印度 04 | 1x IN
-      - 美国 06 | 1x US
-      - 新加坡04
-      - 韩国01 | New Bing
-      - 新加坡 06 | 1x SG
-      - 新加坡 03 | 1x SG
-      - 新加坡05
-      - 土耳其 01 | 1x TR
-      - 香港04
-      - 台湾05
-      - 日本02
+      - JP 40 → tg@nicevpn123
       - 日本 02  | 1x JP
-      - 印度04
-      - 阿根廷 04 | 1x AR
-      - 加拿大 02 | 1x CA
-      - 美国 05 | 1x US
-      - 澳大利亚 04 | 1x AU
+      - US_speednode_0062
+      - 美国 025
+      - CN-14.18.89.198-129
+      - 加拿大 01 | 1x CA
+      - 12|美国 065
+      - CN-14.116.214.232-128
+      - 韩国 01 | 1x KR | New Bing
       - 日本 05  | 1x JP
-      - 乌克兰 04 | 1x UA
-      - 日本01
-      - 台湾 06  | 1x TWN
-      - 美国05
-      - 西班牙 02 | 1x ES
-      - 匈牙利04
-      - 美国 02 | 1x US
-      - 马来西亚01
-      - 巴西04
-      - 葡萄牙 04 | 1x PT
-      - 俄罗斯04
-      - 加拿大01
-      - 荷兰04
-      - 澳大利亚01
-      - 巴西01
-      - 香港 02 | 1x HK
-      - 新加坡02
-      - 阿根廷01
-      - 土耳其01
-      - 葡萄牙 01 | 1x PT
-      - 加拿大04
-      - 乌克兰 01 | 1x UA
-      - 德国01
-      - 荷兰 02 | 1x NL
-      - 荷兰 01 | 1x NL
-      - 德国 01 | 1x DE
-      - 美国01 | 1x US
-      - 新加坡03
-      - 台湾01 | New Bing
-      - 新加坡 01  | 1x SG
-      - 香港 04 | 1x HK
-      - 澳大利亚 01 | 1x AU
-      - 匈牙利01
-      - 日本03
-      - 香港A|@ripaojiedian
-      - 香港 06 | 1x HK
       - 台湾 04  | 1x TWN
-      - 日本 01 | 1x JP
-      - 西班牙 01 | 1x ES
-      - "[peasoft/NoMoreWalls]23|🇺🇸_US_美国_8_23"
-      - 美国(yudou66.com 玉豆免费节点) 6
+      - 美国01 | 1x US
+      - 加拿大 02 | 1x CA
+      - 香港 03 | 1x HK
+      - 巴西 04 | 1x BR
+      - 新加坡 06 | 1x SG
+      - 美国03
+      - _US_美国->🇸🇬_SG_新加坡
+      - 土耳其04
+      - 俄罗斯04
+      - 澳大利亚01
+      - JP 47 → tg@nicevpn123
+      - 匈牙利04
+      - US_speednode_0047
+      - 日本01
+      - 澳大利亚 04 | 1x AU
+      - 乌克兰 04 | 1x UA
+      - 新加坡05
+      - 台湾03
+      - 日本04
+      - 日本05
+      - 美国 05 | 1x US
+      - 美国04
+      - 新加坡04
+      - 台湾06
+      - 美国 033
+      - 德国 01 | 1x DE
+      - 德国04
+      - 香港04
+      - 俄罗斯01
+      - 韩国04
       - 日本06
-      - 越南 01 | 1x VN
-      - 越南04
-      - 23|🇨🇳_CN_中国_48
-      - 越南 04 | 1x VN
-      - 越南01
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
+      - 台湾05
+      - 马来西亚 04 | 1x MY
+      - 德国 04 | 1x AU
+      - 日本 06  | 1x JP
+      - US 409 → tg@nicevpn123
+      - US-45.199.138.139-196
+      - 葡萄牙04
+      - 日本 03  | 1x JP
       - 新加坡06
-      - 日本A|@ripaojiedian
-      - CN 120 → tg@nicevpn123
+      - 澳大利亚04
+      - 香港05
+      - 荷兰 01 | 1x NL
+      - 阿根廷04
+      - 美国 097
+      - 荷兰04
+      - 印度 01 | 1x IN
+      - US_speednode_0101
+      - 西班牙04
+      - 新加坡 01  | 1x SG
+      - 0,3,24|🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 韩国01 | New Bing
+      - 香港 05 | 1x HK
+      - CN-14.18.89.198-088
+      - 12,16|美国 004
+      - US 1185 → tg@nicevpn123
+      - US_speednode_0065
+      - 葡萄牙 04 | 1x PT
+      - _US_美国
+      - 美国05
+      - 荷兰 190
+      - 16|🇺🇸 美国_08111000
+      - 印度04
+      - 西班牙01
+      - 香港03
+      - 美国 026
+      - 韩国 02 | 1x KR
+      - 加拿大01
+      - 西班牙 02 | 1x ES
+      - 日本 04  | 1x JP
+      - 香港02
+      - 美国CloudFlare公司CDN节点 20
+      - 台湾 03  | 1x TWN
+      - 美国 013
+      - 印度 04 | 1x IN
+      - 美国 030
+      - 美国 06 | 1x US
+      - 巴西04
+      - 台湾 06  | 1x TWN
+      - US_speednode_0081
+      - 阿根廷 04 | 1x AR
+      - CN 226 → tg@nicevpn123
+      - US_speednode_0085
+      - 日本02
+      - 乌克兰01
+      - _US_美国 11
+      - 美国01
+      - 台湾 02  | 1x TWN
+      - 土耳其01
+      - NU_speednode_0052
+      - 香港 06 | 1x HK
+      - 英国04
+      - 英国 01 | 1x UK
+      - 阿根廷01
+      - NU_speednode_0049
+      - 12,13,16|美国 031
+      - 加拿大04
+      - 马来西亚 01 | 1x MY
+      - 美国 04 | 1x US
+      - US 794 → tg@nicevpn123
+      - 英国 04 | 1x UK
+      - US_speednode_0047 2
+      - 俄罗斯 04 | 1x RU
+      - 16|CY_youtube@资源分享师_50
+      - 美国06
+      - US_speednode_0061
+      - 马来西亚04
+      - HK 66 → tg@nicevpn123
+      - US_speednode_0077
+      - 12,16|美国 007
+      - 新加坡 04 | 1x SG
+      - _US_美国->🇩🇪_DE_德国
+      - 新加坡02
+      - 美国 02 | 1x US
+      - 荷兰 02 | 1x NL
       - US_speednode_0060
-      - US_speednode_0066
-      - US_speednode_0051
-      - 泰国04
-      - US_speednode_0067
-      - US_speednode_0073
-      - US 740 → tg@nicevpn123
-      - US_speednode_0045
-      - 泰国01
-      - HK 12 → tg@nicevpn123
-      - 泰国 01 | 1x TH
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_462
-      - 泰国 04 | 1x TH
-      - 菲律宾04
-      - 菲律宾01 | New Bing
-      - 菲律宾 04 | 1x PH
-      - 电报频道:@ripaojiedian
-      - 日本S|@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
-      - 菲律宾 01 | 1x PH | New Bing
+      - 巴西 01 | 1x BR
+      - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 美国 009
+      - US 1727 → tg@nicevpn123
+      - CN 51 → tg@nicevpn123
+      - 葡萄牙01
+      - 乌克兰 01 | 1x UA
+      - 俄罗斯 01 | 1x RU
+      - US_speednode_0056
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_9
+      - US_speednode_0099
+      - 葡萄牙 01 | 1x PT
+      - 新加坡 05 | 1x SG
+      - 美国 004
+      - 12|美国 008
+      - 8|🇨🇾_CY_塞浦路斯->🇬🇧_GB_英国
+      - US_speednode_0085 2
+      - 1,2,4,12,16|_US_美国 9
+      - 12,16|美国 004 2
+      - 12,16|美国 012
+      - 16|🇺🇸 美国 234
+      - 印度01
+      - 日本 01 | 1x JP
+      - 台湾 05  | 1x TWN
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_482
+      - 德国01
+      - 12,16|美国 012 2
+      - 香港01
+      - 13,16|github.com/freefq - 美国CloudFla...
       - US_speednode_0048
-      - 「SCP」US-DP1-HTTP
+      - 香港 01 | 1x HK
+      - _US_美国->🇨🇦_CA_加拿大
+      - US_speednode_0055
+      - 美国 161
+      - 匈牙利 01 | 1x HU
+      - NU_speednode_0051
+      - 匈牙利01
+      - US_speednode_0085 3
+      - JP 30 → tg@nicevpn123
+      - 新加坡03
+      - 香港 04 | 1x HK
+      - 16|🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - RELAY-172.64.229.116-213
+      - 台湾01 | New Bing
+      - 12|美国 016
+      - 荷兰01
+      - 12,16|美国 011
+      - JP_speednode_0039
+      - "0,1,2,3,4,12,15,16,24|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1"
+      - 美国 037
+      - JP_speednode_0037
+      - "8,13|🇺🇸_US_美国 #2"
+      - US_speednode_0085 4
+      - CN 311 → tg@nicevpn123
+      - 16|🇺🇸 美国_08111000 2
+      - _US_美国->🇫🇷_FR_法国 5
+      - 美国 03 | 1x US
+      - 马来西亚01
+      - US_speednode_0047 3
+      - US 1160 → tg@nicevpn123
+      - 美国 202
+      - US_speednode_0070
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_226
+      - 美国 029
+      - 澳大利亚 01 | 1x AU
+      - 美国 038
+      - 台湾04
+      - 西班牙 01 | 1x ES
+      - 巴西01
+      - 12,16|美国 011 2
+      - US_speednode_0090
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_201
+      - 英国01
+      - US_speednode_0047 4
+      - US_speednode_0089
+      - JP_speednode_0038
+      - _US_美国->🇩🇪_DE_德国 2
+      - US_speednode_0069
+      - CN 254 → tg@nicevpn123
+      - US_speednode_0067
+      - 新加坡 02 | 1x SG
+      - CN 258 → tg@nicevpn123
+      - CN-14.18.89.198-127
+      - _US_美国->🇩🇪_DE_德国_0@22
+      - US 1474 → tg@nicevpn123
+      - 台湾02
+      - US_speednode_0095
+      - 台湾 01  | 1x TWN | New Bing
+      - 越南04
+      - 12|美国 021
+      - US 182 → tg@nicevpn123
+      - 日本03
+      - 香港06
+      - 新加坡01
+      - _CN_中国->🇦🇹_AT_奥地利
+      - SG 27 → tg@nicevpn123
+      - US_speednode_0071
+      - CN-14.116.214.232-125
+      - CN 314 → tg@nicevpn123
+      - 16|🇺🇸 美国 237
+      - _CN_中国->🇦🇹_AT_奥地利 2
+      - RU_speednode_0035
+      - _US_美国_4_4@18
+      - CN 230 → tg@nicevpn123
+      - CN 144 → tg@nicevpn123
+      - US_speednode_0105
+      - 美国 043
+      - 新加坡 03 | 1x SG
+      - CN 148 → tg@nicevpn123
+      - 阿根廷 01 | 1x AR
+      - 越南 04 | 1x VN
+      - US 1094 → tg@nicevpn123
+      - 12,13,16|美国 024
+      - NU_speednode_0050
+      - 匈牙利 04 | 1x HU
+      - 美国 141
+      - RELAY-172.64.85.116-206
+      - CN-120.241.47.133-017
+      - "[ClashNode]🇨🇦 _CA_加拿大"
+      - 土耳其 01 | 1x TR
+      - CN 76 → tg@nicevpn123
+      - 美国 023
+      - CN 112 → tg@nicevpn123
+      - 美国 032
+      - "2,12,15,24|_US_美国 #4"
+      - _US_美国 5
+      - CN 257 → tg@nicevpn123
+      - _US_美国 2
+      - 23|🇨🇳_CN_中国_48
+      - 越南 01 | 1x VN
+      - TW-114.37.208.246-240
+      - 1,2,4,16|_US_美国 2
+      - US_speednode_0075
+      - CN 54 → tg@nicevpn123
+      - 香港 02 | 1x HK
+      - 越南01
+      - CN 85 → tg@nicevpn123
+      - 美国02
+      - CN 269 → tg@nicevpn123
+      - 1,2,4|_CN_中国->🇺🇸_US_美国 2
+      - US_speednode_0084
+      - 菲律宾 04 | 1x PH
+      - 菲律宾01 | New Bing
+      - CN 313 → tg@nicevpn123
+      - 泰国04
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_230
+      - 泰国 01 | 1x TH
+      - 泰国01
+      - 18,19|移动专线|@ripaojiedian
+      - 0,1,2,3,4,15,24|🇦🇹 _CN_中国->🇦🇹_AT_奥地利
+      - 泰国 04 | 1x TH
+      - _FR_法国_1@29
+      - 土耳其 04 | 1x TR
+      - 菲律宾 01 | 1x PH | New Bing
+      - 菲律宾04
   - name: ♻️ Missav
     type: fallback
     url: https://www.Missav.com
     interval: 2
     proxies:
-      - 香港 01 | 1x HK
-      - US 734 → tg@nicevpn123
-      - US_speednode_0061
-      - US_speednode_0056
-      - RU_speednode_0035
-      - US_speednode_0055
-      - US_speednode_0081
-      - 乌克兰01
-      - 英国 01 | 1x UK
-      - 印度 01 | 1x IN
-      - US_speednode_0079
-      - 新加坡01
-      - 乌克兰04
-      - 台湾 05  | 1x TWN
-      - US_speednode_0047
-      - _CN_中国
-      - US_speednode_0070
-      - 葡萄牙01
-      - 台湾 01  | 1x TWN | New Bing
-      - _FR_法国
-      - US_speednode_0047 2
-      - 澳大利亚04
-      - 荷兰01
-      - 西班牙04
-      - 韩国 01 | 1x KR | New Bing
-      - 西班牙01
-      - 英国01
-      - 香港06
-      - FR_speednode_0008
-      - US 734 → tg@nicevpn123 2
-      - "8,13|🇺🇸_US_美国 #2"
-      - 加拿大 01 | 1x CA
-      - 台湾03
-      - 新加坡 04 | 1x SG
-      - 德国 04 | 1x AU
-      - 葡萄牙04
-      - 俄罗斯 04 | 1x RU
-      - 土耳其 04 | 1x TR
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国03
-      - 日本 03  | 1x JP
-      - 台湾 03  | 1x TWN
-      - 阿根廷 01 | 1x AR
-      - 巴西 04 | 1x BR
-      - 18,19|🇯🇵 日本A|@ripaojiedian
-      - 英国 04 | 1x UK
-      - 台湾06
-      - 马来西亚 04 | 1x MY
-      - 新加坡 02 | 1x SG
-      - 巴西 01 | 1x BR
-      - 香港 03 | 1x HK
-      - 台湾 02  | 1x TWN
-      - 日本 04  | 1x JP
-      - 马来西亚04
-      - 土耳其04
-      - 马来西亚 01 | 1x MY
-      - 香港02
-      - 德国04
-      - 美国02
-      - 香港05
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 香港01
-      - 16|🇩🇪DE德国(youtube阿伟科技)
-      - 日本05
-      - 美国06
-      - 台湾02
-      - 韩国 02 | 1x KR
-      - US_speednode_0054
-      - 俄罗斯01
-      - 香港 05 | 1x HK
-      - 俄罗斯 01 | 1x RU
-      - 日本 06  | 1x JP
-      - 美国 04 | 1x US
-      - 台湾04
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 新加坡 05 | 1x SG
-      - 韩国04
-      - 「SCP」US-DP4-HTTP
-      - 美国04
-      - US_speednode_0085
-      - github.com/freefq - 美国阿里云 4
-      - 香港03
-      - github.com/freefq - 美国CloudFlare节点 1
-      - 英国04
-      - 匈牙利 04 | 1x HU
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 阿根廷04
-      - 匈牙利 01 | 1x HU
-      - 日本04
-      - 美国 03 | 1x US
-      - 美国01
-      - 印度01
-      - 印度 04 | 1x IN
-      - 美国 06 | 1x US
-      - 新加坡04
-      - 韩国01 | New Bing
-      - 新加坡 06 | 1x SG
-      - 新加坡 03 | 1x SG
-      - 新加坡05
-      - 土耳其 01 | 1x TR
-      - 香港04
-      - 台湾05
-      - 日本02
+      - JP 40 → tg@nicevpn123
       - 日本 02  | 1x JP
-      - 印度04
-      - 阿根廷 04 | 1x AR
-      - 加拿大 02 | 1x CA
-      - 美国 05 | 1x US
-      - 澳大利亚 04 | 1x AU
+      - US_speednode_0062
+      - 美国 025
+      - CN-14.18.89.198-129
+      - 加拿大 01 | 1x CA
+      - 12|美国 065
+      - CN-14.116.214.232-128
+      - 韩国 01 | 1x KR | New Bing
       - 日本 05  | 1x JP
-      - 乌克兰 04 | 1x UA
-      - 日本01
-      - 台湾 06  | 1x TWN
-      - 美国05
-      - 西班牙 02 | 1x ES
-      - 匈牙利04
-      - 美国 02 | 1x US
-      - 马来西亚01
-      - 巴西04
-      - 葡萄牙 04 | 1x PT
-      - 俄罗斯04
-      - 加拿大01
-      - 荷兰04
-      - 澳大利亚01
-      - 巴西01
-      - 香港 02 | 1x HK
-      - 新加坡02
-      - 阿根廷01
-      - 土耳其01
-      - 葡萄牙 01 | 1x PT
-      - 加拿大04
-      - 乌克兰 01 | 1x UA
-      - 德国01
-      - 荷兰 02 | 1x NL
-      - 荷兰 01 | 1x NL
-      - 德国 01 | 1x DE
-      - 美国01 | 1x US
-      - 新加坡03
-      - 台湾01 | New Bing
-      - 新加坡 01  | 1x SG
-      - 香港 04 | 1x HK
-      - 澳大利亚 01 | 1x AU
-      - 匈牙利01
-      - 日本03
-      - 香港A|@ripaojiedian
-      - 香港 06 | 1x HK
       - 台湾 04  | 1x TWN
-      - 日本 01 | 1x JP
-      - 西班牙 01 | 1x ES
-      - "[peasoft/NoMoreWalls]23|🇺🇸_US_美国_8_23"
-      - 美国(yudou66.com 玉豆免费节点) 6
+      - 美国01 | 1x US
+      - 加拿大 02 | 1x CA
+      - 香港 03 | 1x HK
+      - 巴西 04 | 1x BR
+      - 新加坡 06 | 1x SG
+      - 美国03
+      - _US_美国->🇸🇬_SG_新加坡
+      - 土耳其04
+      - 俄罗斯04
+      - 澳大利亚01
+      - JP 47 → tg@nicevpn123
+      - 匈牙利04
+      - US_speednode_0047
+      - 日本01
+      - 澳大利亚 04 | 1x AU
+      - 乌克兰 04 | 1x UA
+      - 新加坡05
+      - 台湾03
+      - 日本04
+      - 日本05
+      - 美国 05 | 1x US
+      - 美国04
+      - 新加坡04
+      - 台湾06
+      - 美国 033
+      - 德国 01 | 1x DE
+      - 德国04
+      - 香港04
+      - 俄罗斯01
+      - 韩国04
       - 日本06
-      - 越南 01 | 1x VN
-      - 越南04
-      - 23|🇨🇳_CN_中国_48
-      - 越南 04 | 1x VN
-      - 越南01
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
+      - 台湾05
+      - 马来西亚 04 | 1x MY
+      - 德国 04 | 1x AU
+      - 日本 06  | 1x JP
+      - US 409 → tg@nicevpn123
+      - US-45.199.138.139-196
+      - 葡萄牙04
+      - 日本 03  | 1x JP
       - 新加坡06
-      - 日本A|@ripaojiedian
-      - CN 120 → tg@nicevpn123
+      - 澳大利亚04
+      - 香港05
+      - 荷兰 01 | 1x NL
+      - 阿根廷04
+      - 美国 097
+      - 荷兰04
+      - 印度 01 | 1x IN
+      - US_speednode_0101
+      - 西班牙04
+      - 新加坡 01  | 1x SG
+      - 0,3,24|🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 韩国01 | New Bing
+      - 香港 05 | 1x HK
+      - CN-14.18.89.198-088
+      - 12,16|美国 004
+      - US 1185 → tg@nicevpn123
+      - US_speednode_0065
+      - 葡萄牙 04 | 1x PT
+      - _US_美国
+      - 美国05
+      - 荷兰 190
+      - 16|🇺🇸 美国_08111000
+      - 印度04
+      - 西班牙01
+      - 香港03
+      - 美国 026
+      - 韩国 02 | 1x KR
+      - 加拿大01
+      - 西班牙 02 | 1x ES
+      - 日本 04  | 1x JP
+      - 香港02
+      - 美国CloudFlare公司CDN节点 20
+      - 台湾 03  | 1x TWN
+      - 美国 013
+      - 印度 04 | 1x IN
+      - 美国 030
+      - 美国 06 | 1x US
+      - 巴西04
+      - 台湾 06  | 1x TWN
+      - US_speednode_0081
+      - 阿根廷 04 | 1x AR
+      - CN 226 → tg@nicevpn123
+      - US_speednode_0085
+      - 日本02
+      - 乌克兰01
+      - _US_美国 11
+      - 美国01
+      - 台湾 02  | 1x TWN
+      - 土耳其01
+      - NU_speednode_0052
+      - 香港 06 | 1x HK
+      - 英国04
+      - 英国 01 | 1x UK
+      - 阿根廷01
+      - NU_speednode_0049
+      - 12,13,16|美国 031
+      - 加拿大04
+      - 马来西亚 01 | 1x MY
+      - 美国 04 | 1x US
+      - US 794 → tg@nicevpn123
+      - 英国 04 | 1x UK
+      - US_speednode_0047 2
+      - 俄罗斯 04 | 1x RU
+      - 16|CY_youtube@资源分享师_50
+      - 美国06
+      - US_speednode_0061
+      - 马来西亚04
+      - HK 66 → tg@nicevpn123
+      - US_speednode_0077
+      - 12,16|美国 007
+      - 新加坡 04 | 1x SG
+      - _US_美国->🇩🇪_DE_德国
+      - 新加坡02
+      - 美国 02 | 1x US
+      - 荷兰 02 | 1x NL
       - US_speednode_0060
-      - US_speednode_0066
-      - US_speednode_0051
-      - 泰国04
-      - US_speednode_0067
-      - US_speednode_0073
-      - US 740 → tg@nicevpn123
-      - US_speednode_0045
-      - 泰国01
-      - HK 12 → tg@nicevpn123
-      - 泰国 01 | 1x TH
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_462
-      - 泰国 04 | 1x TH
-      - 菲律宾04
-      - 菲律宾01 | New Bing
-      - 菲律宾 04 | 1x PH
-      - 电报频道:@ripaojiedian
-      - 日本S|@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
-      - 菲律宾 01 | 1x PH | New Bing
+      - 巴西 01 | 1x BR
+      - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 美国 009
+      - US 1727 → tg@nicevpn123
+      - CN 51 → tg@nicevpn123
+      - 葡萄牙01
+      - 乌克兰 01 | 1x UA
+      - 俄罗斯 01 | 1x RU
+      - US_speednode_0056
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_9
+      - US_speednode_0099
+      - 葡萄牙 01 | 1x PT
+      - 新加坡 05 | 1x SG
+      - 美国 004
+      - 12|美国 008
+      - 8|🇨🇾_CY_塞浦路斯->🇬🇧_GB_英国
+      - US_speednode_0085 2
+      - 1,2,4,12,16|_US_美国 9
+      - 12,16|美国 004 2
+      - 12,16|美国 012
+      - 16|🇺🇸 美国 234
+      - 印度01
+      - 日本 01 | 1x JP
+      - 台湾 05  | 1x TWN
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_482
+      - 德国01
+      - 12,16|美国 012 2
+      - 香港01
+      - 13,16|github.com/freefq - 美国CloudFla...
       - US_speednode_0048
-      - 「SCP」US-DP1-HTTP
+      - 香港 01 | 1x HK
+      - _US_美国->🇨🇦_CA_加拿大
+      - US_speednode_0055
+      - 美国 161
+      - 匈牙利 01 | 1x HU
+      - NU_speednode_0051
+      - 匈牙利01
+      - US_speednode_0085 3
+      - JP 30 → tg@nicevpn123
+      - 新加坡03
+      - 香港 04 | 1x HK
+      - 16|🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - RELAY-172.64.229.116-213
+      - 台湾01 | New Bing
+      - 12|美国 016
+      - 荷兰01
+      - 12,16|美国 011
+      - JP_speednode_0039
+      - "0,1,2,3,4,12,15,16,24|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1"
+      - 美国 037
+      - JP_speednode_0037
+      - "8,13|🇺🇸_US_美国 #2"
+      - US_speednode_0085 4
+      - CN 311 → tg@nicevpn123
+      - 16|🇺🇸 美国_08111000 2
+      - _US_美国->🇫🇷_FR_法国 5
+      - 美国 03 | 1x US
+      - 马来西亚01
+      - US_speednode_0047 3
+      - US 1160 → tg@nicevpn123
+      - 美国 202
+      - US_speednode_0070
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_226
+      - 美国 029
+      - 澳大利亚 01 | 1x AU
+      - 美国 038
+      - 台湾04
+      - 西班牙 01 | 1x ES
+      - 巴西01
+      - 12,16|美国 011 2
+      - US_speednode_0090
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_201
+      - 英国01
+      - US_speednode_0047 4
+      - US_speednode_0089
+      - JP_speednode_0038
+      - _US_美国->🇩🇪_DE_德国 2
+      - US_speednode_0069
+      - CN 254 → tg@nicevpn123
+      - US_speednode_0067
+      - 新加坡 02 | 1x SG
+      - CN 258 → tg@nicevpn123
+      - CN-14.18.89.198-127
+      - _US_美国->🇩🇪_DE_德国_0@22
+      - US 1474 → tg@nicevpn123
+      - 台湾02
+      - US_speednode_0095
+      - 台湾 01  | 1x TWN | New Bing
+      - 越南04
+      - 12|美国 021
+      - US 182 → tg@nicevpn123
+      - 日本03
+      - 香港06
+      - 新加坡01
+      - _CN_中国->🇦🇹_AT_奥地利
+      - SG 27 → tg@nicevpn123
+      - US_speednode_0071
+      - CN-14.116.214.232-125
+      - CN 314 → tg@nicevpn123
+      - 16|🇺🇸 美国 237
+      - _CN_中国->🇦🇹_AT_奥地利 2
+      - RU_speednode_0035
+      - _US_美国_4_4@18
+      - CN 230 → tg@nicevpn123
+      - CN 144 → tg@nicevpn123
+      - US_speednode_0105
+      - 美国 043
+      - 新加坡 03 | 1x SG
+      - CN 148 → tg@nicevpn123
+      - 阿根廷 01 | 1x AR
+      - 越南 04 | 1x VN
+      - US 1094 → tg@nicevpn123
+      - 12,13,16|美国 024
+      - NU_speednode_0050
+      - 匈牙利 04 | 1x HU
+      - 美国 141
+      - RELAY-172.64.85.116-206
+      - CN-120.241.47.133-017
+      - "[ClashNode]🇨🇦 _CA_加拿大"
+      - 土耳其 01 | 1x TR
+      - CN 76 → tg@nicevpn123
+      - 美国 023
+      - CN 112 → tg@nicevpn123
+      - 美国 032
+      - "2,12,15,24|_US_美国 #4"
+      - _US_美国 5
+      - CN 257 → tg@nicevpn123
+      - _US_美国 2
+      - 23|🇨🇳_CN_中国_48
+      - 越南 01 | 1x VN
+      - TW-114.37.208.246-240
+      - 1,2,4,16|_US_美国 2
+      - US_speednode_0075
+      - CN 54 → tg@nicevpn123
+      - 香港 02 | 1x HK
+      - 越南01
+      - CN 85 → tg@nicevpn123
+      - 美国02
+      - CN 269 → tg@nicevpn123
+      - 1,2,4|_CN_中国->🇺🇸_US_美国 2
+      - US_speednode_0084
+      - 菲律宾 04 | 1x PH
+      - 菲律宾01 | New Bing
+      - CN 313 → tg@nicevpn123
+      - 泰国04
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_230
+      - 泰国 01 | 1x TH
+      - 泰国01
+      - 18,19|移动专线|@ripaojiedian
+      - 0,1,2,3,4,15,24|🇦🇹 _CN_中国->🇦🇹_AT_奥地利
+      - 泰国 04 | 1x TH
+      - _FR_法国_1@29
+      - 土耳其 04 | 1x TR
+      - 菲律宾 01 | 1x PH | New Bing
+      - 菲律宾04
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1158,191 +1740,288 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港 01 | 1x HK
-      - US 734 → tg@nicevpn123
-      - US_speednode_0061
-      - US_speednode_0056
-      - RU_speednode_0035
-      - US_speednode_0055
-      - US_speednode_0081
-      - 乌克兰01
-      - 英国 01 | 1x UK
-      - 印度 01 | 1x IN
-      - US_speednode_0079
-      - 新加坡01
-      - 乌克兰04
-      - 台湾 05  | 1x TWN
-      - US_speednode_0047
-      - _CN_中国
-      - US_speednode_0070
-      - 葡萄牙01
-      - 台湾 01  | 1x TWN | New Bing
-      - _FR_法国
-      - US_speednode_0047 2
-      - 澳大利亚04
-      - 荷兰01
-      - 西班牙04
-      - 韩国 01 | 1x KR | New Bing
-      - 西班牙01
-      - 英国01
-      - 香港06
-      - FR_speednode_0008
-      - US 734 → tg@nicevpn123 2
-      - "8,13|🇺🇸_US_美国 #2"
-      - 加拿大 01 | 1x CA
-      - 台湾03
-      - 新加坡 04 | 1x SG
-      - 德国 04 | 1x AU
-      - 葡萄牙04
-      - 俄罗斯 04 | 1x RU
-      - 土耳其 04 | 1x TR
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国03
-      - 日本 03  | 1x JP
-      - 台湾 03  | 1x TWN
-      - 阿根廷 01 | 1x AR
-      - 巴西 04 | 1x BR
-      - 18,19|🇯🇵 日本A|@ripaojiedian
-      - 英国 04 | 1x UK
-      - 台湾06
-      - 马来西亚 04 | 1x MY
-      - 新加坡 02 | 1x SG
-      - 巴西 01 | 1x BR
-      - 香港 03 | 1x HK
-      - 台湾 02  | 1x TWN
-      - 日本 04  | 1x JP
-      - 马来西亚04
-      - 土耳其04
-      - 马来西亚 01 | 1x MY
-      - 香港02
-      - 德国04
-      - 美国02
-      - 香港05
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 香港01
-      - 16|🇩🇪DE德国(youtube阿伟科技)
-      - 日本05
-      - 美国06
-      - 台湾02
-      - 韩国 02 | 1x KR
-      - US_speednode_0054
-      - 俄罗斯01
-      - 香港 05 | 1x HK
-      - 俄罗斯 01 | 1x RU
-      - 日本 06  | 1x JP
-      - 美国 04 | 1x US
-      - 台湾04
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 新加坡 05 | 1x SG
-      - 韩国04
-      - 「SCP」US-DP4-HTTP
-      - 美国04
-      - US_speednode_0085
-      - github.com/freefq - 美国阿里云 4
-      - 香港03
-      - github.com/freefq - 美国CloudFlare节点 1
-      - 英国04
-      - 匈牙利 04 | 1x HU
-      - 美国(yudou66.com 玉豆免费节点) 5
-      - 阿根廷04
-      - 匈牙利 01 | 1x HU
-      - 日本04
-      - 美国 03 | 1x US
-      - 美国01
-      - 印度01
-      - 印度 04 | 1x IN
-      - 美国 06 | 1x US
-      - 新加坡04
-      - 韩国01 | New Bing
-      - 新加坡 06 | 1x SG
-      - 新加坡 03 | 1x SG
-      - 新加坡05
-      - 土耳其 01 | 1x TR
-      - 香港04
-      - 台湾05
-      - 日本02
+      - JP 40 → tg@nicevpn123
       - 日本 02  | 1x JP
-      - 印度04
-      - 阿根廷 04 | 1x AR
-      - 加拿大 02 | 1x CA
-      - 美国 05 | 1x US
-      - 澳大利亚 04 | 1x AU
+      - US_speednode_0062
+      - 美国 025
+      - CN-14.18.89.198-129
+      - 加拿大 01 | 1x CA
+      - 12|美国 065
+      - CN-14.116.214.232-128
+      - 韩国 01 | 1x KR | New Bing
       - 日本 05  | 1x JP
-      - 乌克兰 04 | 1x UA
-      - 日本01
-      - 台湾 06  | 1x TWN
-      - 美国05
-      - 西班牙 02 | 1x ES
-      - 匈牙利04
-      - 美国 02 | 1x US
-      - 马来西亚01
-      - 巴西04
-      - 葡萄牙 04 | 1x PT
-      - 俄罗斯04
-      - 加拿大01
-      - 荷兰04
-      - 澳大利亚01
-      - 巴西01
-      - 香港 02 | 1x HK
-      - 新加坡02
-      - 阿根廷01
-      - 土耳其01
-      - 葡萄牙 01 | 1x PT
-      - 加拿大04
-      - 乌克兰 01 | 1x UA
-      - 德国01
-      - 荷兰 02 | 1x NL
-      - 荷兰 01 | 1x NL
-      - 德国 01 | 1x DE
-      - 美国01 | 1x US
-      - 新加坡03
-      - 台湾01 | New Bing
-      - 新加坡 01  | 1x SG
-      - 香港 04 | 1x HK
-      - 澳大利亚 01 | 1x AU
-      - 匈牙利01
-      - 日本03
-      - 香港A|@ripaojiedian
-      - 香港 06 | 1x HK
       - 台湾 04  | 1x TWN
-      - 日本 01 | 1x JP
-      - 西班牙 01 | 1x ES
-      - "[peasoft/NoMoreWalls]23|🇺🇸_US_美国_8_23"
-      - 美国(yudou66.com 玉豆免费节点) 6
+      - 美国01 | 1x US
+      - 加拿大 02 | 1x CA
+      - 香港 03 | 1x HK
+      - 巴西 04 | 1x BR
+      - 新加坡 06 | 1x SG
+      - 美国03
+      - _US_美国->🇸🇬_SG_新加坡
+      - 土耳其04
+      - 俄罗斯04
+      - 澳大利亚01
+      - JP 47 → tg@nicevpn123
+      - 匈牙利04
+      - US_speednode_0047
+      - 日本01
+      - 澳大利亚 04 | 1x AU
+      - 乌克兰 04 | 1x UA
+      - 新加坡05
+      - 台湾03
+      - 日本04
+      - 日本05
+      - 美国 05 | 1x US
+      - 美国04
+      - 新加坡04
+      - 台湾06
+      - 美国 033
+      - 德国 01 | 1x DE
+      - 德国04
+      - 香港04
+      - 俄罗斯01
+      - 韩国04
       - 日本06
-      - 越南 01 | 1x VN
-      - 越南04
-      - 23|🇨🇳_CN_中国_48
-      - 越南 04 | 1x VN
-      - 越南01
-      - 美国(yudou66.com 玉豆免费节点) 7
-      - 美国(yudou66.com 玉豆免费节点) 8
+      - 台湾05
+      - 马来西亚 04 | 1x MY
+      - 德国 04 | 1x AU
+      - 日本 06  | 1x JP
+      - US 409 → tg@nicevpn123
+      - US-45.199.138.139-196
+      - 葡萄牙04
+      - 日本 03  | 1x JP
       - 新加坡06
-      - 日本A|@ripaojiedian
-      - CN 120 → tg@nicevpn123
+      - 澳大利亚04
+      - 香港05
+      - 荷兰 01 | 1x NL
+      - 阿根廷04
+      - 美国 097
+      - 荷兰04
+      - 印度 01 | 1x IN
+      - US_speednode_0101
+      - 西班牙04
+      - 新加坡 01  | 1x SG
+      - 0,3,24|🇹🇼 _CN_中国->🇹🇼_TW_台湾
+      - 韩国01 | New Bing
+      - 香港 05 | 1x HK
+      - CN-14.18.89.198-088
+      - 12,16|美国 004
+      - US 1185 → tg@nicevpn123
+      - US_speednode_0065
+      - 葡萄牙 04 | 1x PT
+      - _US_美国
+      - 美国05
+      - 荷兰 190
+      - 16|🇺🇸 美国_08111000
+      - 印度04
+      - 西班牙01
+      - 香港03
+      - 美国 026
+      - 韩国 02 | 1x KR
+      - 加拿大01
+      - 西班牙 02 | 1x ES
+      - 日本 04  | 1x JP
+      - 香港02
+      - 美国CloudFlare公司CDN节点 20
+      - 台湾 03  | 1x TWN
+      - 美国 013
+      - 印度 04 | 1x IN
+      - 美国 030
+      - 美国 06 | 1x US
+      - 巴西04
+      - 台湾 06  | 1x TWN
+      - US_speednode_0081
+      - 阿根廷 04 | 1x AR
+      - CN 226 → tg@nicevpn123
+      - US_speednode_0085
+      - 日本02
+      - 乌克兰01
+      - _US_美国 11
+      - 美国01
+      - 台湾 02  | 1x TWN
+      - 土耳其01
+      - NU_speednode_0052
+      - 香港 06 | 1x HK
+      - 英国04
+      - 英国 01 | 1x UK
+      - 阿根廷01
+      - NU_speednode_0049
+      - 12,13,16|美国 031
+      - 加拿大04
+      - 马来西亚 01 | 1x MY
+      - 美国 04 | 1x US
+      - US 794 → tg@nicevpn123
+      - 英国 04 | 1x UK
+      - US_speednode_0047 2
+      - 俄罗斯 04 | 1x RU
+      - 16|CY_youtube@资源分享师_50
+      - 美国06
+      - US_speednode_0061
+      - 马来西亚04
+      - HK 66 → tg@nicevpn123
+      - US_speednode_0077
+      - 12,16|美国 007
+      - 新加坡 04 | 1x SG
+      - _US_美国->🇩🇪_DE_德国
+      - 新加坡02
+      - 美国 02 | 1x US
+      - 荷兰 02 | 1x NL
       - US_speednode_0060
-      - US_speednode_0066
-      - US_speednode_0051
-      - 泰国04
-      - US_speednode_0067
-      - US_speednode_0073
-      - US 740 → tg@nicevpn123
-      - US_speednode_0045
-      - 泰国01
-      - HK 12 → tg@nicevpn123
-      - 泰国 01 | 1x TH
-      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_462
-      - 泰国 04 | 1x TH
-      - 菲律宾04
-      - 菲律宾01 | New Bing
-      - 菲律宾 04 | 1x PH
-      - 电报频道:@ripaojiedian
-      - 日本S|@ripaojiedian
-      - 订阅已稳定8天，YouTube搜（ATOM科技）获取新的长效订阅_46
-      - 菲律宾 01 | 1x PH | New Bing
+      - 巴西 01 | 1x BR
+      - 美国弗吉尼亚州阿什本 CloudFlare节点
+      - 美国 009
+      - US 1727 → tg@nicevpn123
+      - CN 51 → tg@nicevpn123
+      - 葡萄牙01
+      - 乌克兰 01 | 1x UA
+      - 俄罗斯 01 | 1x RU
+      - US_speednode_0056
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_9
+      - US_speednode_0099
+      - 葡萄牙 01 | 1x PT
+      - 新加坡 05 | 1x SG
+      - 美国 004
+      - 12|美国 008
+      - 8|🇨🇾_CY_塞浦路斯->🇬🇧_GB_英国
+      - US_speednode_0085 2
+      - 1,2,4,12,16|_US_美国 9
+      - 12,16|美国 004 2
+      - 12,16|美国 012
+      - 16|🇺🇸 美国 234
+      - 印度01
+      - 日本 01 | 1x JP
+      - 台湾 05  | 1x TWN
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_482
+      - 德国01
+      - 12,16|美国 012 2
+      - 香港01
+      - 13,16|github.com/freefq - 美国CloudFla...
       - US_speednode_0048
-      - 「SCP」US-DP1-HTTP
+      - 香港 01 | 1x HK
+      - _US_美国->🇨🇦_CA_加拿大
+      - US_speednode_0055
+      - 美国 161
+      - 匈牙利 01 | 1x HU
+      - NU_speednode_0051
+      - 匈牙利01
+      - US_speednode_0085 3
+      - JP 30 → tg@nicevpn123
+      - 新加坡03
+      - 香港 04 | 1x HK
+      - 16|🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - RELAY-172.64.229.116-213
+      - 台湾01 | New Bing
+      - 12|美国 016
+      - 荷兰01
+      - 12,16|美国 011
+      - JP_speednode_0039
+      - "0,1,2,3,4,12,15,16,24|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1"
+      - 美国 037
+      - JP_speednode_0037
+      - "8,13|🇺🇸_US_美国 #2"
+      - US_speednode_0085 4
+      - CN 311 → tg@nicevpn123
+      - 16|🇺🇸 美国_08111000 2
+      - _US_美国->🇫🇷_FR_法国 5
+      - 美国 03 | 1x US
+      - 马来西亚01
+      - US_speednode_0047 3
+      - US 1160 → tg@nicevpn123
+      - 美国 202
+      - US_speednode_0070
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_226
+      - 美国 029
+      - 澳大利亚 01 | 1x AU
+      - 美国 038
+      - 台湾04
+      - 西班牙 01 | 1x ES
+      - 巴西01
+      - 12,16|美国 011 2
+      - US_speednode_0090
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_201
+      - 英国01
+      - US_speednode_0047 4
+      - US_speednode_0089
+      - JP_speednode_0038
+      - _US_美国->🇩🇪_DE_德国 2
+      - US_speednode_0069
+      - CN 254 → tg@nicevpn123
+      - US_speednode_0067
+      - 新加坡 02 | 1x SG
+      - CN 258 → tg@nicevpn123
+      - CN-14.18.89.198-127
+      - _US_美国->🇩🇪_DE_德国_0@22
+      - US 1474 → tg@nicevpn123
+      - 台湾02
+      - US_speednode_0095
+      - 台湾 01  | 1x TWN | New Bing
+      - 越南04
+      - 12|美国 021
+      - US 182 → tg@nicevpn123
+      - 日本03
+      - 香港06
+      - 新加坡01
+      - _CN_中国->🇦🇹_AT_奥地利
+      - SG 27 → tg@nicevpn123
+      - US_speednode_0071
+      - CN-14.116.214.232-125
+      - CN 314 → tg@nicevpn123
+      - 16|🇺🇸 美国 237
+      - _CN_中国->🇦🇹_AT_奥地利 2
+      - RU_speednode_0035
+      - _US_美国_4_4@18
+      - CN 230 → tg@nicevpn123
+      - CN 144 → tg@nicevpn123
+      - US_speednode_0105
+      - 美国 043
+      - 新加坡 03 | 1x SG
+      - CN 148 → tg@nicevpn123
+      - 阿根廷 01 | 1x AR
+      - 越南 04 | 1x VN
+      - US 1094 → tg@nicevpn123
+      - 12,13,16|美国 024
+      - NU_speednode_0050
+      - 匈牙利 04 | 1x HU
+      - 美国 141
+      - RELAY-172.64.85.116-206
+      - CN-120.241.47.133-017
+      - "[ClashNode]🇨🇦 _CA_加拿大"
+      - 土耳其 01 | 1x TR
+      - CN 76 → tg@nicevpn123
+      - 美国 023
+      - CN 112 → tg@nicevpn123
+      - 美国 032
+      - "2,12,15,24|_US_美国 #4"
+      - _US_美国 5
+      - CN 257 → tg@nicevpn123
+      - _US_美国 2
+      - 23|🇨🇳_CN_中国_48
+      - 越南 01 | 1x VN
+      - TW-114.37.208.246-240
+      - 1,2,4,16|_US_美国 2
+      - US_speednode_0075
+      - CN 54 → tg@nicevpn123
+      - 香港 02 | 1x HK
+      - 越南01
+      - CN 85 → tg@nicevpn123
+      - 美国02
+      - CN 269 → tg@nicevpn123
+      - 1,2,4|_CN_中国->🇺🇸_US_美国 2
+      - US_speednode_0084
+      - 菲律宾 04 | 1x PH
+      - 菲律宾01 | New Bing
+      - CN 313 → tg@nicevpn123
+      - 泰国04
+      - 订阅已稳定20天，（ATOM科技）最新视频获取新的长效订阅_230
+      - 泰国 01 | 1x TH
+      - 泰国01
+      - 18,19|移动专线|@ripaojiedian
+      - 0,1,2,3,4,15,24|🇦🇹 _CN_中国->🇦🇹_AT_奥地利
+      - 泰国 04 | 1x TH
+      - _FR_法国_1@29
+      - 土耳其 04 | 1x TR
+      - 菲律宾 01 | 1x PH | New Bing
+      - 菲律宾04
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
