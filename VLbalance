@@ -49,7 +49,7 @@
     },
     {
       "tag": "api",
-      "port": 52114,
+      "port": 55852,
       "listen": "127.0.0.1",
       "protocol": "dokodemo-door",
       "settings": {
@@ -76,7 +76,19 @@
                 "security": "auto"
               }
             ]
-          }
+          },
+          {
+            "address": "120.226.50.93",
+            "port": 40702,
+            "users": [
+              {
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+          }		  
         ]
       },
       "streamSettings": {
