@@ -49,7 +49,7 @@
     },
     {
       "tag": "api",
-      "port": 64034,
+      "port": 55852,
       "listen": "127.0.0.1",
       "protocol": "dokodemo-door",
       "settings": {
@@ -62,108 +62,85 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "usibm.ptuu.tk",
-            "port": 443,
+            "address": "fusion.mlinuu.top",
+            "port": 10010,
             "users": [
               {
-                "id": "e22b5c17bc0b47d78d3d62090d174765",
+                "id": "ce6c3ee0-e0bd-39d2-8b49-97c6add325c6",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           },
           {
-            "address": "172.67.175.155",
-            "port": 443,
+            "address": "120.226.50.93",
+            "port": 40702,
             "users": [
               {
-                "id": "e22b5c17bc0b47d78d3d62090d174765",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           },		  
           {
-            "address": "172.67.113.118",
-            "port": 443,
+            "address": "bl.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "e22b5c17bc0b47d78d3d62090d174765",
+                "id": "53701585-591f-48a3-9515-8831ed0524ac",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
-          },
+          },	
           {
-            "address": "172.67.113.224",
-            "port": 443,
+            "address": "hdlb.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "e22b5c17bc0b47d78d3d62090d174765",
+                "id": "f1865e50-2510-46d1-bcb2-e00b4b656305",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
+              }s
+            ]
+          },		  
+            {
+            "address": "fd.shabijichang.com",
+            "port": 80,
+            "users": [
+              {
+                "id": "70a93fcb-f8c0-4916-96b5-8c54f3394708",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto"
               }
             ]
-          },
+          },		  
           {
-            "address": "104.19.192.120",
-            "port": 443,
+            "address": "fd.shabijichang.com",
+            "port": 80,
             "users": [
               {
-                "id": "e22b5c17bc0b47d78d3d62090d174765",
+                "id": "beaa0ee8-1ff6-4ee5-982d-258f0d830018",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
-              }
-            ]
-          },
-          {
-            "address": "172.67.113.200",
-            "port": 443,
-            "users": [
-              {
-                "id": "e22b5c17bc0b47d78d3d62090d174765",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           }		  
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "usibm.ptuu.tk"
-        },
-        "wsSettings": {
-          "path": "path",
-          "headers": {
-            "Host": "usibm.ptuu.tk"
-          }
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
