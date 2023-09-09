@@ -49,7 +49,7 @@
     },
     {
       "tag": "api",
-      "port": 55852,
+      "port": 52114,
       "listen": "127.0.0.1",
       "protocol": "dokodemo-door",
       "settings": {
@@ -66,24 +66,24 @@
       "settings": {
         "vnext": [
           {
-            "address": "142.4.111.76",
-            "port": 42009,
+            "address": "dongtaiwang3.com",
+            "port": 443,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "6deddb7f-e557-42db-bfa0-cf40b36b27e2",
+                "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
               }
             ]
           },
           {
-            "address": "120.226.50.93",
-            "port": 40702,
+            "address": "23.227.38.81",
+            "port": 443,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "6deddb7f-e557-42db-bfa0-cf40b36b27e2",
+                "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
               }
@@ -92,7 +92,18 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "d.freeh1.xyz"
+        },
+        "wsSettings": {
+          "path": "/dongtaiwang.com",
+          "headers": {
+            "Host": "d.freeh1.xyz"
+          }
+        }
       },
       "mux": {
         "enabled": true,
