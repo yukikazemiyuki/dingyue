@@ -66,7 +66,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "dongtaiwang3.com",
+            "address": "23.227.38.81",
             "port": 443,
             "users": [
               {
@@ -77,6 +77,18 @@
               }
             ]
           },
+          {
+            "address": "dongtaiwang3.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "6deddb7f-e557-42db-bfa0-cf40b36b27e2",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+          },		  
           {
             "address": "23.227.39.109",
             "port": 443,
@@ -90,12 +102,12 @@
             ]
           },		  
           {
-            "address": "23.227.38.81",
+            "address": "156.225.67.132",
             "port": 443,
             "users": [
               {
-                "id": "6deddb7f-e557-42db-bfa0-cf40b36b27e2",
-                "alterId": 0,
+                "id": "515bcb4d-0ba1-4cae-87cf-a047007eec54",
+                "alterId": 64,
                 "email": "t@t.tt",
                 "security": "auto"
               }
