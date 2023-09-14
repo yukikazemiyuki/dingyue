@@ -49,7 +49,7 @@
     },
     {
       "tag": "api",
-      "port": 64034,
+      "port": 52114,
       "listen": "127.0.0.1",
       "protocol": "dokodemo-door",
       "settings": {
@@ -62,76 +62,54 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "104.21.66.129",
+            "address": "199.188.105.141",
             "port": 443,
             "users": [
               {
-                "id": "1aa6aa4e-de17-4d86-98d3-4657b6727270",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           },
           {
-            "address": "104.21.74.139",
+            "address": "142.4.100.45",
             "port": 443,
             "users": [
               {
-                "id": "b81784ba-5294-4576-a5f4-70181b4a27f9",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           },		  
           {
-            "address": "104.21.74.139",
+            "address": "198.2.223.8",
             "port": 443,
             "users": [
               {
-                "id": "9b704599-c989-4e1d-b842-84b5fa0f6549",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
-          },
+          },		  
           {
-            "address": "104.21.74.139",
+            "address": "142.4.126.59",
             "port": 443,
             "users": [
               {
-                "id": "a2f69fb1-6090-4014-bbbd-5d233d717344",
-                "alterId": 0,
+                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
+                "alterId": 64,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
-              }
-            ]
-          },
-          {
-            "address": "104.21.74.139",
-            "port": 443,
-            "users": [
-              {
-                "id": "b003515d-4639-4bfa-9a87-e62a2feb90ac",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           }		  
@@ -142,12 +120,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "stunts.aurorainiceland.com"
+          "serverName": ""
         },
         "wsSettings": {
-          "path": "/nimws",
+          "path": "/path/1693304091037",
           "headers": {
-            "Host": "stunts.aurorainiceland.com"
+            "Host": "www.71825152.xyz"
           }
         }
       },
