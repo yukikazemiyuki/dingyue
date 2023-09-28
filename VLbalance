@@ -49,7 +49,7 @@
     },
     {
       "tag": "api",
-      "port": 56382,
+      "port": 64034,
       "listen": "127.0.0.1",
       "protocol": "dokodemo-door",
       "settings": {
@@ -62,31 +62,107 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "199.188.105.141",
+            "address": "104.21.74.139",
             "port": 443,
             "users": [
               {
-                "id": "418048af-a293-4b99-9b0c-98ca3580dd24",
-                "alterId": 64,
+                "id": "25bfe8f2-ce73-4199-b0f4-e40cb13855ce",
+                "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
               }
             ]
-          }
+          },
+          {
+            "address": "104.21.74.139",
+            "port": 443,
+            "users": [
+              {
+                "id": "1aa6aa4e-de17-4d86-98d3-4657b6727270",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          },		  
+          {
+            "address": "104.21.74.139",
+            "port": 443,
+            "users": [
+              {
+                "id": "55894b90-c29a-40e1-b2e1-9f038394d0d3",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          },
+          {
+            "address": "104.21.74.139",
+            "port": 443,
+            "users": [
+              {
+                "id": "91b0191e-dde1-4f62-97c4-7220b9f130bc",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          },
+          {
+            "address": "104.21.74.139",
+            "port": 443,
+            "users": [
+              {
+                "id": "9b704599-c989-4e1d-b842-84b5fa0f6549",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          },
+          {
+            "address": "104.21.74.139",
+            "port": 443,
+            "users": [
+              {
+                "id": "9c9f7230-c8ff-44d2-93f2-a1febbc23767",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }		  
         ]
       },
       "streamSettings": {
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": true
+          "allowInsecure": true,
+          "serverName": "lathworks.aurorainiceland.com"
         },
         "wsSettings": {
-          "path": "/path/1693480232784"
+          "path": "/nimws",
+          "headers": {
+            "Host": "lathworks.aurorainiceland.com"
+          }
         }
       },
       "mux": {
