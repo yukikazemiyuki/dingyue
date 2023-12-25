@@ -66,11 +66,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.74.139",
+            "address": "104.16.58.145",
             "port": 443,
             "users": [
               {
-                "id": "9b704599-c989-4e1d-b842-84b5fa0f6549",
+                "id": "376b9861-2fc6-4647-959c-18185cd9c95a",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -80,11 +80,11 @@
             ]
           },
           {
-            "address": "104.21.74.139",
+            "address": "104.17.88.212",
             "port": 443,
             "users": [
               {
-                "id": "25bfe8f2-ce73-4199-b0f4-e40cb13855ce",
+                "id": "376b9861-2fc6-4647-959c-18185cd9c95a",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -94,11 +94,11 @@
             ]
           },		  
           {
-            "address": "104.21.74.139",
+            "address": "104.31.16.36",
             "port": 443,
             "users": [
               {
-                "id": "55894b90-c29a-40e1-b2e1-9f038394d0d3",
+                "id": "376b9861-2fc6-4647-959c-18185cd9c95a",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -108,39 +108,11 @@
             ]
           },
           {
-            "address": "104.21.74.139",
+            "address": "104.16.219.230",
             "port": 443,
             "users": [
               {
-                "id": "9c9f7230-c8ff-44d2-93f2-a1febbc23767",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
-              }
-            ]
-          },
-          {
-            "address": "104.21.74.139",
-            "port": 443,
-            "users": [
-              {
-                "id": "91b0191e-dde1-4f62-97c4-7220b9f130bc",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
-              }
-            ]
-          },
-          {
-            "address": "104.21.74.139",
-            "port": 443,
-            "users": [
-              {
-                "id": "9d27a2ad-cb24-4dd6-bbe8-c1a535d1544a",
+                "id": "376b9861-2fc6-4647-959c-18185cd9c95a",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -156,12 +128,13 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "lathworks.aurorainiceland.com"
+          "serverName": "lmn90.sbs",
+          "fingerprint": ""
         },
         "wsSettings": {
-          "path": "/nimws",
+          "path": "/fflsws",
           "headers": {
-            "Host": "lathworks.aurorainiceland.com"
+            "Host": "lmn90.sbs"
           }
         }
       },
