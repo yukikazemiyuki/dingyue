@@ -66,7 +66,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.58.145",
+            "address": "185.109.21.24",
             "port": 443,
             "users": [
               {
@@ -128,13 +128,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "lmn90.sbs",
-          "fingerprint": ""
+          "serverName": "lmn37.sbs"
         },
         "wsSettings": {
           "path": "/fflsws",
           "headers": {
-            "Host": "lmn90.sbs"
+            "Host": "lmn37.sbs"
           }
         }
       },
