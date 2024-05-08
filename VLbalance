@@ -66,11 +66,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.109.21.24",
+            "address": "pesu.minusober.com",
             "port": 443,
             "users": [
               {
-                "id": "376b9861-2fc6-4647-959c-18185cd9c95a",
+                "id": "1e038ff0-8678-464c-af28-0612d0c92b96",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -80,11 +80,11 @@
             ]
           },
           {
-            "address": "104.17.88.212",
+            "address": "z-v2-007203.kailib.com",
             "port": 443,
             "users": [
               {
-                "id": "376b9861-2fc6-4647-959c-18185cd9c95a",
+                "id": "64921a6f-d4ca-4f4c-b279-73b96e32a9d3",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -94,11 +94,11 @@
             ]
           },		  
           {
-            "address": "104.31.16.36",
+            "address": "nitriding.appreviewcenter.com",
             "port": 443,
             "users": [
               {
-                "id": "376b9861-2fc6-4647-959c-18185cd9c95a",
+                "id": "f5a78514-1a94-486e-92a7-3bc9817095a6",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -108,11 +108,11 @@
             ]
           },
           {
-            "address": "104.16.219.230",
+            "address": "104.16.6.65",
             "port": 443,
             "users": [
               {
-                "id": "376b9861-2fc6-4647-959c-18185cd9c95a",
+                "id": "8a052c65-bdf6-485a-c1d7-cb2b23f15dfa",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -128,12 +128,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "lmn37.sbs"
+          "serverName": "germany-frankfurt.bitplatform.cloud"
         },
         "wsSettings": {
-          "path": "/fflsws",
+          "path": "/",
           "headers": {
-            "Host": "lmn37.sbs"
+            "Host": "germany-frankfurt.bitplatform.cloud"
           }
         }
       },
