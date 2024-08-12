@@ -72,19 +72,18 @@
     },
     {
       "tag": "proxy-1",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "marly.toptechnonews.com",
-            "port": 443,
+            "address": "172.64.233.27",
+            "port": 2086,
             "users": [
               {
-                "id": "43e00e4c-2316-4dc9-8262-cef31886dc56",
+                "id": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
+                "security": "auto"
               }
             ]
           }
@@ -92,15 +91,10 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "marly.toptechnonews.com"
-        },
         "wsSettings": {
-          "path": "/nimws",
+          "path": "github.com/Alvin9999",
           "headers": {
-            "Host": "marly.toptechnonews.com"
+            "Host": "ip2.1457230.xyz"
           }
         }
       },
@@ -111,19 +105,18 @@
     },
     {
       "tag": "proxy-2",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "storeships.toptechnonews.com",
-            "port": 443,
+            "address": "104.19.46.22",
+            "port": 2086,
             "users": [
               {
-                "id": "cede337b-9ea5-40e5-a8b1-690bf49ff41d",
+                "id": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
+                "security": "auto"
               }
             ]
           }
@@ -131,15 +124,10 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "storeships.toptechnonews.com"
-        },
         "wsSettings": {
-          "path": "/nimws",
+          "path": "github.com/Alvin9999",
           "headers": {
-            "Host": "storeships.toptechnonews.com"
+            "Host": "ip13.freegradely.xyz"
           }
         }
       },
@@ -150,19 +138,18 @@
     },
     {
       "tag": "proxy-3",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "shaliest.toptechnonews.com",
-            "port": 443,
+            "address": "104.19.46.63",
+            "port": 2086,
             "users": [
               {
-                "id": "ff3c4db3-2259-479e-a0e0-7af7d1d429db",
+                "id": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
+                "security": "auto"
               }
             ]
           }
@@ -170,15 +157,109 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "shaliest.toptechnonews.com"
-        },
         "wsSettings": {
-          "path": "/nimws",
+          "path": "github.com/Alvin9999",
           "headers": {
-            "Host": "shaliest.toptechnonews.com"
+            "Host": "ip14.freegradely.xyz"
+          }
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": 8
+      }
+    },
+    {
+      "tag": "proxy-4",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.19.57.4",
+            "port": 2086,
+            "users": [
+              {
+                "id": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "github.com/Alvin9999",
+          "headers": {
+            "Host": "ip2.1457230.xyz"
+          }
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": 8
+      }
+    },
+    {
+      "tag": "proxy-5",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.19.21.71",
+            "port": 2086,
+            "users": [
+              {
+                "id": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "github.com/Alvin9999",
+          "headers": {
+            "Host": "ip14.freegradely.xyz"
+          }
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": 8
+      }
+    },
+    {
+      "tag": "proxy-6",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.64.198.249",
+            "port": 2086,
+            "users": [
+              {
+                "id": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "github.com/Alvin9999",
+          "headers": {
+            "Host": "ip14.freegradely.xyz"
           }
         }
       },
