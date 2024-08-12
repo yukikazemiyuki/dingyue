@@ -76,11 +76,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.36",
-            "port": 80,
+            "address": "shaliest.toptechnonews.com",
+            "port": 443,
             "users": [
               {
-                "id": "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec",
+                "id": "ff3c4db3-2259-479e-a0e0-7af7d1d429db",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -92,16 +92,21 @@
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "shaliest.toptechnonews.com"
+        },
         "wsSettings": {
-          "path": "/",
+          "path": "/nimws",
           "headers": {
-            "Host": "us3.rtacg.com"
+            "Host": "shaliest.toptechnonews.com"
           }
         }
       },
       "mux": {
-        "enabled": false,
-        "concurrency": -1
+        "enabled": true,
+        "concurrency": 8
       }
     },
     {
@@ -110,45 +115,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.12.156",
-            "port": 80,
-            "users": [
-              {
-                "id": "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "us3.rtacg.com"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-3",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.18.21.239",
+            "address": "storeships.toptechnonews.com",
             "port": 443,
             "users": [
               {
-                "id": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+                "id": "cede337b-9ea5-40e5-a8b1-690bf49ff41d",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -163,339 +134,18 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "gOdZillA-mR-DaRKarSha-ONETOpKIng.PaGEs.dEV"
+          "serverName": "storeships.toptechnonews.com"
         },
         "wsSettings": {
-          "path": "/hmBvkyQIpkFvHI5p?ed=2560",
+          "path": "/nimws",
           "headers": {
-            "Host": "GodZiLla-Mr-darkarsha-ONeTOPKING.pAGes.DEv"
+            "Host": "storeships.toptechnonews.com"
           }
         }
       },
       "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-4",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.18.15.19",
-            "port": 443,
-            "users": [
-              {
-                "id": "c1978266-958c-4aa3-ba34-7eacac75aca1",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "bpb-worker-panel3.pages.dev"
-        },
-        "wsSettings": {
-          "path": "/?ed=2560",
-          "headers": {
-            "Host": "bpb-worker-panel3.pages.dev"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-5",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.18.13.233",
-            "port": 80,
-            "users": [
-              {
-                "id": "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "us3.rtacg.com"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-6",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.18.13.88",
-            "port": 80,
-            "users": [
-              {
-                "id": "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "us3.rtacg.com"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-7",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "47.238.52.240",
-            "port": 80,
-            "users": [
-              {
-                "id": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "cfed.tgzdyz2.top"
-        },
-        "wsSettings": {
-          "path": "/TG@ZDYZ2?ed=2560",
-          "headers": {
-            "Host": "cfed.tgzdyz2.top"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-8",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.18.23.190",
-            "port": 80,
-            "users": [
-              {
-                "id": "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "us3.rtacg.com"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-9",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.18.13.156",
-            "port": 80,
-            "users": [
-              {
-                "id": "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "us3.rtacg.com"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-10",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.18.19.8",
-            "port": 80,
-            "users": [
-              {
-                "id": "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "us3.rtacg.com"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-11",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.18.12.49",
-            "port": 80,
-            "users": [
-              {
-                "id": "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "us3.rtacg.com"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-12",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.18.15.68",
-            "port": 8443,
-            "users": [
-              {
-                "id": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "B4C702bE.56894566985.PAgES.dEv"
-        },
-        "wsSettings": {
-          "path": "/UjVb0dS3QkurwdA0?ed=2560",
-          "headers": {
-            "Host": "B4C702BE.56894566985.pAGEs.DEv"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
+        "enabled": true,
+        "concurrency": 8
       }
     }
   ],
