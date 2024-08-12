@@ -76,11 +76,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "shaliest.toptechnonews.com",
+            "address": "marly.toptechnonews.com",
             "port": 443,
             "users": [
               {
-                "id": "ff3c4db3-2259-479e-a0e0-7af7d1d429db",
+                "id": "43e00e4c-2316-4dc9-8262-cef31886dc56",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -95,12 +95,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "shaliest.toptechnonews.com"
+          "serverName": "marly.toptechnonews.com"
         },
         "wsSettings": {
           "path": "/nimws",
           "headers": {
-            "Host": "shaliest.toptechnonews.com"
+            "Host": "marly.toptechnonews.com"
           }
         }
       },
@@ -140,6 +140,45 @@
           "path": "/nimws",
           "headers": {
             "Host": "storeships.toptechnonews.com"
+          }
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": 8
+      }
+    },
+    {
+      "tag": "proxy-3",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "shaliest.toptechnonews.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "ff3c4db3-2259-479e-a0e0-7af7d1d429db",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "shaliest.toptechnonews.com"
+        },
+        "wsSettings": {
+          "path": "/nimws",
+          "headers": {
+            "Host": "shaliest.toptechnonews.com"
           }
         }
       },
