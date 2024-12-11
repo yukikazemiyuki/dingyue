@@ -1,8 +1,340 @@
-vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERFQlx1RDgzQ1x1RERGNyBfXHU2Q0Q1XHU1NkZEIiwNCiAgImFkZCI6ICJpcnZpZGVvLmNmZCIsDQogICJwb3J0IjogIjQ0MyIsDQogICJpZCI6ICJlNTM3ZjJmNS0yYTBjLTRmNTktOTJjOS04MzJjYTY0MzNiZjMiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogImlydmlkZW8uY2ZkIiwNCiAgInBhdGgiOiAiL2xpbmt3cyIsDQogICJ0bHMiOiAidGxzIiwNCiAgInNuaSI6ICIiLA0KICAiYWxwbiI6ICIiLA0KICAiZnAiOiAiIg0KfQ==
-vless://b38bd0c3-2445-4952-84b1-b451caf43061@151.101.2.216:80?encryption=none&security=none&type=ws&host=GozargahVPN.ir&path=%2Fws%2FGozargahVPN-GozargahVPN-GozargahVPN-GozargahVPN-GozargahVPN-GozargahVPN-GozargahVPN-GozargahVPN-GozargahVPN-GozargahVPN-GozargahVPN%3Fed%3D2048#%F0%9F%94%92%20VL-WS-NONE%20%F0%9F%87%BA%F0%9F%87%B8%20US-151.101.2.216%3A80
-vless://7e68946e-62db-4514-bcf7-ee411ebb0bb7@[2a01:4f8:1c1b:7df::1]:443?encryption=none&security=reality&sni=gsmarena.com&fp=chrome&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&sid=32d7a82d&spx=%2F&type=grpc&authority=&serviceName=%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN%2C%40Everyday_VPN&mode=gun#%40Everyday_VPN%20%7C%2001%20%F0%9F%87%A9%F0%9F%87%AA%E2%9A%A1%EF%B8%8F
-vless://d578322a-266b-479d-9eda-f1b41324e721@199.232.8.123:80?encryption=none&security=none&type=ws&host=IRANINGOAT2.IR&path=%2FRsAMasAPMX5yb1YZ%3Fed%3D2560#%F0%9F%94%92%20VL-WS-NONE%20%F0%9F%87%BA%F0%9F%87%B8%20US-199.232.8.123%3A80
-vless://dfc1a9ab-6241-4b73-92f7-b299fc6b7751@162.159.153.2:80?encryption=none&security=none&sni=csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor.rubika.cloudns.ch.&type=ws&host=csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor.rubika.cloudns.ch.&path=%2F#15%7CUS_speednode_0014
-trojan://52701795-3c3b-46b4-b7cf-c5978b3a4cf2@172.67.149.124:443?security=tls&sni=hdfyc1.achaemenidempireofpersia.uk&alpn=http%2F1.1&fp=chrome&type=grpc&authority=&serviceName=xw7uebRG4KlUXGGYTVEagC5V7fI&mode=gun#%F0%9F%94%92%20TR-GRPC-TLS%20%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F%20NA-172.67.149.124%3A443
-vless://a38fbcf4-edb4-4b2b-88dd-5c357c2af4ff@89.221.225.159:2053?encryption=none&security=reality&sni=apple.com&fp=chrome&pbk=Am1Y8Hfk9DWE9SEticU93yF2G2PcC8bmgKpq_V5NuiI&sid=e8ebda2f23f6&type=tcp&headerType=none#%F0%9F%94%92%20VL-TCP-RLT%20%F0%9F%87%B2%F0%9F%87%A9%20MD-89.221.225.159%3A2053
-hysteria2://9a714ec6-40b8-4ab6-9e95-05846c812661@ddns.200566.xyz:24231?sni=ddns.200566.xyz&insecure=1#7%2C12%7C%40v2rayCrow%20%2316
+{
+  "log": {
+    "loglevel": "none"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic",
+          "fakedns",
+          "fakedns\u002Bothers"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic",
+          "fakedns",
+          "fakedns\u002Bothers"
+        ],
+        "routeOnly": false
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    },
+    {
+      "tag": "api",
+      "port": 10813,
+      "listen": "127.0.0.1",
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "127.0.0.1"
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      }
+    },
+    {
+      "tag": "proxy-1",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.8.158.32",
+            "port": 13530,
+            "users": [
+              {
+                "id": "398ce84e-4849-4e5f-9b1a-a56fbe233b81",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/",
+          "headers": {}
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-2",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.66.213.38",
+            "port": 2087,
+            "users": [
+              {
+                "id": "ca156343-91ca-4398-a0e8-23e6480a8718",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "g4.ferdowsi.shop",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome"
+        },
+        "grpcSettings": {
+          "serviceName": "Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA-Telegram:@Cephalon_ALA",
+          "multiMode": false,
+          "idle_timeout": 60,
+          "health_check_timeout": 20,
+          "permit_without_stream": false,
+          "initial_windows_size": 0
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-3",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "151.101.192.155",
+            "port": 80,
+            "users": [
+              {
+                "id": "0d37beef-23c9-43d5-8274-9235a9d4f728",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7?ed=1024",
+          "headers": {
+            "Host": "testfast7.v2fast7.com"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-4",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "shs.xiaoqi666.xyz",
+            "port": 2086,
+            "users": [
+              {
+                "id": "3fd7b958-2161-46e1-b6fc-bd6bb2165312",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/",
+          "headers": {
+            "Host": "shs.xiaoqi666.xyz"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-5",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.39.254.196",
+            "port": 23120,
+            "users": [
+              {
+                "id": "398ce84e-4849-4e5f-9b1a-a56fbe233b81",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/",
+          "headers": {}
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-6",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "shs.xiaoqi666.xyz",
+            "port": 2086,
+            "users": [
+              {
+                "id": "3fd7b958-2161-46e1-b6fc-bd6bb2165312",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/",
+          "headers": {
+            "Host": "shs.xiaoqi666.xyz"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    }
+  ],
+  "stats": {},
+  "metrics": {
+    "tag": "api"
+  },
+  "policy": {
+    "system": {
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
+    }
+  },
+  "dns": {
+    "hosts": {
+      "dns.google": "8.8.8.8",
+      "proxy.example.com": "127.0.0.1"
+    },
+    "servers": [
+      {
+        "address": "223.5.5.5",
+        "domains": [
+          "geosite:cn"
+        ],
+        "expectIPs": [
+          "geoip:cn"
+        ]
+      },
+      "1.1.1.1",
+      "8.8.8.8",
+      "https://dns.google/dns-query"
+    ]
+  },
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api"
+      },
+      {
+        "type": "field",
+        "network": "tcp,udp",
+        "balancerTag": "proxy-round"
+      }
+    ],
+    "balancers": [
+      {
+        "selector": [
+          "proxy"
+        ],
+        "strategy": {
+          "type": "roundRobin"
+        },
+        "tag": "proxy-round"
+      }
+    ]
+  }
+}
