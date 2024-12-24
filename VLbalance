@@ -52,6 +52,104 @@
     },
     {
       "tag": "proxy-1",
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "212.102.53.193",
+            "method": "aes-128-gcm",
+            "ota": false,
+            "password": "shadowsocks",
+            "port": 443,
+            "level": 1
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-2",
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "149.22.87.204",
+            "method": "aes-128-gcm",
+            "ota": false,
+            "password": "shadowsocks",
+            "port": 443,
+            "level": 1
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp"
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-3",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.152.191.159",
+            "port": 8080,
+            "users": [
+              {
+                "id": "9a7f0c6e-cb73-4baf-ad31-ac5f9af851c3",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {
+          "header": {
+            "type": "http",
+            "request": {
+              "version": "1.1",
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "headers": {
+                "Host": [
+                  "fast.com"
+                ],
+                "User-Agent": [],
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Pragma": "no-cache"
+              }
+            }
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-4",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -88,52 +186,6 @@
           "permit_without_stream": false,
           "initial_windows_size": 0
         }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-2",
-      "protocol": "shadowsocks",
-      "settings": {
-        "servers": [
-          {
-            "address": "149.22.87.204",
-            "method": "aes-128-gcm",
-            "ota": false,
-            "password": "shadowsocks",
-            "port": 443,
-            "level": 1
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp"
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-3",
-      "protocol": "shadowsocks",
-      "settings": {
-        "servers": [
-          {
-            "address": "212.102.53.193",
-            "method": "aes-128-gcm",
-            "ota": false,
-            "password": "shadowsocks",
-            "port": 443,
-            "level": 1
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp"
       },
       "mux": {
         "enabled": false,
