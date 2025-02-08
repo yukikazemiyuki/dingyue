@@ -37,35 +37,35 @@
   ],
   "outbounds": [
     {
-      "tag": "proxy-13",
+      "tag": "proxy-7",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "185.144.245.62",
-            "port": 18556,
+            "address": "91.107.250.208",
+            "port": 443,
             "users": [
               {
-                "id": "cf3df05c-bb63-427a-b48a-d8b1d9ada2c4",
+                "id": "9e55e24c-8de9-4357-8a37-9cf1212c6491",
                 "email": "t@t.tt",
                 "security": "auto",
-                "encryption": "none"
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "ngedc.ambercc.filegear-sg.me",
-          "fingerprint": "chrome"
-        },
-        "wsSettings": {
-          "path": "/?ed",
-          "headers": {}
+          "serverName": "mods.lnmarketplace.net",
+          "alpn": [
+            "h2"
+          ],
+          "fingerprint": "randomized"
         }
       },
       "mux": {
@@ -74,13 +74,51 @@
       }
     },
     {
-      "tag": "proxy-12",
+      "tag": "proxy-6",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "220.117.126.46",
-            "port": 12462,
+            "address": "91.107.140.243",
+            "port": 443,
+            "users": [
+              {
+                "id": "9e55e24c-8de9-4357-8a37-9cf1212c6491",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "mods.lnmarketplace.net",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome"
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-5",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "38.22.91.158",
+            "port": 30001,
             "users": [
               {
                 "id": "cf3df05c-bb63-427a-b48a-d8b1d9ada2c4",
@@ -100,45 +138,11 @@
           "serverName": "ngedc.ambercc.filegear-sg.me"
         },
         "wsSettings": {
-          "path": "/?ed",
-          "headers": {}
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-11",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "112.160.39.91",
-            "port": 18008,
-            "users": [
-              {
-                "id": "cf3df05c-bb63-427a-b48a-d8b1d9ada2c4",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
+          "path": "/?ed=2560",
+          "host": "ngedc.ambercc.filegear-sg.me",
+          "headers": {
+            "Host": "ngedc.ambercc.filegear-sg.me"
           }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ngedc.ambercc.filegear-sg.me",
-          "fingerprint": "chrome"
-        },
-        "wsSettings": {
-          "path": "/?ed",
-          "headers": {}
         }
       },
       "mux": {
@@ -147,43 +151,7 @@
       }
     },
     {
-      "tag": "proxy-10",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "130.61.169.24",
-            "port": 443,
-            "users": [
-              {
-                "id": "41abecd9-8096-4142-a75c-4e1d36d990bd",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "mmdserver.us.kg"
-        },
-        "wsSettings": {
-          "path": "/?ed",
-          "headers": {}
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-9",
+      "tag": "proxy-4",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -220,196 +188,12 @@
       }
     },
     {
-      "tag": "proxy-8",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.85.210.217",
-            "port": 10913,
-            "users": [
-              {
-                "id": "cf3df05c-bb63-427a-b48a-d8b1d9ada2c4",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ngedc.ambercc.filegear-sg.me"
-        },
-        "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "ngedc.ambercc.filegear-sg.me",
-          "headers": {
-            "Host": "ngedc.ambercc.filegear-sg.me"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-7",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "129.146.46.164",
-            "port": 443,
-            "users": [
-              {
-                "id": "41abecd9-8096-4142-a75c-4e1d36d990bd",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "mmdserver.us.kg"
-        },
-        "wsSettings": {
-          "path": "/?ed=2048",
-          "host": "mmdserver.us.kg",
-          "headers": {
-            "Host": "mmdserver.us.kg"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-6",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "8.20.125.1",
-            "port": 443,
-            "users": [
-              {
-                "id": "cf3df05c-bb63-427a-b48a-d8b1d9ada2c4",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ngedc.ambercc.filegear-sg.me",
-          "fingerprint": "chrome"
-        },
-        "wsSettings": {
-          "path": "/?ed",
-          "headers": {}
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-5",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "210.183.11.2",
-            "port": 50000,
-            "users": [
-              {
-                "id": "cf3df05c-bb63-427a-b48a-d8b1d9ada2c4",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ngedc.ambercc.filegear-sg.me",
-          "fingerprint": "chrome"
-        },
-        "wsSettings": {
-          "path": "/?ed",
-          "headers": {}
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-4",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "147.135.125.118",
-            "port": 443,
-            "users": [
-              {
-                "id": "3b9bc773-05eb-4d5f-8c1f-57342c0c4f40",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "147135010103.sec19org.com"
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "proxy-3",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "185.238.74.193",
+            "address": "8.20.125.1",
             "port": 443,
             "users": [
               {
@@ -448,11 +232,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "38.22.91.158",
-            "port": 30001,
+            "address": "130.61.169.24",
+            "port": 443,
             "users": [
               {
-                "id": "cf3df05c-bb63-427a-b48a-d8b1d9ada2c4",
+                "id": "41abecd9-8096-4142-a75c-4e1d36d990bd",
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none"
@@ -466,14 +250,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "ngedc.ambercc.filegear-sg.me"
+          "serverName": "mmdserver.us.kg"
         },
         "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "ngedc.ambercc.filegear-sg.me",
-          "headers": {
-            "Host": "ngedc.ambercc.filegear-sg.me"
-          }
+          "path": "/?ed",
+          "headers": {}
         }
       },
       "mux": {
@@ -487,8 +268,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.20.125.1",
-            "port": 443,
+            "address": "210.183.11.2",
+            "port": 50000,
             "users": [
               {
                 "id": "cf3df05c-bb63-427a-b48a-d8b1d9ada2c4",
@@ -505,14 +286,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "ngedc.ambercc.filegear-sg.me"
+          "serverName": "ngedc.ambercc.filegear-sg.me",
+          "fingerprint": "chrome"
         },
         "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "ngedc.ambercc.filegear-sg.me",
-          "headers": {
-            "Host": "ngedc.ambercc.filegear-sg.me"
-          }
+          "path": "/?ed",
+          "headers": {}
         }
       },
       "mux": {
