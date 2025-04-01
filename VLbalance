@@ -65,232 +65,7 @@
   ],
   "outbounds": [
     {
-      "tag": "proxy-43",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cris.ns.cloudflare.com",
-            "port": 443,
-            "users": [
-              {
-                "id": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ml.ylkszy.eu.org",
-          "fingerprint": "chrome"
-        },
-        "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "ml.ylkszy.eu.org",
-          "headers": {
-            "Host": "ml.ylkszy.eu.org"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-42",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "agaungzhou01.bumbleshrimp.com",
-            "port": 12791,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.yahoo.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-41",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "agaungzhou01.bumbleshrimp.com",
-            "port": 29316,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.amazon.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-40",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "agaungzhou01.bumbleshrimp.com",
-            "port": 38302,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.amazon.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-39",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "agaungzhou01.bumbleshrimp.com",
-            "port": 12831,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.nvidia.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-38",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "beiyong.dynuddns.net",
-            "port": 65053,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.amazon.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-37",
+      "tag": "proxy-31",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -327,230 +102,13 @@
       }
     },
     {
-      "tag": "proxy-36",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "141.101.120.73",
-            "port": 443,
-            "users": [
-              {
-                "id": "8494f144-0512-4f94-8358-aac140b61ff4",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "httpupgrade",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "pnm.cartononlinemigmig.xyz",
-          "alpn": [
-            "http/1.1"
-          ],
-          "fingerprint": "chrome"
-        },
-        "httpupgradeSettings": {
-          "path": "/LpICfNpuXFhbLfADADBO",
-          "host": "pnm.cartononlinemigmig.xyz"
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-35",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "csuzhou01.1cooldns.com",
-            "port": 41279,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.nvidia.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-34",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "csuzhou01.1cooldns.com",
-            "port": 23301,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.nvidia.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-33",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "zhee01.dynu.net",
-            "port": 64654,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "gateway.icloud.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-32",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "7.9n3pqn1406.xyz",
-            "method": "chacha20",
-            "ota": false,
-            "password": "13c3cf97-5a4a-434f-880a-aecbd70c15bc",
-            "port": 20007,
-            "level": 1
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "7.9n3pqn1406.xyz",
-          "fingerprint": "chrome"
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-31",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "csuzhou01.1cooldns.com",
-            "port": 15464,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.nvidia.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "proxy-30",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "zhee01.dynu.net",
-            "port": 35853,
+            "address": "agaungzhou01.bumbleshrimp.com",
+            "port": 12831,
             "users": [
               {
                 "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
@@ -586,8 +144,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "bsuqian01.dynu.net",
-            "port": 25768,
+            "address": "agaungzhou01.bumbleshrimp.com",
+            "port": 12791,
             "users": [
               {
                 "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
@@ -604,7 +162,7 @@
         "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.nvidia.com",
+          "serverName": "www.yahoo.com",
           "fingerprint": "chrome",
           "show": false,
           "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
@@ -619,145 +177,6 @@
     },
     {
       "tag": "proxy-28",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "135.148.152.104",
-            "port": 443,
-            "users": [
-              {
-                "id": "ea286109-d20f-415e-849e-4af20ab04b65",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "147135001195.sec22org.com"
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-27",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "gy01.hunheiydd.xyz",
-            "port": 11839,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.nvidia.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-26",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "15.204.145.84",
-            "port": 443,
-            "users": [
-              {
-                "id": "ea286109-d20f-415e-849e-4af20ab04b65",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "147135001195.sec22org.com",
-          "fingerprint": "chrome"
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-25",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "csuzhou01.1cooldns.com",
-            "port": 32055,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.amazon.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-24",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -794,367 +213,7 @@
       }
     },
     {
-      "tag": "proxy-23",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "15.204.187.172",
-            "port": 443,
-            "users": [
-              {
-                "id": "0a44145f-59dc-4e5b-a233-677b97f5114c",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "147135011033.sec21org.com",
-          "fingerprint": "chrome"
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-22",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ip.sb",
-            "port": 443,
-            "users": [
-              {
-                "id": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ml.ylkszy.eu.org",
-          "fingerprint": "chrome"
-        },
-        "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "ml.ylkszy.eu.org",
-          "headers": {
-            "Host": "ml.ylkszy.eu.org"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-21",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "agaungzhou01.bumbleshrimp.com",
-            "port": 31800,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.nvidia.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-20",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "bsuqian01.dynu.net",
-            "port": 16955,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.yahoo.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-19",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "3.9n3pqn1406.xyz",
-            "method": "chacha20",
-            "ota": false,
-            "password": "13c3cf97-5a4a-434f-880a-aecbd70c15bc",
-            "port": 20003,
-            "level": 1
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "3.9n3pqn1406.xyz",
-          "fingerprint": "chrome"
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-18",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "test123.zlqhdns.top",
-            "port": 24318,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.nvidia.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-17",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "shenzhou05.mysynology.net",
-            "port": 33782,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.nvidia.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-16",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz",
-            "port": 443,
-            "users": [
-              {
-                "id": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "ml.ylkszy.eu.org",
-          "fingerprint": "chrome"
-        },
-        "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "ml.ylkszy.eu.org",
-          "headers": {
-            "Host": "ml.ylkszy.eu.org"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-15",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "135.148.177.196",
-            "port": 443,
-            "users": [
-              {
-                "id": "e20ebe01-1815-4c09-8e77-fb2f168263ce",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "147135001178.sec22org.com",
-          "fingerprint": "chrome"
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-14",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "bsuqian01.dynu.net",
-            "port": 47531,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "gateway.icloud.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-13",
+      "tag": "proxy-27",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1191,7 +250,372 @@
       }
     },
     {
-      "tag": "proxy-12",
+      "tag": "proxy-26",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "csuzhou01.1cooldns.com",
+            "port": 15464,
+            "users": [
+              {
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.nvidia.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-25",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "135.148.177.196",
+            "port": 443,
+            "users": [
+              {
+                "id": "e20ebe01-1815-4c09-8e77-fb2f168263ce",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "147135001178.sec22org.com",
+          "fingerprint": "chrome"
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-24",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "zhee01.dynu.net",
+            "port": 35853,
+            "users": [
+              {
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.nvidia.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-23",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "bsuqian01.dynu.net",
+            "port": 25768,
+            "users": [
+              {
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.nvidia.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-22",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "bsuqian01.dynu.net",
+            "port": 47531,
+            "users": [
+              {
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "gateway.icloud.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-21",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "gy01.hunheiydd.xyz",
+            "port": 11839,
+            "users": [
+              {
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.nvidia.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-20",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "csuzhou01.1cooldns.com",
+            "port": 13989,
+            "users": [
+              {
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "gateway.icloud.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-19",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "csuzhou01.1cooldns.com",
+            "port": 32055,
+            "users": [
+              {
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.amazon.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-18",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "www.ipchicken.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "mn.youlingkais.filegear-sg.me",
+          "fingerprint": "chrome"
+        },
+        "wsSettings": {
+          "path": "/?ed=2560",
+          "host": "mn.youlingkais.filegear-sg.me",
+          "headers": {
+            "Host": "mn.youlingkais.filegear-sg.me"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-17",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "15.204.187.172",
+            "port": 443,
+            "users": [
+              {
+                "id": "0a44145f-59dc-4e5b-a233-677b97f5114c",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "147135011033.sec21org.com",
+          "fingerprint": "chrome"
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-16",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1228,16 +652,90 @@
       }
     },
     {
-      "tag": "proxy-11",
+      "tag": "proxy-15",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "185.16.110.107",
+            "address": "gysz0000.dynu.net",
+            "port": 12477,
+            "users": [
+              {
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.nvidia.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-14",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "csuzhou01.1cooldns.com",
+            "port": 44003,
+            "users": [
+              {
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.nvidia.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-13",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "135.148.152.104",
             "port": 443,
             "users": [
               {
-                "id": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+                "id": "ea286109-d20f-415e-849e-4af20ab04b65",
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none"
@@ -1247,19 +745,11 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "mn.youlingkais.filegear-sg.me",
-          "fingerprint": "chrome"
-        },
-        "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "mn.youlingkais.filegear-sg.me",
-          "headers": {
-            "Host": "mn.youlingkais.filegear-sg.me"
-          }
+          "serverName": "147135001195.sec22org.com"
         }
       },
       "mux": {
@@ -1268,7 +758,44 @@
       }
     },
     {
-      "tag": "proxy-10",
+      "tag": "proxy-12",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "bsuqian01.dynu.net",
+            "port": 16955,
+            "users": [
+              {
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.yahoo.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-11",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1305,7 +832,298 @@
       }
     },
     {
+      "tag": "proxy-10",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "zhee01.dynu.net",
+            "port": 64654,
+            "users": [
+              {
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "gateway.icloud.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "proxy-9",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "beiyong.dynuddns.net",
+            "port": 12597,
+            "users": [
+              {
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.nvidia.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-8",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "csuzhou01.1cooldns.com",
+            "port": 14659,
+            "users": [
+              {
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.nvidia.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-7",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "test123.zlqhdns.top",
+            "port": 24318,
+            "users": [
+              {
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.nvidia.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-6",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "csuzhou01.1cooldns.com",
+            "port": 23301,
+            "users": [
+              {
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.nvidia.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-5",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "mw8.niassa.ir",
+            "port": 443,
+            "users": [
+              {
+                "id": "99b7f7d7-0c5f-463c-8f3c-548e15f5ae28",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "mw8.niassa.ir",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "7Dd-Z14Mxvy_CJmFe5Q-StNR2ZloyDeMAC6MEVSq4yg",
+          "shortId": "e9",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-4",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "beiyong.dynuddns.net",
+            "port": 57926,
+            "users": [
+              {
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "gateway.icloud.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-3",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "15.204.145.84",
+            "port": 443,
+            "users": [
+              {
+                "id": "ea286109-d20f-415e-849e-4af20ab04b65",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "147135001195.sec22org.com",
+          "fingerprint": "chrome"
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-2",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1349,147 +1167,7 @@
       }
     },
     {
-      "tag": "proxy-8",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "test123.zlqhdns.top",
-            "port": 10860,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.nvidia.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-7",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "csuzhou01.1cooldns.com",
-            "port": 44003,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.nvidia.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-6",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "2.qzhm8l42g1.xyz",
-            "method": "chacha20",
-            "ota": false,
-            "password": "13c3cf97-5a4a-434f-880a-aecbd70c15bc",
-            "port": 20022,
-            "level": 1
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "2.qzhm8l42g1.xyz",
-          "fingerprint": "chrome"
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-5",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "beiyong.dynuddns.net",
-            "port": 48121,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.nvidia.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-4",
+      "tag": "proxy-1",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1513,120 +1191,6 @@
         "tlsSettings": {
           "allowInsecure": false,
           "serverName": "147135011033.sec21org.com"
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-3",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "zhee01.dynu.net",
-            "port": 54220,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.nvidia.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-2",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "www.ipchicken.com",
-            "port": 443,
-            "users": [
-              {
-                "id": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "mn.youlingkais.filegear-sg.me",
-          "fingerprint": "chrome"
-        },
-        "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "mn.youlingkais.filegear-sg.me",
-          "headers": {
-            "Host": "mn.youlingkais.filegear-sg.me"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-1",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "csuzhou01.1cooldns.com",
-            "port": 13989,
-            "users": [
-              {
-                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "gateway.icloud.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
-          "shortId": "",
-          "spiderX": ""
         }
       },
       "mux": {
