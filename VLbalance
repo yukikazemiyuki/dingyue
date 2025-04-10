@@ -65,42 +65,35 @@
   ],
   "outbounds": [
     {
-      "tag": "proxy-4",
+      "tag": "proxy-5",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.66.47.92",
-            "port": 443,
+            "address": "test123.zlqhdns.top",
+            "port": 24318,
             "users": [
               {
-                "id": "49d4b99d-7d99-416a-9778-2c75d79100bb",
+                "id": "459b4a80-bd61-4ecd-a26b-e9c1809d9e45",
                 "email": "t@t.tt",
                 "security": "auto",
-                "encryption": "none"
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "Work-YUU00.pageS.dEv",
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "chrome"
-        },
-        "wsSettings": {
-          "path": "/",
-          "host": "work-yuu00.pages.dev",
-          "headers": {
-            "Host": "work-yuu00.pages.dev"
-          }
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.nvidia.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY",
+          "shortId": "",
+          "spiderX": ""
         }
       },
       "mux": {
@@ -109,7 +102,7 @@
       }
     },
     {
-      "tag": "proxy-3",
+      "tag": "proxy-4",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -153,7 +146,7 @@
       }
     },
     {
-      "tag": "proxy-2",
+      "tag": "proxy-3",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -187,7 +180,7 @@
       }
     },
     {
-      "tag": "proxy-1",
+      "tag": "proxy-2",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -222,6 +215,45 @@
           "host": "ggggr.pages.dev",
           "headers": {
             "Host": "ggggr.pages.dev"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-1",
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "mehrnews.twn24.ir",
+            "port": 8443,
+            "users": [
+              {
+                "id": "839118df-08a5-4756-bd86-cb9f29df1295",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "mehrnews.twn24.ir"
+        },
+        "wsSettings": {
+          "path": "/\uD83C\uDD94@M3HDIO1",
+          "host": "mehrnews.twn24.ir",
+          "headers": {
+            "Host": "mehrnews.twn24.ir"
           }
         }
       },
@@ -367,7 +399,7 @@
           "proxy"
         ],
         "strategy": {
-          "type": "roundRobin"
+          "type": "leastLoad"
         },
         "tag": "proxy-round"
       }
@@ -382,5 +414,12 @@
       "statsOutboundDownlink": true
     }
   },
-  "stats": {}
+  "stats": {},
+  "observatory": {
+    "subjectSelector": [
+      "proxy"
+    ],
+    "probeUrl": "https://www.youtube.com",
+    "probeInterval": "3m"
+  }
 }
