@@ -43,7 +43,7 @@
           "tls",
           "quic",
           "fakedns",
-          "fakedns\u002Bothers"
+          "fakedns+others"
         ],
         "routeOnly": false
       },
@@ -65,34 +65,31 @@
   ],
   "outbounds": [
     {
-      "tag": "proxy-18",
-      "protocol": "vmess",
+      "tag": "proxy-7",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "mehrnews.twn24.ir",
-            "port": 8443,
+            "address": "15.204.187.172",
+            "port": 443,
             "users": [
               {
-                "id": "1bb99120-b307-4f5f-ba57-78981c437b41",
-                "alterId": 0,
+                "id": "0a44145f-59dc-4e5b-a233-677b97f5114c",
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "mehrnews.twn24.ir"
-        },
-        "wsSettings": {
-          "path": "/\uD83C\uDD94@M3HDIO1",
-          "headers": {}
+          "serverName": "147135011033.sec21org.com",
+          "fingerprint": "chrome"
         }
       },
       "mux": {
@@ -101,16 +98,16 @@
       }
     },
     {
-      "tag": "proxy-17",
+      "tag": "proxy-6",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.21.73.239",
-            "port": 443,
+            "address": "175.203.30.93",
+            "port": 50001,
             "users": [
               {
-                "id": "4088e698-69fd-4d15-98bc-f1fe4c071642",
+                "id": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none"
@@ -124,17 +121,58 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "DigITALsciENTIfiCrESeARCHGRoup.IR",
+          "serverName": "edccr.aimercc.filegear-sg.me",
+          "fingerprint": "chrome"
+        },
+        "wsSettings": {
+          "path": "/?edflow=-udp443",
+          "host": "edccr.aimercc.filegear-sg.me",
+          "headers": {
+            "Host": "edccr.aimercc.filegear-sg.me"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-5",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.66.47.92",
+            "port": 443,
+            "users": [
+              {
+                "id": "49d4b99d-7d99-416a-9778-2c75d79100bb",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "Work-YUU00.pageS.dEv",
           "alpn": [
+            "h2",
             "http/1.1"
           ],
           "fingerprint": "chrome"
         },
         "wsSettings": {
-          "path": "/4McLR3NKFOydbxDs/MTguMTk5LjIxMy4yMDE",
-          "host": "digitalscientificresearchgroup.ir",
+          "path": "/",
+          "host": "work-yuu00.pages.dev",
           "headers": {
-            "Host": "digitalscientificresearchgroup.ir"
+            "Host": "work-yuu00.pages.dev"
           }
         }
       },
@@ -144,16 +182,16 @@
       }
     },
     {
-      "tag": "proxy-16",
+      "tag": "proxy-4",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "185.133.35.60",
+            "address": "172.66.44.241",
             "port": 443,
             "users": [
               {
-                "id": "06e4425e-a8cb-4b63-929f-2105604ab0a9",
+                "id": "9368b093-d790-4096-9d8a-1265e82f9e2f",
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none"
@@ -166,14 +204,19 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "nx.ylka.dpdns.org"
+          "allowInsecure": false,
+          "serverName": "GgGgr.PaGES.dEV",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized"
         },
         "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "nx.ylka.dpdns.org",
+          "path": "/gLHWGBXwDuMKHx2C?ed=2560",
+          "host": "ggggr.pages.dev",
           "headers": {
-            "Host": "nx.ylka.dpdns.org"
+            "Host": "ggggr.pages.dev"
           }
         }
       },
@@ -183,12 +226,12 @@
       }
     },
     {
-      "tag": "proxy-15",
+      "tag": "proxy-3",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "yapc-1.afshin.ir",
+            "address": "152.67.68.116",
             "port": 443,
             "users": [
               {
@@ -217,16 +260,16 @@
       }
     },
     {
-      "tag": "proxy-14",
+      "tag": "proxy-2",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "103.116.7.103",
-            "port": 2083,
+            "address": "172.66.47.15",
+            "port": 443,
             "users": [
               {
-                "id": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+                "id": "9368b093-d790-4096-9d8a-1265e82f9e2f",
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none"
@@ -240,422 +283,18 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "edccr.aimercc.filegear-sg.me",
-          "fingerprint": "chrome"
+          "serverName": "GgGgr.PaGES.dEV",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized"
         },
         "wsSettings": {
-          "path": "/?ed=2560flow=-udp443flow=-udp443",
-          "host": "edccr.aimercc.filegear-sg.me",
+          "path": "/Telegram@proxy_mtm/?ed=2560",
+          "host": "ggggr.pages.dev",
           "headers": {
-            "Host": "edccr.aimercc.filegear-sg.me"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-13",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "172.67.73.163",
-            "port": 8080,
-            "users": [
-              {
-                "id": "8ce86d8f-8146-49c8-86bf-721c261ad1dd",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2048",
-          "host": "e2.iON7fpGej8.ZuLaIR.ORg.",
-          "headers": {
-            "Host": "e2.iON7fpGej8.ZuLaIR.ORg."
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-12",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.18.30.60",
-            "port": 80,
-            "users": [
-              {
-                "id": "c5293efa-28f8-4a0f-8f34-541078970cee",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "host": "gozargah.validbv7996.ir",
-          "headers": {
-            "Host": "gozargah.validbv7996.ir"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-11",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.24.91.178",
-            "port": 80,
-            "users": [
-              {
-                "id": "94b0cde3-a305-4d89-a192-575339220c7f",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "flat-rain-e26e-ppal03.cigoyob991.workers.dev",
-          "headers": {
-            "Host": "flat-rain-e26e-ppal03.cigoyob991.workers.dev"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-10",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.131.4.73",
-            "port": 8080,
-            "users": [
-              {
-                "id": "c5293efa-28f8-4a0f-8f34-541078970cee",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY?ed=2560",
-          "host": "gozargah.validbv7996.ir",
-          "headers": {
-            "Host": "gozargah.validbv7996.ir"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-9",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "172.67.208.128",
-            "port": 80,
-            "users": [
-              {
-                "id": "033a4982-a8c7-4bfb-9481-5a8a1c62cfd6",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/iDE2j5JJnqTGPjmS?ed=2560",
-          "host": "azadnet.b0b723a182.workers.dev",
-          "headers": {
-            "Host": "azadnet.b0b723a182.workers.dev"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-8",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.18.30.60",
-            "port": 80,
-            "users": [
-              {
-                "id": "c5293efa-28f8-4a0f-8f34-541078970cee",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "host": "gozargah.validbv7996.ir",
-          "headers": {
-            "Host": "gozargah.validbv7996.ir"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-7",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.131.5.91",
-            "port": 2086,
-            "users": [
-              {
-                "id": "f366e744-abcd-4b5b-bd5e-2bd97b6443bf",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560",
-          "host": "fva64rbmjfkfznnptk6imz6sihrno35m4csom83admge5tfxniwduyuyt954fdh.ks3om.workers.Dev",
-          "headers": {
-            "Host": "fva64rbmjfkfznnptk6imz6sihrno35m4csom83admge5tfxniwduyuyt954fdh.ks3om.workers.Dev"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-6",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.21.112.1",
-            "port": 80,
-            "users": [
-              {
-                "id": "e0c579e5-d86f-426b-bbee-f815821a34c3",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/DoaoovdDWjHii1lH?ed=2560",
-          "host": "azadnet-2.azadnet-team.workers.dev",
-          "headers": {
-            "Host": "azadnet-2.azadnet-team.workers.dev"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-5",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.21.93.95",
-            "port": 80,
-            "users": [
-              {
-                "id": "033a4982-a8c7-4bfb-9481-5a8a1c62cfd6",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/iDE2j5JJnqTGPjmS?ed=2560",
-          "host": "azadnet.b0b723a182.workers.dev",
-          "headers": {
-            "Host": "azadnet.b0b723a182.workers.dev"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-4",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.21.58.212",
-            "port": 80,
-            "users": [
-              {
-                "id": "5a4e040a-8de6-4222-bd6f-9f535b8772fd",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/lrJO6NEVRGHecfbo?ed=2560",
-          "host": "calm-violet-0e47.pomofoc222.workers.dev",
-          "headers": {
-            "Host": "calm-violet-0e47.pomofoc222.workers.dev"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-3",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "185.18.250.12",
-            "port": 80,
-            "users": [
-              {
-                "id": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/1Y6MN5DFV8zB82Ai?ed=2560",
-          "host": "ana-SErVICe.xAbjCDZ.wORkErs.deV",
-          "headers": {
-            "Host": "ana-SErVICe.xAbjCDZ.wORkErs.deV"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-2",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.131.4.33",
-            "port": 8080,
-            "users": [
-              {
-                "id": "c5293efa-28f8-4a0f-8f34-541078970cee",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/",
-          "host": "gozargah.validbv7996.ir",
-          "headers": {
-            "Host": "gozargah.validbv7996.ir"
+            "Host": "ggggr.pages.dev"
           }
         }
       },
@@ -666,18 +305,18 @@
     },
     {
       "tag": "proxy-1",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "45.131.4.210",
-            "port": 80,
+            "address": "mehrnews.twn24.ir",
+            "port": 8443,
             "users": [
               {
-                "id": "c5293efa-28f8-4a0f-8f34-541078970cee",
+                "id": "839118df-08a5-4756-bd86-cb9f29df1295",
+                "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
+                "security": "auto"
               }
             ]
           }
@@ -685,11 +324,16 @@
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "mehrnews.twn24.ir"
+        },
         "wsSettings": {
-          "path": "/",
-          "host": "gozargah.validbv7996.ir",
+          "path": "/\uD83C\uDD94@M3HDIO1",
+          "host": "mehrnews.twn24.ir",
           "headers": {
-            "Host": "gozargah.validbv7996.ir"
+            "Host": "mehrnews.twn24.ir"
           }
         }
       },
@@ -835,7 +479,7 @@
           "proxy"
         ],
         "strategy": {
-          "type": "leastLoad"
+          "type": "roundRobin"
         },
         "tag": "proxy-round"
       }
@@ -850,12 +494,5 @@
       "statsOutboundDownlink": true
     }
   },
-  "stats": {},
-  "observatory": {
-    "subjectSelector": [
-      "proxy"
-    ],
-    "probeUrl": "https://www.youtube.com",
-    "probeInterval": "3m"
-  }
+  "stats": {}
 }
