@@ -1,6 +1,6 @@
 {
   "log": {
-    "loglevel": "none"
+    "loglevel": "warning"
   },
   "dns": {
     "hosts": {
@@ -10,11 +10,10 @@
     "servers": [
       {
         "address": "1.1.1.1",
+        "skipFallback": true,
         "domains": [
-          "geosite:geolocation-!cn"
-        ],
-        "expectIPs": [
-          "geoip:!cn"
+          "domain:googleapis.cn",
+          "domain:gstatic.com"
         ]
       },
       {
@@ -27,6 +26,7 @@
           "geoip:cn"
         ]
       },
+      "1.1.1.1",
       "8.8.8.8",
       "https://dns.google/dns-query"
     ]
@@ -36,7 +36,7 @@
       "tag": "socks",
       "port": 10808,
       "listen": "127.0.0.1",
-      "protocol": "socks",
+      "protocol": "mixed",
       "sniffing": {
         "enabled": true,
         "destOverride": [
@@ -58,7 +58,7 @@
       "tag": "socks2",
       "port": 10809,
       "listen": "127.0.0.1",
-      "protocol": "socks",
+      "protocol": "mixed",
       "sniffing": {
         "enabled": true,
         "destOverride": [
@@ -88,7 +88,211 @@
   ],
   "outbounds": [
     {
+      "tag": "proxy-13",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.80.111.55",
+            "port": 80,
+            "users": [
+              {
+                "id": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/Telegram:@ShadowProxy66/?ed=2560",
+          "host": "uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz",
+          "headers": {
+            "Host": "uuhUHYygEsdFGH.UYHJHGvgFcjGUJhbUIlbVFDxDxM.xyz"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-12",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "156.238.18.142",
+            "port": 8880,
+            "users": [
+              {
+                "id": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/Telegram\uD83C\uDDE8\uD83C\uDDF3@WangCai2/?ed",
+          "host": "jp.laoyoutiao.link",
+          "headers": {
+            "Host": "jp.laoyoutiao.link"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-11",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.131.4.100",
+            "port": 80,
+            "users": [
+              {
+                "id": "d26009b6-d347-403f-95ce-1816bb8b8ca4",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/Telegram\uD83C\uDDE8\uD83C\uDDF3",
+          "host": "v2raylandd.werokac991.workers.Dev",
+          "headers": {
+            "Host": "v2raylandd.werokac991.workers.Dev"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-10",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "156.238.18.157",
+            "port": 8880,
+            "users": [
+              {
+                "id": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/Telegram@WangCai2/?ed=2560",
+          "host": "jp.laoyoutiao.link",
+          "headers": {
+            "Host": "jp.laoyoutiao.link"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-9",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "154.85.99.20",
+            "port": 8880,
+            "users": [
+              {
+                "id": "583ceab3-4022-4553-9158-9bedc625ad4e",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/Telegram@WangCai2/?ed=2560",
+          "host": "ip.langmanshanxi.top",
+          "headers": {
+            "Host": "ip.langmanshanxi.top"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
       "tag": "proxy-8",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "::ffff:156.238.18.177",
+            "port": 8880,
+            "users": [
+              {
+                "id": "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/Telegram@WangCai2/?ed=2048",
+          "host": "sg.laoyoutiao.link",
+          "headers": {
+            "Host": "sg.laoyoutiao.link"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-7",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -97,7 +301,7 @@
             "port": 443,
             "users": [
               {
-                "id": "72d7ab94-4849-4a27-a840-ece6c8b53355",
+                "id": "f2e486f9-1697-4be6-be59-6c4fb42c7a24",
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none"
@@ -110,49 +314,19 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "bEstvpn-7Qp.pagES.dEV",
-          "fingerprint": "chrome"
-        },
-        "wsSettings": {
-          "path": "/LpzVdXD0ymOpZWeV?ed=2560flow=-udp443",
-          "host": "bestvpn-7qp.pages.dev",
-          "headers": {
-            "Host": "bestvpn-7qp.pages.dev"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-7",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "47.245.105.192",
-            "method": "chacha20",
-            "ota": false,
-            "password": "Aimer",
-            "port": 443,
-            "level": 1
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "epcca.ambercc.filegear-sg.me",
-          "fingerprint": "chrome"
+          "serverName": "paS-kaLE-AGhA.pageS.deV",
+          "alpn": [
+            "http/1.1"
+          ],
+          "fingerprint": "randomized"
         },
         "wsSettings": {
-          "path": "/?ed=2560",
-          "headers": {}
+          "path": "/Telegram@V2ray_Alpha/?ed=2560",
+          "host": "pas-kale-agha.pages.dev",
+          "headers": {
+            "Host": "pas-kale-agha.pages.dev"
+          }
         }
       },
       "mux": {
@@ -166,11 +340,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "63.141.128.102",
-            "port": 443,
+            "address": "104.24.180.103",
+            "port": 2052,
             "users": [
               {
-                "id": "55520747-311e-4015-83ce-be46e2060ce3",
+                "id": "6d48c725-5221-47cc-9616-a6a50a68a099",
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none"
@@ -181,16 +355,11 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "vx.bgm2024.dpdns.org"
-        },
         "wsSettings": {
           "path": "/?ed=2560",
-          "host": "vx.bgm2024.dpdns.org",
+          "host": "bv.hzhz85123803.workers.dev",
           "headers": {
-            "Host": "vx.bgm2024.dpdns.org"
+            "Host": "bv.hzhz85123803.workers.dev"
           }
         }
       },
@@ -201,30 +370,31 @@
     },
     {
       "tag": "proxy-5",
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "213.109.205.45",
-            "method": "chacha20",
-            "ota": false,
-            "password": "Aimer",
-            "port": 443,
-            "level": 1
+            "address": "104.16.153.135",
+            "port": 8080,
+            "users": [
+              {
+                "id": "6d48c725-5221-47cc-9616-a6a50a68a099",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "epcca.ambercc.filegear-sg.me",
-          "fingerprint": "chrome"
-        },
         "wsSettings": {
-          "path": "/?ed=2560&proxyip=ts.hpc.tw",
-          "headers": {}
+          "path": "/?ed=2560",
+          "host": "bv.hzhz85123803.workers.dev",
+          "headers": {
+            "Host": "bv.hzhz85123803.workers.dev"
+          }
         }
       },
       "mux": {
@@ -238,11 +408,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ignacio.ns.cloudflare.com",
-            "port": 443,
+            "address": "103.21.244.92",
+            "port": 2095,
             "users": [
               {
-                "id": "ee6774c0-9b19-4ff1-8b30-2da4b71977e2",
+                "id": "6d48c725-5221-47cc-9616-a6a50a68a099",
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none"
@@ -253,17 +423,11 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "edcca.aimercc.filegear-sg.me",
-          "fingerprint": "chrome"
-        },
         "wsSettings": {
-          "path": "/?ed=2560flow=-udp443",
-          "host": "edcca.aimercc.filegear-sg.me",
+          "path": "/?ed=2560",
+          "host": "bv.hzhz85123803.workers.dev",
           "headers": {
-            "Host": "edcca.aimercc.filegear-sg.me"
+            "Host": "bv.hzhz85123803.workers.dev"
           }
         }
       },
@@ -278,11 +442,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "183.106.162.127",
-            "port": 18888,
+            "address": "104.24.170.211",
+            "port": 2095,
             "users": [
               {
-                "id": "55520747-311e-4015-83ce-be46e2060ce3",
+                "id": "6d48c725-5221-47cc-9616-a6a50a68a099",
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none"
@@ -293,16 +457,11 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "vx.bgm2024.dpdns.org"
-        },
         "wsSettings": {
           "path": "/?ed=2560",
-          "host": "vx.bgm2024.dpdns.org",
+          "host": "bv.hzhz85123803.workers.dev",
           "headers": {
-            "Host": "vx.bgm2024.dpdns.org"
+            "Host": "bv.hzhz85123803.workers.dev"
           }
         }
       },
@@ -313,30 +472,31 @@
     },
     {
       "tag": "proxy-2",
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "130.250.137.63",
-            "method": "chacha20",
-            "ota": false,
-            "password": "Aimer",
-            "port": 2083,
-            "level": 1
+            "address": "104.24.156.240",
+            "port": 80,
+            "users": [
+              {
+                "id": "6d48c725-5221-47cc-9616-a6a50a68a099",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "epcca.ambercc.filegear-sg.me",
-          "fingerprint": "chrome"
-        },
         "wsSettings": {
-          "path": "/?ed=2560&proxyip=ts.hpc.tw",
-          "headers": {}
+          "path": "/?ed=2560",
+          "host": "bv.hzhz85123803.workers.dev",
+          "headers": {
+            "Host": "bv.hzhz85123803.workers.dev"
+          }
         }
       },
       "mux": {
@@ -346,26 +506,31 @@
     },
     {
       "tag": "proxy-1",
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "183.2.150.64",
-            "method": "chacha20",
-            "ota": false,
-            "password": "60237717-3b36-4f70-af10-ce630d3382c6",
-            "port": 33506,
-            "level": 1
+            "address": "104.129.164.39",
+            "port": 8880,
+            "users": [
+              {
+                "id": "583ceab3-4022-4553-9158-9bedc625ad4e",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "q08m.vgraxiw73s.hasyaf.cn",
-          "fingerprint": "chrome"
+        "network": "ws",
+        "wsSettings": {
+          "path": "/Telegram\uD83C\uDDE8\uD83C\uDDF3 @MxlShare @WangCai2 /?ed=2560fp=chrome",
+          "host": "ip.langmanshanxi.top",
+          "headers": {
+            "Host": "ip.langmanshanxi.top"
+          }
         }
       },
       "mux": {
