@@ -4,10 +4,11 @@
   /* ========= 1. 健康检测核心配置 ========= */
   "observatory": {
     "subjectSelector": [
-      "proxy-1","proxy-2","proxy-3","proxy-4",
-      "proxy-5","proxy-6","proxy-7","proxy-8"
+          "proxy-1","proxy-2","proxy-3","proxy-4",
+          "proxy-5","proxy-6","proxy-7","proxy-8",
+          "proxy-9","proxy-10","proxy-11","proxy-12"	
     ],
-    "probeURL": "https://www.gstatic.com/generate_204",
+    "probeURL": "https://www.youtube.com",
     "probeInterval": "30s",
     "enableConcurrency": true
   },
@@ -1324,17 +1325,10 @@
           "proxy-5","proxy-6","proxy-7","proxy-8",
           "proxy-9","proxy-10","proxy-11","proxy-12"		  
         ],
-        "strategy": { "type": "leastPing" }
-      }
-    ]
-  },
-
-  "metrics": { "tag": "api" },
-  "policy": {
-    "system": {
-      "statsOutboundUplink": true,
-      "statsOutboundDownlink": true
+    "strategy": {
+      "type": "leastPing",
+      "settings": { "expected": 0, "maxRTT": "1.5s" }
     }
-  },
-  "stats": {}
-}
+  }
+]
+完成后再次测试，单一节点能通 → 多节点也能
