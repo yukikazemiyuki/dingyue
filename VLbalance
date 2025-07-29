@@ -4,42 +4,13 @@
   /* ========= 1. 健康检测核心配置 ========= */
   "observatory": {
     "subjectSelector": [
-          "proxy-1","proxy-2","proxy-3","proxy-4",
-          "proxy-5","proxy-6","proxy-7","proxy-8",
-          "proxy-9","proxy-10","proxy-11","proxy-12"	
+      "proxy-1","proxy-2","proxy-3","proxy-4",
+      "proxy-5","proxy-6","proxy-7","proxy-8",
+	  "proxy-9","proxy-10","proxy-11","proxy-12"
     ],
-    "probeURL": "https://www.youtube.com",
+    "probeURL": "https://youtube.com",
     "probeInterval": "30s",
     "enableConcurrency": true
-  },
-  "dns": {
-    "hosts": {
-      "dns.google": "8.8.8.8",
-      "proxy.example.com": "127.0.0.1"
-    },
-    "servers": [
-      {
-        "address": "1.1.1.1",
-        "skipFallback": true,
-        "domains": [
-          "domain:googleapis.cn",
-          "domain:gstatic.com"
-        ]
-      },
-      {
-        "address": "223.5.5.5",
-        "skipFallback": true,
-        "domains": [
-          "geosite:cn"
-        ],
-        "expectIPs": [
-          "geoip:cn"
-        ]
-      },
-      "1.1.1.1",
-      "8.8.8.8",
-      "https://dns.google/dns-query"
-    ]
   },
   "inbounds": [
     {
@@ -1321,14 +1292,21 @@
       {
         "tag": "proxy-round",
         "selector": [
-          "proxy-1","proxy-2","proxy-3","proxy-4",
-          "proxy-5","proxy-6","proxy-7","proxy-8",
-          "proxy-9","proxy-10","proxy-11","proxy-12"		  
+      "proxy-1","proxy-2","proxy-3","proxy-4",
+      "proxy-5","proxy-6","proxy-7","proxy-8",
+	  "proxy-9","proxy-10","proxy-11","proxy-12"
         ],
-    "strategy": {
-      "type": "leastPing",
-      "settings": { "expected": 0, "maxRTT": "1.5s" }
+        "strategy": { "type": "leastPing" }
+      }
+    ]
+  },
+
+  "metrics": { "tag": "api" },
+  "policy": {
+    "system": {
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
     }
-  }
-]
-完成后再次测试，单一节点能通 → 多节点也能
+  },
+  "stats": {}
+}
