@@ -14,7 +14,7 @@
       "proxy-29", "proxy-30", "proxy-31", "proxy-32"
     ],
     "probeURL": "https://youtube.com/generate_204",
-    "probeInterval": "20s",
+    "probeInterval": "30s",
     "enableConcurrency": true
   },
   "inbounds": [
@@ -79,7 +79,42 @@
       "settings": {
         "servers": [
           {
-            "address": "185.251.83.195",
+            "address": "195.26.229.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
+        "wsSettings": {
+          "path": "/Telegram\uD83C\uDDE8\uD83C\uDDF3",
+          "host": "ocost-dy.wmlefl.cc",
+          "headers": {
+            "Host": "ocost-dy.wmlefl.cc"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-2",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "205.233.181.195",
             "method": "chacha20",
             "ota": false,
             "password": "slch2024",
@@ -109,62 +144,33 @@
       }
     },
     {
-      "tag": "proxy-2",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.21.235.28",
-            "port": 2052,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
-          "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "proxy-3",
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "2001:bc8:32d7:302::10",
-            "port": 44579,
-            "users": [
-              {
-                "id": "8e34e170-13ae-4892-9d20-05962acc9f84",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto"
-              }
-            ]
+            "address": "192.200.160.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
         "wsSettings": {
-          "headers": {}
+          "path": "/Telegram\uD83C\uDDE8\uD83C\uDDF3",
+          "host": "ocost-dy.wmlefl.cc",
+          "headers": {
+            "Host": "ocost-dy.wmlefl.cc"
+          }
         }
       },
       "mux": {
@@ -174,30 +180,31 @@
     },
     {
       "tag": "proxy-4",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "104.24.182.206",
-            "port": 80,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
+            "address": "185.7.240.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
         "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
+          "path": "Telegram\uD83C\uDDE8\uD83C\uDDF3",
+          "host": "ocost-dy.wmlefl.cc",
           "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
+            "Host": "ocost-dy.wmlefl.cc"
           }
         }
       },
@@ -208,30 +215,31 @@
     },
     {
       "tag": "proxy-5",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "188.114.99.221",
-            "port": 2095,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
+            "address": "195.26.229.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
         "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
+          "path": "/Telegram",
+          "host": "ocost-dy.wmlefl.cc",
           "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
+            "Host": "ocost-dy.wmlefl.cc"
           }
         }
       },
@@ -242,30 +250,31 @@
     },
     {
       "tag": "proxy-6",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "104.24.12.64",
-            "port": 2082,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
+            "address": "195.26.229.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
         "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
+          "path": "Telegram\uD83C\uDDE8\uD83C\uDDF3",
+          "host": "ocost-dy.wmlefl.cc",
           "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
+            "Host": "ocost-dy.wmlefl.cc"
           }
         }
       },
@@ -276,30 +285,31 @@
     },
     {
       "tag": "proxy-7",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "104.24.225.237",
-            "port": 8080,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
+            "address": "194.76.18.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
         "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
+          "path": "/Telegram\uD83C\uDDE8\uD83C\uDDF3",
+          "host": "ocost-dy.wmlefl.cc",
           "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
+            "Host": "ocost-dy.wmlefl.cc"
           }
         }
       },
@@ -310,15 +320,120 @@
     },
     {
       "tag": "proxy-8",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "188.42.145.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
+        "wsSettings": {
+          "path": "Telegram\uD83C\uDDE8\uD83C\uDDF3",
+          "host": "ocost-dy.wmlefl.cc",
+          "headers": {
+            "Host": "ocost-dy.wmlefl.cc"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-9",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "194.36.55.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
+        "wsSettings": {
+          "path": "/Telegram\uD83C\uDDE8\uD83C\uDDF3",
+          "host": "ocost-dy.wmlefl.cc",
+          "headers": {
+            "Host": "ocost-dy.wmlefl.cc"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-10",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "192.200.160.87",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
+        "wsSettings": {
+          "path": "/Telegram\uD83C\uDDE8\uD83C\uDDF3",
+          "host": "ocost-dy.wmlefl.cc",
+          "headers": {
+            "Host": "ocost-dy.wmlefl.cc"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-11",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.24.50.16",
-            "port": 2082,
+            "address": "190.93.247.203",
+            "port": 80,
             "users": [
               {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
+                "id": "a2bcb260-18f0-446a-b03c-bd4521c737b6",
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none"
@@ -343,7 +458,111 @@
       }
     },
     {
-      "tag": "proxy-9",
+      "tag": "proxy-12",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "188.164.248.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
+        "wsSettings": {
+          "path": "/Telegram",
+          "host": "ocost-dy.wmlefl.cc",
+          "headers": {
+            "Host": "ocost-dy.wmlefl.cc"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-13",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "216.24.57.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
+        "wsSettings": {
+          "path": "/Telegram\uD83C\uDDE8\uD83C\uDDF3",
+          "host": "ocost-dy.wmlefl.cc",
+          "headers": {
+            "Host": "ocost-dy.wmlefl.cc"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-14",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.64.37.195",
+            "port": 2082,
+            "users": [
+              {
+                "id": "a2bcb260-18f0-446a-b03c-bd4521c737b6",
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/?ed=2560",
+          "host": "bv.hzhz85123803.workers.dev",
+          "headers": {
+            "Host": "bv.hzhz85123803.workers.dev"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-15",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -378,218 +597,12 @@
       }
     },
     {
-      "tag": "proxy-10",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "185.18.184.195",
-            "method": "chacha20",
-            "ota": false,
-            "password": "slch2024",
-            "port": 2096,
-            "level": 1
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "ocost-dy.wmlefl.cc"
-        },
-        "wsSettings": {
-          "path": "Telegram\uD83C\uDDE8\uD83C\uDDF3",
-          "host": "ocost-dy.wmlefl.cc",
-          "headers": {
-            "Host": "ocost-dy.wmlefl.cc"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-11",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "188.114.99.15",
-            "port": 2052,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
-          "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-12",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.16.123.9",
-            "port": 2095,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
-          "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-13",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "172.64.46.178",
-            "port": 8880,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
-          "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-14",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.152.136",
-            "port": 2086,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
-          "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-15",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "185.148.107.195",
-            "method": "chacha20",
-            "ota": false,
-            "password": "slch2024",
-            "port": 2096,
-            "level": 1
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "ocost-dy.wmlefl.cc"
-        },
-        "wsSettings": {
-          "path": "/Telegram\uD83C\uDDE8\uD83C\uDDF3",
-          "host": "ocost-dy.wmlefl.cc",
-          "headers": {
-            "Host": "ocost-dy.wmlefl.cc"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "proxy-16",
       "protocol": "trojan",
       "settings": {
         "servers": [
           {
-            "address": "185.251.80.195",
+            "address": "185.148.104.195",
             "method": "chacha20",
             "ota": false,
             "password": "slch2024",
@@ -624,6 +637,111 @@
       "settings": {
         "servers": [
           {
+            "address": "185.7.240.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
+        "wsSettings": {
+          "path": "/Telegram",
+          "host": "ocost-dy.wmlefl.cc",
+          "headers": {
+            "Host": "ocost-dy.wmlefl.cc"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-18",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "188.42.89.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
+        "wsSettings": {
+          "path": "/TelegramU0001F1E8U0001F1F3",
+          "host": "ocost-dy.wmlefl.cc",
+          "headers": {
+            "Host": "ocost-dy.wmlefl.cc"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-19",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "185.148.106.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
+        "wsSettings": {
+          "path": "Telegram\uD83C\uDDE8\uD83C\uDDF3",
+          "host": "ocost-dy.wmlefl.cc",
+          "headers": {
+            "Host": "ocost-dy.wmlefl.cc"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
+    },
+    {
+      "tag": "proxy-20",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
             "address": "185.251.80.195",
             "method": "chacha20",
             "ota": false,
@@ -654,135 +772,32 @@
       }
     },
     {
-      "tag": "proxy-18",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "185.251.82.195",
-            "method": "chacha20",
-            "ota": false,
-            "password": "slch2024",
-            "port": 2096,
-            "level": 1
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "ocost-dy.wmlefl.cc"
-        },
-        "wsSettings": {
-          "path": "/Telegram\uD83C\uDDE8\uD83C\uDDF3",
-          "host": "ocost-dy.wmlefl.cc",
-          "headers": {
-            "Host": "ocost-dy.wmlefl.cc"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-19",
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "188.42.145.195",
-            "method": "chacha20",
-            "ota": false,
-            "password": "slch2024",
-            "port": 2096,
-            "level": 1
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "ocost-dy.wmlefl.cc"
-        },
-        "wsSettings": {
-          "path": "/Telegram\uD83C\uDDE8\uD83C\uDDF3",
-          "host": "ocost-dy.wmlefl.cc",
-          "headers": {
-            "Host": "ocost-dy.wmlefl.cc"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
-      "tag": "proxy-20",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.16.81.9",
-            "port": 2082,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
-          "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
-          }
-        }
-      },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
-    },
-    {
       "tag": "proxy-21",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "104.19.240.240",
-            "port": 8080,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
+            "address": "185.251.80.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
         "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
+          "path": "/Telegram",
+          "host": "ocost-dy.wmlefl.cc",
           "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
+            "Host": "ocost-dy.wmlefl.cc"
           }
         }
       },
@@ -793,30 +808,31 @@
     },
     {
       "tag": "proxy-22",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "162.159.152.153",
-            "port": 2052,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
+            "address": "185.251.83.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
         "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
+          "path": "Telegram\uD83C\uDDE8\uD83C\uDDF3",
+          "host": "ocost-dy.wmlefl.cc",
           "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
+            "Host": "ocost-dy.wmlefl.cc"
           }
         }
       },
@@ -831,7 +847,7 @@
       "settings": {
         "servers": [
           {
-            "address": "185.16.110.195",
+            "address": "185.170.166.195",
             "method": "chacha20",
             "ota": false,
             "password": "slch2024",
@@ -862,30 +878,31 @@
     },
     {
       "tag": "proxy-24",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "172.64.40.211",
-            "port": 80,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
+            "address": "199.68.156.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
         "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
+          "path": "/Telegram\uD83C\uDDE8\uD83C\uDDF3",
+          "host": "ocost-dy.wmlefl.cc",
           "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
+            "Host": "ocost-dy.wmlefl.cc"
           }
         }
       },
@@ -896,30 +913,31 @@
     },
     {
       "tag": "proxy-25",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "103.21.244.66",
-            "port": 2095,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
+            "address": "194.36.55.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
         "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
+          "path": "/Telegram",
+          "host": "ocost-dy.wmlefl.cc",
           "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
+            "Host": "ocost-dy.wmlefl.cc"
           }
         }
       },
@@ -930,30 +948,31 @@
     },
     {
       "tag": "proxy-26",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "104.18.24.169",
-            "port": 2086,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
+            "address": "194.76.18.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
         "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
+          "path": "/Telegram",
+          "host": "ocost-dy.wmlefl.cc",
           "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
+            "Host": "ocost-dy.wmlefl.cc"
           }
         }
       },
@@ -968,11 +987,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.127.110",
-            "port": 2086,
+            "address": "103.21.244.234",
+            "port": 2095,
             "users": [
               {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
+                "id": "a2bcb260-18f0-446a-b03c-bd4521c737b6",
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none"
@@ -998,30 +1017,31 @@
     },
     {
       "tag": "proxy-28",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "103.21.244.240",
-            "port": 2052,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
+            "address": "185.176.26.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
         "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
+          "path": "/Telegram\uD83C\uDDE8\uD83C\uDDF3",
+          "host": "ocost-dy.wmlefl.cc",
           "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
+            "Host": "ocost-dy.wmlefl.cc"
           }
         }
       },
@@ -1032,30 +1052,31 @@
     },
     {
       "tag": "proxy-29",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "104.24.192.181",
-            "port": 2095,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
+            "address": "185.148.106.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
         "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
+          "path": "/Telegram",
+          "host": "ocost-dy.wmlefl.cc",
           "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
+            "Host": "ocost-dy.wmlefl.cc"
           }
         }
       },
@@ -1066,30 +1087,31 @@
     },
     {
       "tag": "proxy-30",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "104.19.254.143",
-            "port": 8880,
-            "users": [
-              {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
-              }
-            ]
+            "address": "185.176.24.195",
+            "method": "chacha20",
+            "ota": false,
+            "password": "slch2024",
+            "port": 2096,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": true,
+          "serverName": "ocost-dy.wmlefl.cc"
+        },
         "wsSettings": {
-          "path": "/?ed=2560",
-          "host": "bv.hzhz85123803.workers.dev",
+          "path": "/TelegramU0001F1E8U0001F1F3",
+          "host": "ocost-dy.wmlefl.cc",
           "headers": {
-            "Host": "bv.hzhz85123803.workers.dev"
+            "Host": "ocost-dy.wmlefl.cc"
           }
         }
       },
@@ -1104,11 +1126,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.180.21",
-            "port": 2086,
+            "address": "104.16.128.243",
+            "port": 2052,
             "users": [
               {
-                "id": "24b06ee8-8277-4ebc-b08f-ecf2877ff454",
+                "id": "a2bcb260-18f0-446a-b03c-bd4521c737b6",
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none"
@@ -1138,7 +1160,7 @@
       "settings": {
         "servers": [
           {
-            "address": "194.76.18.195",
+            "address": "192.0.54.195",
             "method": "chacha20",
             "ota": false,
             "password": "slch2024",
@@ -1155,7 +1177,7 @@
           "serverName": "ocost-dy.wmlefl.cc"
         },
         "wsSettings": {
-          "path": "/Telegram\uD83C\uDDE8\uD83C\uDDF3",
+          "path": "Telegram\uD83C\uDDE8\uD83C\uDDF3",
           "host": "ocost-dy.wmlefl.cc",
           "headers": {
             "Host": "ocost-dy.wmlefl.cc"
